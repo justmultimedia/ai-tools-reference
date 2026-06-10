@@ -7,6 +7,7 @@
     "ingest": "node ingest.mjs"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0"
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.29.0"
   }
 }
