@@ -272,7 +272,7 @@ let activeCategory = 'all';
 
 async function load() {
   try {
-    const r = await fetch('./data/tools.json');
+    const r = await fetch('https://raw.githubusercontent.com/justmultimedia/ai-tools-reference/main/data/tools.json');
     allTools = await r.json();
     buildFilters();
     render();
