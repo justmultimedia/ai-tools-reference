@@ -2,6 +2,10 @@
 
 This is Eoin's personal AI tools knowledge base. Use it to recommend tools for any project.
 
+## Start of Every Session
+1. Run `git pull` to get the latest code before doing anything
+2. Check `data/tools.json` for current tool count
+
 ## How to query
 
 ```bash
