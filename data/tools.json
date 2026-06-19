@@ -693,5 +693,35 @@
     "notes": "Video creator is Adam Kirtland from 'View From The Potting Bench'. Specific propagation method (e.g. cuttings, layering) not detailed in the post description alone.",
     "added": "2026-06",
     "source": "https://www.facebook.com/share/r/1bMCxyGbkW/?mibextid=wwXIfr"
+  },
+  {
+    "id": "stop-writing-commit-messages-claude-code",
+    "name": "Stop Writing Commit Messages — Let Claude Do It",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A short tutorial demonstrating how Claude Code automates Git commit messages by reading your diff and generating conventional commit messages (feat, fix, chore) with meaningful descriptions. Claude stages files, writes the message, and lets you review or revise before anything is committed. Part of a multi-episode Claude Code series.",
+    "tags": [
+      "claude code",
+      "git",
+      "commit messages",
+      "ai coding",
+      "developer productivity",
+      "automation"
+    ],
+    "link": "https://youtube.com/shorts/MkhJdY5JaMg?is=Cij3IdFlBqsjoa74",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Git",
+      "GitHub"
+    ],
+    "use_cases": [
+      "Automatically generating descriptive conventional commit messages from git diffs",
+      "Maintaining a professional, traceable git history without manual effort"
+    ],
+    "notes": "Episode 7 of the Claude Code series by the 'Just Hit Send' channel. Requires Claude Code (Anthropic). Episode 8 is referenced as upcoming.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/MkhJdY5JaMg?is=Cij3IdFlBqsjoa74"
   }
 ]
