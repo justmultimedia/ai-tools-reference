@@ -343,6 +343,7 @@ function renderSkills(skills) {
     </div>
     <div class="sk-installs">${fmt} installs</div>
   </div>
+  ${s.description?`<div style="font-size:12.5px;color:var(--dim);line-height:1.6">${x(s.description)}</div>`:''}
   <div class="sk-cmd">
     <span class="sk-cmd-text">${x(s.installCmd)}</span>
     <button class="copy-btn" onclick="cp(event,'${s.installCmd.replace(/'/g,"\\'")}')">Copy</button>

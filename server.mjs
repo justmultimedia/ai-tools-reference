@@ -20,7 +20,45 @@ const MIME = {
 
 // ── Skills proxy cache ────────────────────────────────────────────────────────
 const skillsCache = new Map() // query → {data, ts}
-const SKILLS_TTL = 10 * 60 * 1000 // 10 minutes
+const descCache = new Map()   // skill id → description string (24h TTL)
+const SKILLS_TTL = 10 * 60 * 1000
+const DESC_TTL   = 24 * 60 * 60 * 1000
+
+async function fetchSkillDesc(id) {
+  const hit = descCache.get(id)
+  if (hit && Date.now() - hit.ts < DESC_TTL) return hit.desc
+  const [owner, repo, ...rest] = id.split('/')
+  const skillId = rest.join('/')
+  const branches = ['main', 'master']
+  const paths = [`skills/${skillId}/SKILL.md`, `SKILL.md`]
+  for (const branch of branches) {
+    for (const path of paths) {
+      try {
+        const r = await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${path}`)
+        if (!r.ok) continue
+        const text = await r.text()
+        const m = text.match(/^---[\s\S]*?description:\s*(.+?)(?:\n|\r|$)/m)
+        const desc = m ? m[1].trim().replace(/^["']|["']$/g,'') : ''
+        descCache.set(id, { desc, ts: Date.now() })
+        return desc
+      } catch { continue }
+    }
+  }
+  descCache.set(id, { desc: '', ts: Date.now() })
+  return ''
+}
+
+async function withDescriptions(skills) {
+  // Fetch in parallel, max 15 at a time
+  const chunks = []
+  for (let i = 0; i < skills.length; i += 15) chunks.push(skills.slice(i, i + 15))
+  const result = []
+  for (const chunk of chunks) {
+    const descs = await Promise.allSettled(chunk.map(s => fetchSkillDesc(s.id)))
+    chunk.forEach((s, i) => result.push({ ...s, description: descs[i].value || '' }))
+  }
+  return result
+}
 
 async function fetchSkills(query) {
   const key = query.toLowerCase().trim()
@@ -49,7 +87,8 @@ async function apiSkillsTop() {
   await Promise.allSettled(SEED_QUERIES.map(q => fetchSkills(q).then(results => {
     results.forEach(s => { if (!all.has(s.id)) all.set(s.id, s) })
   })))
-  return [...all.values()].sort((a, b) => b.installs - a.installs).slice(0, 100)
+  const sorted = [...all.values()].sort((a, b) => b.installs - a.installs).slice(0, 100)
+  return withDescriptions(sorted)
 }
 
 // ── API ───────────────────────────────────────────────────────────────────────
@@ -140,7 +179,8 @@ const server = createServer(async (req, res) => {
 
     if (path === '/api/skills') {
       const q = url.searchParams.get('q') || ''
-      const results = q.length >= 2 ? await fetchSkills(q) : await apiSkillsTop()
+      const raw = q.length >= 2 ? await fetchSkills(q) : await apiSkillsTop()
+      const results = q.length >= 2 ? await withDescriptions(raw) : raw
       json(results); return
     }
 
