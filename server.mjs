@@ -18,6 +18,40 @@ const MIME = {
   '.png': 'image/png', '.txt': 'text/plain; charset=utf-8',
 }
 
+// ── Skills proxy cache ────────────────────────────────────────────────────────
+const skillsCache = new Map() // query → {data, ts}
+const SKILLS_TTL = 10 * 60 * 1000 // 10 minutes
+
+async function fetchSkills(query) {
+  const key = query.toLowerCase().trim()
+  const cached = skillsCache.get(key)
+  if (cached && Date.now() - cached.ts < SKILLS_TTL) return cached.data
+  const url = `https://skills.sh/api/search?q=${encodeURIComponent(key)}&limit=50`
+  const res = await fetch(url)
+  if (!res.ok) return []
+  const d = await res.json()
+  const data = (d.skills || []).map(s => ({
+    id: s.id,
+    name: s.name,
+    source: s.source || '',
+    installs: s.installs || 0,
+    installCmd: `npx skills add ${s.source || s.id}`,
+    url: `https://skills.sh/${s.id}`,
+  }))
+  skillsCache.set(key, { data, ts: Date.now() })
+  return data
+}
+
+const SEED_QUERIES = ['design', 'claude', 'browser', 'image', 'video', 'code']
+
+async function apiSkillsTop() {
+  const all = new Map()
+  await Promise.allSettled(SEED_QUERIES.map(q => fetchSkills(q).then(results => {
+    results.forEach(s => { if (!all.has(s.id)) all.set(s.id, s) })
+  })))
+  return [...all.values()].sort((a, b) => b.installs - a.installs).slice(0, 100)
+}
+
 // ── API ───────────────────────────────────────────────────────────────────────
 
 function apiTools() {
@@ -103,6 +137,12 @@ const server = createServer((req, res) => {
     if (path === '/api/transcripts') { json(apiTranscripts()); return }
     if (path === '/api/screenshots') { json(apiScreenshots()); return }
     if (path === '/api/stats')       { json(apiStats());       return }
+
+    if (path === '/api/skills') {
+      const q = url.searchParams.get('q') || ''
+      const results = q.length >= 2 ? await fetchSkills(q) : await apiSkillsTop()
+      json(results); return
+    }
 
     if (path.startsWith('/api/transcripts/')) {
       const slug = decodeURIComponent(path.slice('/api/transcripts/'.length))
