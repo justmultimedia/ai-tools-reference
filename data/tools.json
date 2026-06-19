@@ -4,7 +4,7 @@
     "name": "Impeccable",
     "category": "design",
     "type": "claude-code-skill",
-    "description": "Design fluency skill for Claude Code. Gives Claude design vocabulary \u2014 vertical rhythm, typographic scale, proportions \u2014 so you can prompt with designer language and get polished results.",
+    "description": "Design fluency skill for Claude Code. Gives Claude design vocabulary — vertical rhythm, typographic scale, proportions — so you can prompt with designer language and get polished results.",
     "install": "npx skills add pixakaus/impeccable",
     "works_with": [
       "claude-code",
@@ -28,7 +28,7 @@
     "link": "https://github.com/pixakaus/impeccable",
     "screenshot": "screenshots/impeccable-design-skill.jpeg",
     "status": "available",
-    "notes": "May be private repo \u2014 try install and see",
+    "notes": "May be private repo — try install and see",
     "added": "2026-05"
   },
   {
@@ -91,7 +91,7 @@
     "name": "21st.dev Components",
     "category": "design",
     "type": "component-library",
-    "description": "Community library of prebuilt UI components \u2014 scroll animations, background effects, cards, hero sections, text effects, shaders, carousels.",
+    "description": "Community library of prebuilt UI components — scroll animations, background effects, cards, hero sections, text effects, shaders, carousels.",
     "install": "Browse at 21st.dev/community/components",
     "works_with": [
       "react",
@@ -458,5 +458,98 @@
     "status": "installed",
     "notes": "birefnet-general weights download on first run (~900 MB, cached in ~/.u2net/). Skill lives at ~/.claude/skills/bg-remove/. Invoke via /bg-remove in Claude Code.",
     "added": "2026-06"
+  },
+  {
+    "id": "clerk-authentication",
+    "name": "Clerk",
+    "category": "other",
+    "type": "api-service",
+    "description": "Clerk simplifies app authentication by providing ready-made components for login screens, user profiles, account management, and optional billing. It supports email, social login, and passkeys, with an AI prompt to automate wiring, reducing setup to minutes instead of days.",
+    "install": null,
+    "works_with": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Web"
+    ],
+    "use_cases": [
+      "Adding authentication to a web app without building custom login flows",
+      "Managing user profiles and account settings with prebuilt components",
+      "Implementing billing alongside authentication in a single integration"
+    ],
+    "tags": [
+      "authentication",
+      "user-management",
+      "social-login",
+      "passkeys",
+      "billing",
+      "developer-tools"
+    ],
+    "link": "https://clerk.com",
+    "status": "available",
+    "notes": "Includes an AI prompt feature to help wire up authentication automatically, minimizing manual configuration.",
+    "added": "2026-06",
+    "source": "https://www.youtube.com/shorts/PYdN6nmG7i8"
+  },
+  {
+    "id": "airllm",
+    "name": "AirLLM",
+    "category": "other",
+    "type": "python-package",
+    "description": "AirLLM is an open-source Python library that enables running 70B-parameter AI models on consumer hardware by streaming model layers from disk one at a time instead of loading the full model into RAM. Combined with FlashAttention, it keeps memory usage nearly flat even for long prompts, making models like LLaMA 3.3 70B runnable on a MacBook or gaming PC.",
+    "install": "pip install airllm",
+    "works_with": [
+      "MacBook",
+      "Gaming PC",
+      "LLaMA 3.3 70B",
+      "Python"
+    ],
+    "use_cases": [
+      "Running 70B LLMs locally on consumer hardware without a GPU cluster",
+      "Low-memory inference for students, researchers, and indie developers"
+    ],
+    "tags": [
+      "llm",
+      "local-ai",
+      "inference",
+      "open-source",
+      "python",
+      "flash-attention"
+    ],
+    "link": "https://github.com/lyogavin/airllm",
+    "status": "available",
+    "notes": "Layer-by-layer loading from disk is slower than full in-memory inference; trade-off is memory vs. speed.",
+    "added": "2026-06",
+    "source": "https://www.youtube.com/shorts/WgYS3W04aVA"
+  },
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "category": "claude-workflow",
+    "type": "other",
+    "description": "OpenClaw turns a Claude-based agent into an always-on remote worker with persistent memory, tool access, and WhatsApp control. Built by Peter Steinberger as a side project, it enables autonomous background task execution across sessions — including coding, debugging, pushing to GitHub, and scheduling recurring tasks like weekly newsletters.",
+    "install": "See github.com/openclaw/openclaw",
+    "works_with": [
+      "Claude",
+      "WhatsApp",
+      "GitHub"
+    ],
+    "use_cases": [
+      "Send a WhatsApp message to build a to-do app while away, and have the agent write, debug, and push code to GitHub automatically",
+      "Schedule recurring tasks like drafting a weekly newsletter using persistent memory"
+    ],
+    "tags": [
+      "agentic-ai",
+      "persistent-memory",
+      "automation",
+      "claude",
+      "whatsapp",
+      "background-agent"
+    ],
+    "link": "https://openclaw.ai",
+    "status": "available",
+    "notes": "Open-source, 68K+ GitHub stars. Requires a home machine to run locally. GitHub: github.com/openclaw/openclaw",
+    "added": "2026-06",
+    "source": "https://www.youtube.com/shorts/ECgUMiuG9go"
   }
 ]
