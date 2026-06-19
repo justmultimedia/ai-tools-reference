@@ -33,7 +33,15 @@
 - Up to ~34B at 4-bit quantisation (tight)
 - Good starting points: llama3.2, mistral, gemma3, qwen2.5
 
+## Decision: Ollama on Mac mini?
+Not needed right now. Main reasons it could matter later:
+- High-volume automated tasks with no per-token API cost
+- Projects too sensitive to send to any external API
+- 24/7 availability with no rate limits
+
+Reality check: 32GB Mac mini can only run 7B–13B models well. These are noticeably weaker than Claude. Not a replacement — an experiment.
+
 ## What comes next
-- Eoin wants to learn more about open-source models
-- Could experiment with Ollama on Mac mini — install is simple
-- Interesting angle: using local LLMs as Claude Code backends for private/offline work
+- No immediate action. Come back to Ollama if a specific privacy or cost use case comes up.
+- When ready to explore: `brew install ollama` then `ollama run llama3.2` is the simplest first step.
+- Still need to set ANTHROPIC_API_KEY to test the full ingest pipeline.
