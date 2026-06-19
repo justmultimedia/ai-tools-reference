@@ -551,5 +551,32 @@
     "notes": "Open-source, 68K+ GitHub stars. Requires a home machine to run locally. GitHub: github.com/openclaw/openclaw",
     "added": "2026-06",
     "source": "https://www.youtube.com/shorts/ECgUMiuG9go"
+  },
+  {
+    "id": "claude-code-dynamic-workflows",
+    "name": "Claude Code Dynamic Workflows",
+    "category": "claude-workflow",
+    "type": "claude-code-skill",
+    "description": "Dynamic workflows allow Claude Code to write and execute scripts that coordinate multiple sub-agents in parallel, enabling large repeatable jobs like codebase audits, migrations, and cross-checked research. Each sub-agent handles a distinct portion of the work, then results are aggregated into a summary report.",
+    "install": null,
+    "works_with": [
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Auditing a codebase for security issues by splitting work across folders and summarizing high-risk findings",
+      "Running repeatable multi-step migrations or research tasks with parallel sub-agents"
+    ],
+    "tags": [
+      "claude-code",
+      "multi-agent",
+      "workflow-automation",
+      "code-audit",
+      "parallel-tasks"
+    ],
+    "link": null,
+    "status": "available",
+    "notes": "Recommended for experienced users only — beginners should use single-chat for small tasks and reserve dynamic workflows for large, repeatable, or parallelizable jobs.",
+    "added": "2026-06",
+    "source": "https://www.youtube.com/shorts/Sm3GTeimyk4"
   }
 ]
