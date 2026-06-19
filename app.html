@@ -330,11 +330,13 @@ async function loadSkills(q='') {
 function renderSkills(skills) {
   const grid = document.getElementById('sk-grid')
   if(!skills.length){grid.innerHTML='<div class="empty">No skills found.</div>';return}
-  grid.innerHTML = skills.map(s => {
+  grid.innerHTML = skills.map((s,i) => {
     const fmt = s.installs>=1e6 ? (s.installs/1e6).toFixed(1)+'M' : s.installs>=1e3 ? Math.round(s.installs/1e3)+'K' : String(s.installs)
+    const rank = i+1
+    const rankColor = rank===1?'var(--orange)':rank<=3?'var(--teal)':rank<=10?'var(--purple)':'var(--muted)'
     return `<div class="sk-card">
   <div class="sk-head">
-    <div class="sk-icon">⚡</div>
+    <div class="sk-icon" style="font-size:13px;font-weight:800;color:${rankColor};font-family:var(--mono)">#${rank}</div>
     <div>
       <div class="sk-name">${x(s.name)}</div>
       <div class="sk-source">${x(s.source)}</div>
