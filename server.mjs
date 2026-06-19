@@ -117,7 +117,7 @@ function apiStats() {
 
 // ── Server ────────────────────────────────────────────────────────────────────
 
-const server = createServer((req, res) => {
+const server = createServer(async (req, res) => {
   const url = new URL(req.url, `http://localhost:${PORT}`)
   const path = url.pathname
 
