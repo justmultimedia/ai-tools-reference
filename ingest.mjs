@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 /**
- * YouTube Shorts → tools.json pipeline
+ * Social media → tools.json pipeline
  *
  * Usage:
- *   node ingest.mjs <youtube-url>          full pipeline (yt-dlp + TwelveLabs + Claude)
- *   node ingest.mjs <youtube-url> --fast   captions only, skip TwelveLabs video upload
+ *   node ingest.mjs <url>          full pipeline (yt-dlp + TwelveLabs + Claude)
+ *   node ingest.mjs <url> --fast   captions only, skip TwelveLabs video upload
+ *   node ingest.mjs <url> --auto   non-interactive, auto-save without prompting
  *
+ * Supports: YouTube, Instagram, TikTok, Facebook, and any yt-dlp-compatible URL
  * Requires: ANTHROPIC_API_KEY, TWELVELABS_API_KEY (already set on MBP)
  */
 
@@ -31,8 +33,8 @@ async function main() {
   const fast = process.argv.includes('--fast')
   const auto = process.argv.includes('--auto')
 
-  if (!url || (!url.includes('youtube.com') && !url.includes('youtu.be'))) {
-    console.error('Usage: node ingest.mjs <youtube-url> [--fast]')
+  if (!url || url.startsWith('--')) {
+    console.error('Usage: node ingest.mjs <url> [--fast] [--auto]')
     process.exit(1)
   }
 
@@ -44,10 +46,13 @@ async function main() {
 
   const tmpDir = mkdtempSync(join(tmpdir(), 'yt-ingest-'))
 
+  const platform = detectPlatform(url)
+
   try {
     // Step 1: fetch metadata + captions
     console.log('\n[1/4] Fetching metadata and captions...')
     const { title, description, channel, captions } = fetchMetadata(url, tmpDir)
+    console.log(`  Platform: ${platform}`)
     console.log(`  Title:    ${title}`)
     console.log(`  Channel:  ${channel}`)
     console.log(`  Captions: ${captions ? `${captions.length} chars` : 'none'}`)
@@ -67,8 +72,8 @@ async function main() {
     }
 
     // Step 3: Claude API extraction
-    console.log('\n[3/4] Extracting tool entry with Claude...')
-    const entry = await extractEntry({ title, description, channel, captions, videoAnalysis, url })
+    console.log('\n[3/4] Extracting entry with Claude...')
+    const entry = await extractEntry({ title, description, channel, captions, videoAnalysis, url, platform })
     console.log('\nExtracted entry:')
     console.log(JSON.stringify(entry, null, 2))
 
@@ -98,6 +103,16 @@ async function main() {
   } finally {
     rmSync(tmpDir, { recursive: true, force: true })
   }
+}
+
+// ─── Platform detection ───────────────────────────────────────────────────────
+
+function detectPlatform(url) {
+  if (/youtube\.com|youtu\.be/.test(url)) return 'youtube'
+  if (/instagram\.com/.test(url)) return 'instagram'
+  if (/tiktok\.com/.test(url)) return 'tiktok'
+  if (/facebook\.com|fb\.watch/.test(url)) return 'facebook'
+  return 'web'
 }
 
 // ─── Step 1: metadata + captions ─────────────────────────────────────────────
@@ -220,7 +235,7 @@ async function analyzeWithTwelveLabs(url, tmpDir) {
 
 // ─── Step 3: Claude extraction ────────────────────────────────────────────────
 
-async function extractEntry({ title, description, channel, captions, videoAnalysis, url }) {
+async function extractEntry({ title, description, channel, captions, videoAnalysis, url, platform }) {
   const client = new Anthropic()
   const yearMonth = new Date().toISOString().slice(0, 7)
 
@@ -228,7 +243,8 @@ async function extractEntry({ title, description, channel, captions, videoAnalys
     `Title: ${title}`,
     `Channel: ${channel}`,
     `URL: ${url}`,
-    description && `YouTube Description:\n${description.slice(0, 1500)}`,
+    `Platform: ${platform}`,
+    description && `Description:\n${description.slice(0, 1500)}`,
     captions && `Auto-Captions:\n${captions.slice(0, 3000)}`,
     videoAnalysis && `TwelveLabs Video Analysis:\n${videoAnalysis}`,
   ].filter(Boolean).join('\n\n')
@@ -236,27 +252,36 @@ async function extractEntry({ title, description, channel, captions, videoAnalys
   const msg = await client.messages.create({
     model: 'claude-sonnet-4-6',
     max_tokens: 1024,
-    system: 'You extract structured AI tool entries from video metadata. Return ONLY valid JSON — no markdown fences, no explanation.',
+    system: 'You extract structured database entries from social media content. Return ONLY valid JSON — no markdown fences, no explanation.',
     messages: [{
       role: 'user',
-      content: `Extract an AI tools database entry from this YouTube Short.
+      content: `Extract a database entry from this social media content.
 
 ${context}
 
-Return a JSON object with exactly these fields:
+First, decide what type of content this is:
+- "ai-tool" — software tool, API, library, CLI, model, or service for developers/AI users
+- "multimedia-tool" — video, audio, image, or creative production tool
+- "tutorial" — how-to, tip, technique, or educational content
+- "event" — conference, meetup, launch, webinar, or live event
+- "product" — physical or digital product, app, or service (non-tool)
+- "resource" — article, repo, dataset, template, or reference
+- "other" — anything else
+
+Return a JSON object:
 {
   "id": "kebab-case-slug",
-  "name": "Tool Name",
-  "category": "design|animation|browser-automation|document-conversion|networking|media|ai-video|claude-workflow|image-generation|other",
-  "type": "claude-code-skill|npm-package|python-package|cli-tool|api-service|component-library|reference-database|vpn-mesh|other",
-  "description": "One or two sentences on what it does and why it's useful. Include stats (stars, downloads) if mentioned.",
-  "install": "exact install command, or null",
-  "works_with": ["array", "of", "platforms"],
-  "use_cases": ["specific use case 1", "specific use case 2"],
+  "name": "Clear title or tool name",
+  "content_type": "ai-tool|multimedia-tool|tutorial|event|product|resource|other",
+  "category": "one descriptive category phrase, e.g. 'video editing', 'AI coding', 'design tools'",
+  "description": "2-3 sentences on what this is, why it's interesting or useful.",
   "tags": ["3 to 6 lowercase tags"],
-  "link": "https://... or null",
-  "status": "available",
-  "notes": "important caveats or null",
+  "link": "canonical URL or null",
+  "platform": "${platform}",
+  "install": "install command if it's a tool, otherwise null",
+  "works_with": [],
+  "use_cases": ["specific use case 1", "specific use case 2"],
+  "notes": "important caveats, dates, prices, or null",
   "added": "${yearMonth}",
   "source": "${url}"
 }`
@@ -280,10 +305,10 @@ async function saveEntry(entry, auto = false) {
     const overwrite = await ask(`ID "${entry.id}" already exists. Overwrite? [y/n]: `)
     if (overwrite !== 'y') { console.log('Skipped.'); return }
     tools[existing] = entry
-    console.log(`\nUpdated "${entry.name}" in tools.json`)
+    console.log(`\nUpdated "${entry.name}" [${entry.content_type || 'unknown'}] in tools.json`)
   } else {
     tools.push(entry)
-    console.log(`\nAdded "${entry.name}" — tools.json now has ${tools.length} tools`)
+    console.log(`\nAdded "${entry.name}" [${entry.content_type || 'unknown'}] — tools.json now has ${tools.length} entries`)
   }
 
   writeFileSync(TOOLS_PATH, JSON.stringify(tools, null, 2) + '\n')
