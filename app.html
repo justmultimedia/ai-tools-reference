@@ -198,33 +198,70 @@ body{display:flex;flex-direction:column;min-height:100vh}
 .source-link{font-size:11px;color:var(--blue);text-decoration:none}
 .source-link:hover{text-decoration:underline}
 
+/* ── SKILLS HEADER (desktop) ── */
+.sk-header{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.sk-search{width:320px}
+.sk-header-note{font-size:12px;color:var(--muted)}
+
 /* ── MOBILE ── */
 @media(max-width:640px){
+  /* Header */
   .header{padding:14px 16px 12px}
-  .header-top{flex-wrap:wrap;gap:10px;margin-bottom:14px}
-  .search-box{width:100%;order:3}
-  .header-sub{font-size:12px}
+  .header-top{flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  .header-top .search-box{width:100%;order:3}
+  .header-sub{font-size:11px;order:2}
+  .logo{font-size:18px}
+
+  /* Stat cards — 2 cols, 5th spans full width */
   .stat-row{grid-template-columns:repeat(2,1fr);gap:8px}
-  .stat-num{font-size:24px}
-  .stat-icon{font-size:18px;right:10px;top:10px}
+  .stat-card:last-child{grid-column:1/-1}
+  .stat-num{font-size:22px}
+  .stat-label{font-size:10px}
+  .stat-icon{font-size:16px;right:10px;top:10px}
   .stat-card{padding:10px 12px}
-  .main{padding:14px 16px}
+
+  /* Main layout */
+  .main{padding:12px 14px}
   .grid{grid-template-columns:1fr}
   .sk-grid{grid-template-columns:1fr}
   .ss-grid{grid-template-columns:repeat(2,1fr);gap:8px}
-  .filter-bar{overflow-x:auto;flex-wrap:nowrap;padding-bottom:6px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+
+  /* Filter bar — horizontal scroll */
+  .filter-bar{overflow-x:auto;flex-wrap:nowrap;padding-bottom:6px;margin-bottom:14px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
   .filter-bar::-webkit-scrollbar{display:none}
-  .f-chip{white-space:nowrap;flex-shrink:0;padding:6px 14px;font-size:12px}
-  .card-top{padding:14px}
-  .card-desc{padding:0 14px 12px;font-size:13px}
-  .card-body{padding:12px 14px}
-  .copy-btn{padding:6px 12px;font-size:12px}
+  .f-chip{white-space:nowrap;flex-shrink:0;padding:7px 14px;font-size:12px}
+
+  /* Tool cards */
+  .card-top{padding:12px}
+  .card-desc{padding:0 12px 12px;font-size:13px}
+  .card-body{padding:12px}
+  .chip{font-size:9px;padding:2px 6px}
+  .copy-btn{padding:7px 12px;font-size:12px;min-width:60px}
   .install-cmd{font-size:11px}
-  .panel{border-radius:14px 14px 0 0;width:100%;max-height:92vh;position:fixed;bottom:0;left:0;right:0}
+
+  /* Skills section */
+  .sk-header{flex-direction:column;align-items:stretch;gap:8px;margin-bottom:14px}
+  .sk-search{width:100%!important}
+  .sk-header-note{font-size:11px;text-align:center}
+  .sk-card{padding:12px}
+  .sk-head{gap:8px;flex-wrap:wrap}
+  .sk-icon{width:34px;height:34px;font-size:13px;flex-shrink:0}
+  .sk-name{font-size:13px}
+  .sk-installs{font-size:10px;margin-left:auto}
+  .sk-cmd{padding:8px 10px;gap:6px}
+  .sk-cmd-text{font-size:11px}
+  .sk-footer{margin-top:2px}
+
+  /* Transcript panel — bottom sheet */
   .overlay{align-items:flex-end}
+  .panel{border-radius:18px 18px 0 0;width:100%;max-height:88vh;position:fixed;bottom:0;left:0;right:0}
+  .panel-head{padding:14px 16px}
+  .panel-body{padding:14px 16px}
   .t-list .t-badge{display:none}
-  .sk-head{gap:8px}
-  .sk-icon{width:34px;height:34px;font-size:16px}
+  .t-text{font-size:12px}
+
+  /* Screenshots */
+  .ss-name{font-size:10px;padding:6px 8px}
 }
 </style>
 </head>
@@ -288,12 +325,12 @@ body{display:flex;flex-direction:column;min-height:100vh}
 
   <!-- SKILLS SECTION -->
   <div class="section active" id="sec-skills">
-    <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
-      <div class="search-box" style="width:320px">
+    <div class="sk-header">
+      <div class="search-box sk-search">
         <span class="icon">⌕</span>
         <input type="search" id="sk-q" placeholder="Search skills.sh…" autocomplete="off">
       </div>
-      <div style="font-size:12px;color:var(--muted)">Live from <a href="https://skills.sh" target="_blank" rel="noopener" style="color:var(--pink);text-decoration:none">skills.sh</a> — browse only, no installs</div>
+      <div class="sk-header-note">Live from <a href="https://skills.sh" target="_blank" rel="noopener" style="color:var(--pink);text-decoration:none">skills.sh</a> — browse only, no installs</div>
     </div>
     <div class="sk-grid" id="sk-grid"><div class="empty">Loading top skills…</div></div>
   </div>
