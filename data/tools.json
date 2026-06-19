@@ -641,5 +641,31 @@
     "notes": "Requires a Canva account and access to Claude's connectors feature. Setup involves navigating to Claude > Customize Connectors > Browse Connectors > Canva. Availability of connectors may depend on Claude subscription tier.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/OR202ZFAmbc?is=EQJ0hGZcBhPtkJGD"
+  },
+  {
+    "id": "allaboardadhd-hypermobility-neurodivergence-episode",
+    "name": "All Aboard ADHD Podcast – Hypermobility & Neurodivergence with Dr Jessica Eccles",
+    "content_type": "resource",
+    "category": "health & neurodivergence education",
+    "description": "A podcast episode featuring Dr Jessica Eccles, Consultant Psychiatrist and researcher, discussing groundbreaking findings linking hypermobility with ADHD and autism — particularly in women and AFAB individuals. Research from Brighton & Sussex Medical School shows nearly 70% of female ADHD/autism patients were hypermobile, and that hypermobility explains the relationship between neurodivergence and physical symptoms like chronic pain, dizziness, and gut issues. The episode aims to help neurodivergent people connect unexplained physical symptoms to a broader 'whole person' framework.",
+    "tags": [
+      "adhd",
+      "autism",
+      "hypermobility",
+      "neurodivergence",
+      "women's health",
+      "podcast"
+    ],
+    "link": "https://www.instagram.com/reel/DZt92X4jTCG/?igsh=cWwzYzcyOHM5bGQw",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Helping neurodivergent women and AFAB individuals understand links between ADHD/autism and unexplained physical symptoms",
+      "Providing language and tools to discuss hypermobility-related concerns with GPs or school professionals"
+    ],
+    "notes": "Full podcast available on major podcast platforms by searching 'All Aboard ADHD'; Instagram users can comment LISTEN to receive a DM with the direct link.",
+    "added": "2026-06",
+    "source": "https://www.instagram.com/reel/DZt92X4jTCG/?igsh=cWwzYzcyOHM5bGQw"
   }
 ]
