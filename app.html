@@ -86,6 +86,7 @@ body{display:flex;flex-direction:column;min-height:100vh}
 .c-cat{background:rgba(77,166,255,.12);color:var(--blue);border:1px solid rgba(77,166,255,.2)}
 .c-type{background:rgba(48,208,192,.1);color:var(--teal);border:1px solid rgba(48,208,192,.2)}
 .c-status{background:rgba(54,217,140,.1);color:var(--green);border:1px solid rgba(54,217,140,.2)}
+.c-content{background:rgba(240,144,48,.12);color:var(--orange);border:1px solid rgba(240,144,48,.25)}
 .card-desc{padding:0 16px 14px;font-size:12.5px;color:var(--dim);line-height:1.6}
 
 .card-body{
@@ -285,6 +286,7 @@ body{display:flex;flex-direction:column;min-height:100vh}
 
 <script>
 const ICONS = {design:'🎨',animation:'✨','browser-automation':'🌐','document-conversion':'📄',networking:'🔗',media:'🎬','ai-video':'🎥','claude-workflow':'🤖','image-generation':'🖼️','image-processing':'📷','local-llm':'💻',other:'🔧'}
+const TYPE_ICONS = {'ai-tool':'🤖','multimedia-tool':'🎬','tutorial':'📖','event':'📅','product':'📦','resource':'🔗','other':'📌'}
 
 let tools=[], transcripts=[], screenshots=[], activeCat='all', openId=null
 let skillsLoaded=true
@@ -303,7 +305,8 @@ async function load() {
   document.getElementById('n-trans').textContent = st.transcripts||tr.length
   document.getElementById('n-shots').textContent = st.screenshots||ss.length
   document.getElementById('n-cats').textContent = st.categories||[...new Set(t.map(x=>x.category))].length
-  document.getElementById('header-sub').textContent = `${t.length} tools across ${[...new Set(t.map(x=>x.category))].length} categories`
+  const typeCount = [...new Set(t.map(x=>x.content_type||x.category))].length
+  document.getElementById('header-sub').textContent = `${t.length} entries across ${typeCount} types`
 
   buildFilters()
   renderTools()
@@ -365,12 +368,15 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 function buildFilters() {
-  const cats = {}
-  tools.forEach(t=>{cats[t.category]=(cats[t.category]||0)+1})
-  const sorted = Object.entries(cats).sort((a,b)=>b[1]-a[1])
+  const groups = {}
+  tools.forEach(t=>{
+    const key = t.content_type || t.category
+    groups[key] = (groups[key]||0)+1
+  })
+  const sorted = Object.entries(groups).sort((a,b)=>b[1]-a[1])
   document.getElementById('cat-filters').innerHTML =
     `<span class="f-chip on" onclick="filter('all',this)">All (${tools.length})</span>`
-    + sorted.map(([c,n])=>`<span class="f-chip" onclick="filter('${c}',this)">${ICONS[c]||''} ${c} (${n})</span>`).join('')
+    + sorted.map(([c,n])=>`<span class="f-chip" onclick="filter('${c}',this)">${TYPE_ICONS[c]||ICONS[c]||''} ${c} (${n})</span>`).join('')
 }
 
 function filter(cat, el) {
@@ -383,9 +389,12 @@ function filter(cat, el) {
 function renderTools() {
   const q = document.getElementById('q').value.toLowerCase()
   const shown = tools.filter(t=>{
-    if(activeCat!=='all' && t.category!==activeCat) return false
+    if(activeCat!=='all') {
+      const key = t.content_type || t.category
+      if(key!==activeCat) return false
+    }
     if(!q) return true
-    return [t.name,t.description,...(t.tags||[]),...(t.use_cases||[]),t.category,t.type].some(s=>s&&s.toLowerCase().includes(q))
+    return [t.name,t.description,...(t.tags||[]),...(t.use_cases||[]),t.category,t.content_type,t.type].some(s=>s&&s.toLowerCase().includes(q))
   })
   document.getElementById('grid').innerHTML = shown.length
     ? shown.map(t=>cardHTML(t)).join('')
@@ -397,10 +406,11 @@ function cardHTML(t) {
   const ts = t.transcriptSlug
   return `<div class="card${open?' open':''}" id="card-${t.id}" onclick="toggle('${t.id}')">
   <div class="card-top">
-    <div class="card-icon">${ICONS[t.category]||'🔧'}</div>
+    <div class="card-icon">${TYPE_ICONS[t.content_type]||ICONS[t.category]||'🔧'}</div>
     <div class="card-meta">
       <div class="card-name">${x(t.name)}</div>
       <div class="chips">
+        ${t.content_type?`<span class="chip c-content">${x(t.content_type)}</span>`:''}
         <span class="chip c-cat">${x(t.category)}</span>
         ${t.type?`<span class="chip c-type">${x(t.type)}</span>`:''}
         ${t.status?`<span class="chip c-status">${x(t.status)}</span>`:''}
@@ -512,12 +522,12 @@ async function poll() {
     document.getElementById('n-trans').textContent = st.transcripts
     document.getElementById('n-shots').textContent = st.screenshots
     document.getElementById('n-cats').textContent = st.categories
-    document.getElementById('header-sub').textContent = `${t.length} tools across ${[...new Set(t.map(x=>x.category))].length} categories`
+    document.getElementById('header-sub').textContent = `${t.length} entries across ${[...new Set(t.map(x=>x.content_type||x.category))].length} types`
     buildFilters()
     renderTools()
     renderTranscripts()
     renderScreenshots()
-    showToast(`Updated — ${st.tools} tools`)
+    showToast(`Updated — ${st.tools} entries`)
   } catch(_) {}
 }
 
