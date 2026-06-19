@@ -472,9 +472,22 @@ function closePanel() { document.getElementById('overlay').classList.remove('ope
 
 function cp(e, text) {
   e.stopPropagation()
-  navigator.clipboard.writeText(text).catch(()=>{})
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(text).catch(()=>fallbackCopy(text))
+  } else {
+    fallbackCopy(text)
+  }
   e.target.textContent='Copied!'
   setTimeout(()=>e.target.textContent='Copy',1500)
+}
+function fallbackCopy(text) {
+  const ta = document.createElement('textarea')
+  ta.value = text
+  ta.style.cssText = 'position:fixed;left:-9999px;top:0;opacity:0'
+  document.body.appendChild(ta)
+  ta.focus(); ta.select()
+  document.execCommand('copy')
+  document.body.removeChild(ta)
 }
 
 function x(s){ const d=document.createElement('div');d.textContent=String(s||'');return d.innerHTML }
