@@ -10,7 +10,7 @@
  */
 
 import { execSync } from 'child_process'
-import { readFileSync, writeFileSync, mkdtempSync, rmSync, readdirSync } from 'fs'
+import { readFileSync, writeFileSync, mkdtempSync, rmSync, readdirSync, mkdirSync, existsSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
 import { tmpdir } from 'os'
@@ -19,6 +19,7 @@ import Anthropic from '@anthropic-ai/sdk'
 
 const __dir = dirname(fileURLToPath(import.meta.url))
 const TOOLS_PATH = join(__dir, 'data/tools.json')
+const TRANSCRIPTS_DIR = join(__dir, 'data/transcripts')
 const YTDLP = '/opt/homebrew/bin/yt-dlp'
 const TL_BASE = 'https://api.twelvelabs.io/v1.3'
 const TL_INDEX_NAME = 'ai-tools-shorts'
@@ -28,6 +29,7 @@ const TL_INDEX_NAME = 'ai-tools-shorts'
 async function main() {
   const url = process.argv[2]
   const fast = process.argv.includes('--fast')
+  const auto = process.argv.includes('--auto')
 
   if (!url || (!url.includes('youtube.com') && !url.includes('youtu.be'))) {
     console.error('Usage: node ingest.mjs <youtube-url> [--fast]')
@@ -70,8 +72,15 @@ async function main() {
     console.log('\nExtracted entry:')
     console.log(JSON.stringify(entry, null, 2))
 
+    // Save transcript alongside the tool entry
+    if (captions) {
+      if (!existsSync(TRANSCRIPTS_DIR)) mkdirSync(TRANSCRIPTS_DIR, { recursive: true })
+      const slug = url.replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '').slice(0, 80)
+      writeFileSync(join(TRANSCRIPTS_DIR, `${slug}.txt`), `Source: ${url}\nTitle: ${title}\nChannel: ${channel}\n\n${captions}\n`)
+    }
+
     // Step 4: confirm and save
-    const action = await ask('\n[4/4] Save to tools.json? [y]es / [e]dit / [n]o: ')
+    const action = auto ? 'y' : await ask('\n[4/4] Save to tools.json? [y]es / [e]dit / [n]o: ')
 
     if (action === 'e') {
       const draft = join(tmpDir, 'entry.json')
