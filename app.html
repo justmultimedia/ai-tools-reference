@@ -395,9 +395,54 @@ function cp(e, text) {
 
 function x(s){ const d=document.createElement('div');d.textContent=String(s||'');return d.innerHTML }
 
+// ── live refresh: poll every 8s, reload data if anything changed ──
+let lastSnapshot = ''
+async function poll() {
+  try {
+    const st = await fetch('/api/stats').then(r=>r.json()).catch(()=>null)
+    if (!st) return
+    const snap = JSON.stringify(st)
+    if (snap === lastSnapshot) return
+    lastSnapshot = snap
+    const [t, tr, ss] = await Promise.all([
+      fetch('/api/tools').then(r=>r.json()).catch(()=>tools),
+      fetch('/api/transcripts').then(r=>r.json()).catch(()=>transcripts),
+      fetch('/api/screenshots').then(r=>r.json()).catch(()=>screenshots),
+    ])
+    tools=t; transcripts=tr; screenshots=ss
+    document.getElementById('n-tools').textContent = st.tools
+    document.getElementById('n-trans').textContent = st.transcripts
+    document.getElementById('n-shots').textContent = st.screenshots
+    document.getElementById('n-cats').textContent = st.categories
+    document.getElementById('header-sub').textContent = `${t.length} tools across ${[...new Set(t.map(x=>x.category))].length} categories`
+    buildFilters()
+    renderTools()
+    renderTranscripts()
+    renderScreenshots()
+    showToast(`Updated — ${st.tools} tools`)
+  } catch(_) {}
+}
+
+function showToast(msg) {
+  let t = document.getElementById('toast')
+  if (!t) {
+    t = document.createElement('div')
+    t.id = 'toast'
+    t.style.cssText = 'position:fixed;bottom:24px;right:24px;background:#1d2038;border:1px solid var(--purple);border-radius:10px;padding:10px 16px;font-size:13px;color:var(--purple);z-index:300;opacity:0;transition:opacity .3s;pointer-events:none'
+    document.body.appendChild(t)
+  }
+  t.textContent = msg
+  t.style.opacity = '1'
+  clearTimeout(t._to)
+  t._to = setTimeout(() => t.style.opacity = '0', 2500)
+}
+
 document.getElementById('q').addEventListener('input', renderTools)
 document.addEventListener('keydown', e=>{ if(e.key==='Escape') closePanel() })
-load()
+load().then(() => {
+  lastSnapshot = JSON.stringify({tools:tools.length,transcripts:transcripts.length,screenshots:screenshots.length})
+  setInterval(poll, 8000)
+})
 </script>
 </body>
 </html>
