@@ -4,7 +4,7 @@
     "name": "Impeccable",
     "category": "design",
     "type": "claude-code-skill",
-    "description": "Design fluency skill for Claude Code. Gives Claude design vocabulary — vertical rhythm, typographic scale, proportions — so you can prompt with designer language and get polished results.",
+    "description": "Design fluency skill for Claude Code. Gives Claude design vocabulary \u2014 vertical rhythm, typographic scale, proportions \u2014 so you can prompt with designer language and get polished results.",
     "install": "npx skills add pixakaus/impeccable",
     "works_with": [
       "claude-code",
@@ -28,7 +28,7 @@
     "link": "https://github.com/pixakaus/impeccable",
     "screenshot": "screenshots/impeccable-design-skill.jpeg",
     "status": "available",
-    "notes": "May be private repo — try install and see",
+    "notes": "May be private repo \u2014 try install and see",
     "added": "2026-05"
   },
   {
@@ -91,7 +91,7 @@
     "name": "21st.dev Components",
     "category": "design",
     "type": "component-library",
-    "description": "Community library of prebuilt UI components — scroll animations, background effects, cards, hero sections, text effects, shaders, carousels.",
+    "description": "Community library of prebuilt UI components \u2014 scroll animations, background effects, cards, hero sections, text effects, shaders, carousels.",
     "install": "Browse at 21st.dev/community/components",
     "works_with": [
       "react",
@@ -369,30 +369,94 @@
     "added": "2026-05"
   },
   {
-    "id": "claude-code-dynamic-workflows",
-    "name": "Claude Code Dynamic Workflows",
-    "category": "claude-workflow",
-    "type": "claude-code-skill",
-    "description": "Dynamic workflows allow Claude Code to write and coordinate multiple sub-agents for large, repeatable tasks like codebase audits, migrations, and cross-checked research. Each sub-agent handles a specific portion of the work in parallel, enabling structured and rerunnable multi-step automation.",
-    "install": null,
+    "id": "ollama",
+    "name": "Ollama",
+    "category": "local-llm",
+    "type": "cli-tool",
+    "description": "Run open-source LLMs locally on Mac, Linux, or Windows. Manages model downloads, serves a local API compatible with OpenAI's format. Huge model library including Llama, Mistral, Gemma, GLM, Qwen, and more.",
+    "install": "brew install ollama",
     "works_with": [
-      "Claude Code"
+      "macos",
+      "claude-code",
+      "openai-api-compatible-clients"
     ],
     "use_cases": [
-      "Security auditing a codebase by splitting work across folders and summarizing high-risk findings",
-      "Running repeatable multi-step migrations or cross-checking research with parallel sub-agents"
+      "running LLMs locally with no API cost",
+      "private inference — data never leaves your machine",
+      "experimenting with open-source models",
+      "local AI for coding, chat, summarisation"
     ],
     "tags": [
-      "claude-code",
-      "multi-agent",
-      "workflow-automation",
-      "codebase-audit",
-      "parallel-agents"
+      "llm",
+      "local",
+      "open-source",
+      "inference",
+      "cli",
+      "mac-mini"
+    ],
+    "link": "https://ollama.com",
+    "status": "available",
+    "notes": "Mac mini (32GB) can run models up to ~34B at 4-bit quantisation. 64GB machines can run up to ~70B. Run `ollama run <model>` to pull and start. `ollama list` shows installed models. Local API at localhost:11434.",
+    "added": "2026-06"
+  },
+  {
+    "id": "glm-5.2",
+    "name": "GLM-5.2",
+    "category": "local-llm",
+    "type": "api-service",
+    "description": "Z.ai's flagship 756B parameter open-source model for long-horizon tasks. Supports tools, thinking, and cloud inference. Too large to run locally on Mac mini — use the :cloud variant which routes to Z.ai's servers.",
+    "install": "ollama run glm-5.2:cloud",
+    "works_with": [
+      "ollama",
+      "claude-code"
+    ],
+    "use_cases": [
+      "complex multi-step reasoning",
+      "tool use",
+      "long-horizon agentic tasks"
+    ],
+    "tags": [
+      "llm",
+      "open-source",
+      "cloud",
+      "reasoning",
+      "tools"
+    ],
+    "link": "https://ollama.com/library/glm-5.2",
+    "status": "available",
+    "notes": "756B params — CANNOT run locally on Mac mini (needs ~380GB RAM at 4-bit). The :cloud tag routes to Z.ai's servers. For a local GLM, use glm4 (9B) which fits in 32GB. Discovered 2026-06-18.",
+    "added": "2026-06"
+  },
+  {
+    "id": "bg-remove",
+    "name": "bg-remove",
+    "category": "image-processing",
+    "type": "claude-code-skill",
+    "description": "Batch background removal for headshots and product photos. Replaces backgrounds with pure white or transparent PNG. Runs fully local using rembg (birefnet-general model). Accepts folders, file lists, or globs. Supports JPEG, PNG, TIFF, HEIC/HIF. Flags suspect mattes to a review/ subfolder.",
+    "install": "pip install \"rembg[cli]\" pillow-heif numpy piexif",
+    "works_with": [
+      "claude-code"
+    ],
+    "use_cases": [
+      "headshot retouching",
+      "product photography",
+      "batch background removal",
+      "photo editing"
+    ],
+    "tags": [
+      "images",
+      "background-removal",
+      "rembg",
+      "headshots",
+      "product-photos",
+      "local",
+      "batch",
+      "skill"
     ],
     "link": null,
-    "status": "available",
-    "notes": "Recommended for experienced users only — beginners should use a single chat for smaller tasks and reserve dynamic workflows for large, repeatable jobs.",
-    "added": "2026-06",
-    "source": "https://youtube.com/shorts/Sm3GTeimyk4?is=DRNI8HYhysukVK_L"
+    "screenshot": null,
+    "status": "installed",
+    "notes": "birefnet-general weights download on first run (~900 MB, cached in ~/.u2net/). Skill lives at ~/.claude/skills/bg-remove/. Invoke via /bg-remove in Claude Code.",
+    "added": "2026-06"
   }
 ]

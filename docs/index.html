@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tools Reference</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --border: #2a2d3a;
+    --text: #e2e4f0;
+    --muted: #7b7f9e;
+    --accent: #7c6af7;
+    --accent2: #5eaeff;
+    --green: #3dd68c;
+    --tag-bg: #22253a;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 0 0 64px;
+  }
+  header {
+    background: linear-gradient(135deg, #1a1d27 0%, #12141f 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 16px 16px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .header-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    flex: 1;
+  }
+  .count {
+    font-size: 12px;
+    color: var(--muted);
+    background: var(--tag-bg);
+    padding: 3px 8px;
+    border-radius: 10px;
+  }
+  .search-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--muted);
+    pointer-events: none;
+    font-size: 15px;
+  }
+  input[type="search"] {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    font-size: 15px;
+    padding: 10px 12px 10px 36px;
+    outline: none;
+    -webkit-appearance: none;
+  }
+  input[type="search"]:focus { border-color: var(--accent); }
+  input[type="search"]::placeholder { color: var(--muted); }
+
+  .filters {
+    max-width: 800px;
+    margin: 10px auto 0;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .filter-chip {
+    background: var(--tag-bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px 12px;
+    transition: all .15s;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .filter-chip.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    display: grid;
+    gap: 12px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px;
+    transition: border-color .15s;
+  }
+  .card:hover { border-color: #3a3d50; }
+  .card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .card-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+    background: var(--tag-bg);
+  }
+  .card-title-group { flex: 1; min-width: 0; }
+  .card-name {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-meta {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .badge {
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  .badge-cat {
+    background: #1d2a4a;
+    color: var(--accent2);
+  }
+  .badge-type {
+    background: #1d2a30;
+    color: #4cd9b0;
+  }
+  .badge-status {
+    background: #1a2c1e;
+    color: var(--green);
+  }
+  .card-desc {
+    font-size: 13px;
+    color: #b0b4cc;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .install-wrap {
+    background: #12141f;
+    border-radius: 8px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .install-label { color: var(--muted); font-size: 11px; flex-shrink: 0; }
+  .install-cmd {
+    color: #a0e8b0;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+  }
+  .copy-btn {
+    background: none;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 14px;
+    flex-shrink: 0;
+    padding: 2px;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .copy-btn:active { color: var(--green); }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .tag {
+    background: var(--tag-bg);
+    border-radius: 5px;
+    color: var(--muted);
+    font-size: 11px;
+    padding: 2px 7px;
+  }
+  .card-link {
+    display: block;
+    color: var(--accent2);
+    font-size: 12px;
+    margin-top: 8px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .empty {
+    text-align: center;
+    color: var(--muted);
+    padding: 48px 0;
+    font-size: 15px;
+  }
+  .loading { text-align: center; color: var(--muted); padding: 48px 0; }
+
+  @media (min-width: 600px) {
+    main { grid-template-columns: repeat(2, 1fr); }
+    .card-header { flex-direction: row; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <h1>AI Tools Reference</h1>
+    <span class="count" id="count">0 tools</span>
+  </div>
+  <div class="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input type="search" id="q" placeholder="Search tools, tags, descriptions…" autocomplete="off">
+  </div>
+  <div class="filters" id="filters"></div>
+</header>
+
+<main id="grid"><p class="loading">Loading…</p></main>
+
+<script>
+const ICONS = {
+  design: '🎨', animation: '✨', 'browser-automation': '🌐',
+  'document-conversion': '📄', networking: '🔗', media: '🎬',
+  'ai-video': '🎥', 'claude-workflow': '🤖', 'image-generation': '🖼️',
+  'image-processing': '📷', 'local-llm': '💻', other: '🔧'
+};
+
+let allTools = [];
+let activeCategory = 'all';
+
+async function load() {
+  try {
+    const r = await fetch('https://raw.githubusercontent.com/justmultimedia/ai-tools-reference/main/data/tools.json');
+    allTools = await r.json();
+    buildFilters();
+    render();
+  } catch(e) {
+    document.getElementById('grid').innerHTML = '<p class="empty">Failed to load tools.</p>';
+  }
+}
+
+function buildFilters() {
+  const cats = ['all', ...new Set(allTools.map(t => t.category))].sort((a,b) => a === 'all' ? -1 : a.localeCompare(b));
+  document.getElementById('filters').innerHTML = cats.map(c =>
+    `<button class="filter-chip${c === 'all' ? ' active' : ''}" data-cat="${c}">${c === 'all' ? 'All' : c}</button>`
+  ).join('');
+  document.getElementById('filters').addEventListener('click', e => {
+    const btn = e.target.closest('.filter-chip');
+    if (!btn) return;
+    activeCategory = btn.dataset.cat;
+    document.querySelectorAll('.filter-chip').forEach(b => b.classList.toggle('active', b === btn));
+    render();
+  });
+}
+
+function render() {
+  const q = document.getElementById('q').value.toLowerCase();
+  const tools = allTools.filter(t => {
+    const matchCat = activeCategory === 'all' || t.category === activeCategory;
+    if (!matchCat) return false;
+    if (!q) return true;
+    return [t.name, t.description, ...(t.tags||[]), ...(t.use_cases||[])].some(s => s && s.toLowerCase().includes(q));
+  });
+
+  document.getElementById('count').textContent = `${tools.length} tool${tools.length !== 1 ? 's' : ''}`;
+
+  if (!tools.length) {
+    document.getElementById('grid').innerHTML = '<p class="empty">No tools match your search.</p>';
+    return;
+  }
+
+  document.getElementById('grid').innerHTML = tools.map(t => `
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">${ICONS[t.category] || '🔧'}</div>
+        <div class="card-title-group">
+          <div class="card-name">${esc(t.name)}</div>
+          <div class="card-meta">
+            <span class="badge badge-cat">${esc(t.category)}</span>
+            ${t.type ? `<span class="badge badge-type">${esc(t.type)}</span>` : ''}
+          </div>
+        </div>
+      </div>
+      ${t.description ? `<p class="card-desc">${esc(t.description)}</p>` : ''}
+      ${t.install ? `<div class="install-wrap">
+        <span class="install-label">install</span>
+        <span class="install-cmd">${esc(t.install)}</span>
+        <button class="copy-btn" onclick="copy(this, '${t.install.replace(/'/g,"\\'")}')">⎘</button>
+      </div>` : ''}
+      ${(t.tags||[]).length ? `<div class="tags">${t.tags.map(tg => `<span class="tag">${esc(tg)}</span>`).join('')}</div>` : ''}
+      ${t.link ? `<a class="card-link" href="${esc(t.link)}" target="_blank" rel="noopener">${esc(t.link)}</a>` : ''}
+    </div>
+  `).join('');
+}
+
+function esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function copy(btn, text) {
+  navigator.clipboard.writeText(text).catch(() => {});
+  btn.textContent = '✓';
+  setTimeout(() => btn.textContent = '⎘', 1200);
+}
+
+document.getElementById('q').addEventListener('input', render);
+load();
+</script>
+</body>
+</html>
