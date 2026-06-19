@@ -667,5 +667,31 @@
     "notes": "Full podcast available on major podcast platforms by searching 'All Aboard ADHD'; Instagram users can comment LISTEN to receive a DM with the direct link.",
     "added": "2026-06",
     "source": "https://www.instagram.com/reel/DZt92X4jTCG/?igsh=cWwzYzcyOHM5bGQw"
+  },
+  {
+    "id": "make-your-own-trees-for-free",
+    "name": "Make Your Own Trees For Free",
+    "content_type": "tutorial",
+    "category": "gardening tips",
+    "description": "A short-form gardening video by Adam Kirtland (View From The Potting Bench) demonstrating how to propagate or grow your own trees at no cost. The content has garnered 57K views and 35K reactions, indicating high engagement around this free gardening technique. It encourages viewers to try the method with their favourite trees.",
+    "tags": [
+      "gardening",
+      "trees",
+      "propagation",
+      "free",
+      "diy",
+      "horticulture"
+    ],
+    "link": "https://www.facebook.com/share/r/1bMCxyGbkW/?mibextid=wwXIfr",
+    "platform": "facebook",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Propagating trees from existing plants without buying new ones",
+      "Learning cost-free gardening techniques for growing trees at home"
+    ],
+    "notes": "Video creator is Adam Kirtland from 'View From The Potting Bench'. Specific propagation method (e.g. cuttings, layering) not detailed in the post description alone.",
+    "added": "2026-06",
+    "source": "https://www.facebook.com/share/r/1bMCxyGbkW/?mibextid=wwXIfr"
   }
 ]
