@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tools Reference</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#080a12;--s1:#0f1120;--s2:#161829;--s3:#1d2038;
+  --border:#252840;--border2:#2e3150;
+  --text:#dde0f5;--muted:#6068a0;--dim:#888eb8;
+  --purple:#8b72ff;--blue:#4da6ff;--green:#36d98c;
+  --pink:#e060b0;--orange:#f09030;--teal:#30d0c0;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
+  --mono:'SF Mono','Fira Code','Cascadia Code',monospace;
+}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--font)}
+body{display:flex;flex-direction:column;min-height:100vh}
+
+/* scrollbar */
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--s1)}::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+
+/* ── HEADER ── */
+.header{
+  padding:24px 32px 20px;
+  background:linear-gradient(180deg,rgba(139,114,255,.08) 0%,transparent 100%);
+  border-bottom:1px solid var(--border);
+}
+.header-top{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+.logo{font-size:22px;font-weight:800;letter-spacing:-.5px;background:linear-gradient(135deg,var(--purple),var(--blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header-sub{font-size:13px;color:var(--muted);flex:1}
+.search-box{
+  display:flex;align-items:center;gap:8px;
+  background:var(--s2);border:1px solid var(--border2);border-radius:10px;
+  padding:8px 12px;width:280px;
+}
+.search-box input{background:none;border:none;color:var(--text);font-size:13px;outline:none;flex:1}
+.search-box input::placeholder{color:var(--muted)}
+.search-box .icon{color:var(--muted);font-size:14px}
+
+/* ── STAT CARDS ── */
+.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.stat-card{
+  background:var(--s2);border:1px solid var(--border);border-radius:12px;
+  padding:14px 16px;cursor:pointer;transition:all .2s;position:relative;overflow:hidden;
+}
+.stat-card::before{
+  content:'';position:absolute;inset:0;opacity:0;transition:opacity .2s;
+  background:linear-gradient(135deg,var(--c1,.3) 0%,transparent 60%);
+}
+.stat-card:hover{border-color:var(--border2);transform:translateY(-1px)}
+.stat-card:hover::before{opacity:1}
+.stat-card.active{border-color:var(--c1);background:rgba(0,0,0,.2)}
+.stat-card.active::before{opacity:.3}
+.stat-num{font-size:32px;font-weight:800;line-height:1;margin-bottom:4px;color:var(--c1)}
+.stat-label{font-size:12px;color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:.06em}
+.stat-icon{position:absolute;right:14px;top:14px;font-size:22px;opacity:.4}
+
+/* ── MAIN ── */
+.main{flex:1;padding:24px 32px;overflow-y:auto}
+
+/* ── SECTION VIEWS ── */
+.section{display:none}
+.section.active{display:block}
+
+/* ── TOOL GRID ── */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
+
+/* ── TOOL CARD ── */
+.card{
+  background:var(--s1);border:1px solid var(--border);border-radius:14px;
+  overflow:hidden;cursor:pointer;transition:border-color .15s,box-shadow .15s;
+}
+.card:hover{border-color:var(--border2);box-shadow:0 6px 24px rgba(0,0,0,.4)}
+.card.open{border-color:var(--purple)}
+.card-top{display:flex;gap:12px;padding:16px;align-items:flex-start}
+.card-icon{
+  width:40px;height:40px;border-radius:10px;background:var(--s3);
+  display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0;
+}
+.card-meta{flex:1;min-width:0}
+.card-name{font-size:14px;font-weight:600;margin-bottom:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chips{display:flex;gap:5px;flex-wrap:wrap}
+.chip{font-size:10px;padding:2px 8px;border-radius:5px;font-weight:600;white-space:nowrap}
+.c-cat{background:rgba(77,166,255,.12);color:var(--blue);border:1px solid rgba(77,166,255,.2)}
+.c-type{background:rgba(48,208,192,.1);color:var(--teal);border:1px solid rgba(48,208,192,.2)}
+.c-status{background:rgba(54,217,140,.1);color:var(--green);border:1px solid rgba(54,217,140,.2)}
+.card-desc{padding:0 16px 14px;font-size:12.5px;color:var(--dim);line-height:1.6}
+
+.card-body{
+  border-top:1px solid var(--border);padding:14px 16px;
+  display:none;flex-direction:column;gap:12px;
+}
+.card.open .card-body{display:flex}
+
+.install-box{
+  background:var(--bg);border:1px solid var(--border2);border-radius:8px;
+  padding:9px 12px;display:flex;align-items:center;gap:8px;
+}
+.install-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;flex-shrink:0}
+.install-cmd{font-family:var(--mono);font-size:12px;color:#7ef5a0;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.copy-btn{background:none;border:1px solid var(--border2);border-radius:5px;color:var(--muted);cursor:pointer;font-size:11px;padding:3px 7px;transition:all .12s}
+.copy-btn:hover{border-color:var(--purple);color:var(--purple)}
+
+.detail-label{font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:600;margin-bottom:6px}
+.use-cases{list-style:none}
+.use-cases li{font-size:12.5px;color:var(--dim);padding:3px 0 3px 14px;position:relative;line-height:1.4}
+.use-cases li::before{content:'▸';position:absolute;left:0;color:var(--muted);font-size:10px;top:5px}
+.tag-row{display:flex;flex-wrap:wrap;gap:5px}
+.tag{background:var(--s3);border-radius:4px;color:var(--muted);font-size:11px;padding:2px 8px}
+.works-chip{background:rgba(77,166,255,.1);border-radius:4px;color:var(--blue);font-size:11px;padding:2px 8px}
+.card-link{color:var(--blue);font-size:12px;text-decoration:none;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card-link:hover{text-decoration:underline}
+.notes-box{background:rgba(240,144,48,.06);border:1px solid rgba(240,144,48,.2);border-radius:6px;padding:8px 10px;font-size:12px;color:var(--orange)}
+.transcript-link{
+  display:flex;align-items:center;gap:8px;
+  background:rgba(139,114,255,.08);border:1px solid rgba(139,114,255,.2);border-radius:8px;
+  padding:9px 12px;cursor:pointer;font-size:12.5px;color:var(--purple);transition:all .15s;
+}
+.transcript-link:hover{background:rgba(139,114,255,.14);border-color:var(--purple)}
+
+/* ── TRANSCRIPT LIST ── */
+.t-list{display:flex;flex-direction:column;gap:10px}
+.t-item{
+  background:var(--s1);border:1px solid var(--border);border-radius:12px;
+  padding:14px 18px;cursor:pointer;transition:border-color .15s;display:flex;align-items:center;gap:14px;
+}
+.t-item:hover{border-color:var(--border2)}
+.t-dot{width:8px;height:8px;border-radius:50%;background:var(--purple);flex-shrink:0}
+.t-info{flex:1;min-width:0}
+.t-title{font-size:13px;font-weight:500;margin-bottom:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.t-sub{font-size:11.5px;color:var(--muted)}
+.t-badge{font-size:11px;color:var(--dim);background:var(--s3);padding:3px 10px;border-radius:10px;white-space:nowrap;flex-shrink:0}
+
+/* ── SCREENSHOT GRID ── */
+.ss-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.ss-card{
+  background:var(--s1);border:1px solid var(--border);border-radius:10px;
+  overflow:hidden;cursor:pointer;transition:border-color .15s;
+}
+.ss-card:hover{border-color:var(--border2)}
+.ss-card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--s2)}
+.ss-name{font-size:10.5px;color:var(--muted);padding:8px 10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* ── PANEL (transcript reader) ── */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:200;display:none;place-items:center}
+.overlay.open{display:grid}
+.panel{
+  background:var(--s1);border:1px solid var(--border2);border-radius:18px;
+  width:min(700px,95vw);max-height:88vh;display:flex;flex-direction:column;
+  box-shadow:0 32px 80px rgba(0,0,0,.6);
+}
+.panel-head{padding:18px 22px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px}
+.panel-icon{font-size:18px}
+.panel-title{flex:1;font-size:14px;font-weight:600}
+.panel-close{background:var(--s3);border:1px solid var(--border);border-radius:7px;color:var(--muted);cursor:pointer;font-size:16px;padding:4px 10px;transition:all .12s}
+.panel-close:hover{color:var(--text);border-color:var(--border2)}
+.panel-meta{padding:14px 22px;border-bottom:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap}
+.panel-body{padding:20px 22px;overflow-y:auto;flex:1}
+.t-text{font-family:var(--mono);font-size:12.5px;color:var(--dim);line-height:1.8;white-space:pre-wrap}
+
+/* ── FILTER BAR ── */
+.filter-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.f-chip{
+  background:var(--s2);border:1px solid var(--border);border-radius:20px;
+  color:var(--muted);cursor:pointer;font-size:11.5px;padding:5px 13px;transition:all .15s;
+  -webkit-tap-highlight-color:transparent;
+}
+.f-chip:hover{border-color:var(--border2);color:var(--text)}
+.f-chip.on{background:rgba(139,114,255,.15);border-color:var(--purple);color:var(--purple)}
+
+/* ── EMPTY / LOADING ── */
+.empty{text-align:center;color:var(--muted);padding:60px 0;font-size:14px}
+.source-link{font-size:11px;color:var(--blue);text-decoration:none}
+.source-link:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <div class="logo">AI Tools Reference</div>
+    <div class="header-sub" id="header-sub">Loading…</div>
+    <div class="search-box">
+      <span class="icon">⌕</span>
+      <input type="search" id="q" placeholder="Search tools, tags, descriptions…" autocomplete="off">
+    </div>
+  </div>
+  <div class="stat-row">
+    <div class="stat-card active" style="--c1:var(--purple)" onclick="showSection('tools',this)">
+      <div class="stat-num" id="n-tools">—</div>
+      <div class="stat-label">Tools</div>
+      <div class="stat-icon">🗂</div>
+    </div>
+    <div class="stat-card" style="--c1:var(--blue)" onclick="showSection('transcripts',this)">
+      <div class="stat-num" id="n-trans">—</div>
+      <div class="stat-label">Transcripts</div>
+      <div class="stat-icon">📝</div>
+    </div>
+    <div class="stat-card" style="--c1:var(--teal)" onclick="showSection('screenshots',this)">
+      <div class="stat-num" id="n-shots">—</div>
+      <div class="stat-label">Screenshots</div>
+      <div class="stat-icon">🖼</div>
+    </div>
+    <div class="stat-card" style="--c1:var(--green)" onclick="showSection('tools',this)">
+      <div class="stat-num" id="n-cats">—</div>
+      <div class="stat-label">Categories</div>
+      <div class="stat-icon">🏷</div>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+
+  <!-- TOOLS SECTION -->
+  <div class="section active" id="sec-tools">
+    <div class="filter-bar" id="cat-filters"></div>
+    <div class="grid" id="grid"><div class="empty">Loading tools…</div></div>
+  </div>
+
+  <!-- TRANSCRIPTS SECTION -->
+  <div class="section" id="sec-transcripts">
+    <div class="t-list" id="t-list"><div class="empty">Loading transcripts…</div></div>
+  </div>
+
+  <!-- SCREENSHOTS SECTION -->
+  <div class="section" id="sec-screenshots">
+    <div class="ss-grid" id="ss-grid"><div class="empty">Loading screenshots…</div></div>
+  </div>
+
+</div>
+
+<!-- TRANSCRIPT READER PANEL -->
+<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
+  <div class="panel">
+    <div class="panel-head">
+      <span class="panel-icon">📝</span>
+      <div class="panel-title" id="p-title"></div>
+      <button class="panel-close" onclick="closePanel()">✕</button>
+    </div>
+    <div class="panel-meta" id="p-meta"></div>
+    <div class="panel-body"><div class="t-text" id="p-body"></div></div>
+  </div>
+</div>
+
+<script>
+const ICONS = {design:'🎨',animation:'✨','browser-automation':'🌐','document-conversion':'📄',networking:'🔗',media:'🎬','ai-video':'🎥','claude-workflow':'🤖','image-generation':'🖼️','image-processing':'📷','local-llm':'💻',other:'🔧'}
+
+let tools=[], transcripts=[], screenshots=[], activeCat='all', openId=null
+
+async function load() {
+  // Load independently so one failure doesn't block others
+  const [t, tr, ss, st] = await Promise.all([
+    fetch('/api/tools').then(r=>r.json()).catch(()=>[]),
+    fetch('/api/transcripts').then(r=>r.json()).catch(()=>[]),
+    fetch('/api/screenshots').then(r=>r.json()).catch(()=>[]),
+    fetch('/api/stats').then(r=>r.json()).catch(()=>({})),
+  ])
+  tools=t; transcripts=tr; screenshots=ss
+
+  document.getElementById('n-tools').textContent = st.tools||t.length
+  document.getElementById('n-trans').textContent = st.transcripts||tr.length
+  document.getElementById('n-shots').textContent = st.screenshots||ss.length
+  document.getElementById('n-cats').textContent = st.categories||[...new Set(t.map(x=>x.category))].length
+  document.getElementById('header-sub').textContent = `${t.length} tools across ${[...new Set(t.map(x=>x.category))].length} categories`
+
+  buildFilters()
+  renderTools()
+  renderTranscripts()
+  renderScreenshots()
+}
+
+function showSection(name, card) {
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'))
+  document.querySelectorAll('.stat-card').forEach(c=>c.classList.remove('active'))
+  document.getElementById('sec-'+name).classList.add('active')
+  card.classList.add('active')
+  if(name==='tools') document.getElementById('q').focus()
+}
+
+function buildFilters() {
+  const cats = {}
+  tools.forEach(t=>{cats[t.category]=(cats[t.category]||0)+1})
+  const sorted = Object.entries(cats).sort((a,b)=>b[1]-a[1])
+  document.getElementById('cat-filters').innerHTML =
+    `<span class="f-chip on" onclick="filter('all',this)">All (${tools.length})</span>`
+    + sorted.map(([c,n])=>`<span class="f-chip" onclick="filter('${c}',this)">${ICONS[c]||''} ${c} (${n})</span>`).join('')
+}
+
+function filter(cat, el) {
+  activeCat=cat
+  document.querySelectorAll('.f-chip').forEach(c=>c.classList.remove('on'))
+  el.classList.add('on')
+  renderTools()
+}
+
+function renderTools() {
+  const q = document.getElementById('q').value.toLowerCase()
+  const shown = tools.filter(t=>{
+    if(activeCat!=='all' && t.category!==activeCat) return false
+    if(!q) return true
+    return [t.name,t.description,...(t.tags||[]),...(t.use_cases||[]),t.category,t.type].some(s=>s&&s.toLowerCase().includes(q))
+  })
+  document.getElementById('grid').innerHTML = shown.length
+    ? shown.map(t=>cardHTML(t)).join('')
+    : '<div class="empty">No tools match.</div>'
+}
+
+function cardHTML(t) {
+  const open = openId===t.id
+  const ts = t.transcriptSlug
+  return `<div class="card${open?' open':''}" id="card-${t.id}" onclick="toggle('${t.id}')">
+  <div class="card-top">
+    <div class="card-icon">${ICONS[t.category]||'🔧'}</div>
+    <div class="card-meta">
+      <div class="card-name">${x(t.name)}</div>
+      <div class="chips">
+        <span class="chip c-cat">${x(t.category)}</span>
+        ${t.type?`<span class="chip c-type">${x(t.type)}</span>`:''}
+        ${t.status?`<span class="chip c-status">${x(t.status)}</span>`:''}
+      </div>
+    </div>
+  </div>
+  ${t.description?`<div class="card-desc">${x(t.description)}</div>`:''}
+  <div class="card-body">
+    ${t.install?`<div class="install-box"><span class="install-label">install</span><span class="install-cmd">${x(t.install)}</span><button class="copy-btn" onclick="cp(event,'${t.install.replace(/'/g,"\\'")}')">Copy</button></div>`:''}
+    ${t.works_with?.length?`<div><div class="detail-label">Works with</div><div class="tag-row">${t.works_with.map(w=>`<span class="works-chip">${x(w)}</span>`).join('')}</div></div>`:''}
+    ${t.use_cases?.length?`<div><div class="detail-label">Use cases</div><ul class="use-cases">${t.use_cases.map(u=>`<li>${x(u)}</li>`).join('')}</ul></div>`:''}
+    ${t.tags?.length?`<div class="tag-row">${t.tags.map(tg=>`<span class="tag">${x(tg)}</span>`).join('')}</div>`:''}
+    ${t.link?`<a class="card-link" href="${x(t.link)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">↗ ${x(t.link)}</a>`:''}
+    ${t.notes?`<div class="notes-box">⚠ ${x(t.notes)}</div>`:''}
+    ${ts?`<div class="transcript-link" onclick="openT(event,'${ts}','${x(t.name)}')">📝 View source transcript</div>`:''}
+  </div>
+</div>`
+}
+
+function toggle(id) {
+  openId = openId===id ? null : id
+  renderTools()
+  if(openId) setTimeout(()=>{
+    const el=document.getElementById('card-'+id)
+    if(el) el.scrollIntoView({behavior:'smooth',block:'nearest'})
+  },60)
+}
+
+function renderTranscripts() {
+  document.getElementById('t-list').innerHTML = transcripts.length
+    ? transcripts.map(t=>`<div class="t-item" onclick="openT(null,'${t.slug}','${x(t.title||t.slug)}')">
+        <div class="t-dot"></div>
+        <div class="t-info">
+          <div class="t-title">${x(t.title||t.slug)}</div>
+          <div class="t-sub">${x(t.channel)} · ${new Date(t.modified).toLocaleDateString()}</div>
+        </div>
+        <span class="t-badge">${t.words} words</span>
+      </div>`).join('')
+    : '<div class="empty">No transcripts yet. Send a YouTube link to the bot.</div>'
+}
+
+function renderScreenshots() {
+  document.getElementById('ss-grid').innerHTML = screenshots.length
+    ? screenshots.map(s=>`<div class="ss-card" onclick="window.open('/screenshots/${s.filename}','_blank')">
+        <img src="/screenshots/${s.filename}" alt="${s.filename}" loading="lazy">
+        <div class="ss-name">${s.filename.replace(/[-_]/g,' ').replace(/\.\w+$/,'')}</div>
+      </div>`).join('')
+    : '<div class="empty">No screenshots yet. Send a photo to the bot with caption "ait".</div>'
+}
+
+async function openT(e, slug, title) {
+  if(e) e.stopPropagation()
+  document.getElementById('p-title').textContent = title
+  document.getElementById('p-meta').innerHTML = ''
+  document.getElementById('p-body').textContent = 'Loading…'
+  document.getElementById('overlay').classList.add('open')
+  const raw = await fetch('/api/transcripts/'+slug).then(r=>r.text()).catch(()=>'Error loading transcript.')
+  const lines = raw.split('\n')
+  const src = (lines.find(l=>l.startsWith('Source:'))||'').replace('Source: ','')
+  const channel = (lines.find(l=>l.startsWith('Channel:'))||'').replace('Channel: ','')
+  const body = lines.slice(4).join('\n').trim()
+  document.getElementById('p-meta').innerHTML = [
+    channel?`<span class="chip c-cat">${x(channel)}</span>`:'',
+    src?`<a class="source-link chip c-type" href="${x(src)}" target="_blank" rel="noopener">↗ Source video</a>`:'',
+  ].join('')
+  document.getElementById('p-body').textContent = body
+}
+
+function closePanel() { document.getElementById('overlay').classList.remove('open') }
+
+function cp(e, text) {
+  e.stopPropagation()
+  navigator.clipboard.writeText(text).catch(()=>{})
+  e.target.textContent='Copied!'
+  setTimeout(()=>e.target.textContent='Copy',1500)
+}
+
+function x(s){ const d=document.createElement('div');d.textContent=String(s||'');return d.innerHTML }
+
+document.getElementById('q').addEventListener('input', renderTools)
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closePanel() })
+load()
+</script>
+</body>
+</html>
