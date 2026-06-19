@@ -167,7 +167,7 @@ const server = createServer(async (req, res) => {
 
   try {
     if (path === '/' || path === '/index.html') {
-      res.writeHead(200, { 'Content-Type': 'text/html' })
+      res.writeHead(200, { 'Content-Type': 'text/html', 'Cache-Control': 'no-cache, no-store, must-revalidate' })
       res.end(readFileSync(join(__dir, 'app.html'), 'utf8'))
       return
     }
