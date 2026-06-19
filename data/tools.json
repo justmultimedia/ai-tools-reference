@@ -578,5 +578,39 @@
     "notes": "Recommended for experienced users only — beginners should use single-chat for small tasks and reserve dynamic workflows for large, repeatable, or parallelizable jobs.",
     "added": "2026-06",
     "source": "https://www.youtube.com/shorts/Sm3GTeimyk4"
+  },
+  {
+    "id": "skills-cli",
+    "name": "Skills CLI (skills.sh)",
+    "category": "claude-workflow",
+    "type": "cli-tool",
+    "description": "The npx skills command-line tool and skills.sh directory — the open ecosystem for discovering, verifying, and installing agent skills. Use `npx skills find` to search and `npx skills add <repo>` to install skills from the registry into Claude Code and other agents.",
+    "install": "npx skills add <github-repo>",
+    "works_with": [
+      "claude-code",
+      "cursor",
+      "gemini-cli",
+      "codex-cli"
+    ],
+    "use_cases": [
+      "searching the skills.sh directory for agent skills",
+      "installing skills from GitHub repos",
+      "verifying and managing installed skills",
+      "discovering skills by domain and task"
+    ],
+    "tags": [
+      "claude-code",
+      "skills",
+      "cli",
+      "registry",
+      "discovery",
+      "ecosystem"
+    ],
+    "link": "https://skills.sh",
+    "screenshot": "screenshots/1781833447.jpg",
+    "status": "available",
+    "notes": "Underlying CLI used by many skills in this database (the `npx skills add` install command). The skills.sh directory reportedly hosts 10,000+ skills. The find-skills skill ([[find-skills]]) wraps this CLI so Claude can search/install without leaving the session.",
+    "added": "2026-06",
+    "source": "screenshot"
   }
 ]
