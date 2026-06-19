@@ -612,5 +612,34 @@
     "notes": "Underlying CLI used by many skills in this database (the `npx skills add` install command). The skills.sh directory reportedly hosts 10,000+ skills. The find-skills skill ([[find-skills]]) wraps this CLI so Claude can search/install without leaving the session.",
     "added": "2026-06",
     "source": "screenshot"
+  },
+  {
+    "id": "claude-canva-integration",
+    "name": "Claude + Canva Integration",
+    "content_type": "tutorial",
+    "category": "AI design tools",
+    "description": "Claude now integrates with Canva via its connectors feature, allowing users to generate and edit Canva designs (carousels, posters, banners) directly within the Claude interface. Users connect their Canva account through Claude's connector settings and can issue natural language commands to create designs, then open them in Canva for full editing. This workflow eliminates context-switching between AI and design tools, streamlining social media and marketing content creation.",
+    "tags": [
+      "claude",
+      "canva",
+      "ai design",
+      "content creation",
+      "design automation",
+      "social media"
+    ],
+    "link": "https://youtube.com/shorts/OR202ZFAmbc?is=EQJ0hGZcBhPtkJGD",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude AI",
+      "Canva"
+    ],
+    "use_cases": [
+      "Generating social media carousels, posters, and banners via AI prompts without leaving Claude",
+      "Streamlining marketing content creation by combining Claude's AI commands with Canva's editing tools"
+    ],
+    "notes": "Requires a Canva account and access to Claude's connectors feature. Setup involves navigating to Claude > Customize Connectors > Browse Connectors > Canva. Availability of connectors may depend on Claude subscription tier.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/OR202ZFAmbc?is=EQJ0hGZcBhPtkJGD"
   }
 ]
