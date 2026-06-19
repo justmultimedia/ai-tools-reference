@@ -197,6 +197,35 @@ body{display:flex;flex-direction:column;min-height:100vh}
 .empty{text-align:center;color:var(--muted);padding:60px 0;font-size:14px}
 .source-link{font-size:11px;color:var(--blue);text-decoration:none}
 .source-link:hover{text-decoration:underline}
+
+/* ── MOBILE ── */
+@media(max-width:640px){
+  .header{padding:14px 16px 12px}
+  .header-top{flex-wrap:wrap;gap:10px;margin-bottom:14px}
+  .search-box{width:100%;order:3}
+  .header-sub{font-size:12px}
+  .stat-row{grid-template-columns:repeat(2,1fr);gap:8px}
+  .stat-num{font-size:24px}
+  .stat-icon{font-size:18px;right:10px;top:10px}
+  .stat-card{padding:10px 12px}
+  .main{padding:14px 16px}
+  .grid{grid-template-columns:1fr}
+  .sk-grid{grid-template-columns:1fr}
+  .ss-grid{grid-template-columns:repeat(2,1fr);gap:8px}
+  .filter-bar{overflow-x:auto;flex-wrap:nowrap;padding-bottom:6px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .filter-bar::-webkit-scrollbar{display:none}
+  .f-chip{white-space:nowrap;flex-shrink:0;padding:6px 14px;font-size:12px}
+  .card-top{padding:14px}
+  .card-desc{padding:0 14px 12px;font-size:13px}
+  .card-body{padding:12px 14px}
+  .copy-btn{padding:6px 12px;font-size:12px}
+  .install-cmd{font-size:11px}
+  .panel{border-radius:14px 14px 0 0;width:100%;max-height:92vh;position:fixed;bottom:0;left:0;right:0}
+  .overlay{align-items:flex-end}
+  .t-list .t-badge{display:none}
+  .sk-head{gap:8px}
+  .sk-icon{width:34px;height:34px;font-size:16px}
+}
 </style>
 </head>
 <body>
