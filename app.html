@@ -210,7 +210,7 @@ body{display:flex;flex-direction:column;min-height:100vh}
     </div>
   </div>
   <div class="stat-row">
-    <div class="stat-card active" style="--c1:var(--purple)" onclick="showSection('tools',this)">
+    <div class="stat-card" style="--c1:var(--purple)" onclick="showSection('tools',this)">
       <div class="stat-num" id="n-tools">—</div>
       <div class="stat-label">Tools</div>
       <div class="stat-icon">🗂</div>
@@ -230,7 +230,7 @@ body{display:flex;flex-direction:column;min-height:100vh}
       <div class="stat-label">Categories</div>
       <div class="stat-icon">🏷</div>
     </div>
-    <div class="stat-card" style="--c1:var(--pink)" onclick="showSection('skills',this)">
+    <div class="stat-card active" style="--c1:var(--pink)" onclick="showSection('skills',this)">
       <div class="stat-num">270+</div>
       <div class="stat-label">Live Skills</div>
       <div class="stat-icon">⚡</div>
@@ -241,7 +241,7 @@ body{display:flex;flex-direction:column;min-height:100vh}
 <div class="main">
 
   <!-- TOOLS SECTION -->
-  <div class="section active" id="sec-tools">
+  <div class="section" id="sec-tools">
     <div class="filter-bar" id="cat-filters"></div>
     <div class="grid" id="grid"><div class="empty">Loading tools…</div></div>
   </div>
@@ -257,7 +257,7 @@ body{display:flex;flex-direction:column;min-height:100vh}
   </div>
 
   <!-- SKILLS SECTION -->
-  <div class="section" id="sec-skills">
+  <div class="section active" id="sec-skills">
     <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
       <div class="search-box" style="width:320px">
         <span class="icon">⌕</span>
@@ -287,7 +287,7 @@ body{display:flex;flex-direction:column;min-height:100vh}
 const ICONS = {design:'🎨',animation:'✨','browser-automation':'🌐','document-conversion':'📄',networking:'🔗',media:'🎬','ai-video':'🎥','claude-workflow':'🤖','image-generation':'🖼️','image-processing':'📷','local-llm':'💻',other:'🔧'}
 
 let tools=[], transcripts=[], screenshots=[], activeCat='all', openId=null
-let skillsLoaded=false
+let skillsLoaded=true
 
 async function load() {
   // Load independently so one failure doesn't block others
@@ -541,6 +541,7 @@ load().then(() => {
   lastSnapshot = JSON.stringify({tools:tools.length,transcripts:transcripts.length,screenshots:screenshots.length})
   setInterval(poll, 8000)
 })
+loadSkills()
 </script>
 </body>
 </html>
