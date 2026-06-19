@@ -90,7 +90,7 @@ async function main() {
     }
 
     if (action === 'y' || action === 'e') {
-      saveEntry(entry)
+      saveEntry(entry, auto)
     } else {
       console.log('Skipped.')
     }
@@ -271,11 +271,12 @@ Return a JSON object with exactly these fields:
 
 // ─── Step 4: save ─────────────────────────────────────────────────────────────
 
-async function saveEntry(entry) {
+async function saveEntry(entry, auto = false) {
   const tools = JSON.parse(readFileSync(TOOLS_PATH, 'utf8'))
   const existing = tools.findIndex(t => t.id === entry.id)
 
   if (existing >= 0) {
+    if (auto) { console.log(`\nSkipped — "${entry.name}" already in database.`); return }
     const overwrite = await ask(`ID "${entry.id}" already exists. Overwrite? [y/n]: `)
     if (overwrite !== 'y') { console.log('Skipped.'); return }
     tools[existing] = entry
