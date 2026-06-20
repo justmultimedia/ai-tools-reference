@@ -723,5 +723,33 @@
     "notes": "Episode 7 of the Claude Code series by the 'Just Hit Send' channel. Requires Claude Code (Anthropic). Episode 8 is referenced as upcoming.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/MkhJdY5JaMg?is=Cij3IdFlBqsjoa74"
+  },
+  {
+    "id": "cooper-simson-ai-harness-course",
+    "name": "HARNESS – AI Infrastructure Free Course & Guide",
+    "content_type": "tutorial",
+    "category": "AI productivity and engineering",
+    "description": "A free course and guide promoted by cooper.simson aimed at 'vibe coders' and AI builders, focused on building the foundational infrastructure layer beneath AI systems rather than just the AI models themselves. The content challenges the trend of chasing smarter AI brains and instead advocates for mastering the invisible layer that powers AI applications. Comment 'HARNESS' on the post to receive access.",
+    "tags": [
+      "ai",
+      "productivity",
+      "claude",
+      "ai engineering",
+      "course",
+      "infrastructure"
+    ],
+    "link": "https://www.instagram.com/reel/DZwTet4h289/?igsh=MThna2UyNjhzNHU0YQ==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "claude"
+    ],
+    "use_cases": [
+      "Learning how to build AI infrastructure layers beyond just model selection",
+      "Improving productivity as an AI developer or vibe coder"
+    ],
+    "notes": "Access is gated behind a comment-triggered DM — comment 'HARNESS' on the Instagram reel to receive the free course and guide. No pricing mentioned beyond 'free'.",
+    "added": "2026-06",
+    "source": "https://www.instagram.com/reel/DZwTet4h289/?igsh=MThna2UyNjhzNHU0YQ=="
   }
 ]
