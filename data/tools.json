@@ -751,5 +751,38 @@
     "notes": "Access is gated behind a comment-triggered DM — comment 'HARNESS' on the Instagram reel to receive the free course and guide. No pricing mentioned beyond 'free'.",
     "added": "2026-06",
     "source": "https://www.instagram.com/reel/DZwTet4h289/?igsh=MThna2UyNjhzNHU0YQ=="
+  },
+  {
+    "id": "kimiwork-ai-agent-tool",
+    "name": "KimiWork",
+    "content_type": "ai-tool",
+    "category": "AI automation and multi-agent productivity",
+    "description": "KimiWork is an AI-powered multi-agent tool launched by Chinese lab Moonshot AI, offering a 200,000 token context window, simultaneous processing of 50+ files, and 300 parallel agents. It automates complex research and business tasks—such as generating a 60-page EV market report and 14-page presentation in 20 minutes—at no cost, directly competing with paid services like Claude, Gemini, and ChatGPT. It reportedly ranked #1 among AI models in developer benchmarks and amassed over 90 million users rapidly.",
+    "tags": [
+      "ai agents",
+      "multi-agent",
+      "automation",
+      "chinese ai",
+      "productivity",
+      "free tier"
+    ],
+    "link": "https://kimi.ai",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Yahoo Finance",
+      "World Bank",
+      "IMF",
+      "Google Scholar",
+      "iOS",
+      "Desktop"
+    ],
+    "use_cases": [
+      "Researching and compiling reports on 100 companies in a specific market sector within 20 minutes",
+      "Generating websites and pitch decks for multiple local businesses in under 30 minutes"
+    ],
+    "notes": "Available on desktop and iOS. Described as free, positioning it against paid AI services. Claims of 90M overnight users and Elon Musk endorsement are unverified marketing assertions. Content is a promotional short-form video, not official documentation.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/S2sWaVWjO2E?is=bnn4qhGOIP67_1i9"
   }
 ]
