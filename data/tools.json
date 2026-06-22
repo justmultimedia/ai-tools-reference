@@ -784,5 +784,33 @@
     "notes": "Available on desktop and iOS. Described as free, positioning it against paid AI services. Claims of 90M overnight users and Elon Musk endorsement are unverified marketing assertions. Content is a promotional short-form video, not official documentation.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/S2sWaVWjO2E?is=bnn4qhGOIP67_1i9"
+  },
+  {
+    "id": "claude-hidden-tutor-mode-5-prompts",
+    "name": "Claude's Hidden Tutor Mode: 5 Prompts to Get Functional in Any Skill in Under 4 Hours",
+    "content_type": "tutorial",
+    "category": "AI learning and productivity",
+    "description": "A short-form tutorial outlining five specific prompting techniques to use Claude as a personal tutor for rapidly acquiring any skill within a 4-hour window. The prompts cover strategies like constraining Claude to a time limit, translating confusing concepts, building structured learning plans, detecting knowledge gaps, and applying the Feynman technique. It's useful for anyone looking to accelerate self-directed learning using AI.",
+    "tags": [
+      "claude",
+      "prompting",
+      "learning",
+      "ai tutor",
+      "productivity",
+      "feynman technique"
+    ],
+    "link": "https://youtube.com/shorts/-NxG2HZFReI?is=s8ye28Q-4C2MAaGk",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Rapidly getting functional in a new skill using structured AI prompts",
+      "Identifying and closing knowledge gaps in a subject you think you already know"
+    ],
+    "notes": "Content is promotional in nature; creator asks viewers to comment 'brain' to receive the five prompts. No cost mentioned beyond access to Claude.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/-NxG2HZFReI?is=s8ye28Q-4C2MAaGk"
   }
 ]
