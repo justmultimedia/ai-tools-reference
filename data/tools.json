@@ -812,5 +812,36 @@
     "notes": "Content is promotional in nature; creator asks viewers to comment 'brain' to receive the five prompts. No cost mentioned beyond access to Claude.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/-NxG2HZFReI?is=s8ye28Q-4C2MAaGk"
+  },
+  {
+    "id": "full-ai-agency-147-sub-agents",
+    "name": "Open-Source AI Agency with 147 Sub-Agents",
+    "content_type": "ai-tool",
+    "category": "AI business automation",
+    "description": "A free, open-source GitHub repository that provides a fully structured AI agency with 147 specialized sub-agents organized across 12 departments including engineering, marketing, sales, support, finance, and security. Each agent has its own distinct role, personality, and tone, enabling task-specific automation such as generating ad copy or fixing bugs. The system runs all agents in parallel when integrated with cloud platforms like Claude Code, Cursor, or Codex.",
+    "tags": [
+      "ai-agents",
+      "open-source",
+      "automation",
+      "multi-agent",
+      "github",
+      "business-automation"
+    ],
+    "link": "https://github.com",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Cursor",
+      "Codex"
+    ],
+    "use_cases": [
+      "Automating marketing tasks such as generating ad copy via a dedicated marketing agent",
+      "Engineering task automation including bug fixing through a specialized engineering agent",
+      "Running parallel multi-department AI workflows for complex business projects"
+    ],
+    "notes": "Specific GitHub repository URL not provided in the video. Free and open-source. Requires integration with a supported cloud coding platform to run agents in parallel.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/6ltekUcyjl4?is=Km9YM53xFolgy8ev"
   }
 ]
