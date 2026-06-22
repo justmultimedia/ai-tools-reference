@@ -843,5 +843,38 @@
     "notes": "Specific GitHub repository URL not provided in the video. Free and open-source. Requires integration with a supported cloud coding platform to run agents in parallel.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/6ltekUcyjl4?is=Km9YM53xFolgy8ev"
+  },
+  {
+    "id": "claude-code-free-ai-terminal",
+    "name": "Claude Code Free AI Terminal (Open-Source Alternative)",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A GitHub tool that simulates Claude Code's terminal environment while routing requests to free AI models, achieving 80-90% of Claude Code's performance at zero cost. It supports free AI providers like NVIDIA NIM and OpenRouter for models such as DeepSeek, Kimi, and GLM, or local execution via Ollama. Over 20,000 developers have adopted this method, which takes approximately 5 seconds to set up.",
+    "tags": [
+      "claude code",
+      "free ai",
+      "open source",
+      "developer tools",
+      "ai coding",
+      "ollama"
+    ],
+    "link": "https://youtube.com/shorts/GjNiG4gAOHg?is=Yr8lDqfXbO71uxDk",
+    "platform": "youtube",
+    "install": "Two CLI commands from the GitHub repo (see video for exact commands)",
+    "works_with": [
+      "NVIDIA NIM",
+      "OpenRouter",
+      "Ollama",
+      "DeepSeek",
+      "Kimi",
+      "GLM"
+    ],
+    "use_cases": [
+      "Running an AI-powered coding terminal for free using open-source models",
+      "Replacing paid Claude Code subscriptions for startups and individual developers"
+    ],
+    "notes": "Performance is estimated at 80-90% of Claude Code. Local Ollama usage requires a compatible GPU. Free provider API keys (NVIDIA NIM, OpenRouter) may have their own usage limits.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/GjNiG4gAOHg?is=Yr8lDqfXbO71uxDk"
   }
 ]
