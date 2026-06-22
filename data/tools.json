@@ -876,5 +876,33 @@
     "notes": "Performance is estimated at 80-90% of Claude Code. Local Ollama usage requires a compatible GPU. Free provider API keys (NVIDIA NIM, OpenRouter) may have their own usage limits.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/GjNiG4gAOHg?is=Yr8lDqfXbO71uxDk"
+  },
+  {
+    "id": "claude-code-subagents-explained-for-beginners",
+    "name": "Claude Code Subagents Explained For Beginners",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A beginner-focused short video explaining how subagents work inside Claude Code as specialist helpers with their own instructions for specific tasks. Covers how to open them with /agents, create custom agents via the library tab, store personal agents in the global .claude folder, and when to use them versus the main Claude instance. Key advice: use subagents for distinct roles or clean context, not for every minor request.",
+    "tags": [
+      "claude code",
+      "subagents",
+      "ai coding",
+      "automation",
+      "beginners",
+      "claude"
+    ],
+    "link": "https://youtube.com/shorts/FTflRrjHrjo?is=6QiFEMlP9G0dL3oG",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Running a dedicated security review subagent on code",
+      "Using specialist subagents for UI polish, test writing, or beginner-friendly code explanations"
+    ],
+    "notes": "Episode 108 of the Just Hit Send series. A free Claude Code cheat sheet is mentioned as available via link in bio.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/FTflRrjHrjo?is=6QiFEMlP9G0dL3oG"
   }
 ]
