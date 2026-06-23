@@ -958,5 +958,36 @@
     "notes": "Google AI Essentials costs $49 and takes ~2 weeks; IBM Generative AI Engineering is free; AWS cert takes ~4 weeks; GitHub Foundation Certification noted as non-negotiable in 2026.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/z4dUH2EGMRk?is=JV-hx3XMnN4Bl8RQ"
+  },
+  {
+    "id": "claude-security-risks-mcp-chrome-code",
+    "name": "Three Claude Security Risks Anthropic Warns About",
+    "content_type": "tutorial",
+    "category": "AI security awareness",
+    "description": "A short-form video highlighting three Claude-specific security risks that Anthropic itself documents on their website. The risks covered include MCP configurations with Gmail send access, Claude for Chrome with full site access, and third-party skills in Claude Code. Useful for anyone deploying Claude in workflows who wants to avoid common security pitfalls.",
+    "tags": [
+      "claude",
+      "anthropic",
+      "ai security",
+      "mcp",
+      "claude code",
+      "ai safety"
+    ],
+    "link": "https://www.instagram.com/reel/DYWhHA3tik7/?igsh=cnRwb3J3YzJzZ3h6",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Gmail MCP",
+      "Claude for Chrome",
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Understanding security risks before deploying Claude with MCP or browser integrations",
+      "Auditing existing Claude setups for over-permissioned configurations"
+    ],
+    "notes": "Risks are sourced from Anthropic's own documentation. No specific dates mentioned; viewers should check Anthropic's current security guidance for the latest recommendations.",
+    "added": "2026-06",
+    "source": "https://www.instagram.com/reel/DYWhHA3tik7/?igsh=cnRwb3J3YzJzZ3h6"
   }
 ]
