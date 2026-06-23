@@ -904,5 +904,33 @@
     "notes": "Episode 108 of the Just Hit Send series. A free Claude Code cheat sheet is mentioned as available via link in bio.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/FTflRrjHrjo?is=6QiFEMlP9G0dL3oG"
+  },
+  {
+    "id": "claude-skill-stack-for-builders",
+    "name": "The Claude Skill Stack for Builders",
+    "content_type": "tutorial",
+    "category": "AI productivity",
+    "description": "A curated shortlist of five Claude skills recommended for builders and beginners: Marketing Skills Library, Web Asset Generator, Jobs to Be Done, Front-End Design by Anthropic, and Deep Research. The video explains what each skill does and why it's worth installing. Aimed at helping users get ahead quickly without guessing which Claude integrations are worth their time.",
+    "tags": [
+      "claude",
+      "ai tools",
+      "productivity",
+      "prompt skills",
+      "builders",
+      "anthropic"
+    ],
+    "link": "https://youtube.com/shorts/Rh6e3jTuZ7k?is=moplHYaehE7h_fHv",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude AI"
+    ],
+    "use_cases": [
+      "Finding the most useful Claude skills to install as a beginner builder",
+      "Accelerating writing, design, research, and product thinking with Claude"
+    ],
+    "notes": "References five specific Claude skills: Marketing Skills Library by Corey Haines (32 skills), Web Asset Generator, Jobs to Be Done, Front-End Design (by Anthropic), and Deep Research (built-in, no install needed). Community linked to Ai Agency Launch on Skool.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/Rh6e3jTuZ7k?is=moplHYaehE7h_fHv"
   }
 ]
