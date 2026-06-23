@@ -989,5 +989,31 @@
     "notes": "Risks are sourced from Anthropic's own documentation. No specific dates mentioned; viewers should check Anthropic's current security guidance for the latest recommendations.",
     "added": "2026-06",
     "source": "https://www.instagram.com/reel/DYWhHA3tik7/?igsh=cnRwb3J3YzJzZ3h6"
+  },
+  {
+    "id": "nasa-climate-spiral-1880-present",
+    "name": "NASA Climate Spiral 1880-Present",
+    "content_type": "resource",
+    "category": "climate data visualization",
+    "description": "NASA's Scientific Visualization Studio created the 'Climate Spiral,' an animated visualization showing global temperature anomalies from 1880 to the present in a spiraling format. It helps viewers understand the difference between short-term weather variability and long-term climate trends. The visualization makes abstract climate data accessible and compelling for a general audience.",
+    "tags": [
+      "climate change",
+      "data visualization",
+      "nasa",
+      "global warming",
+      "climate science",
+      "science communication"
+    ],
+    "link": "https://svs.gsfc.nasa.gov/5190/",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Educating the public on long-term global temperature trends",
+      "Illustrating the difference between daily weather fluctuations and climate change"
+    ],
+    "notes": "Produced by NASA's Scientific Visualization Studio. Free to access at the SVS website.",
+    "added": "2026-06",
+    "source": "https://www.instagram.com/reel/DZ44mN9tafE/?igsh=MWZjZGg2YTl0aGo5cw=="
   }
 ]
