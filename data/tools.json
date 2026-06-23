@@ -932,5 +932,31 @@
     "notes": "References five specific Claude skills: Marketing Skills Library by Corey Haines (32 skills), Web Asset Generator, Jobs to Be Done, Front-End Design (by Anthropic), and Deep Research (built-in, no install needed). Community linked to Ai Agency Launch on Skool.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/Rh6e3jTuZ7k?is=moplHYaehE7h_fHv"
+  },
+  {
+    "id": "ai-certifications-that-get-you-hired",
+    "name": "5 AI Certifications That Will Actually Get You Hired",
+    "content_type": "tutorial",
+    "category": "AI career development",
+    "description": "A roundup of five AI certifications highlighted for boosting job prospects in tech: Claude Certified Architect, GitHub Foundation Certification, Google AI Essentials, AWS Certified AI Practitioner, and IBM Generative AI Engineering. Each cert is evaluated for cost, time commitment, and market demand. The video targets job seekers and professionals looking to validate AI skills with recognized credentials.",
+    "tags": [
+      "ai certifications",
+      "career",
+      "machine learning",
+      "aws",
+      "google ai",
+      "ibm"
+    ],
+    "link": "https://youtube.com/shorts/z4dUH2EGMRk?is=JV-hx3XMnN4Bl8RQ",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Identifying which AI certifications to pursue for job market competitiveness",
+      "Comparing cost and time investment across major AI credential programs"
+    ],
+    "notes": "Google AI Essentials costs $49 and takes ~2 weeks; IBM Generative AI Engineering is free; AWS cert takes ~4 weeks; GitHub Foundation Certification noted as non-negotiable in 2026.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/z4dUH2EGMRk?is=JV-hx3XMnN4Bl8RQ"
   }
 ]
