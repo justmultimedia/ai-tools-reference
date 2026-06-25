@@ -416,7 +416,7 @@ function renderSkills(skills) {
   ${s.description?`<div style="font-size:12.5px;color:var(--dim);line-height:1.6">${x(s.description)}</div>`:''}
   <div class="sk-cmd">
     <span class="sk-cmd-text">${x(s.installCmd)}</span>
-    <button class="copy-btn" onclick="cp(event,'${s.installCmd.replace(/'/g,"\\'")}')">Copy</button>
+    <button class="copy-btn" onclick="cp(event,'${jsq(s.installCmd)}')">Copy</button>
   </div>
   <div class="sk-footer">
     <a class="sk-link" href="${x(s.url)}" target="_blank" rel="noopener">↗ View on skills.sh</a>
@@ -443,7 +443,7 @@ function buildFilters() {
   const sorted = Object.entries(groups).sort((a,b)=>b[1]-a[1])
   document.getElementById('cat-filters').innerHTML =
     `<span class="f-chip on" onclick="filter('all',this)">All (${tools.length})</span>`
-    + sorted.map(([c,n])=>`<span class="f-chip" onclick="filter('${c}',this)">${TYPE_ICONS[c]||ICONS[c]||''} ${c} (${n})</span>`).join('')
+    + sorted.map(([c,n])=>`<span class="f-chip" onclick="filter('${jsq(c)}',this)">${TYPE_ICONS[c]||ICONS[c]||''} ${x(c)} (${n})</span>`).join('')
 }
 
 function filter(cat, el) {
@@ -471,7 +471,7 @@ function renderTools() {
 function cardHTML(t) {
   const open = openId===t.id
   const ts = t.transcriptSlug
-  return `<div class="card${open?' open':''}" id="card-${t.id}" onclick="toggle('${t.id}')">
+  return `<div class="card${open?' open':''}" id="card-${t.id}" onclick="toggle('${jsq(t.id)}')">
   <div class="card-top">
     <div class="card-icon">${TYPE_ICONS[t.content_type]||ICONS[t.category]||'🔧'}</div>
     <div class="card-meta">
@@ -486,13 +486,13 @@ function cardHTML(t) {
   </div>
   ${t.description?`<div class="card-desc">${x(t.description)}</div>`:''}
   <div class="card-body">
-    ${t.install?`<div class="install-box"><span class="install-label">install</span><span class="install-cmd">${x(t.install)}</span><button class="copy-btn" onclick="cp(event,'${t.install.replace(/'/g,"\\'")}')">Copy</button></div>`:''}
+    ${t.install?`<div class="install-box"><span class="install-label">install</span><span class="install-cmd">${x(t.install)}</span><button class="copy-btn" onclick="cp(event,'${jsq(t.install)}')">Copy</button></div>`:''}
     ${t.works_with?.length?`<div><div class="detail-label">Works with</div><div class="tag-row">${t.works_with.map(w=>`<span class="works-chip">${x(w)}</span>`).join('')}</div></div>`:''}
     ${t.use_cases?.length?`<div><div class="detail-label">Use cases</div><ul class="use-cases">${t.use_cases.map(u=>`<li>${x(u)}</li>`).join('')}</ul></div>`:''}
     ${t.tags?.length?`<div class="tag-row">${t.tags.map(tg=>`<span class="tag">${x(tg)}</span>`).join('')}</div>`:''}
     ${t.link?`<a class="card-link" href="${x(t.link)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">↗ ${x(t.link)}</a>`:''}
     ${t.notes?`<div class="notes-box">⚠ ${x(t.notes)}</div>`:''}
-    ${ts?`<div class="transcript-link" onclick="openT(event,'${ts}','${x(t.name)}')">📝 View source transcript</div>`:''}
+    ${ts?`<div class="transcript-link" onclick="openT(event,'${jsq(ts)}','${jsq(t.name)}')">📝 View source transcript</div>`:''}
   </div>
 </div>`
 }
@@ -508,7 +508,7 @@ function toggle(id) {
 
 function renderTranscripts() {
   document.getElementById('t-list').innerHTML = transcripts.length
-    ? transcripts.map(t=>`<div class="t-item" onclick="openT(null,'${t.slug}','${x(t.title||t.slug)}')">
+    ? transcripts.map(t=>`<div class="t-item" onclick="openT(null,'${jsq(t.slug)}','${jsq(t.title||t.slug)}')">
         <div class="t-dot"></div>
         <div class="t-info">
           <div class="t-title">${x(t.title||t.slug)}</div>
@@ -521,8 +521,8 @@ function renderTranscripts() {
 
 function renderScreenshots() {
   document.getElementById('ss-grid').innerHTML = screenshots.length
-    ? screenshots.map(s=>`<div class="ss-card" onclick="window.open('/screenshots/${s.filename}','_blank')">
-        <img src="/screenshots/${s.filename}" alt="${s.filename}" loading="lazy">
+    ? screenshots.map(s=>`<div class="ss-card" onclick="window.open('/screenshots/'+encodeURIComponent('${jsq(s.filename)}'),'_blank')">
+        <img src="/screenshots/${encodeURIComponent(s.filename)}" alt="${x(s.filename)}" loading="lazy">
         <div class="ss-name">${s.filename.replace(/[-_]/g,' ').replace(/\.\w+$/,'')}</div>
       </div>`).join('')
     : '<div class="empty">No screenshots yet. Send a photo to the bot with caption "ait".</div>'
@@ -569,6 +569,9 @@ function fallbackCopy(text) {
 }
 
 function x(s){ const d=document.createElement('div');d.textContent=String(s||'');return d.innerHTML }
+// Escape a value for safe use inside a SINGLE-quoted JS string within a DOUBLE-quoted HTML onclick attribute.
+// Without this, names containing an apostrophe (e.g. "It's") break the inline handler — nothing clicks.
+function jsq(s){ return String(s==null?'':s).replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'&quot;').replace(/\r?\n/g,'\\n') }
 
 // ── live refresh: poll every 8s, reload data if anything changed ──
 let lastSnapshot = ''
