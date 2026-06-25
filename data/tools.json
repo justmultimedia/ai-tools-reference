@@ -1110,5 +1110,34 @@
     "notes": "DeepSeek V4 Pro pricing cited at ~$1.74/million tokens vs Anthropic's ~$15/million tokens. Full walkthrough delivered via DM to commenters. Requires commenting 'DEEPSEEK' on the video to receive the guide.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/OjhUwhilobI?is=lTESqXult9F7Ahb0"
+  },
+  {
+    "id": "claude-grades-itself-until-perfect",
+    "name": "Claude Grades Itself Until It's Perfect",
+    "content_type": "tutorial",
+    "category": "AI prompt engineering",
+    "description": "A short tutorial explaining how to build self-correcting loops with Claude AI, where the model checks its own output against measurable goals and iterates until it passes. The key insight is giving Claude specific numbers or checklists to grade against rather than vague quality instructions. A linked Google Doc provides the full loop setup template.",
+    "tags": [
+      "claude",
+      "prompt engineering",
+      "ai loops",
+      "ai agents",
+      "self-correction",
+      "automation"
+    ],
+    "link": "https://docs.google.com/document/d/1z2v3nmFedqH-OUlw1PqAjiu5dG4i0X7eeymkR6c00iA/edit?usp=sharing",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Anthropic Claude Code"
+    ],
+    "use_cases": [
+      "Automating iterative content refinement without manual re-prompting",
+      "Setting measurable quality criteria for AI-generated outputs like sourced claims or verified links"
+    ],
+    "notes": "References a claim that the head of Claude Code at Anthropic no longer prompts manually but writes loops instead. Template document is publicly accessible via Google Docs.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/uX5O0iVWK8Y?is=LfHF5OngK_nrUxyv"
   }
 ]
