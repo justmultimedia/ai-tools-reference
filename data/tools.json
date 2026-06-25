@@ -1080,5 +1080,35 @@
     "notes": "Tool names like 'Nano Banana Pro' and 'Pameli/Pomelli' may be misidentified or misspelled due to auto-caption errors — verify exact product names via Google's official channels before use. All tools are described as free at time of posting.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/h322ODX0t6U?is=B_ZyLOZFSDxUZ4L-"
+  },
+  {
+    "id": "claude-code-deepseek-cost-reduction",
+    "name": "How to Get $200 of Claude Code for $7",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "This tutorial explains how to route Claude Code through DeepSeek V4 Pro's Anthropic-compatible endpoint to dramatically reduce costs. Since DeepSeek charges ~$1.74 per million tokens versus Anthropic's ~$15, users can get equivalent coding output for a fraction of the price without changing their Claude Code workflow. The creator offers a full walkthrough on how to configure model routing in Claude Code.",
+    "tags": [
+      "claude code",
+      "deepseek",
+      "cost optimization",
+      "ai coding",
+      "developer tools",
+      "llm routing"
+    ],
+    "link": "https://youtube.com/shorts/OjhUwhilobI?is=lTESqXult9F7Ahb0",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "DeepSeek V4 Pro",
+      "Anthropic API"
+    ],
+    "use_cases": [
+      "Reducing Claude Code API costs by swapping in a cheaper compatible model backend",
+      "Routing multiple models through Claude Code using DeepSeek's Anthropic-compatible endpoint"
+    ],
+    "notes": "DeepSeek V4 Pro pricing cited at ~$1.74/million tokens vs Anthropic's ~$15/million tokens. Full walkthrough delivered via DM to commenters. Requires commenting 'DEEPSEEK' on the video to receive the guide.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/OjhUwhilobI?is=lTESqXult9F7Ahb0"
   }
 ]
