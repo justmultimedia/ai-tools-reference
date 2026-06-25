@@ -1015,5 +1015,38 @@
     "notes": "Produced by NASA's Scientific Visualization Studio. Free to access at the SVS website.",
     "added": "2026-06",
     "source": "https://www.instagram.com/reel/DZ44mN9tafE/?igsh=MWZjZGg2YTl0aGo5cw=="
+  },
+  {
+    "id": "claude-watch",
+    "name": "Claude Watch",
+    "content_type": "ai-tool",
+    "category": "AI video understanding skill",
+    "description": "A Claude plugin/skill (by taoufik123) that lets Claude watch and understand any video — extracting transcripts and analysis so you can ask questions about its content. It's zero-config to start: ffmpeg installs on first run, captions cover most public videos (an API key is only needed when captions are unavailable), and setting $WATCH_VAULT_DIR to an Obsidian vault enables auto-save so the skill skips the ingest step. Installs into Claude Code, claude.ai web, or Codex/generic agents.",
+    "tags": [
+      "claude",
+      "video",
+      "skill",
+      "plugin",
+      "transcription",
+      "obsidian"
+    ],
+    "link": "https://github.com/taoufik123",
+    "platform": "youtube",
+    "install": "/plugin marketplace add taoufik123-claude-watch && /plugin install watch@claude-watch",
+    "works_with": [
+      "Claude Code",
+      "claude.ai",
+      "Codex",
+      "Obsidian",
+      "ffmpeg"
+    ],
+    "use_cases": [
+      "Letting Claude watch and answer questions about any YouTube or public video",
+      "Auto-saving video transcripts and analysis into an Obsidian vault via $WATCH_VAULT_DIR"
+    ],
+    "screenshot": "screenshots/1782372297.jpg",
+    "notes": "Three install paths shown: Claude Code (/plugin marketplace add + /plugin install watch@claude-watch); claude.ai web (download watch.skill, drop into Settings → Capabilities → Skills); Codex/generic (git clone the GitHub repo). ffmpeg auto-installs on first run. Captions cover most public videos; API key only needed when captions aren't available. Exact GitHub repo URL truncated in screenshot (github.com/taoufik...). Source: YouTube Short by @Yury_AI, 'Claude Can Now Watch Any Video for You'.",
+    "added": "2026-06",
+    "source": "screenshot"
   }
 ]
