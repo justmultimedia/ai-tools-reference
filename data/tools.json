@@ -1048,5 +1048,37 @@
     "notes": "Three install paths shown: Claude Code (/plugin marketplace add + /plugin install watch@claude-watch); claude.ai web (download watch.skill, drop into Settings → Capabilities → Skills); Codex/generic (git clone the GitHub repo). ffmpeg auto-installs on first run. Captions cover most public videos; API key only needed when captions aren't available. Exact GitHub repo URL truncated in screenshot (github.com/taoufik...). Source: YouTube Short by @Yury_AI, 'Claude Can Now Watch Any Video for You'.",
     "added": "2026-06",
     "source": "screenshot"
+  },
+  {
+    "id": "google-free-ai-tools-suite",
+    "name": "Google's Free AI Tools Suite (NotebookLM, Gemini Canvas, Stitch, Opal & more)",
+    "content_type": "tutorial",
+    "category": "AI productivity and creativity tools",
+    "description": "A roundup of seven free Google AI tools covering image generation, document summarization, no-code app building, brand-aligned social media creation, interactive content generation, UI design, and web/Android app development. The video highlights tools many users are unaware of, positioning Google's ecosystem as broader than ChatGPT, Anthropic, and Perplexity combined. These tools cater to designers, marketers, developers, and content creators with minimal technical expertise required.",
+    "tags": [
+      "google ai",
+      "no-code",
+      "ai tools",
+      "content creation",
+      "app builder",
+      "productivity"
+    ],
+    "link": "https://youtube.com/shorts/h322ODX0t6U?is=B_ZyLOZFSDxUZ4L-",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "NotebookLM",
+      "Gemini Canvas",
+      "Google AI Studio",
+      "Opal",
+      "Stitch"
+    ],
+    "use_cases": [
+      "Rapidly prototyping web or Android apps without coding using Opal or Build in Google AI Studio",
+      "Generating on-brand social media posts and campaign ideas by scanning your existing website with Pomelli"
+    ],
+    "notes": "Tool names like 'Nano Banana Pro' and 'Pameli/Pomelli' may be misidentified or misspelled due to auto-caption errors — verify exact product names via Google's official channels before use. All tools are described as free at time of posting.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/h322ODX0t6U?is=B_ZyLOZFSDxUZ4L-"
   }
 ]
