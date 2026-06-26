@@ -1139,5 +1139,31 @@
     "notes": "References a claim that the head of Claude Code at Anthropic no longer prompts manually but writes loops instead. Template document is publicly accessible via Google Docs.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/uX5O0iVWK8Y?is=LfHF5OngK_nrUxyv"
+  },
+  {
+    "id": "space-finderqq-cosmic-scale-reel",
+    "name": "The Vastness of Space – Cosmic Scale Visualization",
+    "content_type": "tutorial",
+    "category": "space science education",
+    "description": "An Instagram reel by space_finderqq that visually illustrates the incomprehensible scale of the universe, from the Earth-Sun distance to the observable universe's filament structures. It uses light travel time as a reference to help viewers grasp distances from 8 light-minutes to billions of light years. The video serves as an accessible educational primer on cosmic scale for general audiences.",
+    "tags": [
+      "space",
+      "astronomy",
+      "cosmic scale",
+      "light years",
+      "science education",
+      "milky way"
+    ],
+    "link": "https://www.instagram.com/reel/DZqmenMTTMD/?igsh=YXN1Z3FnYzk5cTNp",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Teaching or reinforcing intuition about astronomical distances for students and curious minds",
+      "Using as a visual reference to explain why space travel between stars is so challenging"
+    ],
+    "notes": "Content is from the Instagram account space_finderqq, focused on daily space facts. No original source or creator credited beyond 'Via:' (left blank in description).",
+    "added": "2026-06",
+    "source": "https://www.instagram.com/reel/DZqmenMTTMD/?igsh=YXN1Z3FnYzk5cTNp"
   }
 ]
