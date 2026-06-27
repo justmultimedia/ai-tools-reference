@@ -1193,5 +1193,32 @@
     "notes": "Open-source and free; over 108,000 GitHub stars at time of publishing; created and used daily by Gary Tan (Y Combinator CEO)",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/85P6ygXB9AY?is=C9UdgXbNWvufiuNG"
+  },
+  {
+    "id": "claude-code-security-guidance-plugin",
+    "name": "Claude Code Security Guidance Plugin",
+    "content_type": "tutorial",
+    "category": "AI coding security",
+    "description": "An explanation of the official Claude Code security guidance plugin that reviews AI-generated code changes for common vulnerabilities during the coding session. The plugin checks at three points (after file edits, after each turn, and at commit/push) using pattern matching at no extra model cost. Custom rules via a markdown config file make it adaptable to project-specific security requirements.",
+    "tags": [
+      "claude code",
+      "security",
+      "ai coding",
+      "vulnerability scanning",
+      "code review"
+    ],
+    "link": "https://youtube.com/shorts/gfUJUIbQ-hs?is=CZrcw2kvsxOvkHS0",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Automatically scanning AI-generated code for common security vulnerabilities like injection, weak crypto, and secrets exposure",
+      "Defining project-specific security rules to enforce custom policies such as role checks on admin routes"
+    ],
+    "notes": "Described as an early warning layer only — not a security guarantee. Should be used alongside code review and CI pipelines. Custom rules are configured via .claude/claudesecurityguidance.md.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/gfUJUIbQ-hs?is=CZrcw2kvsxOvkHS0"
   }
 ]
