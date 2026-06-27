@@ -1165,5 +1165,33 @@
     "notes": "Content is from the Instagram account space_finderqq, focused on daily space facts. No original source or creator credited beyond 'Via:' (left blank in description).",
     "added": "2026-06",
     "source": "https://www.instagram.com/reel/DZqmenMTTMD/?igsh=YXN1Z3FnYzk5cTNp"
+  },
+  {
+    "id": "g-stack-claude-code-ops-toolkit",
+    "name": "G-Stack",
+    "content_type": "ai-tool",
+    "category": "AI coding automation",
+    "description": "G-Stack is an open-source Claude Code ops automation toolkit created by Gary Tan, CEO of Y Combinator, featuring 23 integrated tools that transform Claude Code into a full automated ops team. It covers the entire software development lifecycle including product oversight, design review, architecture locking, real browser QA testing, and automated release management. Installable with a single command, it enables developers to plan, design, review, test, and deploy applications without continuous manual oversight.",
+    "tags": [
+      "claude-code",
+      "devops-automation",
+      "open-source",
+      "developer-tools",
+      "ai-coding",
+      "startup-tools"
+    ],
+    "link": null,
+    "platform": "youtube",
+    "install": "single command install (see repo)",
+    "works_with": [
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Automating the full software development lifecycle from planning to deployment",
+      "Replacing manual Claude Code babysitting with an integrated AI-powered ops pipeline"
+    ],
+    "notes": "Open-source and free; over 108,000 GitHub stars at time of publishing; created and used daily by Gary Tan (Y Combinator CEO)",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/85P6ygXB9AY?is=C9UdgXbNWvufiuNG"
   }
 ]
