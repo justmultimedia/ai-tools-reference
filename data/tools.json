@@ -1220,5 +1220,35 @@
     "notes": "Described as an early warning layer only — not a security guarantee. Should be used alongside code review and CI pipelines. Custom rules are configured via .claude/claudesecurityguidance.md.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/gfUJUIbQ-hs?is=CZrcw2kvsxOvkHS0"
+  },
+  {
+    "id": "markitdown-claude-pdf-token-optimization",
+    "name": "Markitdown for Claude PDF Token Reduction",
+    "content_type": "tutorial",
+    "category": "AI document processing",
+    "description": "A tutorial explaining how to use Microsoft's open-source Markitdown tool to convert PDFs and other documents into clean Markdown before sending them to Claude, reducing token consumption by up to 70%. Markitdown has over 128,000 GitHub stars and supports PDFs, Word Docs, PowerPoints, and Excel sheets. It integrates with Claude Desktop via a one-click MCP server connection for automatic file conversion.",
+    "tags": [
+      "pdf",
+      "markdown",
+      "claude",
+      "token-efficiency",
+      "markitdown",
+      "mcp"
+    ],
+    "link": "https://github.com/microsoft/markitdown",
+    "platform": "youtube",
+    "install": "pip install markitdown",
+    "works_with": [
+      "Claude Desktop",
+      "Claude AI",
+      "MCP server"
+    ],
+    "use_cases": [
+      "Converting PDFs to Markdown before uploading to Claude to reduce token usage",
+      "Automatically converting Word Docs, PowerPoints, and Excel sheets for cleaner AI input"
+    ],
+    "notes": "Free and open-source tool by Microsoft. Claims up to 70% token reduction. MCP server integration requires Claude Desktop.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/wmmh83AjEWA?is=QJkMMoxChlYZyyi2"
   }
 ]
