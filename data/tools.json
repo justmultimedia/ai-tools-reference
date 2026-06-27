@@ -1250,5 +1250,32 @@
     "notes": "Free and open-source tool by Microsoft. Claims up to 70% token reduction. MCP server integration requires Claude Desktop.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/wmmh83AjEWA?is=QJkMMoxChlYZyyi2"
+  },
+  {
+    "id": "council-prompt-claude-multi-agent",
+    "name": "The Council Prompt — 5-Agent Stress-Testing for Claude",
+    "content_type": "tutorial",
+    "category": "AI prompting techniques",
+    "description": "The Council is a prompting technique for Claude that spawns five specialized AI agents — the Contrarian, First Principles Thinker, Expansionist, Outsider, and Executor — each analyzing a problem from a distinct angle. Their responses are randomly shuffled and sent to five peer-review agents, then synthesized by a 'Chairman' agent into a final recommendation. The technique aims to reduce hallucinations and blind spots by forcing multi-perspective stress-testing of any output.",
+    "tags": [
+      "claude",
+      "prompt engineering",
+      "multi-agent",
+      "hallucination reduction",
+      "ai workflow"
+    ],
+    "link": "https://youtube.com/shorts/11zuICZJqSE?is=z2o-45zryA7bvld5",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Stress-testing AI-generated plans or strategies before acting on them",
+      "Reducing Claude hallucinations by forcing adversarial and multi-angle analysis"
+    ],
+    "notes": "This is a prompting pattern, not a standalone tool — requires crafting a specific system prompt to activate the Council behavior in Claude. No cost beyond normal Claude API/usage fees.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/11zuICZJqSE?is=z2o-45zryA7bvld5"
   }
 ]
