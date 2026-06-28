@@ -1387,5 +1387,31 @@
     "notes": "Applies to ChatGPT accounts with memory features enabled. Steps may vary depending on ChatGPT plan (Free vs Plus) and interface updates from OpenAI.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/63W-0ajabxA?is=eis69P8ETXfd_36s"
+  },
+  {
+    "id": "how-to-pay-less-inheritance-and-capital-gains-tax-ireland",
+    "name": "How To Pay Less Inheritance AND Capital Gains Tax 🇮🇪",
+    "content_type": "tutorial",
+    "category": "personal finance & tax planning",
+    "description": "A short educational video from Ask About Wealth explaining how Irish families can reduce their combined inheritance and capital gains tax liability by choosing to pass property through a will rather than selling it during the parents' lifetime. The video uses a real-world case study involving a €2 million property portfolio to illustrate the tax savings. Key to the strategy is the CGT 'uplift on death' rule available in Ireland.",
+    "tags": [
+      "inheritance tax",
+      "capital gains tax",
+      "ireland",
+      "estate planning",
+      "tax strategy",
+      "personal finance"
+    ],
+    "link": "https://youtube.com/shorts/LQ0t0hA01Oc",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Reducing combined CGT and gift/inheritance tax when transferring property wealth to children in Ireland",
+      "Deciding whether to sell property before death or leave it in a will for tax efficiency"
+    ],
+    "notes": "Content is specific to Irish tax law (CAT/CGT rules). Figures used: €2M property, €500k original cost, €400k CAT threshold per child (3 children). Tax rules may change — consult a qualified Irish tax adviser before acting.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/LQ0t0hA01Oc?is=1flwffaUtLRA7crQ"
   }
 ]
