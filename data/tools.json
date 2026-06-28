@@ -1413,5 +1413,34 @@
     "notes": "Content is specific to Irish tax law (CAT/CGT rules). Figures used: €2M property, €500k original cost, €400k CAT threshold per child (3 children). Tax rules may change — consult a qualified Irish tax adviser before acting.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/LQ0t0hA01Oc?is=1flwffaUtLRA7crQ"
+  },
+  {
+    "id": "wan-open-source-ai-video-model",
+    "name": "Wan (Open-Source AI Video Model)",
+    "content_type": "ai-tool",
+    "category": "AI video generation",
+    "description": "Wan is an open-source, Apache 2.0 licensed AI video generation model with over 16,000 GitHub stars. It supports text-to-video and image-to-video generation and runs locally on a single consumer GPU with no API key, monthly limits, or per-clip fees. It positions itself as a free, self-hosted alternative to closed models like Sora.",
+    "tags": [
+      "ai video",
+      "open source",
+      "text-to-video",
+      "image-to-video",
+      "local ai",
+      "open weights"
+    ],
+    "link": "https://github.com/search?q=Wan+video+model",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "consumer GPU",
+      "local machine"
+    ],
+    "use_cases": [
+      "Generate AI videos from text prompts locally without API costs",
+      "Convert images to video clips on your own hardware"
+    ],
+    "notes": "Requires a consumer GPU to run locally. Apache 2.0 licensed with open weights available for download. Mentioned as an alternative after OpenAI's Sora was shut down.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/bSVAnBqCiPY?is=LptjlUhyam1mlwum"
   }
 ]
