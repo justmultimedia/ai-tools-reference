@@ -1307,5 +1307,31 @@
     "notes": "Tmux is free and open-source. The video uses 'T-Mox/T-Max/T-Mux' interchangeably in captions — all refer to Tmux.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/DyZrsWpilcM?is=rGc9XM9crHjQqgEP"
+  },
+  {
+    "id": "fatboy-slim-right-here-right-now-making-of",
+    "name": "The Story of how Fatboy Slim made Right Here, Right Now",
+    "content_type": "resource",
+    "category": "music production history",
+    "description": "A short-form video exploring the creative process behind Fatboy Slim's iconic track 'Right Here, Right Now'. It reveals how the song was inspired by Massive Attack's 'Unfinished Sympathy' and built from sampled string loops taken from records like 'The Ashes the Rain and I' by the James Gang. An interesting look at budget-driven sampling creativity in 1990s electronic music production.",
+    "tags": [
+      "music production",
+      "sampling",
+      "fatboy slim",
+      "electronic music",
+      "big beat",
+      "music history"
+    ],
+    "link": "https://youtube.com/shorts/HbUDP-dTD4s?is=fuhok4AaV8mYmjcn",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Learning about sampling techniques used in classic electronic music tracks",
+      "Understanding how budget constraints can drive creative production decisions"
+    ],
+    "notes": "Content is a YouTube Short; full narrative may be truncated in auto-captions. References Massive Attack and a '90s sci-fi movie as influences.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/HbUDP-dTD4s?is=fuhok4AaV8mYmjcn"
   }
 ]
