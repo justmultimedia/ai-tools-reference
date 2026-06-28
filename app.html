@@ -344,6 +344,7 @@ body{display:flex;flex-direction:column;min-height:100vh}
     <div class="panel-head">
       <span class="panel-icon">📝</span>
       <div class="panel-title" id="p-title"></div>
+      <button class="panel-close" onclick="copyPanel(this)" style="font-size:12px;font-weight:600;white-space:nowrap">⧉ Copy text</button>
       <button class="panel-close" onclick="closePanel()">✕</button>
     </div>
     <div class="panel-meta" id="p-meta"></div>
@@ -357,6 +358,19 @@ const TYPE_ICONS = {'ai-tool':'🤖','multimedia-tool':'🎬','tutorial':'📖',
 
 let tools=[], transcripts=[], screenshots=[], activeCat='all', openId=null
 let skillsLoaded=true
+
+// Copy the open panel's text to the clipboard (so you don't have to hand-select).
+function copyPanel(btn) {
+  const body = document.getElementById('p-body')
+  const text = body ? (body.innerText || body.textContent || '') : ''
+  const done = (msg) => { const old = btn.dataset.label || btn.textContent; btn.dataset.label = old; btn.textContent = msg; setTimeout(() => { btn.textContent = btn.dataset.label }, 1400) }
+  navigator.clipboard.writeText(text).then(() => done('Copied ✓')).catch(() => {
+    // fallback: select the body text so the user can ⌘C
+    const r = document.createRange(); r.selectNodeContents(body)
+    const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r)
+    done('Selected — ⌘C')
+  })
+}
 
 async function load() {
   // Load independently so one failure doesn't block others
