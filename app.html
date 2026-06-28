@@ -615,7 +615,16 @@ function showToast(msg) {
   t._to = setTimeout(() => t.style.opacity = '0', 2500)
 }
 
-document.getElementById('q').addEventListener('input', renderTools)
+document.getElementById('q').addEventListener('input', () => {
+  // The top-right search filters Tools. If another section is showing (e.g. Skills),
+  // jump to Tools so the results are actually visible.
+  const qEl = document.getElementById('q')
+  if (qEl.value && !document.getElementById('sec-tools').classList.contains('active')) {
+    const toolsCard = document.querySelector('.stat-card[onclick*="showSection(\'tools\'"]')
+    showSection('tools', toolsCard)
+  }
+  renderTools()
+})
 document.addEventListener('keydown', e=>{ if(e.key==='Escape') closePanel() })
 load().then(() => {
   lastSnapshot = JSON.stringify({tools:tools.length,transcripts:transcripts.length,screenshots:screenshots.length})
