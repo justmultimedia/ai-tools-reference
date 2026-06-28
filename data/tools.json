@@ -1277,5 +1277,35 @@
     "notes": "This is a prompting pattern, not a standalone tool — requires crafting a specific system prompt to activate the Council behavior in Claude. No cost beyond normal Claude API/usage fees.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/11zuICZJqSE?is=z2o-45zryA7bvld5"
+  },
+  {
+    "id": "tmux-for-ai-engineers",
+    "name": "Tmux for AI Engineers",
+    "content_type": "tutorial",
+    "category": "AI development workflow",
+    "description": "A tutorial demonstrating how AI engineers can use Tmux, a terminal multiplexer, to run long-running AI coding agents persistently without crashes or lost sessions. It shows how to split the terminal into multiple panes for simultaneous coding, debugging, testing, and logging. Tmux keeps agents running even after disconnecting from Wi-Fi or closing the laptop.",
+    "tags": [
+      "tmux",
+      "terminal",
+      "ai agents",
+      "devops",
+      "developer tools",
+      "workflow"
+    ],
+    "link": "https://youtube.com/shorts/DyZrsWpilcM?is=rGc9XM9crHjQqgEP",
+    "platform": "youtube",
+    "install": "brew install tmux",
+    "works_with": [
+      "GrokBuild",
+      "OpenCode",
+      "CloudCode"
+    ],
+    "use_cases": [
+      "Running AI coding agents persistently across disconnections or laptop closures",
+      "Splitting terminal into multiple panes for simultaneous coding, debugging, testing, and log monitoring"
+    ],
+    "notes": "Tmux is free and open-source. The video uses 'T-Mox/T-Max/T-Mux' interchangeably in captions — all refer to Tmux.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/DyZrsWpilcM?is=rGc9XM9crHjQqgEP"
   }
 ]
