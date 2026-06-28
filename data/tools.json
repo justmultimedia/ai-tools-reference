@@ -1442,5 +1442,34 @@
     "notes": "Requires a consumer GPU to run locally. Apache 2.0 licensed with open weights available for download. Mentioned as an alternative after OpenAI's Sora was shut down.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/bSVAnBqCiPY?is=LptjlUhyam1mlwum"
+  },
+  {
+    "id": "ai-loops-prompting-method-upgraded",
+    "name": "The New AI Prompting Method Everyone Is Talking About: Loops",
+    "content_type": "tutorial",
+    "category": "AI prompting and automation",
+    "description": "A beginner-friendly video tutorial explaining 'loop engineering' — a technique where AI agents prompt themselves in iterative cycles rather than relying on manual prompting or hand-written code. The video walks through a real-world demo using Claude Code to run three parallel AI agents for an online pickleball store, covering content scouting, quiz creation, and marketing generation, then hands off to an orchestrator agent on a weekly loop. Inspired by how Boris Cherny (creator of Claude Code) and Peter Steinberger (creator of OpenClaw) now approach programming.",
+    "tags": [
+      "ai agents",
+      "loop engineering",
+      "claude code",
+      "prompt engineering",
+      "automation",
+      "multi-agent"
+    ],
+    "link": "https://youtu.be/Ry3YyG22EUc?si=P1m_NpdaTfJTv0F5",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Anthropic Claude"
+    ],
+    "use_cases": [
+      "Building multi-agent pipelines that run autonomously on a schedule without manual re-prompting",
+      "Automating content research, quiz generation, and marketing copy production for e-commerce using parallel AI agents"
+    ],
+    "notes": "Created just before Anthropic released Claude Fable 5 (June 9, 2026), described as Anthropic's first Mythos-class model built for long-running autonomous tasks. Peter Steinberger's tool is referred to as 'OpenClaw' in the description but 'Open Claude' in the captions — likely the same tool under a slightly different name.",
+    "added": "2026-06",
+    "source": "https://youtu.be/Ry3YyG22EUc?si=P1m_NpdaTfJTv0F5"
   }
 ]
