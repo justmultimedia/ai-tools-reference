@@ -1359,5 +1359,33 @@
     "notes": "Content is Ireland-specific (🇺🇸 references SBE and Irish tax structures). Published as a YouTube Short by the channel 'Ask About Wealth'.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/pLH-RHOC6go?is=lBeTOIS9oRG3oPL3"
+  },
+  {
+    "id": "chatgpt-profile-data-prompts",
+    "name": "ChatGPT Knows More About You Than You Think — See & Delete It",
+    "content_type": "tutorial",
+    "category": "AI privacy and data management",
+    "description": "A short tutorial showing six prompts you can use in ChatGPT to reveal what personal data and inferences it has stored about you, including age range, income, personality traits, and habits. It also walks through how to delete stored memories via Settings > Personalization > Manage Memories. Additionally covers how to disable chat history and model training to limit future data collection.",
+    "tags": [
+      "chatgpt",
+      "privacy",
+      "data deletion",
+      "ai memory",
+      "prompts",
+      "personal data"
+    ],
+    "link": "https://youtube.com/shorts/63W-0ajabxA?is=eis69P8ETXfd_36s",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "ChatGPT"
+    ],
+    "use_cases": [
+      "Auditing what personal data ChatGPT has inferred or stored about you",
+      "Deleting unwanted memories and disabling chat history or model training in ChatGPT settings"
+    ],
+    "notes": "Applies to ChatGPT accounts with memory features enabled. Steps may vary depending on ChatGPT plan (Free vs Plus) and interface updates from OpenAI.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/63W-0ajabxA?is=eis69P8ETXfd_36s"
   }
 ]
