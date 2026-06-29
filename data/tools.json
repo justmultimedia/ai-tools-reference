@@ -1559,5 +1559,33 @@
     "notes": "Claimed to be up to 10x faster than Qwen-3-VL. Fully open-sourced on HuggingFace and GitHub. Exact model name/repo URL not specified in the video.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/BhIVDXpBHMs?is=MmpXM2HXVothIfDi"
+  },
+  {
+    "id": "ornith-1-0-open-source-coding-llm",
+    "name": "Ornith 1.0",
+    "content_type": "ai-tool",
+    "category": "AI coding",
+    "description": "Ornith 1.0 is an open-source, open-weights agentic coding LLM from DeepReinforce that outperforms Claude Opus 4.7 on Terminal-Bench (77.5 vs 70.3) and SWE-bench Verified (82.4 vs 80.8). It ships in four sizes (9B, 31B, 35B MoE, 397B MoE), is MIT licensed, and can run locally via Ollama with no API key required. It uses a self-scaffolding reinforcement learning approach where the model writes its own training harness.",
+    "tags": [
+      "open-source",
+      "coding-llm",
+      "local-ai",
+      "agentic-coding",
+      "ollama",
+      "reinforcement-learning"
+    ],
+    "link": "https://youtube.com/shorts/8Cw1jX6o9w0?is=uOSFhyhi-FVn4Oq1",
+    "platform": "youtube",
+    "install": "ollama run ornith",
+    "works_with": [
+      "ollama"
+    ],
+    "use_cases": [
+      "Running a state-of-the-art coding LLM locally on a laptop without an API key",
+      "Agentic software engineering tasks such as autonomous code generation and bug fixing"
+    ],
+    "notes": "MIT licensed. The 9B model is 5.6 GB. Benchmark comparisons are against Claude Opus 4.7. Four sizes available: 9B Dense, 31B Dense, 35B MoE, 397B MoE.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/8Cw1jX6o9w0?is=uOSFhyhi-FVn4Oq1"
   }
 ]
