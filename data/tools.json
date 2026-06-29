@@ -1501,5 +1501,34 @@
     "notes": "Security warning: the remote QR code or link should be treated like terminal access — never share, screenshot, or post it publicly.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/WjK-fTHjZzM?is=lw8XeVo8cwXWPF_K"
+  },
+  {
+    "id": "6-claude-code-plugins-nobody-is-using",
+    "name": "6 Claude Code Plugins Nobody Is Using",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A short-form video overview of six underused Claude Code plugins: Superpowers, Frontend Design, Code Review, Security Review, CloudMem, and Stack. Each plugin extends Claude Code's capabilities in areas like planning enforcement, UI generation, multi-agent code review, security scanning, persistent memory, and specialized AI skills. Together they aim to replicate the output of a full engineering team.",
+    "tags": [
+      "claude code",
+      "ai coding",
+      "plugins",
+      "developer tools",
+      "llm agents"
+    ],
+    "link": "https://youtube.com/shorts/lBFXRik6XLs?is=XT8szIc6DO6Ml8wI",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Anthropic Claude",
+      "Cursor"
+    ],
+    "use_cases": [
+      "Enforcing planning and testing before Claude writes code using the Superpowers plugin",
+      "Giving Claude persistent memory across sessions with CloudMem to avoid re-explaining project context"
+    ],
+    "notes": "Video is a YouTube Short. Viewer can comment 'plugins' to receive a full list with links. Stack plugin attributed to Garry Tan at Y Combinator with 23 specialized skills.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/lBFXRik6XLs?is=XT8szIc6DO6Ml8wI"
   }
 ]
