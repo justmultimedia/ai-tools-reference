@@ -1617,5 +1617,34 @@
     "notes": "The video claims Andrej Karpathy is an OpenAI co-founder 'now at Anthropic building Claude' — this is inaccurate; Karpathy co-founded OpenAI and later worked at Tesla, but is not at Anthropic. The core prompting technique may still be useful regardless. A free prompt link is referenced in the creator's bio.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/Jb65hehBiR8?is=0D8Mu9EsWzWIAqwP"
+  },
+  {
+    "id": "claude-code-adversarial-bug-review",
+    "name": "Claude Code Created (and fixed) 42 Bugs in My App",
+    "content_type": "tutorial",
+    "category": "AI coding security",
+    "description": "A developer shares their hard rule: no payment code ships until a separate team of AI agents adversarially attacks it first. They unleashed 13 agents on their own payment code, which surfaced 42 findings including 8 critical and 1 life-or-death bug — one that Claude itself had introduced. The key insight is that adversarial AI review (separate from the writing agent) is essential for catching AI-generated bugs before they reach production.",
+    "tags": [
+      "claude",
+      "ai security",
+      "adversarial review",
+      "payment code",
+      "bug detection",
+      "ai coding"
+    ],
+    "link": "https://youtube.com/shorts/nWSi0p929Bc?is=ds7YdlV8Sozsmlj7",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "AI agents"
+    ],
+    "use_cases": [
+      "Running adversarial AI agent teams to stress-test payment and financial code before deployment",
+      "Using a separate AI model to audit and catch bugs introduced by the original code-writing AI"
+    ],
+    "notes": "Short-form video (YouTube Shorts). The workflow described uses multiple AI agents in an adversarial red-team role, distinct from the agent that wrote the original code.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/nWSi0p929Bc?is=ds7YdlV8Sozsmlj7"
   }
 ]
