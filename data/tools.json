@@ -1530,5 +1530,34 @@
     "notes": "Video is a YouTube Short. Viewer can comment 'plugins' to receive a full list with links. Stack plugin attributed to Garry Tan at Y Combinator with 23 specialized skills.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/lBFXRik6XLs?is=XT8szIc6DO6Ml8wI"
+  },
+  {
+    "id": "nvidia-parallel-box-decoding-vision-model",
+    "name": "NVIDIA Parallel Box Decoding Computer Vision Model",
+    "content_type": "ai-tool",
+    "category": "computer vision / object detection",
+    "description": "NVIDIA has open-sourced a computer vision model that is up to 10x faster than leading alternatives like Qwen-3-VL by using parallel box decoding, which predicts entire bounding boxes at once instead of sequentially token-by-token. The model was trained on over 100 million queries and hundreds of millions of bounding boxes, delivering significant gains in both speed and accuracy for object detection tasks. It is freely available on HuggingFace and GitHub for developers and researchers.",
+    "tags": [
+      "nvidia",
+      "object-detection",
+      "computer-vision",
+      "open-source",
+      "parallel-decoding",
+      "huggingface"
+    ],
+    "link": "https://huggingface.co",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "HuggingFace",
+      "GitHub"
+    ],
+    "use_cases": [
+      "Real-time object detection in autonomous vehicles",
+      "High-speed visual data processing for robotics and surveillance systems"
+    ],
+    "notes": "Claimed to be up to 10x faster than Qwen-3-VL. Fully open-sourced on HuggingFace and GitHub. Exact model name/repo URL not specified in the video.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/BhIVDXpBHMs?is=MmpXM2HXVothIfDi"
   }
 ]
