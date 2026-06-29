@@ -1646,5 +1646,31 @@
     "notes": "Short-form video (YouTube Shorts). The workflow described uses multiple AI agents in an adversarial red-team role, distinct from the agent that wrote the original code.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/nWSi0p929Bc?is=ds7YdlV8Sozsmlj7"
+  },
+  {
+    "id": "steven-bartlett-parents-agree",
+    "name": "Parents, do you agree? — Steven Bartlett",
+    "content_type": "other",
+    "category": "parenting opinion / social commentary",
+    "description": "A short-form Facebook video by Steven Bartlett posing a thought-provoking question directed at parents, garnering 2.8 million views and 35K reactions. The content appears to be opinion or discussion-based, inviting parental perspectives on an unspecified topic. Steven Bartlett is known for entrepreneurship and motivational content, suggesting the video likely touches on parenting philosophy or child-rearing advice.",
+    "tags": [
+      "parenting",
+      "steven bartlett",
+      "opinion",
+      "viral",
+      "discussion",
+      "facebook video"
+    ],
+    "link": "https://www.facebook.com/share/r/1DEZv5sdy7/?mibextid=wwXIfr",
+    "platform": "facebook",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Sparking parenting discussions and debates among social media audiences",
+      "Sharing motivational or perspective-shifting content related to raising children"
+    ],
+    "notes": "2.8M views and 35K reactions indicate high viral engagement. Full context of the question posed is not available from the metadata alone.",
+    "added": "2026-06",
+    "source": "https://www.facebook.com/share/r/1DEZv5sdy7/?mibextid=wwXIfr"
   }
 ]
