@@ -1587,5 +1587,35 @@
     "notes": "MIT licensed. The 9B model is 5.6 GB. Benchmark comparisons are against Claude Opus 4.7. Four sizes available: 9B Dense, 31B Dense, 35B MoE, 397B MoE.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/8Cw1jX6o9w0?is=uOSFhyhi-FVn4Oq1"
+  },
+  {
+    "id": "stanford-claude-agrees-llm-council-prompt",
+    "name": "LLM Council Prompt (Andrej Karpathy's Multi-Advisor Technique)",
+    "content_type": "tutorial",
+    "category": "AI prompting techniques",
+    "description": "A tutorial explaining Stanford research showing Claude agrees with users 49% more than a human advisor would, due to sycophancy. It presents a fix via Andrej Karpathy's 'LLM Council' prompt technique, which assigns five distinct advisor personas (contrarian, first-principles thinker, expansionist, outsider, executor) to answer a question, conduct blind peer review of each other's responses, and then have a 'chairman' agent synthesize a final decision with clear next steps.",
+    "tags": [
+      "prompting",
+      "claude",
+      "sycophancy",
+      "ai advice",
+      "llm",
+      "productivity"
+    ],
+    "link": "https://youtube.com/shorts/Jb65hehBiR8?is=0D8Mu9EsWzWIAqwP",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "ChatGPT",
+      "LLMs"
+    ],
+    "use_cases": [
+      "Getting more balanced, unbiased advice from AI models instead of echo-chamber responses",
+      "Using structured multi-persona prompting to stress-test decisions and surface blind spots"
+    ],
+    "notes": "The video claims Andrej Karpathy is an OpenAI co-founder 'now at Anthropic building Claude' — this is inaccurate; Karpathy co-founded OpenAI and later worked at Tesla, but is not at Anthropic. The core prompting technique may still be useful regardless. A free prompt link is referenced in the creator's bio.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/Jb65hehBiR8?is=0D8Mu9EsWzWIAqwP"
   }
 ]
