@@ -1471,5 +1471,35 @@
     "notes": "Created just before Anthropic released Claude Fable 5 (June 9, 2026), described as Anthropic's first Mythos-class model built for long-running autonomous tasks. Peter Steinberger's tool is referred to as 'OpenClaw' in the description but 'Open Claude' in the captions — likely the same tool under a slightly different name.",
     "added": "2026-06",
     "source": "https://youtu.be/Ry3YyG22EUc?si=P1m_NpdaTfJTv0F5"
+  },
+  {
+    "id": "claude-code-remote-control-explained",
+    "name": "Claude Code Remote Control Explained",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A beginner-focused explanation of Claude Code's remote control feature, which lets you start a coding session on your Mac and supervise it from another device like a phone. The key insight is to use the phone for oversight — reading progress, answering questions, and stopping bad directions — not for typing code. Includes a safety reminder to keep the remote QR code or link private, as it grants terminal-level access.",
+    "tags": [
+      "claude code",
+      "ai coding",
+      "remote control",
+      "supervision",
+      "automation",
+      "developer tools"
+    ],
+    "link": "https://youtube.com/shorts/WjK-fTHjZzM?is=lw8XeVo8cwXWPF_K",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Mac",
+      "mobile browser"
+    ],
+    "use_cases": [
+      "Supervising long-running Claude Code tasks from a phone while away from desk",
+      "Approving or stopping AI-driven refactors, test runs, or documentation updates remotely"
+    ],
+    "notes": "Security warning: the remote QR code or link should be treated like terminal access — never share, screenshot, or post it publicly.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/WjK-fTHjZzM?is=lw8XeVo8cwXWPF_K"
   }
 ]
