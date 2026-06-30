@@ -1698,5 +1698,38 @@
     "notes": "This is a short-form video clip shared on Facebook from The Diary of a CEO podcast. No specific episode number or guest is mentioned in the metadata.",
     "added": "2026-06",
     "source": "https://www.facebook.com/share/r/18vmHrpfoS/?mibextid=wwXIfr"
+  },
+  {
+    "id": "agentreach-realtime-social-ai",
+    "name": "AgentReach",
+    "content_type": "ai-tool",
+    "category": "AI agent data integration",
+    "description": "AgentReach is a free, open-source tool that enables AI agents to read real-time data from Twitter, Reddit, YouTube, and GitHub without requiring paid APIs. It uses browser cookie authentication for Twitter and Reddit, while YouTube and GitHub work out of the box. With over 20,000 GitHub stars, it consolidates multiple platform data sources into a single command, keeping AI agents current beyond their training data.",
+    "tags": [
+      "ai-agents",
+      "open-source",
+      "real-time-data",
+      "social-media",
+      "data-integration",
+      "api-free"
+    ],
+    "link": null,
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Twitter",
+      "Reddit",
+      "YouTube",
+      "GitHub",
+      "yt-dlp"
+    ],
+    "use_cases": [
+      "Real-time social media monitoring for AI agents",
+      "Trend analysis and data-driven decision-making across platforms",
+      "Augmenting AI agents with live web data beyond training datasets"
+    ],
+    "notes": "Uses browser cookie login for Twitter and Reddit access; no additional setup needed for YouTube and GitHub. Free and open-source with no API costs.",
+    "added": "2026-06",
+    "source": "https://youtube.com/shorts/mvovVat3wWo?is=pX_SjdIhrsNWMBLI"
   }
 ]
