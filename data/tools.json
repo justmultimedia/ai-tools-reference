@@ -1731,5 +1731,31 @@
     "notes": "Uses browser cookie login for Twitter and Reddit access; no additional setup needed for YouTube and GitHub. Free and open-source with no API costs.",
     "added": "2026-06",
     "source": "https://youtube.com/shorts/mvovVat3wWo?is=pX_SjdIhrsNWMBLI"
+  },
+  {
+    "id": "billionaire-warning-jeremy-grantham-crash",
+    "name": "Billionaire's WARNING: I'm SELLING. The Crash Is Already Here!",
+    "content_type": "resource",
+    "category": "investing and financial education",
+    "description": "A long-form interview with billionaire investor Jeremy Grantham, co-founder of GMO, who predicted the dot-com crash and 2007 housing collapse. Grantham warns that the AI bubble is the largest in American history and shares specific portfolio strategies to protect wealth before a market downturn. The conversation also covers crypto skepticism, overvalued US equities, housing prices, and environmental chemical risks.",
+    "tags": [
+      "investing",
+      "financial markets",
+      "ai bubble",
+      "market crash",
+      "jeremy grantham",
+      "wealth protection"
+    ],
+    "link": "https://youtu.be/32u5T6lO8qk?is=yQp2d90mU2-YH1Jm",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Understanding macro investing strategies during a potential market bubble",
+      "Learning how to reposition a portfolio away from overvalued US tech stocks"
+    ],
+    "notes": "Jeremy Grantham's comments represent his personal opinions only, not those of GMO. Views expressed are contrarian and include predictions such as Bitcoin going to zero and a 30% decline in house prices.",
+    "added": "2026-06",
+    "source": "https://youtu.be/32u5T6lO8qk?is=yQp2d90mU2-YH1Jm"
   }
 ]
