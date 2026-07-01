@@ -1787,5 +1787,31 @@
     "notes": "Free tier access; rate limits or usage caps may apply. Availability of specific models may change over time.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/_t4v_qmYAGM?is=NbbodOaXb32MhuJ1"
+  },
+  {
+    "id": "irish-tax-worse-than-most-people-realise",
+    "name": "Irish Tax Is Worse Than Most People Realise",
+    "content_type": "tutorial",
+    "category": "personal finance & taxation",
+    "description": "A short-form video comparing take-home pay on €100,000 earnings across several European countries, highlighting that Ireland has one of the highest tax burdens in Europe. The video also notes Ireland ranks 6th highest for capital gains tax and 9th highest for inheritance tax across 35 European countries. It urges Irish taxpayers to use all legitimate tax breaks available, citing a Revenue report that Irish people overpay taxes by €400 million per year.",
+    "tags": [
+      "ireland",
+      "taxation",
+      "personal finance",
+      "capital gains tax",
+      "take-home pay",
+      "europe"
+    ],
+    "link": "https://youtube.com/shorts/P_hJUjNjkr8?is=rCcL5hnAX1j0Q_JR",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Understanding how Irish income tax compares to other European countries",
+      "Learning about legitimate tax breaks available to Irish taxpayers"
+    ],
+    "notes": "Figures are based on a €100,000 gross salary scenario. Capital gains and inheritance tax rankings are across 35 European countries. The €400 million overpayment figure comes from a report by the Irish Public Accounts Committee (PAC) from Revenue.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/P_hJUjNjkr8?is=rCcL5hnAX1j0Q_JR"
   }
 ]
