@@ -1813,5 +1813,32 @@
     "notes": "Figures are based on a €100,000 gross salary scenario. Capital gains and inheritance tax rankings are across 35 European countries. The €400 million overpayment figure comes from a report by the Irish Public Accounts Committee (PAC) from Revenue.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/P_hJUjNjkr8?is=rCcL5hnAX1j0Q_JR"
+  },
+  {
+    "id": "claude-council-workflow",
+    "name": "Claude Council",
+    "content_type": "tutorial",
+    "category": "AI prompt engineering",
+    "description": "Claude Council is a structured prompting workflow where a single idea or decision is reviewed by five distinct AI advisor personas (critic, strategist, optimist, outsider, practical advisor) that then critique each other's responses before a 'chairman' role synthesizes a final verdict. This multi-perspective debate approach pressure-tests ideas more thoroughly than standard single-response prompting. It is activated simply by typing 'counsel this' followed by your prompt in Claude.",
+    "tags": [
+      "claude",
+      "prompt engineering",
+      "decision making",
+      "ai workflow",
+      "multi-agent"
+    ],
+    "link": "https://youtube.com/shorts/r4SvGVC7jvY?is=G1uI2J0CXRrsleQt",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Evaluating product or startup ideas from multiple critical angles before committing resources",
+      "Making high-stakes business decisions such as pricing strategy, hiring, or technical architecture"
+    ],
+    "notes": "No special plugin or tool required — workflow is prompt-based and works directly in Claude. The trigger phrase described is 'counsel this'. Technique relies on Claude's instruction-following to role-play multiple personas in sequence.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/r4SvGVC7jvY?is=G1uI2J0CXRrsleQt"
   }
 ]
