@@ -1757,5 +1757,35 @@
     "notes": "Jeremy Grantham's comments represent his personal opinions only, not those of GMO. Views expressed are contrarian and include predictions such as Bitcoin going to zero and a 30% decline in house prices.",
     "added": "2026-06",
     "source": "https://youtu.be/32u5T6lO8qk?is=yQp2d90mU2-YH1Jm"
+  },
+  {
+    "id": "nvidia-build-free-ai-api-access",
+    "name": "NVIDIA Build — Free Access to 80+ AI Models",
+    "content_type": "ai-tool",
+    "category": "AI API access",
+    "description": "NVIDIA's Build platform now offers free access to over 80 leading AI models including DeepSeek, OpenAI, Kimi, Minimax, and GLM, with instantly generated API keys. Developers can integrate these models directly into tools like Claude Code and Cursor without paying for individual API subscriptions. This centralizes multi-model access in one place, lowering the barrier to entry for AI experimentation and development.",
+    "tags": [
+      "nvidia",
+      "free api",
+      "ai models",
+      "developer tools",
+      "deepseek",
+      "openai"
+    ],
+    "link": "https://build.nvidia.com",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Cursor",
+      "any OpenAI-compatible API client"
+    ],
+    "use_cases": [
+      "Generating free API keys for AI models to use in coding assistants like Cursor or Claude Code",
+      "Experimenting with multiple AI models without upfront API costs"
+    ],
+    "notes": "Free tier access; rate limits or usage caps may apply. Availability of specific models may change over time.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/_t4v_qmYAGM?is=NbbodOaXb32MhuJ1"
   }
 ]
