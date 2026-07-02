@@ -1840,5 +1840,31 @@
     "notes": "No special plugin or tool required — workflow is prompt-based and works directly in Claude. The trigger phrase described is 'counsel this'. Technique relies on Claude's instruction-following to role-play multiple personas in sequence.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/r4SvGVC7jvY?is=G1uI2J0CXRrsleQt"
+  },
+  {
+    "id": "alibaba-qwen-agent-world",
+    "name": "Alibaba Qwen Agent World",
+    "content_type": "ai-tool",
+    "category": "AI agent simulation",
+    "description": "Alibaba open sourced Qwen Agent World, described as the first language world model that simulates seven distinct agent environments inside a single model. It reportedly outperforms GPT 5.4 and Claude Opus 4.8 on the Agent War Bench benchmark and can run locally for free. This represents a significant advancement in AI agent technology by merging multiple environment simulations within one versatile model.",
+    "tags": [
+      "open-source",
+      "ai-agents",
+      "alibaba",
+      "qwen",
+      "world-model",
+      "local-inference"
+    ],
+    "link": null,
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Simulating and testing AI agents across multiple environments locally",
+      "Benchmarking agent performance without relying on proprietary closed models"
+    ],
+    "notes": "Version and exact release date unconfirmed from video alone. Benchmark figures (GPT 5.4, Claude Opus 4.8) reference unreleased model versions and should be treated cautiously. Free and open source; runs locally on consumer hardware.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/WMlINO1Kzug?is=_0KWH89CHQjR_h33"
   }
 ]
