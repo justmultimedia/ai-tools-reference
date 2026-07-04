@@ -1926,5 +1926,34 @@
     "notes": "Specific prompts referenced in the video are shown on screen but not fully captured in captions. No pricing discussed; Claude API or subscription costs would apply.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/auKVvHBtQHg?is=voq59VsZgchAueIa"
+  },
+  {
+    "id": "google-preferred-sources-ai-seo",
+    "name": "Google Preferred Sources for AI Search Rankings",
+    "content_type": "tutorial",
+    "category": "SEO and AI search optimization",
+    "description": "Google's new Preferred Sources feature allows users to designate specific websites they want prioritized in AI Overviews and AI Mode results, marked with a special badge. Site owners can create a direct link that prompts visitors to add their site as a preferred source, increasing visibility in AI-generated search results. This tutorial explains how to generate the link and distribute it across blog posts, email newsletters, and social media.",
+    "tags": [
+      "seo",
+      "google ai",
+      "ai overviews",
+      "preferred sources",
+      "search ranking",
+      "ai search"
+    ],
+    "link": "https://youtube.com/shorts/KTcPPM4Q2_s?is=VBaveIzU6trT13fL",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Google AI Overviews",
+      "Google AI Mode"
+    ],
+    "use_cases": [
+      "Boosting a content site's visibility in Google AI-generated search results",
+      "Encouraging newsletter subscribers and blog readers to add your site as a Google Preferred Source"
+    ],
+    "notes": "Feature appears to be newly launched; adoption advantage may diminish as competitors become aware. No pricing involved — feature is native to Google Search.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/KTcPPM4Q2_s?is=VBaveIzU6trT13fL"
   }
 ]
