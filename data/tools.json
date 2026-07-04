@@ -1898,5 +1898,33 @@
     "notes": "The creator refers to Claude's upgrade as 'Fable' which appears to be an internal or community nickname, not an official product name. Prompts are offered via DM to followers who comment. No pricing or specific model version mentioned.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/56fxyefhaUs?is=b-7kOVv0BNXa7BSg"
+  },
+  {
+    "id": "build-ai-team-launch-90-days-claude",
+    "name": "Build an AI Team and Launch in 90 Days with Claude",
+    "content_type": "tutorial",
+    "category": "AI business automation",
+    "description": "A short-form tutorial outlining how to build a five-role AI department using Claude — covering researcher, strategist, copywriter, builder, and marketer roles — to launch a business in 90 days. Each AI 'employee' is assigned specific prompts and responsibilities, from validating a problem to shipping a live landing page. The approach emphasizes speed, low cost, and replacing traditional team overhead with AI agents.",
+    "tags": [
+      "claude",
+      "ai agents",
+      "startup",
+      "business launch",
+      "prompt engineering",
+      "automation"
+    ],
+    "link": "https://youtube.com/shorts/auKVvHBtQHg?is=voq59VsZgchAueIa",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Building a lean AI-powered team to validate and launch a business idea quickly",
+      "Using Claude prompts to automate roles like research, copywriting, and landing page creation"
+    ],
+    "notes": "Specific prompts referenced in the video are shown on screen but not fully captured in captions. No pricing discussed; Claude API or subscription costs would apply.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/auKVvHBtQHg?is=voq59VsZgchAueIa"
   }
 ]
