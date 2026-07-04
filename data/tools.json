@@ -1866,5 +1866,37 @@
     "notes": "Version and exact release date unconfirmed from video alone. Benchmark figures (GPT 5.4, Claude Opus 4.8) reference unreleased model versions and should be treated cautiously. Free and open source; runs locally on consumer hardware.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/WMlINO1Kzug?is=_0KWH89CHQjR_h33"
+  },
+  {
+    "id": "claude-research-upgrade-nick-sadler",
+    "name": "Claude (Projects / Extended Context Upgrade)",
+    "content_type": "tutorial",
+    "category": "AI productivity and research",
+    "description": "A short-form tutorial highlighting three high-value use cases for Claude's upgraded capabilities: managing large multi-step projects, parsing messy documents like bank statements and spreadsheets, and conducting deep research with specific constraints. The creator refers to the upgrade as 'Fable' internally and offers additional prompts to followers. Useful for anyone looking to get more out of Claude for real-world productivity tasks.",
+    "tags": [
+      "claude",
+      "ai assistant",
+      "productivity",
+      "document analysis",
+      "research",
+      "prompting"
+    ],
+    "link": "https://claude.ai",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "PDFs",
+      "spreadsheets",
+      "bank statements"
+    ],
+    "use_cases": [
+      "Running long multi-step projects autonomously with self-checking",
+      "Analyzing messy financial documents to find unused subscriptions",
+      "Deep research with budget, size, and context constraints to get specific buying recommendations"
+    ],
+    "notes": "The creator refers to Claude's upgrade as 'Fable' which appears to be an internal or community nickname, not an official product name. Prompts are offered via DM to followers who comment. No pricing or specific model version mentioned.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/56fxyefhaUs?is=b-7kOVv0BNXa7BSg"
   }
 ]
