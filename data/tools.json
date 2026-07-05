@@ -1955,5 +1955,31 @@
     "notes": "Feature appears to be newly launched; adoption advantage may diminish as competitors become aware. No pricing involved — feature is native to Google Search.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/KTcPPM4Q2_s?is=VBaveIzU6trT13fL"
+  },
+  {
+    "id": "business-loaned-goods-allowance-ireland",
+    "name": "Can your Business Buy Assets And Loan Them To You?",
+    "content_type": "tutorial",
+    "category": "business tax planning",
+    "description": "This short explains the 'loaned goods allowance' in Ireland, which allows a company to purchase assets and loan them to the business owner at a benefit-in-kind (BIK) rate of just 5%. This can be significantly cheaper than taking a gross salary and paying full tax to personally purchase the same asset. The video uses a humorous anecdote about a ride-on lawn mower to illustrate that assets must be justifiably useful to the business to satisfy Irish Revenue.",
+    "tags": [
+      "ireland",
+      "tax planning",
+      "benefit-in-kind",
+      "business finance",
+      "loaned goods allowance",
+      "small business"
+    ],
+    "link": "https://youtube.com/shorts/GZoerx-FFTA?is=TqxfmM7Wk0QclwZ0",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Reducing personal tax burden by having a company purchase assets loaned to the owner at a 5% BIK rate",
+      "Understanding Irish Revenue requirements for business asset purchases to ensure compliance"
+    ],
+    "notes": "Applies to Irish tax law specifically. Irish Revenue requires that assets purchased by the company must be justifiably useful to the business. Always consult a qualified tax advisor before applying this strategy.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/GZoerx-FFTA?is=TqxfmM7Wk0QclwZ0"
   }
 ]
