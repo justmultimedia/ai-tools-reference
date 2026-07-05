@@ -1981,5 +1981,34 @@
     "notes": "Applies to Irish tax law specifically. Irish Revenue requires that assets purchased by the company must be justifiably useful to the business. Always consult a qualified tax advisor before applying this strategy.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/GZoerx-FFTA?is=TqxfmM7Wk0QclwZ0"
+  },
+  {
+    "id": "reusable-fable-5-prompt-template-claude-code",
+    "name": "Reusable Fable 5 Prompt Template for Claude Code",
+    "content_type": "tutorial",
+    "category": "AI coding prompt engineering",
+    "description": "A reusable prompt template (job brief) for Claude Code using Fable 5, structured into three sections: outcome, boundaries, and control. The template guides the model to plan before acting, edit in stages, and summarize changes, reducing surprises during AI-assisted development. Designed to be saved as a markdown file and reused across projects.",
+    "tags": [
+      "claude code",
+      "prompt engineering",
+      "fable 5",
+      "ai coding",
+      "prompt template",
+      "developer workflow"
+    ],
+    "link": "https://youtube.com/shorts/9uPKyGmkUPk?is=tAGt4ZTgn6ksPiSc",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Fable 5"
+    ],
+    "use_cases": [
+      "Structuring Claude Code prompts with clear outcomes and boundaries before starting a build",
+      "Saving a reusable job brief (fable_job_brief.md) to control AI edits in stages with approval gates"
+    ],
+    "notes": "Episode 131 of the Just Hit Send channel. References a related Fable prompting video from the previous day. A free Claude Code cheat sheet is mentioned as available via link in bio.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/9uPKyGmkUPk?is=tAGt4ZTgn6ksPiSc"
   }
 ]
