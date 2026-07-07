@@ -2066,5 +2066,36 @@
     "notes": "The tool highlighted is Emergent. No pricing details given. App is built via natural language conversation — no coding required. Creator claims build time under 1 hour.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/-xoLJAWkWN0?is=fTOblqIhpxKe69GO"
+  },
+  {
+    "id": "top-fable-5-use-cases",
+    "name": "Top Fable 5 Use Cases",
+    "content_type": "tutorial",
+    "category": "AI coding and automation",
+    "description": "A short-form video covering the top use cases for the Fable 5 AI model before it transitions to paid API pricing. Use cases include cloning and customizing software locally, auditing Claude Code sessions for productivity insights, and building an agentic OS. The video demonstrates practical, high-value applications of Fable 5 for developers and AI power users.",
+    "tags": [
+      "fable 5",
+      "ai model",
+      "claude code",
+      "agentic workflow",
+      "software cloning",
+      "automation"
+    ],
+    "link": "https://youtube.com/shorts/yXpeTaAitWY?is=tTRrHI9FGta110SM",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "WhisperFlow",
+      "Fable 5"
+    ],
+    "use_cases": [
+      "Clone and customize existing software locally for free using Fable 5 (e.g., recreating WhisperFlow)",
+      "Audit past Claude Code sessions to identify strengths, weaknesses, and automation opportunities",
+      "Build a personal agentic OS powered by Fable 5"
+    ],
+    "notes": "Video warns that Fable 5 free access is ending soon due to upcoming API pricing changes. Time-sensitive content.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/yXpeTaAitWY?is=tTRrHI9FGta110SM"
   }
 ]
