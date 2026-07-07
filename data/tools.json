@@ -2010,5 +2010,35 @@
     "notes": "Episode 131 of the Just Hit Send channel. References a related Fable prompting video from the previous day. A free Claude Code cheat sheet is mentioned as available via link in bio.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/9uPKyGmkUPk?is=tAGt4ZTgn6ksPiSc"
+  },
+  {
+    "id": "building-automated-video-production-factory",
+    "name": "Building An Automated Video Production Factory",
+    "content_type": "tutorial",
+    "category": "AI video automation",
+    "description": "Matt Wolfe demonstrates how he vibe coded a fully automated social media video factory in half a day using Anthropic's Fable model. The custom dashboard can turn articles, raw text, files, or ideas into short-form scripts, fact-check them, generate B-roll suggestions, and analyze past Instagram Reels and YouTube Shorts performance to improve future scripts. It also includes a built-in teleprompter for recording.",
+    "tags": [
+      "ai automation",
+      "video production",
+      "anthropic",
+      "fable",
+      "social media",
+      "vibe coding"
+    ],
+    "link": "https://youtube.com/shorts/1CAy_mB6E-g?is=yzP9o2SinSd90reM",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Anthropic Fable",
+      "Instagram Reels",
+      "YouTube Shorts"
+    ],
+    "use_cases": [
+      "Automating short-form video script generation from articles or raw text",
+      "Fact-checking scripts and generating B-roll suggestions for social media videos"
+    ],
+    "notes": "As of July 7, Anthropic's Fable model becomes more expensive, accessible only via usage credits on paid plans. This video was created as a demonstration before that pricing change took effect.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/1CAy_mB6E-g?is=yzP9o2SinSd90reM"
   }
 ]
