@@ -2040,5 +2040,31 @@
     "notes": "As of July 7, Anthropic's Fable model becomes more expensive, accessible only via usage credits on paid plans. This video was created as a demonstration before that pricing change took effect.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/1CAy_mB6E-g?is=yzP9o2SinSd90reM"
+  },
+  {
+    "id": "emergent-ai-second-brain-client-management",
+    "name": "Emergent – AI Second Brain for Client Management",
+    "content_type": "tutorial",
+    "category": "AI client management",
+    "description": "Nick Sadler demonstrates how he used Emergent, a no-code AI app builder, to create a full client management system in under one hour via a single conversation. The resulting app includes a client database, project notes, goals, follow-up reminders, and a content studio — all under one roof. He uses it before every client call to review goals, prior commitments, and next steps without needing a full-time assistant.",
+    "tags": [
+      "no-code",
+      "ai app builder",
+      "client management",
+      "emergent",
+      "productivity",
+      "crm"
+    ],
+    "link": "https://youtube.com/shorts/-xoLJAWkWN0?is=fTOblqIhpxKe69GO",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Building a no-code CRM or second brain for managing client relationships",
+      "Automating call prep by surfacing client goals, notes, and follow-ups before meetings"
+    ],
+    "notes": "The tool highlighted is Emergent. No pricing details given. App is built via natural language conversation — no coding required. Creator claims build time under 1 hour.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/-xoLJAWkWN0?is=fTOblqIhpxKe69GO"
   }
 ]
