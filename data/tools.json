@@ -2217,5 +2217,33 @@
     "notes": "Currently in beta for Claude Team and Enterprise plans only. No hosting or deployment needed; tools are shared via a private link.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/Tc-ZUF9rzko?is=Fi_WfaxlJFFKN1yY"
+  },
+  {
+    "id": "self-improving-ai-second-brain-claude",
+    "name": "Self-Improving AI Second Brain with Claude",
+    "content_type": "tutorial",
+    "category": "AI knowledge management",
+    "description": "A tutorial on building a self-improving personal knowledge base using Claude, inspired by Andrej Karpathy's setup. The system stores articles, notes, documents, and ideas in a simple folder structure, letting the AI organize, link, and summarize content into a compounding wiki over time. Built in 45 minutes using Claude's co-work environment, it eliminates the need for manual note organization.",
+    "tags": [
+      "second brain",
+      "knowledge management",
+      "claude",
+      "pkm",
+      "ai productivity",
+      "obsidian alternative"
+    ],
+    "link": "https://bettercreating.com/coworkos",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Building a personal knowledge base that auto-organizes articles, notes, and documents",
+      "Creating an AI assistant with years of accumulated personal context for better help"
+    ],
+    "notes": "Downloadable system template available at bettercreating.com/coworkos. Full demo video at https://youtu.be/ib74sLgjIBM. Inspired by Andrej Karpathy's personal knowledge base setup.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/f_iWrXDpUkw?is=Y2XYgaXB-sLw0OYn"
   }
 ]
