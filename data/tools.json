@@ -2187,5 +2187,35 @@
     "notes": "Plan Optimizer is described as free with a one-command install. The presenter offers a free 'loop guide' to commenters. Tool name may refer to an open-source CLI or MCP tool — verify before use.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/N30NZ69IwcM?is=WV8xm0AHXxXaNZ40"
+  },
+  {
+    "id": "claude-code-artifacts",
+    "name": "Claude Code Artifacts",
+    "content_type": "ai-tool",
+    "category": "AI coding / no-code app builder",
+    "description": "Claude Code Artifacts is a new feature that converts a Claude Code session into a live, shareable interactive HTML web page. Anyone with the link can view, edit, or remix the generated tool without any deployment or hosting required. It supports auto-updating pages, meaning when Claude does more work, the live page reflects the changes automatically.",
+    "tags": [
+      "claude",
+      "anthropic",
+      "no-code",
+      "web tools",
+      "ai coding",
+      "dashboards"
+    ],
+    "link": "https://claude.ai",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Claude Team",
+      "Claude Enterprise"
+    ],
+    "use_cases": [
+      "Building shareable KPI dashboards for teams without a developer",
+      "Creating onboarding portals, sales pipeline trackers, or inventory dashboards from a Claude Code session"
+    ],
+    "notes": "Currently in beta for Claude Team and Enterprise plans only. No hosting or deployment needed; tools are shared via a private link.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/Tc-ZUF9rzko?is=Fi_WfaxlJFFKN1yY"
   }
 ]
