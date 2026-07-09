@@ -2125,5 +2125,38 @@
     "notes": "Requires installing the Sandcastles AI plugin inside Claude. The \\analyze command is one of 14 unlocked capabilities. Pricing and availability not mentioned in the video.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/NzWBmSp05ss?is=31T8G73sI7wpB_t2"
+  },
+  {
+    "id": "vassilios-sirakis-atlassian-edge-infrastructure",
+    "name": "Vassilios Sirakis Details Atlassian Edge Infrastructure",
+    "content_type": "resource",
+    "category": "large-scale infrastructure engineering",
+    "description": "After being laid off from Atlassian, engineer Vassilios Sirakis recorded a 40-minute video detailing the edge infrastructure he built there — a gateway system serving 350,000 customers across Jira, Confluence, and Bitbucket using 2,000 proxy servers in 13 AWS regions, a custom open-source control plane called Sovereign, and a Rust-based authentication system. The video went viral with 2 million views, offering rare transparency into production-scale infrastructure design. It also includes his perspective on the risks of over-relying on AI in software development, particularly around long-term maintainability.",
+    "tags": [
+      "infrastructure",
+      "atlassian",
+      "rust",
+      "aws",
+      "tech-layoffs",
+      "open-source"
+    ],
+    "link": "https://youtube.com/shorts/CQNmTpikzPE?is=SIKvzgArjXZVK69D",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "AWS",
+      "Rust",
+      "Sovereign (open-source control plane)",
+      "Jira",
+      "Confluence",
+      "Bitbucket"
+    ],
+    "use_cases": [
+      "Learning large-scale proxy and edge infrastructure design patterns",
+      "Understanding tradeoffs of AI-assisted development vs long-term system maintainability"
+    ],
+    "notes": "Sovereign, the custom control plane built by Sirakis, was open-sourced. The layoff occurred during Atlassian's AI-focused strategy pivot despite the company reporting record profits.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/CQNmTpikzPE?is=SIKvzgArjXZVK69D"
   }
 ]
