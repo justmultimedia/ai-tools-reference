@@ -2158,5 +2158,34 @@
     "notes": "Sovereign, the custom control plane built by Sirakis, was open-sourced. The layoff occurred during Atlassian's AI-focused strategy pivot despite the company reporting record profits.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/CQNmTpikzPE?is=SIKvzgArjXZVK69D"
+  },
+  {
+    "id": "stop-prompting-start-looping-plan-optimizer",
+    "name": "Stop Prompting, Start Looping — Plan Optimizer Introduction",
+    "content_type": "tutorial",
+    "category": "AI prompting techniques",
+    "description": "A short tutorial advocating for 'agentic loops' over single prompts, where an AI model iteratively grades and rewrites its own output against a checklist until it meets quality standards. The video highlights a free tool called Plan Optimizer as an accessible entry point, installable via a single command. The concept is framed as a shift from luck-based prompting to a systematic, self-improving AI workflow.",
+    "tags": [
+      "ai loops",
+      "prompt engineering",
+      "plan optimizer",
+      "agentic ai",
+      "workflow automation",
+      "llm"
+    ],
+    "link": "https://youtube.com/shorts/N30NZ69IwcM?is=WV8xm0AHXxXaNZ40",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "use_cases": [
+      "Iteratively refining AI-generated plans or content until quality criteria are met",
+      "Replacing one-shot prompting with self-correcting AI loops for better outputs"
+    ],
+    "notes": "Plan Optimizer is described as free with a one-command install. The presenter offers a free 'loop guide' to commenters. Tool name may refer to an open-source CLI or MCP tool — verify before use.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/N30NZ69IwcM?is=WV8xm0AHXxXaNZ40"
   }
 ]
