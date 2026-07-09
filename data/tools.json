@@ -2097,5 +2097,33 @@
     "notes": "Video warns that Fable 5 free access is ending soon due to upcoming API pricing changes. Time-sensitive content.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/yXpeTaAitWY?is=tTRrHI9FGta110SM"
+  },
+  {
+    "id": "sandcastles-ai-claude-social-media-plugin",
+    "name": "Sandcastles AI Plugin for Claude",
+    "content_type": "ai-tool",
+    "category": "social media analytics",
+    "description": "The Sandcastles AI plugin for Claude unlocks 14 social media capabilities, including a \\analyze command that lets you drop video URLs directly into Claude for complete breakdowns covering transcripts, structure, hook evaluation, visual composition, and narrative framework. You can batch multiple video URLs simultaneously and then analyze the entire collection to surface underlying patterns and trends. It essentially turns Claude into an automated social media research and trend-spotting machine.",
+    "tags": [
+      "claude",
+      "social media",
+      "video analysis",
+      "trend spotting",
+      "plugin",
+      "content research"
+    ],
+    "link": null,
+    "platform": "youtube",
+    "install": "Install Sandcastles AI plugin within Claude",
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Batch analyzing multiple social media videos to identify trending content patterns and commonalities",
+      "Getting detailed breakdowns of viral videos including transcript, hook evaluation, and narrative structure for content creation research"
+    ],
+    "notes": "Requires installing the Sandcastles AI plugin inside Claude. The \\analyze command is one of 14 unlocked capabilities. Pricing and availability not mentioned in the video.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/NzWBmSp05ss?is=31T8G73sI7wpB_t2"
   }
 ]
