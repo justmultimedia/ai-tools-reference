@@ -2245,5 +2245,31 @@
     "notes": "Downloadable system template available at bettercreating.com/coworkos. Full demo video at https://youtu.be/ib74sLgjIBM. Inspired by Andrej Karpathy's personal knowledge base setup.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/f_iWrXDpUkw?is=Y2XYgaXB-sLw0OYn"
+  },
+  {
+    "id": "ai-engineer-vs-electrician-financial-comparison",
+    "name": "AI Engineer vs Electrician: Which One Makes More?",
+    "content_type": "other",
+    "category": "career advice",
+    "description": "A short-form video comparing the 5-year financial outcomes of pursuing an AI engineering degree versus becoming an electrician through a trade path. The analysis highlights that after 5 years, an electrician may be $280K ahead due to zero tuition debt and earlier earnings. The creator argues the traditional college-to-tech-job pipeline deserves reconsideration given the 500,000 electrician shortage in the US.",
+    "tags": [
+      "career advice",
+      "trades",
+      "electrician",
+      "ai engineer",
+      "financial comparison",
+      "job market"
+    ],
+    "link": "https://youtube.com/shorts/8hl7_u0LUnw?is=6Rcy_-0HiZXmsQoe",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Evaluating trade school vs college ROI for early career decisions",
+      "Understanding opportunity cost of a 4-year CS/AI degree vs apprenticeship"
+    ],
+    "notes": "Financial figures are illustrative estimates presented by the creator, not sourced from a formal study. Tuition cost ($200K) and earnings figures may not reflect all scenarios. Comment 'TRADES' on the video for the creator's full breakdown.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/8hl7_u0LUnw?is=6Rcy_-0HiZXmsQoe"
   }
 ]
