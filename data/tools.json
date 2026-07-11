@@ -2271,5 +2271,36 @@
     "notes": "Financial figures are illustrative estimates presented by the creator, not sourced from a formal study. Tuition cost ($200K) and earnings figures may not reflect all scenarios. Comment 'TRADES' on the video for the creator's full breakdown.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/8hl7_u0LUnw?is=6Rcy_-0HiZXmsQoe"
+  },
+  {
+    "id": "vibe-trading-ai-hedge-fund",
+    "name": "Vibe Trading",
+    "content_type": "ai-tool",
+    "category": "AI quantitative trading",
+    "description": "Vibe Trading is an open-source AI hedge fund platform released by a Hong Kong university that runs locally for free. It uses a team of collaborative AI agents to research markets, build strategies, run backtests, and review risk using natural language commands. It integrates live data from 18 sources across stocks, crypto, and forex, performs Monte Carlo stress testing, and analyzes broker history to identify profit-draining trading habits.",
+    "tags": [
+      "quantitative-trading",
+      "ai-agents",
+      "open-source",
+      "algorithmic-trading",
+      "fintech",
+      "crypto"
+    ],
+    "link": "https://youtube.com/shorts/8mshTnSPGeM?is=UeCZ_5rJDyjWO0ar",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "stocks",
+      "crypto",
+      "forex",
+      "broker history exports"
+    ],
+    "use_cases": [
+      "Building and backtesting quantitative trading strategies using plain English commands",
+      "Analyzing personal broker history to identify and reduce unprofitable trading habits"
+    ],
+    "notes": "Free and open-source. Runs on a local laptop. Over 400 pre-built quant strategies and a community of 15,000 developers. Released by a Hong Kong university. Monte Carlo stress testing performed before live investment.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/8mshTnSPGeM?is=UeCZ_5rJDyjWO0ar"
   }
 ]
