@@ -2328,5 +2328,34 @@
     "notes": "Creator acknowledges the study has been simplified. References two key academic sources: Ainsworth & Bell (1970) and Ainsworth et al. (1978). Content is a YouTube Short (short-form video).",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/GQ9y4c6AbCg?is=-AAonQvqDbttS5k6"
+  },
+  {
+    "id": "claude-infinite-memory-notebooklm-integration",
+    "name": "Claude + Notebook LM Persistent Memory Integration",
+    "content_type": "tutorial",
+    "category": "AI memory and context management",
+    "description": "A technique for giving Claude persistent memory across chat sessions by integrating it with Google's Notebook LM platform. After each session, conversations are saved to Notebook LM and Claude retrieves relevant context via semantic search, eliminating the need to reload context and reducing token costs. The setup also unlocks Notebook LM features like infographics, cinematic videos, and deep research tools.",
+    "tags": [
+      "claude",
+      "notebooklm",
+      "persistent-memory",
+      "semantic-search",
+      "token-efficiency",
+      "ai-integration"
+    ],
+    "link": "https://youtube.com/shorts/m1cE5fNldMA?is=3YRjQJjle9VE1Hvi",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Google Notebook LM"
+    ],
+    "use_cases": [
+      "Maintaining persistent context across multiple Claude chat sessions without reloading information",
+      "Reducing token costs in long-running AI research or content creation workflows"
+    ],
+    "notes": "This is a workflow/integration tutorial, not an official feature. Exact steps are offered via comment engagement ('Comment AI below'). No pricing details provided; relies on free tiers of both Claude and Notebook LM.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/m1cE5fNldMA?is=3YRjQJjle9VE1Hvi"
   }
 ]
