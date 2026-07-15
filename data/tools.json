@@ -2357,5 +2357,31 @@
     "notes": "This is a workflow/integration tutorial, not an official feature. Exact steps are offered via comment engagement ('Comment AI below'). No pricing details provided; relies on free tiers of both Claude and Notebook LM.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/m1cE5fNldMA?is=3YRjQJjle9VE1Hvi"
+  },
+  {
+    "id": "consciousness-fundamental-universe-new-scientist",
+    "name": "Could consciousness be a fundamental part of the universe?",
+    "content_type": "resource",
+    "category": "science & philosophy",
+    "description": "A short-form video featuring Ivette Fuentes, a professor of quantum mechanics, exploring whether consciousness is a fundamental component of reality alongside matter. Fuentes proposes a dualist view where both matter and consciousness are fundamental and interact, comparing consciousness to spacetime as a background 'arena.' The clip is a preview of a longer New Scientist interview on reconciling classical and quantum mechanics.",
+    "tags": [
+      "consciousness",
+      "quantum mechanics",
+      "philosophy of mind",
+      "dualism",
+      "spacetime",
+      "science"
+    ],
+    "link": "https://youtu.be/kLDvk2urghs",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Exploring philosophical perspectives on the nature of consciousness and matter",
+      "Understanding how quantum mechanics intersects with philosophy of mind"
+    ],
+    "notes": "This is a YouTube Shorts clip; the full interview is available at https://youtu.be/kLDvk2urghs. Views expressed are those of Ivette Fuentes and represent a philosophical/speculative perspective, not established scientific consensus.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/17LT0BaqhmI?is=2Jf6zLpQsaITWbLh"
   }
 ]
