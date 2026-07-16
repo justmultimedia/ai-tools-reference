@@ -2383,5 +2383,30 @@
     "notes": "This is a YouTube Shorts clip; the full interview is available at https://youtu.be/kLDvk2urghs. Views expressed are those of Ivette Fuentes and represent a philosophical/speculative perspective, not established scientific consensus.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/17LT0BaqhmI?is=2Jf6zLpQsaITWbLh"
+  },
+  {
+    "id": "11-laws-of-the-universe-david-epstein",
+    "name": "11 Laws of the Universe",
+    "content_type": "tutorial",
+    "category": "mental models and decision-making",
+    "description": "A short-form video by bestselling author David Epstein covering 11 well-known cognitive and organizational laws, including Parkinson's Law, Hofstadter's Law, Hanlon's Razor, the Pareto Principle, the Peter Principle, Hick's Law, Goodhart's Law, the Dunning-Kruger Effect, Occam's Razor, Chesterton's Fence, and Brooks's Law. Each law is briefly explained with a practical takeaway. The content is designed to help viewers understand common patterns in human behavior, productivity, and decision-making.",
+    "tags": [
+      "mental models",
+      "productivity",
+      "decision-making",
+      "cognitive biases",
+      "life lessons"
+    ],
+    "link": "https://youtube.com/shorts/DRX5JpyX0B8?is=3iTroj4MLdu4KGAO",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Quickly learning foundational mental models to improve personal decision-making",
+      "Understanding organizational and productivity pitfalls like scope creep or poor promotion systems"
+    ],
+    "notes": "YouTube Short format; references David Epstein's book 'Range' and a related book 'Inside the Box: How Constraints Make Us Better'.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/DRX5JpyX0B8?is=3iTroj4MLdu4KGAO"
   }
 ]
