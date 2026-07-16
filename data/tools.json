@@ -2408,5 +2408,31 @@
     "notes": "YouTube Short format; references David Epstein's book 'Range' and a related book 'Inside the Box: How Constraints Make Us Better'.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/DRX5JpyX0B8?is=3iTroj4MLdu4KGAO"
+  },
+  {
+    "id": "kimi-work-agent-swarm",
+    "name": "Kimi Work (Kimi K2.6 Agent Swarm)",
+    "content_type": "ai-tool",
+    "category": "AI agent automation",
+    "description": "Kimi Work is a free desktop app by China's Moonshot AI powered by the Kimi K2.6 model that can spin up to 300 parallel sub-agents from a single prompt on your own computer. It demonstrated finding 30 local businesses without websites and building a site for each in roughly 30 minutes. The underlying model is open for developers to build on and ranks near the top for agentic tasks.",
+    "tags": [
+      "ai-agents",
+      "moonshot-ai",
+      "kimi",
+      "automation",
+      "multi-agent",
+      "open-model"
+    ],
+    "link": "https://docs.google.com/document/d/1x8r3xLVcL1Dcxa5qnms9qNqVtnPahZUefX5NZvJ39tI/edit?usp=sharing",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Finding local businesses without websites and auto-generating a site for each",
+      "Running parallel research and task automation workflows from a single natural language prompt"
+    ],
+    "notes": "Free desktop app but comes with a data-privacy caveat (data processed on your computer but review privacy policy for Chinese jurisdiction concerns). Requires reviewing the linked setup guide for safe usage instructions.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/frdK8dKgTes?is=mkpOgsaP_2_5-w1y"
   }
 ]
