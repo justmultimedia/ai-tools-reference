@@ -2434,5 +2434,31 @@
     "notes": "Free desktop app but comes with a data-privacy caveat (data processed on your computer but review privacy policy for Chinese jurisdiction concerns). Requires reviewing the linked setup guide for safe usage instructions.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/frdK8dKgTes?is=mkpOgsaP_2_5-w1y"
+  },
+  {
+    "id": "could-i-travel-back-in-time-jim-al-khalili",
+    "name": "Could I Travel Back in Time? How Physics Tackles the Paradoxes – with Jim Al-Khalili",
+    "content_type": "tutorial",
+    "category": "science education",
+    "description": "Jim Al-Khalili explores the physics of time travel, covering Einstein's relativity, closed timelike curves, the grandfather paradox, Hawking's chronology protection conjecture, and the Many Worlds Interpretation. The video features insights from frontier researchers Dr Fabio Costa and Dr Lorenzo Gavassino on modern physics approaches to time travel paradoxes. It's an accessible yet scientifically grounded journey through one of physics' most captivating topics.",
+    "tags": [
+      "time travel",
+      "physics",
+      "relativity",
+      "quantum mechanics",
+      "cosmology",
+      "science communication"
+    ],
+    "link": "https://youtu.be/c63XUCGg9hM?is=giiGZsazZnQV8l3B",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Learning about the physics of time travel and related paradoxes",
+      "Understanding how general relativity and quantum mechanics relate to the concept of time"
+    ],
+    "notes": "Contains a typographical error in the spacetime interval equation at 08:21; corrected equation provided in the description. Correction does not affect the explanations or conclusions.",
+    "added": "2026-07",
+    "source": "https://youtu.be/c63XUCGg9hM?is=giiGZsazZnQV8l3B"
   }
 ]
