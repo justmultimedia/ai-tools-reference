@@ -2460,5 +2460,31 @@
     "notes": "Contains a typographical error in the spacetime interval equation at 08:21; corrected equation provided in the description. Correction does not affect the explanations or conclusions.",
     "added": "2026-07",
     "source": "https://youtu.be/c63XUCGg9hM?is=giiGZsazZnQV8l3B"
+  },
+  {
+    "id": "scott-galloway-ai-race-china-margins",
+    "name": "Scott Galloway: \"The Biggest Business Story That's Getting the Least Coverage\"",
+    "content_type": "resource",
+    "category": "AI industry analysis",
+    "description": "Scott Galloway and Kara Swisher discuss how China's Moonshot AI and its open-source model Kimi K3 is reshaping the AI competitive landscape by driving margins to zero — a strategy Galloway calls the real story being undercovered. The segment draws parallels to the DeepSeek moment and debates whether Chinese AI strategy is 'dumping' or market consolidation through capitalism. A sharp, punchy take on the economics of the AI race.",
+    "tags": [
+      "ai strategy",
+      "china ai",
+      "moonshot ai",
+      "kimi k3",
+      "open source",
+      "ai economics"
+    ],
+    "link": "https://youtu.be/dm7rTPnZfK8",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Understanding competitive dynamics in the global AI race",
+      "Analyzing how open-source and zero-margin strategies affect AI market consolidation"
+    ],
+    "notes": "Short-form clip from the Pivot podcast with Kara Swisher and Scott Galloway. Full episode available at https://youtu.be/dm7rTPnZfK8. References Moonshot AI's Kimi K3 model and comparisons to DeepSeek.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/UJLmOwxmm0k?is=KkijNS27QSOp3mBu"
   }
 ]
