@@ -2486,5 +2486,31 @@
     "notes": "Short-form clip from the Pivot podcast with Kara Swisher and Scott Galloway. Full episode available at https://youtu.be/dm7rTPnZfK8. References Moonshot AI's Kimi K3 model and comparisons to DeepSeek.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/UJLmOwxmm0k?is=KkijNS27QSOp3mBu"
+  },
+  {
+    "id": "michelle-thaller-atoms-quantum-physics",
+    "name": "Michelle Thaller: Everything You Learned About Atoms Is A Lie!?",
+    "content_type": "tutorial",
+    "category": "science education",
+    "description": "Astronomer Michelle Thaller explains how the simplified atomic models taught in school differ from the quantum mechanical reality of atoms. She clarifies that electrons behave as probability waves occupying orbital volumes rather than orbiting a nucleus like planets around a star. The video corrects common misconceptions while making quantum physics accessible to a general audience.",
+    "tags": [
+      "quantum physics",
+      "atoms",
+      "science education",
+      "electrons",
+      "michelle thaller",
+      "physics"
+    ],
+    "link": "https://youtube.com/shorts/dUNyTuupxO4?is=d0oqxvsPMwBIcqMb",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Understanding the difference between simplified school-level atomic models and quantum mechanical descriptions",
+      "Learning how electrons behave as waves occupying probability-based orbitals rather than fixed paths"
+    ],
+    "notes": "The dramatic title is intentionally clickbait; the video clarifies that school models are simplifications, not lies. Presented as a YouTube Short by channel ViralFactsBlitz featuring Michelle Thaller.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/dUNyTuupxO4?is=d0oqxvsPMwBIcqMb"
   }
 ]
