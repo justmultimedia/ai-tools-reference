@@ -2565,5 +2565,33 @@
     "notes": "Claims in this video (e.g. 'thinks 10x harder') are anecdotal and not verified by Anthropic. Some commands may behave as informal prompt instructions rather than official Claude features. Results may vary.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/vDoWl-UWyQU?is=yJjgyDAgWd4CzELY"
+  },
+  {
+    "id": "bind-skills-claude-skill-finder",
+    "name": "Bind Skills (Claude Skill Auto-Selector)",
+    "content_type": "tutorial",
+    "category": "AI productivity / Claude skills",
+    "description": "A tutorial highlighting 'Bind Skills,' the top-ranked skill on a platform hosting nearly 10,000 Claude skills, installed over 1.5 million times. It automatically identifies and loads the ideal skill for any task you describe, eliminating manual hunting. The video also warns users to use the platform's security verification page rather than pulling random skills from GitHub.",
+    "tags": [
+      "claude",
+      "ai skills",
+      "productivity",
+      "automation",
+      "claude skills",
+      "ai tools"
+    ],
+    "link": "https://youtube.com/shorts/IBS3aIdOZ9w?is=2LXZrPH1JOhJKQ1v",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Automatically finding the right Claude skill for a specific task without manual searching",
+      "Safely vetting Claude skills for security before installing them"
+    ],
+    "notes": "The specific platform hosting the ~10,000 Claude skills is not named in the video. Security verification is recommended before adding any skill. 'Bind Skills' has reportedly been installed over 1.5 million times.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/IBS3aIdOZ9w?is=2LXZrPH1JOhJKQ1v"
   }
 ]
