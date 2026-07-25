@@ -2622,5 +2622,36 @@
     "notes": "Claude does not actually browse the live internet by default — this workflow likely requires Claude with tool/web access or computer-use features. Results may vary; data broker removal is an ongoing process, not a one-time fix. The creator offers a full prompt guide via comment engagement ('erase').",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/GnF6lzkBpt0?is=btvX4WWuwWij3dpc"
+  },
+  {
+    "id": "vibe-coded-site-seo-crawl-prompt",
+    "name": "SEO Crawl Prompt for Vibe Coded Sites",
+    "content_type": "tutorial",
+    "category": "SEO / web development",
+    "description": "A quick tip showing how to test whether your vibe-coded website is visible to search engine bots by prompting an AI coding assistant to simulate a Googlebot crawl without executing JavaScript. Many vibe-coded sites rely on client-side rendering, making them invisible to crawlers and hurting SEO. The fix is to implement server-side rendering so bots receive fully rendered HTML instantly.",
+    "tags": [
+      "seo",
+      "vibe coding",
+      "server-side rendering",
+      "googlebot",
+      "web development",
+      "ai coding"
+    ],
+    "link": "https://youtube.com/shorts/7D7wKGQw91k?is=AFkHlPSJRwUUrSe0",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "OpenAI Codex",
+      "ChatGPT",
+      "any AI coding assistant"
+    ],
+    "use_cases": [
+      "Diagnosing SEO invisibility on client-side rendered websites built with AI coding tools",
+      "Identifying the need for server-side rendering on vibe-coded or AI-generated sites"
+    ],
+    "notes": "The prompt to use: 'Act like a Google bot crawling my site for the first time. Fetch [your URL] and tell me exactly what context you can see without executing JavaScript.' Comment 'crawl' on the video to receive a follow-up fix prompt from the creator.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/7D7wKGQw91k?is=AFkHlPSJRwUUrSe0"
   }
 ]
