@@ -2653,5 +2653,31 @@
     "notes": "The prompt to use: 'Act like a Google bot crawling my site for the first time. Fetch [your URL] and tell me exactly what context you can see without executing JavaScript.' Comment 'crawl' on the video to receive a follow-up fix prompt from the creator.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/7D7wKGQw91k?is=AFkHlPSJRwUUrSe0"
+  },
+  {
+    "id": "new-autism-and-trauma-research",
+    "name": "New Autism and Trauma Research",
+    "content_type": "resource",
+    "category": "neurodivergence and mental health",
+    "description": "A short-form video discussing emerging research that challenges the assumption that trauma prevents accurate autism or ADHD diagnosis. The content highlights findings suggesting that people who have experienced adverse childhood experiences (ACEs) are actually more likely to be neurodivergent, not less diagnosable. It also touches on the connection between hypermobility, brain-body type, and neurodivergence.",
+    "tags": [
+      "autism",
+      "adhd",
+      "trauma",
+      "neurodivergence",
+      "mental health",
+      "adverse childhood experiences"
+    ],
+    "link": "https://youtube.com/shorts/vbpYEY0lYuQ",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Understanding how trauma history intersects with autism and ADHD diagnosis",
+      "Advocating for neurodivergent individuals who have been denied diagnosis due to trauma history"
+    ],
+    "notes": "Content is from a YouTube Shorts format via the channel 'THE HIDDEN 20%'. The research referenced relates to hypermobility and brain-body type connections to neurodivergence. No specific study citation is provided in the clip.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/vbpYEY0lYuQ?is=fk1NPNerCczs54J2"
   }
 ]
