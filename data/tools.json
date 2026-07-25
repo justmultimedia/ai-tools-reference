@@ -2593,5 +2593,34 @@
     "notes": "The specific platform hosting the ~10,000 Claude skills is not named in the video. Security verification is recommended before adding any skill. 'Bind Skills' has reportedly been installed over 1.5 million times.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/IBS3aIdOZ9w?is=2LXZrPH1JOhJKQ1v"
+  },
+  {
+    "id": "claude-remove-personal-data-brokers",
+    "name": "Use Claude to Find and Remove Your Personal Data from Data Broker Sites",
+    "content_type": "tutorial",
+    "category": "privacy and data removal",
+    "description": "A tutorial showing how to use Claude AI to search for personal information exposed on data broker and people-search sites, then generate opt-out requests for each one. The workflow also leverages Claude's computer-use capability to automate filing removal requests and follow up weekly. It's a practical privacy tip for reducing your digital footprint with minimal manual effort.",
+    "tags": [
+      "privacy",
+      "claude",
+      "data brokers",
+      "opt-out",
+      "ai automation",
+      "personal data"
+    ],
+    "link": "https://youtube.com/shorts/GnF6lzkBpt0?is=btvX4WWuwWij3dpc",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Claude Computer Use"
+    ],
+    "use_cases": [
+      "Finding which data broker sites are exposing your home address and phone number",
+      "Automating opt-out and removal requests across multiple people-search platforms"
+    ],
+    "notes": "Claude does not actually browse the live internet by default — this workflow likely requires Claude with tool/web access or computer-use features. Results may vary; data broker removal is an ongoing process, not a one-time fix. The creator offers a full prompt guide via comment engagement ('erase').",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/GnF6lzkBpt0?is=btvX4WWuwWij3dpc"
   }
 ]
