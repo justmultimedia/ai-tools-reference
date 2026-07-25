@@ -2538,5 +2538,32 @@
     "notes": "Short-form YouTube video (Shorts format). No tools or special materials required beyond wooden sticks and rope.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/uc1HF5REYmk?is=N_uCQntW2S9xHU3T"
+  },
+  {
+    "id": "claude-tricks-that-actually-work",
+    "name": "Claude Tricks That Actually Work",
+    "content_type": "tutorial",
+    "category": "AI prompting tips",
+    "description": "A short-form video presenting five lesser-known Claude prompt commands claimed to improve output quality and efficiency. Commands include 'caveman' for concise responses, 'ultra think' for deeper reasoning, '/ghost' to remove AI writing tells, '/deep think' for harder problems, and mid-task request injection. Tips are aimed at users who want more control over Claude's behavior without changing settings.",
+    "tags": [
+      "claude",
+      "prompt engineering",
+      "ai tips",
+      "llm tricks",
+      "productivity"
+    ],
+    "link": "https://youtube.com/shorts/vDoWl-UWyQU?is=yJjgyDAgWd4CzELY",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Reducing verbose AI output by using 'caveman' mode for concise answers",
+      "Improving reasoning quality on complex or high-stakes tasks using 'ultra think' or '/deep think'"
+    ],
+    "notes": "Claims in this video (e.g. 'thinks 10x harder') are anecdotal and not verified by Anthropic. Some commands may behave as informal prompt instructions rather than official Claude features. Results may vary.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/vDoWl-UWyQU?is=yJjgyDAgWd4CzELY"
   }
 ]
