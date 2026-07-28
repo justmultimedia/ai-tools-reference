@@ -2679,5 +2679,35 @@
     "notes": "Content is from a YouTube Shorts format via the channel 'THE HIDDEN 20%'. The research referenced relates to hypermobility and brain-body type connections to neurodivergence. No specific study citation is provided in the clip.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/vbpYEY0lYuQ?is=fk1NPNerCczs54J2"
+  },
+  {
+    "id": "claude-code-notebooklm-automation",
+    "name": "Claude Code + NotebookLM Automation via notebooklm.py",
+    "content_type": "tutorial",
+    "category": "AI content automation",
+    "description": "A tutorial demonstrating how to combine Claude Code with Google's NotebookLM using the open-source notebooklm.py repository, bypassing NotebookLM's lack of a public API. This setup allows users to programmatically execute tasks in NotebookLM from Claude Code, enabling automated generation of podcasts, video demos, and infographics. The video also suggests building a niche research agent modeled on yourself or your company for unlimited content creation.",
+    "tags": [
+      "claude code",
+      "notebooklm",
+      "automation",
+      "content creation",
+      "ai agents",
+      "google"
+    ],
+    "link": "https://youtube.com/shorts/WmbtG77z_yY?is=Nh9WOpZLHYwNrS7N",
+    "platform": "youtube",
+    "install": "pip install notebooklm.py",
+    "works_with": [
+      "Claude Code",
+      "NotebookLM",
+      "Google"
+    ],
+    "use_cases": [
+      "Automating podcast, infographic, and video demo creation from research",
+      "Building a niche research agent to generate content at scale without manual NotebookLM interaction"
+    ],
+    "notes": "NotebookLM does not have a public API; notebooklm.py is a third-party repository that bridges this gap. Comment 'lm' on the video to receive the repo link and a quick start guide.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/WmbtG77z_yY?is=Nh9WOpZLHYwNrS7N"
   }
 ]
