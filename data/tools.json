@@ -2709,5 +2709,33 @@
     "notes": "NotebookLM does not have a public API; notebooklm.py is a third-party repository that bridges this gap. Comment 'lm' on the video to receive the repo link and a quick start guide.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/WmbtG77z_yY?is=Nh9WOpZLHYwNrS7N"
+  },
+  {
+    "id": "ai-3d-property-mapping-real-estate",
+    "name": "AI-Powered Open Source 3D Property Mapping",
+    "content_type": "ai-tool",
+    "category": "real estate technology",
+    "description": "A free, open-source AI tool that creates accurate 3D models of properties from a simple smartphone walk-through, replacing costly laser scanning crews. It generates precise square footage, detailed floor plans, and a remotely accessible digital record in minutes. Real estate agents and renovators can use it to drastically cut costs and improve efficiency in property listings and renovation planning.",
+    "tags": [
+      "3d mapping",
+      "real estate",
+      "open source",
+      "proptech",
+      "ai measurement",
+      "floor plans"
+    ],
+    "link": "https://youtube.com/shorts/GLl1dgOP1Ss?is=t79gN5EZK0YBGEeU",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "smartphone camera"
+    ],
+    "use_cases": [
+      "Generate accurate floor plans and square footage for property listings without hiring a laser scanning crew",
+      "Provide designers and renovators with exact 3D measurements as a working blueprint instead of outdated drawings"
+    ],
+    "notes": "The specific open-source software is not named in the video. Tool is described as free and open-source, developed by a team of researchers. No direct download link provided.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/GLl1dgOP1Ss?is=t79gN5EZK0YBGEeU"
   }
 ]
