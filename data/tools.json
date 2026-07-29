@@ -2763,5 +2763,35 @@
     "notes": "Short-form video (YouTube Shorts) by channel FloraVid; no material list or measurements are provided in the captions.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/lgLSrc9-m2o?is=IkfS4OuHDVsvMRTM"
+  },
+  {
+    "id": "cooper-simson-five-step-build-your-own-software",
+    "name": "The Five-Step Process: Build Your Own Software with Claude",
+    "content_type": "tutorial",
+    "category": "AI coding workflow",
+    "description": "A short-form reel by cooper.simson laying out a five-step process for replacing paid SaaS tools by building your own software with Claude. The steps: (1) enter plan mode so Claude plans with you before building, (2) pick your target — the tool you pay for that only fits halfway, (3) let Claude interview you so it designs around how you actually work, (4) connect your tools (inbox, sheets, database), and (5) get out of the way — approve the plan and let it build. Framed as a way to 'wipe out the bills' from subscription tools.",
+    "tags": [
+      "claude",
+      "plan-mode",
+      "ai coding",
+      "workflow",
+      "saas replacement",
+      "automation"
+    ],
+    "link": null,
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Building custom software to replace a paid SaaS tool that only half-fits your needs",
+      "Using Claude's plan mode and an interview step to design an app around your actual workflow"
+    ],
+    "screenshot": "screenshots/1785334934.jpg",
+    "notes": "Creator: cooper.simson. Captured from an Instagram/Reels post (audio 'Xlavier · Every Living'). Post asks viewers to follow and comment 'VIBE'. Same creator as the [[cooper-simson-ai-harness-course]] entry but distinct content.",
+    "added": "2026-07",
+    "source": "screenshot"
   }
 ]
