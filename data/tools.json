@@ -2793,5 +2793,35 @@
     "notes": "Creator: cooper.simson. Captured from an Instagram/Reels post (audio 'Xlavier · Every Living'). Post asks viewers to follow and comment 'VIBE'. Same creator as the [[cooper-simson-ai-harness-course]] entry but distinct content.",
     "added": "2026-07",
     "source": "screenshot"
+  },
+  {
+    "id": "claude-opus-5-review",
+    "name": "Claude Opus 5",
+    "content_type": "ai-tool",
+    "category": "AI language model / agentic coding",
+    "description": "Claude Opus 5 is Anthropic's latest frontier AI model, reviewed and tested in depth across agentic coding, image-to-3D, financial presentations, music composition, cancer identification, and deep research tasks. The video demonstrates it primarily via Claude Code, an agentic harness enabling multi-file, multi-project autonomous workflows. Benchmarks, specs, cost, and guardrails are also covered.",
+    "tags": [
+      "claude",
+      "anthropic",
+      "llm",
+      "agentic-ai",
+      "ai-coding",
+      "frontier-model"
+    ],
+    "link": "https://claude.ai",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Luma AI",
+      "Blender"
+    ],
+    "use_cases": [
+      "Agentic coding and autonomous multi-step task execution",
+      "Deep research, financial analysis, and medical image interpretation"
+    ],
+    "notes": "Video sponsored by Luma AI (lumalabs.ai). Covers specs, pricing, and benchmark comparisons against other frontier models. Includes a 'FROG TEST' and guardrails evaluation segment.",
+    "added": "2026-07",
+    "source": "https://youtu.be/RCsBJz4W4bA?is=vIWl9bMwJ_VKll8v"
   }
 ]
