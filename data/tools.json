@@ -2823,5 +2823,31 @@
     "notes": "Video sponsored by Luma AI (lumalabs.ai). Covers specs, pricing, and benchmark comparisons against other frontier models. Includes a 'FROG TEST' and guardrails evaluation segment.",
     "added": "2026-07",
     "source": "https://youtu.be/RCsBJz4W4bA?is=vIWl9bMwJ_VKll8v"
+  },
+  {
+    "id": "antarctic-ice-core-1-2m-years-climate-history",
+    "name": "1.2 Million-Year Antarctic Ice Core Climate Record",
+    "content_type": "other",
+    "category": "climate science & paleoclimatology",
+    "description": "Scientists retrieved an Antarctic ice core in 2025 that extends Earth's atmospheric record back 1.2 million years, surpassing the previous 800,000-year record. By analyzing ancient gas bubbles trapped in ice layers, researchers can reconstruct historic CO2 levels and long-term climate patterns. This breakthrough provides deeper insights into Earth's climate history and helps inform predictive models for future environmental changes.",
+    "tags": [
+      "antarctica",
+      "ice cores",
+      "climate science",
+      "paleoclimatology",
+      "co2 levels",
+      "glaciology"
+    ],
+    "link": "https://youtube.com/shorts/LQTO2ljmi5s?is=pIdf6slZ71txF2xD",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Understanding long-term atmospheric CO2 trends over millions of years",
+      "Informing climate models that predict future environmental and temperature changes"
+    ],
+    "notes": "The 1.2 million-year ice core milestone was achieved in 2025. The extraction process involves slicing the core and crushing or melting it in a vacuum to release ancient gas bubbles without contamination.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/LQTO2ljmi5s?is=pIdf6slZ71txF2xD"
   }
 ]
