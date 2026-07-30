@@ -2907,5 +2907,37 @@
     "notes": "Canonical GitHub URL not provided in the video; creator asks viewers to comment 'POWERS' to receive the install link. Repo star count cited as 240,000+.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/19M06k95xPo?is=cuBqKoyZqoT_lTzp"
+  },
+  {
+    "id": "google-15-free-ai-tools-marketing-design-coding",
+    "name": "Google's 15 Free AI Tools (Pomeli, Stitch, Opal, Antigravity, Mixport)",
+    "content_type": "ai-tool",
+    "category": "AI productivity suite",
+    "description": "Google released 15 free AI tools spanning marketing, design, coding, and creative content generation. Highlights include Pomeli for generating social media content from a website link, Stitch for converting prompts into UI designs, Google Opal for building AI workflows, Antigravity as an AI code editor, and Mixport for generating and combining AI images. These tools aim to democratize AI access for businesses and creators at no cost.",
+    "tags": [
+      "google-ai",
+      "free-tools",
+      "ai-marketing",
+      "ui-design",
+      "ai-coding",
+      "workflow-automation"
+    ],
+    "link": "https://youtube.com/shorts/rj8FFabmQFw?is=d0dINsj5cOy7zKyc",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Google AI models",
+      "make.com-style workflows"
+    ],
+    "use_cases": [
+      "Generating branded social media content automatically from a website URL using Pomeli",
+      "Creating modern app and website UI designs from text prompts using Stitch",
+      "Building no-code AI workflows with Google's built-in models via Google Opal",
+      "AI-assisted vibe coding and code editing with Antigravity",
+      "Generating and combining AI images for creative projects using Mixport"
+    ],
+    "notes": "Video covers only 5 of the 15 tools in detail; viewers are prompted to comment 'Google' to receive the full list. Tool names may differ slightly between description and captions (e.g., 'Mixport' vs 'Mix board'). All tools are stated to be free at time of publication.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/rj8FFabmQFw?is=d0dINsj5cOy7zKyc"
   }
 ]
