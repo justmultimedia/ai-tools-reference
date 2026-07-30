@@ -2849,5 +2849,34 @@
     "notes": "The 1.2 million-year ice core milestone was achieved in 2025. The extraction process involves slicing the core and crushing or melting it in a vacuum to release ancient gas bubbles without contamination.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/LQTO2ljmi5s?is=pIdf6slZ71txF2xD"
+  },
+  {
+    "id": "last-30-days-github-repo",
+    "name": "Last 30 Days",
+    "content_type": "ai-tool",
+    "category": "AI research and search",
+    "description": "Last 30 Days is a trending GitHub repo that enhances Claude's search capabilities beyond its default web search. It enables deep search across Reddit, Twitter, and YouTube — including full transcripts, comments, and metadata — for richer sentiment analysis and research. It provides significantly better insights compared to the generic search tool bundled with Claude Code out of the box.",
+    "tags": [
+      "claude",
+      "search",
+      "github",
+      "research",
+      "ai-tools",
+      "web-scraping"
+    ],
+    "link": null,
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Deep sentiment analysis across Reddit, Twitter, and YouTube on any topic",
+      "Replacing or augmenting Claude Code's default web search for richer research results"
+    ],
+    "notes": "The canonical GitHub repo URL is not provided in the video. The presenter references a longer deep-dive video on their YouTube channel for more details.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/fqcGWCDTJqo?is=BAipKxNkLsj4_-_p"
   }
 ]
