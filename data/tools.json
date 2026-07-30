@@ -2939,5 +2939,31 @@
     "notes": "Video covers only 5 of the 15 tools in detail; viewers are prompted to comment 'Google' to receive the full list. Tool names may differ slightly between description and captions (e.g., 'Mixport' vs 'Mix board'). All tools are stated to be free at time of publication.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/rj8FFabmQFw?is=d0dINsj5cOy7zKyc"
+  },
+  {
+    "id": "ai-gap-cooper-simpson-founders-garage",
+    "name": "The AI Gap Nobody's Talking About | Cooper Simson",
+    "content_type": "other",
+    "category": "AI entrepreneurship & startup strategy",
+    "description": "A podcast-style YouTube interview with Cooper Simpson, who scaled a venture studio to 14 companies and $9M in revenue, discussing how AI is rewriting the startup playbook. Key topics include why prioritization is the new competitive moat, building products for AI agents rather than humans, and common prompting mistakes founders make. Practical and opinionated takes on AI's role in business building.",
+    "tags": [
+      "ai strategy",
+      "startups",
+      "prompting",
+      "venture studio",
+      "entrepreneurship",
+      "founders"
+    ],
+    "link": "https://youtu.be/XtHUyH_7Y34?is=Tbij5K84QH_L39jN",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Founders evaluating how to position AI-native startups in a shifting landscape",
+      "Entrepreneurs looking to improve AI prompting skills and build better systems with tools like Claude"
+    ],
+    "notes": "Hosted by Dean Sutton on the Founders Garage channel. Features timestamps for key segments including moats, content strategy, job displacement, and bubble analysis. Cooper's social handle is @cooper.simpson.",
+    "added": "2026-07",
+    "source": "https://youtu.be/XtHUyH_7Y34?is=Tbij5K84QH_L39jN"
   }
 ]
