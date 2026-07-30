@@ -2878,5 +2878,34 @@
     "notes": "The canonical GitHub repo URL is not provided in the video. The presenter references a longer deep-dive video on their YouTube channel for more details.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/fqcGWCDTJqo?is=BAipKxNkLsj4_-_p"
+  },
+  {
+    "id": "superpowers-claude-skills-repo",
+    "name": "Superpowers — Claude Code Skills Repo",
+    "content_type": "resource",
+    "category": "AI coding",
+    "description": "Superpowers is a GitHub repository with 240,000+ stars that provides a curated set of high-leverage skills for Claude Code. It covers brainstorming, systematic debugging, planning, code review, and test-driven development. The repo is maintained with strict curation discipline — only skills that earn their place are kept — making it one of the cleanest skill bundles available for Claude.",
+    "tags": [
+      "claude",
+      "claude code",
+      "github",
+      "ai coding",
+      "developer tools",
+      "skills"
+    ],
+    "link": null,
+    "platform": "youtube",
+    "install": "Drop the repo into your .claude/skills folder",
+    "works_with": [
+      "Claude",
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Enhancing Claude Code with structured brainstorming and planning skills",
+      "Improving code review and test-driven development workflows with Claude"
+    ],
+    "notes": "Canonical GitHub URL not provided in the video; creator asks viewers to comment 'POWERS' to receive the install link. Repo star count cited as 240,000+.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/19M06k95xPo?is=cuBqKoyZqoT_lTzp"
   }
 ]
