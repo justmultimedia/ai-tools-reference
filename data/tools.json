@@ -2991,5 +2991,35 @@
     "notes": "Content reflects Ray Dalio's personal views only and should not be taken as financial or investment advice. Hosted by The Diary Of A CEO channel.",
     "added": "2026-07",
     "source": "https://youtu.be/Bu0xNDLNORU?is=jLNwwAFDDHiglgnZ"
+  },
+  {
+    "id": "claude-code-doctor-command",
+    "name": "Claude Code /doctor Command",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A tutorial on using the /doctor command inside Claude Code to optimize your setup for newer models like Opus 5 and Fable 5. The command performs four key actions: checks setup health, removes duplicate or broken files, trims unused plugins/skills/automations based on 30+ days of usage logs, and frees up context window space.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "ai-assistant",
+      "developer-tools",
+      "optimization",
+      "cli"
+    ],
+    "link": "https://youtube.com/shorts/BqXFVtxvCBA?is=FVaCId4HB0G0QWex",
+    "platform": "youtube",
+    "install": "/doctor",
+    "works_with": [
+      "Claude Code",
+      "Opus 5",
+      "Fable 5"
+    ],
+    "use_cases": [
+      "Diagnosing and cleaning up broken or duplicate files in Claude Code setup",
+      "Removing unused plugins and automations to free up context window"
+    ],
+    "notes": "Content references Opus 5 and Fable 5 as new models, suggesting this tip is relevant to a recent Claude Code update cycle. The /doctor command reviews the last 30+ days of usage logs to determine which skills to remove.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/BqXFVtxvCBA?is=FVaCId4HB0G0QWex"
   }
 ]
