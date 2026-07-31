@@ -3021,5 +3021,35 @@
     "notes": "Content references Opus 5 and Fable 5 as new models, suggesting this tip is relevant to a recent Claude Code update cycle. The /doctor command reviews the last 30+ days of usage logs to determine which skills to remove.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/BqXFVtxvCBA?is=FVaCId4HB0G0QWex"
+  },
+  {
+    "id": "common-claude-code-hook-patterns",
+    "name": "Common Claude Code Hook Patterns: Block, Lint, and Notify",
+    "content_type": "tutorial",
+    "category": "AI coding automation",
+    "description": "A short tutorial covering three practical Claude Code hook patterns for developers: blocking destructive shell commands with PreToolUse, running a linter automatically after file edits with PostToolUse, and sending desktop notifications when Claude finishes a task using the Stop event. These patterns provide a copy-and-adjust starting point for automating guardrails and workflow notifications around Claude Code sessions.",
+    "tags": [
+      "claude code",
+      "hooks",
+      "automation",
+      "ai coding",
+      "anthropic",
+      "developer tools"
+    ],
+    "link": "https://youtube.com/shorts/_TNYH3W1mA8",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Anthropic Claude"
+    ],
+    "use_cases": [
+      "Blocking risky or destructive bash commands before Claude executes them",
+      "Automatically linting code after every file edit made by Claude",
+      "Receiving desktop notifications when Claude completes a long-running task"
+    ],
+    "notes": "Short-form video (YouTube Shorts). Mentions a free Claude Code cheat sheet linked in the channel bio. Teases a follow-up video on writing hook scripts in any language.",
+    "added": "2026-07",
+    "source": "https://youtube.com/shorts/_TNYH3W1mA8?is=gjXsNdej_whSegp2"
   }
 ]
