@@ -3051,5 +3051,37 @@
     "notes": "Short-form video (YouTube Shorts). Mentions a free Claude Code cheat sheet linked in the channel bio. Teases a follow-up video on writing hook scripts in any language.",
     "added": "2026-07",
     "source": "https://youtube.com/shorts/_TNYH3W1mA8?is=gjXsNdej_whSegp2"
+  },
+  {
+    "id": "china-advanced-open-source-ai-weekly-roundup",
+    "name": "AI Weekly Roundup: China's Open-Source AI & Key Launches",
+    "content_type": "other",
+    "category": "AI news roundup",
+    "description": "A 60-second weekly summary covering major AI releases including China's advanced open-source model, ChatGPT Sites builder, BlackForestLabs Flux 3 multimodal model, Alibaba Qwen 3.8 Max (2.4T parameters), Block's open-source BaaS serverless platform, Anthropic Claude Opus 5, and Obliteratus (LLM censorship remover). The video highlights a rapid democratization of powerful AI tools challenging existing restrictions across coding, multimedia, and AI governance. Notable for its breadth of coverage across open-source, multimodal, and decentralized AI collaboration tools.",
+    "tags": [
+      "open-source ai",
+      "multimodal ai",
+      "llm",
+      "ai tools",
+      "china ai",
+      "anthropic"
+    ],
+    "link": "https://youtube.com/shorts/6PXZ1ZApWTA?is=GvYRomAnYWGBl53o",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "ChatGPT",
+      "Claude",
+      "Qwen",
+      "Flux 3",
+      "BaaS"
+    ],
+    "use_cases": [
+      "Staying up to date on weekly AI tool and model releases",
+      "Discovering open-source and multimodal AI tools for coding, content creation, and collaboration"
+    ],
+    "notes": "Covers multiple distinct product launches in one video: ChatGPT Sites, BlackForestLabs Flux 3, Alibaba Qwen 3.8 Max, Block BaaS, Anthropic Claude Opus 5, and Obliteratus. Some product names (e.g. 'ChaiGPT', 'Gwen3.8') may reflect transcription errors. Verify individual tool names before use.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/6PXZ1ZApWTA?is=GvYRomAnYWGBl53o"
   }
 ]
