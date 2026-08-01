@@ -3083,5 +3083,33 @@
     "notes": "Covers multiple distinct product launches in one video: ChatGPT Sites, BlackForestLabs Flux 3, Alibaba Qwen 3.8 Max, Block BaaS, Anthropic Claude Opus 5, and Obliteratus. Some product names (e.g. 'ChaiGPT', 'Gwen3.8') may reflect transcription errors. Verify individual tool names before use.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/6PXZ1ZApWTA?is=GvYRomAnYWGBl53o"
+  },
+  {
+    "id": "anthropic-live-artifacts",
+    "name": "Anthropic Live Artifacts",
+    "content_type": "ai-tool",
+    "category": "AI dashboards and data automation",
+    "description": "Live Artifacts is a new Claude feature from Anthropic that enables users to build auto-updating dashboards directly inside Claude chats. Unlike static artifacts, these stay connected to live data and refresh automatically every time they are opened. It supports use cases like KPI boards, sales trackers, project management tools, and content calendars with a one-time setup.",
+    "tags": [
+      "anthropic",
+      "claude",
+      "dashboards",
+      "data-automation",
+      "kpi-tracking",
+      "business-intelligence"
+    ],
+    "link": "https://youtube.com/shorts/Z_Sgbk-CSw0?is=vJfOMk9-kWOvx1ru",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Building auto-updating KPI boards and sales trackers inside Claude",
+      "Creating live project management dashboards and content calendars without manual updates"
+    ],
+    "notes": "Feature announced by Anthropic for Claude; replaces static snapshot artifacts with live, data-connected versions. No pricing details mentioned.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/Z_Sgbk-CSw0?is=vJfOMk9-kWOvx1ru"
   }
 ]
