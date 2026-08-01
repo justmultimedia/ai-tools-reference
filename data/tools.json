@@ -3111,5 +3111,31 @@
     "notes": "Feature announced by Anthropic for Claude; replaces static snapshot artifacts with live, data-connected versions. No pricing details mentioned.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/Z_Sgbk-CSw0?is=vJfOMk9-kWOvx1ru"
+  },
+  {
+    "id": "luma-ray-3-2-ai-video-consistency",
+    "name": "Luma Ray 3.2",
+    "content_type": "ai-tool",
+    "category": "AI video generation",
+    "description": "Luma Ray 3.2 is an AI video generation model that maintains character consistency across multiple story beats within a single clip, without stitching separate generations together. It supports multi-angle re-rendering of the same scene — orbiting, pushing in — while preserving character expressions and scene coherence. It also enables reframing for multiple platforms at full 1080p HDR quality.",
+    "tags": [
+      "ai video",
+      "character consistency",
+      "luma",
+      "video generation",
+      "multi-angle",
+      "content creation"
+    ],
+    "link": "https://lumalabs.ai",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Generating multi-beat narrative scenes with consistent characters in a single AI video clip",
+      "Reframing AI-generated video for different platform aspect ratios (vertical, square, widescreen) without quality loss"
+    ],
+    "notes": "Demonstrated via YouTube Shorts by Nick Sadler; full guide available by commenting 'Luma' on the video or via links in bio. Pricing and availability not specified in the content.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/Z6ryGmuXwSc?is=B6ZQ81-bvHEA04MJ"
   }
 ]
