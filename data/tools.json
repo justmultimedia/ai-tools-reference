@@ -3137,5 +3137,34 @@
     "notes": "Demonstrated via YouTube Shorts by Nick Sadler; full guide available by commenting 'Luma' on the video or via links in bio. Pricing and availability not specified in the content.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/Z6ryGmuXwSc?is=B6ZQ81-bvHEA04MJ"
+  },
+  {
+    "id": "claude-ai-video-editor-mcp",
+    "name": "Claude AI Video Editor (MCP-powered)",
+    "content_type": "multimedia-tool",
+    "category": "AI video editing",
+    "description": "An open-source video editor that connects to Claude via MCP, allowing users to edit videos entirely through text commands. Users can instruct it to organize files, trim clips, and remove silences, with edits applied instantly on a multi-track timeline. It also supports manual editing in a Premiere Pro-style interface built specifically for AI integration.",
+    "tags": [
+      "video editing",
+      "claude",
+      "mcp",
+      "open-source",
+      "ai automation",
+      "text-to-edit"
+    ],
+    "link": null,
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude AI",
+      "MCP (Model Context Protocol)"
+    ],
+    "use_cases": [
+      "Editing videos through conversational text commands without manual timeline work",
+      "Automatically trimming clips and removing silences using AI instructions"
+    ],
+    "notes": "Described as free and open source. Content appears promotional/channel-based; canonical project repo URL not provided. Verify tool authenticity and source before use.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/M_cMbSapeqM?is=ZEFvUHQ227dEZJEK"
   }
 ]
