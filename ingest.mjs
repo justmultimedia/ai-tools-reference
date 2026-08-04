@@ -22,7 +22,39 @@ import Anthropic from '@anthropic-ai/sdk'
 const __dir = dirname(fileURLToPath(import.meta.url))
 const TOOLS_PATH = join(__dir, 'data/tools.json')
 const TRANSCRIPTS_DIR = join(__dir, 'data/transcripts')
+const CATEGORIES_PATH = join(__dir, 'data/categories.json')
 const YTDLP = '/opt/homebrew/bin/yt-dlp'
+
+// The closed category taxonomy. Kept in data/categories.json so ingest.mjs,
+// query.mjs and mcp-server.mjs all agree on one list. If the file is absent the
+// pipeline still runs — it just cannot enforce the enum.
+function loadCategories() {
+  if (!existsSync(CATEGORIES_PATH)) return null
+  try {
+    const parsed = JSON.parse(readFileSync(CATEGORIES_PATH, 'utf8'))
+    const list = Array.isArray(parsed) ? parsed : parsed.categories
+    return Array.isArray(list) && list.length ? list : null
+  } catch {
+    return null
+  }
+}
+
+// The prompt asks for a value from the enum, but a prompt is a request, not a
+// guarantee — one freeform reply is all it takes to start the sprawl again. So
+// coerce anything off-list to 'other' and say so loudly.
+function enforceCategory(entry, categories) {
+  if (!categories) return entry
+  const raw = (entry.category || '').trim()
+  const hit = categories.find(c => c.toLowerCase() === raw.toLowerCase())
+  if (hit) {
+    entry.category = hit
+  } else {
+    console.warn(`  ! category "${raw || '(empty)'}" is not in the taxonomy — coercing to "other"`)
+    if (raw) entry.category_suggested = raw   // keep the model's idea for review
+    entry.category = categories.includes('other') ? 'other' : categories[categories.length - 1]
+  }
+  return entry
+}
 const TL_BASE = 'https://api.twelvelabs.io/v1.3'
 const TL_INDEX_NAME = 'ai-tools-shorts'
 
@@ -245,6 +277,11 @@ async function analyzeWithTwelveLabs(url, tmpDir) {
 // ─── Step 3: Claude extraction ────────────────────────────────────────────────
 
 async function extractEntry({ title, description, channel, captions, videoAnalysis, url, platform }) {
+  const categories = loadCategories()
+  // A closed list when we have one; the old freeform hint only as a fallback.
+  const categoryInstruction = categories
+    ? `"EXACTLY ONE of these values, no others, no new values: ${categories.join(' | ')}"`
+    : `"one descriptive category phrase, e.g. 'video editing', 'AI coding', 'design tools'"`
   const client = new Anthropic()
   const yearMonth = new Date().toISOString().slice(0, 7)
 
@@ -282,7 +319,7 @@ Return a JSON object:
   "id": "kebab-case-slug",
   "name": "Clear title or tool name",
   "content_type": "ai-tool|multimedia-tool|tutorial|event|product|resource|other",
-  "category": "one descriptive category phrase, e.g. 'video editing', 'AI coding', 'design tools'",
+  "category": ${categoryInstruction},
   "description": "2-3 sentences on what this is, why it's interesting or useful.",
   "tags": ["3 to 6 lowercase tags"],
   "link": "canonical URL or null",
@@ -300,7 +337,7 @@ Return a JSON object:
   const text = msg.content[0].text.trim()
   const match = text.match(/\{[\s\S]+\}/)
   if (!match) throw new Error(`Claude did not return valid JSON:\n${text}`)
-  return JSON.parse(match[0])
+  return enforceCategory(JSON.parse(match[0]), categories)
 }
 
 // ─── Step 4: save ─────────────────────────────────────────────────────────────

@@ -2,7 +2,8 @@
   {
     "id": "impeccable",
     "name": "Impeccable",
-    "category": "design",
+    "category": "design-and-ui",
+    "category_original": "design",
     "type": "claude-code-skill",
     "description": "Design fluency skill for Claude Code. Gives Claude design vocabulary — vertical rhythm, typographic scale, proportions — so you can prompt with designer language and get polished results.",
     "install": "npx skills add pixakaus/impeccable",
@@ -34,7 +35,8 @@
   {
     "id": "taste-skill",
     "name": "Taste Skill",
-    "category": "design",
+    "category": "design-and-ui",
+    "category_original": "design",
     "type": "claude-code-skill",
     "description": "Collection of skills that improve how AI tools write modern, premium designs with proper proportions. 7.2K GitHub stars.",
     "install": "via tasteskill.dev",
@@ -60,7 +62,8 @@
   {
     "id": "ui-ux-pro-max",
     "name": "UI UX Pro Max",
-    "category": "design",
+    "category": "design-and-ui",
+    "category_original": "design",
     "type": "reference-database",
     "description": "Searchable database of UI styles, colour palettes, font pairings, chart types and UX guidelines. 57 UI Styles, 95 Colour Palettes, 56 Font Pairings, 8 Tech Stacks.",
     "install": "uipro init --ai windsurf",
@@ -89,7 +92,8 @@
   {
     "id": "21st-dev",
     "name": "21st.dev Components",
-    "category": "design",
+    "category": "design-and-ui",
+    "category_original": "design",
     "type": "component-library",
     "description": "Community library of prebuilt UI components — scroll animations, background effects, cards, hero sections, text effects, shaders, carousels.",
     "install": "Browse at 21st.dev/community/components",
@@ -119,7 +123,8 @@
   {
     "id": "framer-motion",
     "name": "Framer Motion (Motion for React)",
-    "category": "animation",
+    "category": "design-and-ui",
+    "category_original": "animation",
     "type": "npm-package",
     "description": "Open source animation library for React. 171M npm downloads/month. v12+.",
     "install": "npm install motion",
@@ -148,7 +153,8 @@
   {
     "id": "agent-browser",
     "name": "agent-browser (Vercel Labs)",
-    "category": "browser-automation",
+    "category": "dev-tools-and-infrastructure",
+    "category_original": "browser-automation",
     "type": "cli-tool",
     "description": "Browser automation CLI for AI agents. Fast native Rust binary. 321K installs. Best for letting Claude open pages, take screenshots, extract rendered styles from live websites.",
     "install": "npm install -g agent-browser",
@@ -177,7 +183,8 @@
   {
     "id": "playwright",
     "name": "Playwright",
-    "category": "browser-automation",
+    "category": "dev-tools-and-infrastructure",
+    "category_original": "browser-automation",
     "type": "npm-package",
     "description": "Full browser automation framework by Microsoft. Runs real Chromium/Firefox/Safari. Executes JavaScript, fills forms, takes screenshots of rendered pages.",
     "install": "npm install --save-dev playwright && npx playwright install chromium",
@@ -206,7 +213,8 @@
   {
     "id": "markitdown",
     "name": "MarkItDown (Microsoft)",
-    "category": "document-conversion",
+    "category": "dev-tools-and-infrastructure",
+    "category_original": "document-conversion",
     "type": "python-package",
     "description": "Converts PDFs, Word docs, PowerPoints and other files to clean Markdown. 5.4K GitHub stars. Avoids uploading large PDFs to Claude.",
     "install": "pip install markitdown",
@@ -235,7 +243,8 @@
   {
     "id": "banana-claude",
     "name": "Banana Claude",
-    "category": "image-generation",
+    "category": "images-and-3d",
+    "category_original": "image-generation",
     "type": "claude-code-skill",
     "description": "AI image generation skill for Claude Code. Claude acts as Creative Director using Google Gemini Nano models.",
     "install": "npx skills add AgriciDaniel/banana-claude",
@@ -262,7 +271,8 @@
   {
     "id": "find-skills",
     "name": "find-skills (Vercel Labs)",
-    "category": "claude-workflow",
+    "category": "ai-coding",
+    "category_original": "claude-workflow",
     "type": "claude-code-skill",
     "description": "Skill that searches and installs Claude Code skills from the Vercel Labs registry without leaving Claude Code.",
     "install": "npx skills add https://github.com/vercel-labs/skills --skill find-skills",
@@ -287,7 +297,8 @@
   {
     "id": "tailscale",
     "name": "Tailscale",
-    "category": "networking",
+    "category": "dev-tools-and-infrastructure",
+    "category_original": "networking",
     "type": "vpn-mesh",
     "description": "Zero-config mesh VPN. Connects devices securely over the internet without port forwarding. Used to connect MBP to mac-mini.",
     "install": "brew install tailscale",
@@ -317,7 +328,8 @@
   {
     "id": "exifr",
     "name": "exifr",
-    "category": "media",
+    "category": "dev-tools-and-infrastructure",
+    "category_original": "media",
     "type": "npm-package",
     "description": "Fast, configurable EXIF/metadata reader for images. Works in browser and Node.js. Used to extract photo dates from JPEGs.",
     "install": "npm install exifr",
@@ -344,7 +356,8 @@
   {
     "id": "twelvelabs",
     "name": "TwelveLabs",
-    "category": "ai-video",
+    "category": "video-and-film",
+    "category_original": "ai-video",
     "type": "api-service",
     "description": "AI platform for video search and analysis. Index videos, search by natural language, generate text from video content, create embeddings.",
     "install": "Available as MCP server in Claude Code",
@@ -371,7 +384,8 @@
   {
     "id": "ollama",
     "name": "Ollama",
-    "category": "local-llm",
+    "category": "ai-models-and-apis",
+    "category_original": "local-llm",
     "type": "cli-tool",
     "description": "Run open-source LLMs locally on Mac, Linux, or Windows. Manages model downloads, serves a local API compatible with OpenAI's format. Huge model library including Llama, Mistral, Gemma, GLM, Qwen, and more.",
     "install": "brew install ollama",
@@ -402,7 +416,8 @@
   {
     "id": "glm-5.2",
     "name": "GLM-5.2",
-    "category": "local-llm",
+    "category": "ai-models-and-apis",
+    "category_original": "local-llm",
     "type": "api-service",
     "description": "Z.ai's flagship 756B parameter open-source model for long-horizon tasks. Supports tools, thinking, and cloud inference. Too large to run locally on Mac mini — use the :cloud variant which routes to Z.ai's servers.",
     "install": "ollama run glm-5.2:cloud",
@@ -430,7 +445,8 @@
   {
     "id": "bg-remove",
     "name": "bg-remove",
-    "category": "image-processing",
+    "category": "images-and-3d",
+    "category_original": "image-processing",
     "type": "claude-code-skill",
     "description": "Batch background removal for headshots and product photos. Replaces backgrounds with pure white or transparent PNG. Runs fully local using rembg (birefnet-general model). Accepts folders, file lists, or globs. Supports JPEG, PNG, TIFF, HEIC/HIF. Flags suspect mattes to a review/ subfolder.",
     "install": "pip install \"rembg[cli]\" pillow-heif numpy piexif",
@@ -462,7 +478,8 @@
   {
     "id": "clerk-authentication",
     "name": "Clerk",
-    "category": "other",
+    "category": "dev-tools-and-infrastructure",
+    "category_original": "other",
     "type": "api-service",
     "description": "Clerk simplifies app authentication by providing ready-made components for login screens, user profiles, account management, and optional billing. It supports email, social login, and passkeys, with an AI prompt to automate wiring, reducing setup to minutes instead of days.",
     "install": null,
@@ -494,7 +511,8 @@
   {
     "id": "airllm",
     "name": "AirLLM",
-    "category": "other",
+    "category": "ai-models-and-apis",
+    "category_original": "other",
     "type": "python-package",
     "description": "AirLLM is an open-source Python library that enables running 70B-parameter AI models on consumer hardware by streaming model layers from disk one at a time instead of loading the full model into RAM. Combined with FlashAttention, it keeps memory usage nearly flat even for long prompts, making models like LLaMA 3.3 70B runnable on a MacBook or gaming PC.",
     "install": "pip install airllm",
@@ -525,7 +543,8 @@
   {
     "id": "openclaw",
     "name": "OpenClaw",
-    "category": "claude-workflow",
+    "category": "ai-agents-and-automation",
+    "category_original": "claude-workflow",
     "type": "other",
     "description": "OpenClaw turns a Claude-based agent into an always-on remote worker with persistent memory, tool access, and WhatsApp control. Built by Peter Steinberger as a side project, it enables autonomous background task execution across sessions — including coding, debugging, pushing to GitHub, and scheduling recurring tasks like weekly newsletters.",
     "install": "See github.com/openclaw/openclaw",
@@ -555,7 +574,8 @@
   {
     "id": "claude-code-dynamic-workflows",
     "name": "Claude Code Dynamic Workflows",
-    "category": "claude-workflow",
+    "category": "ai-coding",
+    "category_original": "claude-workflow",
     "type": "claude-code-skill",
     "description": "Dynamic workflows allow Claude Code to write and execute scripts that coordinate multiple sub-agents in parallel, enabling large repeatable jobs like codebase audits, migrations, and cross-checked research. Each sub-agent handles a distinct portion of the work, then results are aggregated into a summary report.",
     "install": null,
@@ -582,7 +602,8 @@
   {
     "id": "skills-cli",
     "name": "Skills CLI (skills.sh)",
-    "category": "claude-workflow",
+    "category": "ai-coding",
+    "category_original": "claude-workflow",
     "type": "cli-tool",
     "description": "The npx skills command-line tool and skills.sh directory — the open ecosystem for discovering, verifying, and installing agent skills. Use `npx skills find` to search and `npx skills add <repo>` to install skills from the registry into Claude Code and other agents.",
     "install": "npx skills add <github-repo>",
@@ -617,7 +638,8 @@
     "id": "claude-canva-integration",
     "name": "Claude + Canva Integration",
     "content_type": "tutorial",
-    "category": "AI design tools",
+    "category": "design-and-ui",
+    "category_original": "AI design tools",
     "description": "Claude now integrates with Canva via its connectors feature, allowing users to generate and edit Canva designs (carousels, posters, banners) directly within the Claude interface. Users connect their Canva account through Claude's connector settings and can issue natural language commands to create designs, then open them in Canva for full editing. This workflow eliminates context-switching between AI and design tools, streamlining social media and marketing content creation.",
     "tags": [
       "claude",
@@ -646,7 +668,8 @@
     "id": "allaboardadhd-hypermobility-neurodivergence-episode",
     "name": "All Aboard ADHD Podcast – Hypermobility & Neurodivergence with Dr Jessica Eccles",
     "content_type": "resource",
-    "category": "health & neurodivergence education",
+    "category": "health-and-psychology",
+    "category_original": "health & neurodivergence education",
     "description": "A podcast episode featuring Dr Jessica Eccles, Consultant Psychiatrist and researcher, discussing groundbreaking findings linking hypermobility with ADHD and autism — particularly in women and AFAB individuals. Research from Brighton & Sussex Medical School shows nearly 70% of female ADHD/autism patients were hypermobile, and that hypermobility explains the relationship between neurodivergence and physical symptoms like chronic pain, dizziness, and gut issues. The episode aims to help neurodivergent people connect unexplained physical symptoms to a broader 'whole person' framework.",
     "tags": [
       "adhd",
@@ -672,7 +695,8 @@
     "id": "make-your-own-trees-for-free",
     "name": "Make Your Own Trees For Free",
     "content_type": "tutorial",
-    "category": "gardening tips",
+    "category": "home-and-diy",
+    "category_original": "gardening tips",
     "description": "A short-form gardening video by Adam Kirtland (View From The Potting Bench) demonstrating how to propagate or grow your own trees at no cost. The content has garnered 57K views and 35K reactions, indicating high engagement around this free gardening technique. It encourages viewers to try the method with their favourite trees.",
     "tags": [
       "gardening",
@@ -698,7 +722,8 @@
     "id": "stop-writing-commit-messages-claude-code",
     "name": "Stop Writing Commit Messages — Let Claude Do It",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A short tutorial demonstrating how Claude Code automates Git commit messages by reading your diff and generating conventional commit messages (feat, fix, chore) with meaningful descriptions. Claude stages files, writes the message, and lets you review or revise before anything is committed. Part of a multi-episode Claude Code series.",
     "tags": [
       "claude code",
@@ -728,7 +753,8 @@
     "id": "cooper-simson-ai-harness-course",
     "name": "HARNESS – AI Infrastructure Free Course & Guide",
     "content_type": "tutorial",
-    "category": "AI productivity and engineering",
+    "category": "ai-coding",
+    "category_original": "AI productivity and engineering",
     "description": "A free course and guide promoted by cooper.simson aimed at 'vibe coders' and AI builders, focused on building the foundational infrastructure layer beneath AI systems rather than just the AI models themselves. The content challenges the trend of chasing smarter AI brains and instead advocates for mastering the invisible layer that powers AI applications. Comment 'HARNESS' on the post to receive access.",
     "tags": [
       "ai",
@@ -756,7 +782,8 @@
     "id": "kimiwork-ai-agent-tool",
     "name": "KimiWork",
     "content_type": "ai-tool",
-    "category": "AI automation and multi-agent productivity",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI automation and multi-agent productivity",
     "description": "KimiWork is an AI-powered multi-agent tool launched by Chinese lab Moonshot AI, offering a 200,000 token context window, simultaneous processing of 50+ files, and 300 parallel agents. It automates complex research and business tasks—such as generating a 60-page EV market report and 14-page presentation in 20 minutes—at no cost, directly competing with paid services like Claude, Gemini, and ChatGPT. It reportedly ranked #1 among AI models in developer benchmarks and amassed over 90 million users rapidly.",
     "tags": [
       "ai agents",
@@ -789,7 +816,8 @@
     "id": "claude-hidden-tutor-mode-5-prompts",
     "name": "Claude's Hidden Tutor Mode: 5 Prompts to Get Functional in Any Skill in Under 4 Hours",
     "content_type": "tutorial",
-    "category": "AI learning and productivity",
+    "category": "ai-productivity",
+    "category_original": "AI learning and productivity",
     "description": "A short-form tutorial outlining five specific prompting techniques to use Claude as a personal tutor for rapidly acquiring any skill within a 4-hour window. The prompts cover strategies like constraining Claude to a time limit, translating confusing concepts, building structured learning plans, detecting knowledge gaps, and applying the Feynman technique. It's useful for anyone looking to accelerate self-directed learning using AI.",
     "tags": [
       "claude",
@@ -817,7 +845,8 @@
     "id": "full-ai-agency-147-sub-agents",
     "name": "Open-Source AI Agency with 147 Sub-Agents",
     "content_type": "ai-tool",
-    "category": "AI business automation",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI business automation",
     "description": "A free, open-source GitHub repository that provides a fully structured AI agency with 147 specialized sub-agents organized across 12 departments including engineering, marketing, sales, support, finance, and security. Each agent has its own distinct role, personality, and tone, enabling task-specific automation such as generating ad copy or fixing bugs. The system runs all agents in parallel when integrated with cloud platforms like Claude Code, Cursor, or Codex.",
     "tags": [
       "ai-agents",
@@ -848,7 +877,8 @@
     "id": "claude-code-free-ai-terminal",
     "name": "Claude Code Free AI Terminal (Open-Source Alternative)",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A GitHub tool that simulates Claude Code's terminal environment while routing requests to free AI models, achieving 80-90% of Claude Code's performance at zero cost. It supports free AI providers like NVIDIA NIM and OpenRouter for models such as DeepSeek, Kimi, and GLM, or local execution via Ollama. Over 20,000 developers have adopted this method, which takes approximately 5 seconds to set up.",
     "tags": [
       "claude code",
@@ -881,7 +911,8 @@
     "id": "claude-code-subagents-explained-for-beginners",
     "name": "Claude Code Subagents Explained For Beginners",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A beginner-focused short video explaining how subagents work inside Claude Code as specialist helpers with their own instructions for specific tasks. Covers how to open them with /agents, create custom agents via the library tab, store personal agents in the global .claude folder, and when to use them versus the main Claude instance. Key advice: use subagents for distinct roles or clean context, not for every minor request.",
     "tags": [
       "claude code",
@@ -909,7 +940,8 @@
     "id": "claude-skill-stack-for-builders",
     "name": "The Claude Skill Stack for Builders",
     "content_type": "tutorial",
-    "category": "AI productivity",
+    "category": "ai-productivity",
+    "category_original": "AI productivity",
     "description": "A curated shortlist of five Claude skills recommended for builders and beginners: Marketing Skills Library, Web Asset Generator, Jobs to Be Done, Front-End Design by Anthropic, and Deep Research. The video explains what each skill does and why it's worth installing. Aimed at helping users get ahead quickly without guessing which Claude integrations are worth their time.",
     "tags": [
       "claude",
@@ -937,7 +969,8 @@
     "id": "ai-certifications-that-get-you-hired",
     "name": "5 AI Certifications That Will Actually Get You Hired",
     "content_type": "tutorial",
-    "category": "AI career development",
+    "category": "business-and-career",
+    "category_original": "AI career development",
     "description": "A roundup of five AI certifications highlighted for boosting job prospects in tech: Claude Certified Architect, GitHub Foundation Certification, Google AI Essentials, AWS Certified AI Practitioner, and IBM Generative AI Engineering. Each cert is evaluated for cost, time commitment, and market demand. The video targets job seekers and professionals looking to validate AI skills with recognized credentials.",
     "tags": [
       "ai certifications",
@@ -963,7 +996,8 @@
     "id": "claude-security-risks-mcp-chrome-code",
     "name": "Three Claude Security Risks Anthropic Warns About",
     "content_type": "tutorial",
-    "category": "AI security awareness",
+    "category": "privacy-and-security",
+    "category_original": "AI security awareness",
     "description": "A short-form video highlighting three Claude-specific security risks that Anthropic itself documents on their website. The risks covered include MCP configurations with Gmail send access, Claude for Chrome with full site access, and third-party skills in Claude Code. Useful for anyone deploying Claude in workflows who wants to avoid common security pitfalls.",
     "tags": [
       "claude",
@@ -994,7 +1028,8 @@
     "id": "nasa-climate-spiral-1880-present",
     "name": "NASA Climate Spiral 1880-Present",
     "content_type": "resource",
-    "category": "climate data visualization",
+    "category": "climate-and-environment",
+    "category_original": "climate data visualization",
     "description": "NASA's Scientific Visualization Studio created the 'Climate Spiral,' an animated visualization showing global temperature anomalies from 1880 to the present in a spiraling format. It helps viewers understand the difference between short-term weather variability and long-term climate trends. The visualization makes abstract climate data accessible and compelling for a general audience.",
     "tags": [
       "climate change",
@@ -1020,7 +1055,8 @@
     "id": "claude-watch",
     "name": "Claude Watch",
     "content_type": "ai-tool",
-    "category": "AI video understanding skill",
+    "category": "video-and-film",
+    "category_original": "AI video understanding skill",
     "description": "A Claude plugin/skill (by taoufik123) that lets Claude watch and understand any video — extracting transcripts and analysis so you can ask questions about its content. It's zero-config to start: ffmpeg installs on first run, captions cover most public videos (an API key is only needed when captions are unavailable), and setting $WATCH_VAULT_DIR to an Obsidian vault enables auto-save so the skill skips the ingest step. Installs into Claude Code, claude.ai web, or Codex/generic agents.",
     "tags": [
       "claude",
@@ -1053,7 +1089,8 @@
     "id": "google-free-ai-tools-suite",
     "name": "Google's Free AI Tools Suite (NotebookLM, Gemini Canvas, Stitch, Opal & more)",
     "content_type": "tutorial",
-    "category": "AI productivity and creativity tools",
+    "category": "ai-productivity",
+    "category_original": "AI productivity and creativity tools",
     "description": "A roundup of seven free Google AI tools covering image generation, document summarization, no-code app building, brand-aligned social media creation, interactive content generation, UI design, and web/Android app development. The video highlights tools many users are unaware of, positioning Google's ecosystem as broader than ChatGPT, Anthropic, and Perplexity combined. These tools cater to designers, marketers, developers, and content creators with minimal technical expertise required.",
     "tags": [
       "google ai",
@@ -1085,7 +1122,8 @@
     "id": "claude-code-deepseek-cost-reduction",
     "name": "How to Get $200 of Claude Code for $7",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "This tutorial explains how to route Claude Code through DeepSeek V4 Pro's Anthropic-compatible endpoint to dramatically reduce costs. Since DeepSeek charges ~$1.74 per million tokens versus Anthropic's ~$15, users can get equivalent coding output for a fraction of the price without changing their Claude Code workflow. The creator offers a full walkthrough on how to configure model routing in Claude Code.",
     "tags": [
       "claude code",
@@ -1115,7 +1153,8 @@
     "id": "claude-grades-itself-until-perfect",
     "name": "Claude Grades Itself Until It's Perfect",
     "content_type": "tutorial",
-    "category": "AI prompt engineering",
+    "category": "ai-prompting",
+    "category_original": "AI prompt engineering",
     "description": "A short tutorial explaining how to build self-correcting loops with Claude AI, where the model checks its own output against measurable goals and iterates until it passes. The key insight is giving Claude specific numbers or checklists to grade against rather than vague quality instructions. A linked Google Doc provides the full loop setup template.",
     "tags": [
       "claude",
@@ -1144,7 +1183,8 @@
     "id": "space-finderqq-cosmic-scale-reel",
     "name": "The Vastness of Space – Cosmic Scale Visualization",
     "content_type": "tutorial",
-    "category": "space science education",
+    "category": "science-and-space",
+    "category_original": "space science education",
     "description": "An Instagram reel by space_finderqq that visually illustrates the incomprehensible scale of the universe, from the Earth-Sun distance to the observable universe's filament structures. It uses light travel time as a reference to help viewers grasp distances from 8 light-minutes to billions of light years. The video serves as an accessible educational primer on cosmic scale for general audiences.",
     "tags": [
       "space",
@@ -1170,7 +1210,8 @@
     "id": "g-stack-claude-code-ops-toolkit",
     "name": "G-Stack",
     "content_type": "ai-tool",
-    "category": "AI coding automation",
+    "category": "ai-coding",
+    "category_original": "AI coding automation",
     "description": "G-Stack is an open-source Claude Code ops automation toolkit created by Gary Tan, CEO of Y Combinator, featuring 23 integrated tools that transform Claude Code into a full automated ops team. It covers the entire software development lifecycle including product oversight, design review, architecture locking, real browser QA testing, and automated release management. Installable with a single command, it enables developers to plan, design, review, test, and deploy applications without continuous manual oversight.",
     "tags": [
       "claude-code",
@@ -1198,7 +1239,8 @@
     "id": "claude-code-security-guidance-plugin",
     "name": "Claude Code Security Guidance Plugin",
     "content_type": "tutorial",
-    "category": "AI coding security",
+    "category": "ai-coding",
+    "category_original": "AI coding security",
     "description": "An explanation of the official Claude Code security guidance plugin that reviews AI-generated code changes for common vulnerabilities during the coding session. The plugin checks at three points (after file edits, after each turn, and at commit/push) using pattern matching at no extra model cost. Custom rules via a markdown config file make it adaptable to project-specific security requirements.",
     "tags": [
       "claude code",
@@ -1225,7 +1267,8 @@
     "id": "markitdown-claude-pdf-token-optimization",
     "name": "Markitdown for Claude PDF Token Reduction",
     "content_type": "tutorial",
-    "category": "AI document processing",
+    "category": "ai-productivity",
+    "category_original": "AI document processing",
     "description": "A tutorial explaining how to use Microsoft's open-source Markitdown tool to convert PDFs and other documents into clean Markdown before sending them to Claude, reducing token consumption by up to 70%. Markitdown has over 128,000 GitHub stars and supports PDFs, Word Docs, PowerPoints, and Excel sheets. It integrates with Claude Desktop via a one-click MCP server connection for automatic file conversion.",
     "tags": [
       "pdf",
@@ -1255,7 +1298,8 @@
     "id": "council-prompt-claude-multi-agent",
     "name": "The Council Prompt — 5-Agent Stress-Testing for Claude",
     "content_type": "tutorial",
-    "category": "AI prompting techniques",
+    "category": "ai-prompting",
+    "category_original": "AI prompting techniques",
     "description": "The Council is a prompting technique for Claude that spawns five specialized AI agents — the Contrarian, First Principles Thinker, Expansionist, Outsider, and Executor — each analyzing a problem from a distinct angle. Their responses are randomly shuffled and sent to five peer-review agents, then synthesized by a 'Chairman' agent into a final recommendation. The technique aims to reduce hallucinations and blind spots by forcing multi-perspective stress-testing of any output.",
     "tags": [
       "claude",
@@ -1282,7 +1326,8 @@
     "id": "tmux-for-ai-engineers",
     "name": "Tmux for AI Engineers",
     "content_type": "tutorial",
-    "category": "AI development workflow",
+    "category": "ai-coding",
+    "category_original": "AI development workflow",
     "description": "A tutorial demonstrating how AI engineers can use Tmux, a terminal multiplexer, to run long-running AI coding agents persistently without crashes or lost sessions. It shows how to split the terminal into multiple panes for simultaneous coding, debugging, testing, and logging. Tmux keeps agents running even after disconnecting from Wi-Fi or closing the laptop.",
     "tags": [
       "tmux",
@@ -1312,7 +1357,8 @@
     "id": "fatboy-slim-right-here-right-now-making-of",
     "name": "The Story of how Fatboy Slim made Right Here, Right Now",
     "content_type": "resource",
-    "category": "music production history",
+    "category": "music-and-audio",
+    "category_original": "music production history",
     "description": "A short-form video exploring the creative process behind Fatboy Slim's iconic track 'Right Here, Right Now'. It reveals how the song was inspired by Massive Attack's 'Unfinished Sympathy' and built from sampled string loops taken from records like 'The Ashes the Rain and I' by the James Gang. An interesting look at budget-driven sampling creativity in 1990s electronic music production.",
     "tags": [
       "music production",
@@ -1338,7 +1384,8 @@
     "id": "biggest-tax-mistake-40-years-ireland",
     "name": "With 40 Years In The Industry This Is The Biggest Tax Mistake I See",
     "content_type": "tutorial",
-    "category": "personal finance and tax advice",
+    "category": "personal-finance",
+    "category_original": "personal finance and tax advice",
     "description": "A seasoned Irish financial advisor with 40+ years of experience shares that the biggest cause of people overpaying taxes is the ignorance or misaligned incentives of their advisors — including accountants, solicitors, and bank managers. The video highlights common oversights such as SBE allowances, subsistence allowances, and improper will structures. It emphasizes the importance of seeking financial guidance from advisors whose interests align with your own.",
     "tags": [
       "tax",
@@ -1364,7 +1411,8 @@
     "id": "chatgpt-profile-data-prompts",
     "name": "ChatGPT Knows More About You Than You Think — See & Delete It",
     "content_type": "tutorial",
-    "category": "AI privacy and data management",
+    "category": "privacy-and-security",
+    "category_original": "AI privacy and data management",
     "description": "A short tutorial showing six prompts you can use in ChatGPT to reveal what personal data and inferences it has stored about you, including age range, income, personality traits, and habits. It also walks through how to delete stored memories via Settings > Personalization > Manage Memories. Additionally covers how to disable chat history and model training to limit future data collection.",
     "tags": [
       "chatgpt",
@@ -1392,7 +1440,8 @@
     "id": "how-to-pay-less-inheritance-and-capital-gains-tax-ireland",
     "name": "How To Pay Less Inheritance AND Capital Gains Tax 🇮🇪",
     "content_type": "tutorial",
-    "category": "personal finance & tax planning",
+    "category": "personal-finance",
+    "category_original": "personal finance & tax planning",
     "description": "A short educational video from Ask About Wealth explaining how Irish families can reduce their combined inheritance and capital gains tax liability by choosing to pass property through a will rather than selling it during the parents' lifetime. The video uses a real-world case study involving a €2 million property portfolio to illustrate the tax savings. Key to the strategy is the CGT 'uplift on death' rule available in Ireland.",
     "tags": [
       "inheritance tax",
@@ -1418,7 +1467,8 @@
     "id": "wan-open-source-ai-video-model",
     "name": "Wan (Open-Source AI Video Model)",
     "content_type": "ai-tool",
-    "category": "AI video generation",
+    "category": "video-and-film",
+    "category_original": "AI video generation",
     "description": "Wan is an open-source, Apache 2.0 licensed AI video generation model with over 16,000 GitHub stars. It supports text-to-video and image-to-video generation and runs locally on a single consumer GPU with no API key, monthly limits, or per-clip fees. It positions itself as a free, self-hosted alternative to closed models like Sora.",
     "tags": [
       "ai video",
@@ -1447,7 +1497,8 @@
     "id": "ai-loops-prompting-method-upgraded",
     "name": "The New AI Prompting Method Everyone Is Talking About: Loops",
     "content_type": "tutorial",
-    "category": "AI prompting and automation",
+    "category": "ai-prompting",
+    "category_original": "AI prompting and automation",
     "description": "A beginner-friendly video tutorial explaining 'loop engineering' — a technique where AI agents prompt themselves in iterative cycles rather than relying on manual prompting or hand-written code. The video walks through a real-world demo using Claude Code to run three parallel AI agents for an online pickleball store, covering content scouting, quiz creation, and marketing generation, then hands off to an orchestrator agent on a weekly loop. Inspired by how Boris Cherny (creator of Claude Code) and Peter Steinberger (creator of OpenClaw) now approach programming.",
     "tags": [
       "ai agents",
@@ -1476,7 +1527,8 @@
     "id": "claude-code-remote-control-explained",
     "name": "Claude Code Remote Control Explained",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A beginner-focused explanation of Claude Code's remote control feature, which lets you start a coding session on your Mac and supervise it from another device like a phone. The key insight is to use the phone for oversight — reading progress, answering questions, and stopping bad directions — not for typing code. Includes a safety reminder to keep the remote QR code or link private, as it grants terminal-level access.",
     "tags": [
       "claude code",
@@ -1506,7 +1558,8 @@
     "id": "6-claude-code-plugins-nobody-is-using",
     "name": "6 Claude Code Plugins Nobody Is Using",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A short-form video overview of six underused Claude Code plugins: Superpowers, Frontend Design, Code Review, Security Review, CloudMem, and Stack. Each plugin extends Claude Code's capabilities in areas like planning enforcement, UI generation, multi-agent code review, security scanning, persistent memory, and specialized AI skills. Together they aim to replicate the output of a full engineering team.",
     "tags": [
       "claude code",
@@ -1535,7 +1588,8 @@
     "id": "nvidia-parallel-box-decoding-vision-model",
     "name": "NVIDIA Parallel Box Decoding Computer Vision Model",
     "content_type": "ai-tool",
-    "category": "computer vision / object detection",
+    "category": "images-and-3d",
+    "category_original": "computer vision / object detection",
     "description": "NVIDIA has open-sourced a computer vision model that is up to 10x faster than leading alternatives like Qwen-3-VL by using parallel box decoding, which predicts entire bounding boxes at once instead of sequentially token-by-token. The model was trained on over 100 million queries and hundreds of millions of bounding boxes, delivering significant gains in both speed and accuracy for object detection tasks. It is freely available on HuggingFace and GitHub for developers and researchers.",
     "tags": [
       "nvidia",
@@ -1564,7 +1618,8 @@
     "id": "ornith-1-0-open-source-coding-llm",
     "name": "Ornith 1.0",
     "content_type": "ai-tool",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "Ornith 1.0 is an open-source, open-weights agentic coding LLM from DeepReinforce that outperforms Claude Opus 4.7 on Terminal-Bench (77.5 vs 70.3) and SWE-bench Verified (82.4 vs 80.8). It ships in four sizes (9B, 31B, 35B MoE, 397B MoE), is MIT licensed, and can run locally via Ollama with no API key required. It uses a self-scaffolding reinforcement learning approach where the model writes its own training harness.",
     "tags": [
       "open-source",
@@ -1592,7 +1647,8 @@
     "id": "stanford-claude-agrees-llm-council-prompt",
     "name": "LLM Council Prompt (Andrej Karpathy's Multi-Advisor Technique)",
     "content_type": "tutorial",
-    "category": "AI prompting techniques",
+    "category": "ai-prompting",
+    "category_original": "AI prompting techniques",
     "description": "A tutorial explaining Stanford research showing Claude agrees with users 49% more than a human advisor would, due to sycophancy. It presents a fix via Andrej Karpathy's 'LLM Council' prompt technique, which assigns five distinct advisor personas (contrarian, first-principles thinker, expansionist, outsider, executor) to answer a question, conduct blind peer review of each other's responses, and then have a 'chairman' agent synthesize a final decision with clear next steps.",
     "tags": [
       "prompting",
@@ -1622,7 +1678,8 @@
     "id": "claude-code-adversarial-bug-review",
     "name": "Claude Code Created (and fixed) 42 Bugs in My App",
     "content_type": "tutorial",
-    "category": "AI coding security",
+    "category": "ai-coding",
+    "category_original": "AI coding security",
     "description": "A developer shares their hard rule: no payment code ships until a separate team of AI agents adversarially attacks it first. They unleashed 13 agents on their own payment code, which surfaced 42 findings including 8 critical and 1 life-or-death bug — one that Claude itself had introduced. The key insight is that adversarial AI review (separate from the writing agent) is essential for catching AI-generated bugs before they reach production.",
     "tags": [
       "claude",
@@ -1651,7 +1708,8 @@
     "id": "steven-bartlett-parents-agree",
     "name": "Parents, do you agree? — Steven Bartlett",
     "content_type": "other",
-    "category": "parenting opinion / social commentary",
+    "category": "parenting-and-family",
+    "category_original": "parenting opinion / social commentary",
     "description": "A short-form Facebook video by Steven Bartlett posing a thought-provoking question directed at parents, garnering 2.8 million views and 35K reactions. The content appears to be opinion or discussion-based, inviting parental perspectives on an unspecified topic. Steven Bartlett is known for entrepreneurship and motivational content, suggesting the video likely touches on parenting philosophy or child-rearing advice.",
     "tags": [
       "parenting",
@@ -1677,7 +1735,8 @@
     "id": "thinking-negatively-destroying-brain-diary-of-ceo",
     "name": "Thinking Negatively is Destroying Your Brain – The Diary of a CEO",
     "content_type": "other",
-    "category": "mental health & psychology podcast clip",
+    "category": "health-and-psychology",
+    "category_original": "mental health & psychology podcast clip",
     "description": "A viral podcast clip from The Diary of a CEO discussing how negative thinking patterns can have a damaging effect on brain health. The content highlights the neurological and psychological consequences of chronic negative thought, drawing significant engagement with 592K views and 14K reactions. It serves as an accessible entry point into topics of cognitive health and mindset.",
     "tags": [
       "mental health",
@@ -1703,7 +1762,8 @@
     "id": "agentreach-realtime-social-ai",
     "name": "AgentReach",
     "content_type": "ai-tool",
-    "category": "AI agent data integration",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI agent data integration",
     "description": "AgentReach is a free, open-source tool that enables AI agents to read real-time data from Twitter, Reddit, YouTube, and GitHub without requiring paid APIs. It uses browser cookie authentication for Twitter and Reddit, while YouTube and GitHub work out of the box. With over 20,000 GitHub stars, it consolidates multiple platform data sources into a single command, keeping AI agents current beyond their training data.",
     "tags": [
       "ai-agents",
@@ -1736,7 +1796,8 @@
     "id": "billionaire-warning-jeremy-grantham-crash",
     "name": "Billionaire's WARNING: I'm SELLING. The Crash Is Already Here!",
     "content_type": "resource",
-    "category": "investing and financial education",
+    "category": "personal-finance",
+    "category_original": "investing and financial education",
     "description": "A long-form interview with billionaire investor Jeremy Grantham, co-founder of GMO, who predicted the dot-com crash and 2007 housing collapse. Grantham warns that the AI bubble is the largest in American history and shares specific portfolio strategies to protect wealth before a market downturn. The conversation also covers crypto skepticism, overvalued US equities, housing prices, and environmental chemical risks.",
     "tags": [
       "investing",
@@ -1762,7 +1823,8 @@
     "id": "nvidia-build-free-ai-api-access",
     "name": "NVIDIA Build — Free Access to 80+ AI Models",
     "content_type": "ai-tool",
-    "category": "AI API access",
+    "category": "ai-models-and-apis",
+    "category_original": "AI API access",
     "description": "NVIDIA's Build platform now offers free access to over 80 leading AI models including DeepSeek, OpenAI, Kimi, Minimax, and GLM, with instantly generated API keys. Developers can integrate these models directly into tools like Claude Code and Cursor without paying for individual API subscriptions. This centralizes multi-model access in one place, lowering the barrier to entry for AI experimentation and development.",
     "tags": [
       "nvidia",
@@ -1792,7 +1854,8 @@
     "id": "irish-tax-worse-than-most-people-realise",
     "name": "Irish Tax Is Worse Than Most People Realise",
     "content_type": "tutorial",
-    "category": "personal finance & taxation",
+    "category": "personal-finance",
+    "category_original": "personal finance & taxation",
     "description": "A short-form video comparing take-home pay on €100,000 earnings across several European countries, highlighting that Ireland has one of the highest tax burdens in Europe. The video also notes Ireland ranks 6th highest for capital gains tax and 9th highest for inheritance tax across 35 European countries. It urges Irish taxpayers to use all legitimate tax breaks available, citing a Revenue report that Irish people overpay taxes by €400 million per year.",
     "tags": [
       "ireland",
@@ -1818,7 +1881,8 @@
     "id": "claude-council-workflow",
     "name": "Claude Council",
     "content_type": "tutorial",
-    "category": "AI prompt engineering",
+    "category": "ai-prompting",
+    "category_original": "AI prompt engineering",
     "description": "Claude Council is a structured prompting workflow where a single idea or decision is reviewed by five distinct AI advisor personas (critic, strategist, optimist, outsider, practical advisor) that then critique each other's responses before a 'chairman' role synthesizes a final verdict. This multi-perspective debate approach pressure-tests ideas more thoroughly than standard single-response prompting. It is activated simply by typing 'counsel this' followed by your prompt in Claude.",
     "tags": [
       "claude",
@@ -1845,7 +1909,8 @@
     "id": "alibaba-qwen-agent-world",
     "name": "Alibaba Qwen Agent World",
     "content_type": "ai-tool",
-    "category": "AI agent simulation",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI agent simulation",
     "description": "Alibaba open sourced Qwen Agent World, described as the first language world model that simulates seven distinct agent environments inside a single model. It reportedly outperforms GPT 5.4 and Claude Opus 4.8 on the Agent War Bench benchmark and can run locally for free. This represents a significant advancement in AI agent technology by merging multiple environment simulations within one versatile model.",
     "tags": [
       "open-source",
@@ -1871,7 +1936,8 @@
     "id": "claude-research-upgrade-nick-sadler",
     "name": "Claude (Projects / Extended Context Upgrade)",
     "content_type": "tutorial",
-    "category": "AI productivity and research",
+    "category": "ai-productivity",
+    "category_original": "AI productivity and research",
     "description": "A short-form tutorial highlighting three high-value use cases for Claude's upgraded capabilities: managing large multi-step projects, parsing messy documents like bank statements and spreadsheets, and conducting deep research with specific constraints. The creator refers to the upgrade as 'Fable' internally and offers additional prompts to followers. Useful for anyone looking to get more out of Claude for real-world productivity tasks.",
     "tags": [
       "claude",
@@ -1903,7 +1969,8 @@
     "id": "build-ai-team-launch-90-days-claude",
     "name": "Build an AI Team and Launch in 90 Days with Claude",
     "content_type": "tutorial",
-    "category": "AI business automation",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI business automation",
     "description": "A short-form tutorial outlining how to build a five-role AI department using Claude — covering researcher, strategist, copywriter, builder, and marketer roles — to launch a business in 90 days. Each AI 'employee' is assigned specific prompts and responsibilities, from validating a problem to shipping a live landing page. The approach emphasizes speed, low cost, and replacing traditional team overhead with AI agents.",
     "tags": [
       "claude",
@@ -1931,7 +1998,8 @@
     "id": "google-preferred-sources-ai-seo",
     "name": "Google Preferred Sources for AI Search Rankings",
     "content_type": "tutorial",
-    "category": "SEO and AI search optimization",
+    "category": "marketing-and-content",
+    "category_original": "SEO and AI search optimization",
     "description": "Google's new Preferred Sources feature allows users to designate specific websites they want prioritized in AI Overviews and AI Mode results, marked with a special badge. Site owners can create a direct link that prompts visitors to add their site as a preferred source, increasing visibility in AI-generated search results. This tutorial explains how to generate the link and distribute it across blog posts, email newsletters, and social media.",
     "tags": [
       "seo",
@@ -1960,7 +2028,8 @@
     "id": "business-loaned-goods-allowance-ireland",
     "name": "Can your Business Buy Assets And Loan Them To You?",
     "content_type": "tutorial",
-    "category": "business tax planning",
+    "category": "personal-finance",
+    "category_original": "business tax planning",
     "description": "This short explains the 'loaned goods allowance' in Ireland, which allows a company to purchase assets and loan them to the business owner at a benefit-in-kind (BIK) rate of just 5%. This can be significantly cheaper than taking a gross salary and paying full tax to personally purchase the same asset. The video uses a humorous anecdote about a ride-on lawn mower to illustrate that assets must be justifiably useful to the business to satisfy Irish Revenue.",
     "tags": [
       "ireland",
@@ -1986,7 +2055,8 @@
     "id": "reusable-fable-5-prompt-template-claude-code",
     "name": "Reusable Fable 5 Prompt Template for Claude Code",
     "content_type": "tutorial",
-    "category": "AI coding prompt engineering",
+    "category": "ai-coding",
+    "category_original": "AI coding prompt engineering",
     "description": "A reusable prompt template (job brief) for Claude Code using Fable 5, structured into three sections: outcome, boundaries, and control. The template guides the model to plan before acting, edit in stages, and summarize changes, reducing surprises during AI-assisted development. Designed to be saved as a markdown file and reused across projects.",
     "tags": [
       "claude code",
@@ -2015,7 +2085,8 @@
     "id": "building-automated-video-production-factory",
     "name": "Building An Automated Video Production Factory",
     "content_type": "tutorial",
-    "category": "AI video automation",
+    "category": "video-and-film",
+    "category_original": "AI video automation",
     "description": "Matt Wolfe demonstrates how he vibe coded a fully automated social media video factory in half a day using Anthropic's Fable model. The custom dashboard can turn articles, raw text, files, or ideas into short-form scripts, fact-check them, generate B-roll suggestions, and analyze past Instagram Reels and YouTube Shorts performance to improve future scripts. It also includes a built-in teleprompter for recording.",
     "tags": [
       "ai automation",
@@ -2045,7 +2116,8 @@
     "id": "emergent-ai-second-brain-client-management",
     "name": "Emergent – AI Second Brain for Client Management",
     "content_type": "tutorial",
-    "category": "AI client management",
+    "category": "business-and-career",
+    "category_original": "AI client management",
     "description": "Nick Sadler demonstrates how he used Emergent, a no-code AI app builder, to create a full client management system in under one hour via a single conversation. The resulting app includes a client database, project notes, goals, follow-up reminders, and a content studio — all under one roof. He uses it before every client call to review goals, prior commitments, and next steps without needing a full-time assistant.",
     "tags": [
       "no-code",
@@ -2071,7 +2143,8 @@
     "id": "top-fable-5-use-cases",
     "name": "Top Fable 5 Use Cases",
     "content_type": "tutorial",
-    "category": "AI coding and automation",
+    "category": "ai-coding",
+    "category_original": "AI coding and automation",
     "description": "A short-form video covering the top use cases for the Fable 5 AI model before it transitions to paid API pricing. Use cases include cloning and customizing software locally, auditing Claude Code sessions for productivity insights, and building an agentic OS. The video demonstrates practical, high-value applications of Fable 5 for developers and AI power users.",
     "tags": [
       "fable 5",
@@ -2102,7 +2175,8 @@
     "id": "sandcastles-ai-claude-social-media-plugin",
     "name": "Sandcastles AI Plugin for Claude",
     "content_type": "ai-tool",
-    "category": "social media analytics",
+    "category": "marketing-and-content",
+    "category_original": "social media analytics",
     "description": "The Sandcastles AI plugin for Claude unlocks 14 social media capabilities, including a \\analyze command that lets you drop video URLs directly into Claude for complete breakdowns covering transcripts, structure, hook evaluation, visual composition, and narrative framework. You can batch multiple video URLs simultaneously and then analyze the entire collection to surface underlying patterns and trends. It essentially turns Claude into an automated social media research and trend-spotting machine.",
     "tags": [
       "claude",
@@ -2130,7 +2204,8 @@
     "id": "vassilios-sirakis-atlassian-edge-infrastructure",
     "name": "Vassilios Sirakis Details Atlassian Edge Infrastructure",
     "content_type": "resource",
-    "category": "large-scale infrastructure engineering",
+    "category": "dev-tools-and-infrastructure",
+    "category_original": "large-scale infrastructure engineering",
     "description": "After being laid off from Atlassian, engineer Vassilios Sirakis recorded a 40-minute video detailing the edge infrastructure he built there — a gateway system serving 350,000 customers across Jira, Confluence, and Bitbucket using 2,000 proxy servers in 13 AWS regions, a custom open-source control plane called Sovereign, and a Rust-based authentication system. The video went viral with 2 million views, offering rare transparency into production-scale infrastructure design. It also includes his perspective on the risks of over-relying on AI in software development, particularly around long-term maintainability.",
     "tags": [
       "infrastructure",
@@ -2163,7 +2238,8 @@
     "id": "stop-prompting-start-looping-plan-optimizer",
     "name": "Stop Prompting, Start Looping — Plan Optimizer Introduction",
     "content_type": "tutorial",
-    "category": "AI prompting techniques",
+    "category": "ai-prompting",
+    "category_original": "AI prompting techniques",
     "description": "A short tutorial advocating for 'agentic loops' over single prompts, where an AI model iteratively grades and rewrites its own output against a checklist until it meets quality standards. The video highlights a free tool called Plan Optimizer as an accessible entry point, installable via a single command. The concept is framed as a shift from luck-based prompting to a systematic, self-improving AI workflow.",
     "tags": [
       "ai loops",
@@ -2192,7 +2268,8 @@
     "id": "claude-code-artifacts",
     "name": "Claude Code Artifacts",
     "content_type": "ai-tool",
-    "category": "AI coding / no-code app builder",
+    "category": "ai-coding",
+    "category_original": "AI coding / no-code app builder",
     "description": "Claude Code Artifacts is a new feature that converts a Claude Code session into a live, shareable interactive HTML web page. Anyone with the link can view, edit, or remix the generated tool without any deployment or hosting required. It supports auto-updating pages, meaning when Claude does more work, the live page reflects the changes automatically.",
     "tags": [
       "claude",
@@ -2222,7 +2299,8 @@
     "id": "self-improving-ai-second-brain-claude",
     "name": "Self-Improving AI Second Brain with Claude",
     "content_type": "tutorial",
-    "category": "AI knowledge management",
+    "category": "ai-productivity",
+    "category_original": "AI knowledge management",
     "description": "A tutorial on building a self-improving personal knowledge base using Claude, inspired by Andrej Karpathy's setup. The system stores articles, notes, documents, and ideas in a simple folder structure, letting the AI organize, link, and summarize content into a compounding wiki over time. Built in 45 minutes using Claude's co-work environment, it eliminates the need for manual note organization.",
     "tags": [
       "second brain",
@@ -2250,7 +2328,8 @@
     "id": "ai-engineer-vs-electrician-financial-comparison",
     "name": "AI Engineer vs Electrician: Which One Makes More?",
     "content_type": "other",
-    "category": "career advice",
+    "category": "business-and-career",
+    "category_original": "career advice",
     "description": "A short-form video comparing the 5-year financial outcomes of pursuing an AI engineering degree versus becoming an electrician through a trade path. The analysis highlights that after 5 years, an electrician may be $280K ahead due to zero tuition debt and earlier earnings. The creator argues the traditional college-to-tech-job pipeline deserves reconsideration given the 500,000 electrician shortage in the US.",
     "tags": [
       "career advice",
@@ -2276,7 +2355,8 @@
     "id": "vibe-trading-ai-hedge-fund",
     "name": "Vibe Trading",
     "content_type": "ai-tool",
-    "category": "AI quantitative trading",
+    "category": "personal-finance",
+    "category_original": "AI quantitative trading",
     "description": "Vibe Trading is an open-source AI hedge fund platform released by a Hong Kong university that runs locally for free. It uses a team of collaborative AI agents to research markets, build strategies, run backtests, and review risk using natural language commands. It integrates live data from 18 sources across stocks, crypto, and forex, performs Monte Carlo stress testing, and analyzes broker history to identify profit-draining trading habits.",
     "tags": [
       "quantitative-trading",
@@ -2307,7 +2387,8 @@
     "id": "attachment-styles-adult-relationships-baby-blueprint",
     "name": "Attachment Styles: Adult Relationships Built on a Baby Blueprint",
     "content_type": "tutorial",
-    "category": "psychology education",
+    "category": "health-and-psychology",
+    "category_original": "psychology education",
     "description": "A short-form video by Hannah Fry explaining the concept of attachment styles and how adult relationship behaviors are rooted in early childhood experiences. It references Mary Ainsworth's famous 'Strange Situation' experiment from the 1970s, which demonstrated how a baby's response to separation from their caregiver predicts relational patterns in adulthood. The video simplifies the original study while pointing viewers to the primary academic sources.",
     "tags": [
       "psychology",
@@ -2333,7 +2414,8 @@
     "id": "claude-infinite-memory-notebooklm-integration",
     "name": "Claude + Notebook LM Persistent Memory Integration",
     "content_type": "tutorial",
-    "category": "AI memory and context management",
+    "category": "ai-productivity",
+    "category_original": "AI memory and context management",
     "description": "A technique for giving Claude persistent memory across chat sessions by integrating it with Google's Notebook LM platform. After each session, conversations are saved to Notebook LM and Claude retrieves relevant context via semantic search, eliminating the need to reload context and reducing token costs. The setup also unlocks Notebook LM features like infographics, cinematic videos, and deep research tools.",
     "tags": [
       "claude",
@@ -2362,7 +2444,8 @@
     "id": "consciousness-fundamental-universe-new-scientist",
     "name": "Could consciousness be a fundamental part of the universe?",
     "content_type": "resource",
-    "category": "science & philosophy",
+    "category": "science-and-space",
+    "category_original": "science & philosophy",
     "description": "A short-form video featuring Ivette Fuentes, a professor of quantum mechanics, exploring whether consciousness is a fundamental component of reality alongside matter. Fuentes proposes a dualist view where both matter and consciousness are fundamental and interact, comparing consciousness to spacetime as a background 'arena.' The clip is a preview of a longer New Scientist interview on reconciling classical and quantum mechanics.",
     "tags": [
       "consciousness",
@@ -2388,7 +2471,8 @@
     "id": "11-laws-of-the-universe-david-epstein",
     "name": "11 Laws of the Universe",
     "content_type": "tutorial",
-    "category": "mental models and decision-making",
+    "category": "health-and-psychology",
+    "category_original": "mental models and decision-making",
     "description": "A short-form video by bestselling author David Epstein covering 11 well-known cognitive and organizational laws, including Parkinson's Law, Hofstadter's Law, Hanlon's Razor, the Pareto Principle, the Peter Principle, Hick's Law, Goodhart's Law, the Dunning-Kruger Effect, Occam's Razor, Chesterton's Fence, and Brooks's Law. Each law is briefly explained with a practical takeaway. The content is designed to help viewers understand common patterns in human behavior, productivity, and decision-making.",
     "tags": [
       "mental models",
@@ -2413,7 +2497,8 @@
     "id": "kimi-work-agent-swarm",
     "name": "Kimi Work (Kimi K2.6 Agent Swarm)",
     "content_type": "ai-tool",
-    "category": "AI agent automation",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI agent automation",
     "description": "Kimi Work is a free desktop app by China's Moonshot AI powered by the Kimi K2.6 model that can spin up to 300 parallel sub-agents from a single prompt on your own computer. It demonstrated finding 30 local businesses without websites and building a site for each in roughly 30 minutes. The underlying model is open for developers to build on and ranks near the top for agentic tasks.",
     "tags": [
       "ai-agents",
@@ -2439,7 +2524,8 @@
     "id": "could-i-travel-back-in-time-jim-al-khalili",
     "name": "Could I Travel Back in Time? How Physics Tackles the Paradoxes – with Jim Al-Khalili",
     "content_type": "tutorial",
-    "category": "science education",
+    "category": "science-and-space",
+    "category_original": "science education",
     "description": "Jim Al-Khalili explores the physics of time travel, covering Einstein's relativity, closed timelike curves, the grandfather paradox, Hawking's chronology protection conjecture, and the Many Worlds Interpretation. The video features insights from frontier researchers Dr Fabio Costa and Dr Lorenzo Gavassino on modern physics approaches to time travel paradoxes. It's an accessible yet scientifically grounded journey through one of physics' most captivating topics.",
     "tags": [
       "time travel",
@@ -2465,7 +2551,8 @@
     "id": "scott-galloway-ai-race-china-margins",
     "name": "Scott Galloway: \"The Biggest Business Story That's Getting the Least Coverage\"",
     "content_type": "resource",
-    "category": "AI industry analysis",
+    "category": "business-and-career",
+    "category_original": "AI industry analysis",
     "description": "Scott Galloway and Kara Swisher discuss how China's Moonshot AI and its open-source model Kimi K3 is reshaping the AI competitive landscape by driving margins to zero — a strategy Galloway calls the real story being undercovered. The segment draws parallels to the DeepSeek moment and debates whether Chinese AI strategy is 'dumping' or market consolidation through capitalism. A sharp, punchy take on the economics of the AI race.",
     "tags": [
       "ai strategy",
@@ -2491,7 +2578,8 @@
     "id": "michelle-thaller-atoms-quantum-physics",
     "name": "Michelle Thaller: Everything You Learned About Atoms Is A Lie!?",
     "content_type": "tutorial",
-    "category": "science education",
+    "category": "science-and-space",
+    "category_original": "science education",
     "description": "Astronomer Michelle Thaller explains how the simplified atomic models taught in school differ from the quantum mechanical reality of atoms. She clarifies that electrons behave as probability waves occupying orbital volumes rather than orbiting a nucleus like planets around a star. The video corrects common misconceptions while making quantum physics accessible to a general audience.",
     "tags": [
       "quantum physics",
@@ -2517,7 +2605,8 @@
     "id": "rope-and-sticks-handmade-basket",
     "name": "You Won't Believe What This Rope and Sticks Become",
     "content_type": "tutorial",
-    "category": "DIY crafts and survival skills",
+    "category": "home-and-diy",
+    "category_original": "DIY crafts and survival skills",
     "description": "A short tutorial demonstrating how to build a sturdy handmade basket using only wooden sticks and rope. The technique involves tying sticks together as a base, twisting the rope into a strong lock, then adding sticks layer by layer in a pyramid shape that naturally tightens and stabilizes as it rises. The result is a functional basket capable of carrying goods.",
     "tags": [
       "diy",
@@ -2543,7 +2632,8 @@
     "id": "claude-tricks-that-actually-work",
     "name": "Claude Tricks That Actually Work",
     "content_type": "tutorial",
-    "category": "AI prompting tips",
+    "category": "ai-prompting",
+    "category_original": "AI prompting tips",
     "description": "A short-form video presenting five lesser-known Claude prompt commands claimed to improve output quality and efficiency. Commands include 'caveman' for concise responses, 'ultra think' for deeper reasoning, '/ghost' to remove AI writing tells, '/deep think' for harder problems, and mid-task request injection. Tips are aimed at users who want more control over Claude's behavior without changing settings.",
     "tags": [
       "claude",
@@ -2570,7 +2660,8 @@
     "id": "bind-skills-claude-skill-finder",
     "name": "Bind Skills (Claude Skill Auto-Selector)",
     "content_type": "tutorial",
-    "category": "AI productivity / Claude skills",
+    "category": "ai-productivity",
+    "category_original": "AI productivity / Claude skills",
     "description": "A tutorial highlighting 'Bind Skills,' the top-ranked skill on a platform hosting nearly 10,000 Claude skills, installed over 1.5 million times. It automatically identifies and loads the ideal skill for any task you describe, eliminating manual hunting. The video also warns users to use the platform's security verification page rather than pulling random skills from GitHub.",
     "tags": [
       "claude",
@@ -2598,7 +2689,8 @@
     "id": "claude-remove-personal-data-brokers",
     "name": "Use Claude to Find and Remove Your Personal Data from Data Broker Sites",
     "content_type": "tutorial",
-    "category": "privacy and data removal",
+    "category": "privacy-and-security",
+    "category_original": "privacy and data removal",
     "description": "A tutorial showing how to use Claude AI to search for personal information exposed on data broker and people-search sites, then generate opt-out requests for each one. The workflow also leverages Claude's computer-use capability to automate filing removal requests and follow up weekly. It's a practical privacy tip for reducing your digital footprint with minimal manual effort.",
     "tags": [
       "privacy",
@@ -2627,7 +2719,8 @@
     "id": "vibe-coded-site-seo-crawl-prompt",
     "name": "SEO Crawl Prompt for Vibe Coded Sites",
     "content_type": "tutorial",
-    "category": "SEO / web development",
+    "category": "marketing-and-content",
+    "category_original": "SEO / web development",
     "description": "A quick tip showing how to test whether your vibe-coded website is visible to search engine bots by prompting an AI coding assistant to simulate a Googlebot crawl without executing JavaScript. Many vibe-coded sites rely on client-side rendering, making them invisible to crawlers and hurting SEO. The fix is to implement server-side rendering so bots receive fully rendered HTML instantly.",
     "tags": [
       "seo",
@@ -2658,7 +2751,8 @@
     "id": "new-autism-and-trauma-research",
     "name": "New Autism and Trauma Research",
     "content_type": "resource",
-    "category": "neurodivergence and mental health",
+    "category": "health-and-psychology",
+    "category_original": "neurodivergence and mental health",
     "description": "A short-form video discussing emerging research that challenges the assumption that trauma prevents accurate autism or ADHD diagnosis. The content highlights findings suggesting that people who have experienced adverse childhood experiences (ACEs) are actually more likely to be neurodivergent, not less diagnosable. It also touches on the connection between hypermobility, brain-body type, and neurodivergence.",
     "tags": [
       "autism",
@@ -2684,7 +2778,8 @@
     "id": "claude-code-notebooklm-automation",
     "name": "Claude Code + NotebookLM Automation via notebooklm.py",
     "content_type": "tutorial",
-    "category": "AI content automation",
+    "category": "ai-productivity",
+    "category_original": "AI content automation",
     "description": "A tutorial demonstrating how to combine Claude Code with Google's NotebookLM using the open-source notebooklm.py repository, bypassing NotebookLM's lack of a public API. This setup allows users to programmatically execute tasks in NotebookLM from Claude Code, enabling automated generation of podcasts, video demos, and infographics. The video also suggests building a niche research agent modeled on yourself or your company for unlimited content creation.",
     "tags": [
       "claude code",
@@ -2714,7 +2809,8 @@
     "id": "ai-3d-property-mapping-real-estate",
     "name": "AI-Powered Open Source 3D Property Mapping",
     "content_type": "ai-tool",
-    "category": "real estate technology",
+    "category": "images-and-3d",
+    "category_original": "real estate technology",
     "description": "A free, open-source AI tool that creates accurate 3D models of properties from a simple smartphone walk-through, replacing costly laser scanning crews. It generates precise square footage, detailed floor plans, and a remotely accessible digital record in minutes. Real estate agents and renovators can use it to drastically cut costs and improve efficiency in property listings and renovation planning.",
     "tags": [
       "3d mapping",
@@ -2742,7 +2838,8 @@
     "id": "fastest-diy-woodworking-craft-stool",
     "name": "The Fastest DIY Woodworking Craft: Simple Sitting Stool",
     "content_type": "tutorial",
-    "category": "DIY woodworking",
+    "category": "home-and-diy",
+    "category_original": "DIY woodworking",
     "description": "A quick woodworking tutorial demonstrating how to build a simple sitting stool using wood boards and strips. The technique involves connecting boards into a T-shape, adding a wider board on top, and securing wood strips at the inner corners. It is presented as a fast and beginner-friendly method to create functional furniture.",
     "tags": [
       "woodworking",
@@ -2768,7 +2865,8 @@
     "id": "cooper-simson-five-step-build-your-own-software",
     "name": "The Five-Step Process: Build Your Own Software with Claude",
     "content_type": "tutorial",
-    "category": "AI coding workflow",
+    "category": "ai-coding",
+    "category_original": "AI coding workflow",
     "description": "A short-form reel by cooper.simson laying out a five-step process for replacing paid SaaS tools by building your own software with Claude. The steps: (1) enter plan mode so Claude plans with you before building, (2) pick your target — the tool you pay for that only fits halfway, (3) let Claude interview you so it designs around how you actually work, (4) connect your tools (inbox, sheets, database), and (5) get out of the way — approve the plan and let it build. Framed as a way to 'wipe out the bills' from subscription tools.",
     "tags": [
       "claude",
@@ -2798,7 +2896,8 @@
     "id": "claude-opus-5-review",
     "name": "Claude Opus 5",
     "content_type": "ai-tool",
-    "category": "AI language model / agentic coding",
+    "category": "ai-models-and-apis",
+    "category_original": "AI language model / agentic coding",
     "description": "Claude Opus 5 is Anthropic's latest frontier AI model, reviewed and tested in depth across agentic coding, image-to-3D, financial presentations, music composition, cancer identification, and deep research tasks. The video demonstrates it primarily via Claude Code, an agentic harness enabling multi-file, multi-project autonomous workflows. Benchmarks, specs, cost, and guardrails are also covered.",
     "tags": [
       "claude",
@@ -2828,7 +2927,8 @@
     "id": "antarctic-ice-core-1-2m-years-climate-history",
     "name": "1.2 Million-Year Antarctic Ice Core Climate Record",
     "content_type": "other",
-    "category": "climate science & paleoclimatology",
+    "category": "climate-and-environment",
+    "category_original": "climate science & paleoclimatology",
     "description": "Scientists retrieved an Antarctic ice core in 2025 that extends Earth's atmospheric record back 1.2 million years, surpassing the previous 800,000-year record. By analyzing ancient gas bubbles trapped in ice layers, researchers can reconstruct historic CO2 levels and long-term climate patterns. This breakthrough provides deeper insights into Earth's climate history and helps inform predictive models for future environmental changes.",
     "tags": [
       "antarctica",
@@ -2854,7 +2954,8 @@
     "id": "last-30-days-github-repo",
     "name": "Last 30 Days",
     "content_type": "ai-tool",
-    "category": "AI research and search",
+    "category": "ai-productivity",
+    "category_original": "AI research and search",
     "description": "Last 30 Days is a trending GitHub repo that enhances Claude's search capabilities beyond its default web search. It enables deep search across Reddit, Twitter, and YouTube — including full transcripts, comments, and metadata — for richer sentiment analysis and research. It provides significantly better insights compared to the generic search tool bundled with Claude Code out of the box.",
     "tags": [
       "claude",
@@ -2883,7 +2984,8 @@
     "id": "superpowers-claude-skills-repo",
     "name": "Superpowers — Claude Code Skills Repo",
     "content_type": "resource",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "Superpowers is a GitHub repository with 240,000+ stars that provides a curated set of high-leverage skills for Claude Code. It covers brainstorming, systematic debugging, planning, code review, and test-driven development. The repo is maintained with strict curation discipline — only skills that earn their place are kept — making it one of the cleanest skill bundles available for Claude.",
     "tags": [
       "claude",
@@ -2912,7 +3014,8 @@
     "id": "google-15-free-ai-tools-marketing-design-coding",
     "name": "Google's 15 Free AI Tools (Pomeli, Stitch, Opal, Antigravity, Mixport)",
     "content_type": "ai-tool",
-    "category": "AI productivity suite",
+    "category": "ai-productivity",
+    "category_original": "AI productivity suite",
     "description": "Google released 15 free AI tools spanning marketing, design, coding, and creative content generation. Highlights include Pomeli for generating social media content from a website link, Stitch for converting prompts into UI designs, Google Opal for building AI workflows, Antigravity as an AI code editor, and Mixport for generating and combining AI images. These tools aim to democratize AI access for businesses and creators at no cost.",
     "tags": [
       "google-ai",
@@ -2944,7 +3047,8 @@
     "id": "ai-gap-cooper-simpson-founders-garage",
     "name": "The AI Gap Nobody's Talking About | Cooper Simson",
     "content_type": "other",
-    "category": "AI entrepreneurship & startup strategy",
+    "category": "business-and-career",
+    "category_original": "AI entrepreneurship & startup strategy",
     "description": "A podcast-style YouTube interview with Cooper Simpson, who scaled a venture studio to 14 companies and $9M in revenue, discussing how AI is rewriting the startup playbook. Key topics include why prioritization is the new competitive moat, building products for AI agents rather than humans, and common prompting mistakes founders make. Practical and opinionated takes on AI's role in business building.",
     "tags": [
       "ai strategy",
@@ -2970,7 +3074,8 @@
     "id": "ray-dalio-ai-bubble-economic-decline-diary-of-a-ceo",
     "name": "Ray Dalio: I Predicted The 2008 CRASH, I Know What Comes Next!",
     "content_type": "resource",
-    "category": "economics and finance commentary",
+    "category": "personal-finance",
+    "category_original": "economics and finance commentary",
     "description": "Ray Dalio, founder of Bridgewater Associates, discusses warning signs of an AI bubble, the decline of the US and UK economies, and his 'big cycle' framework for understanding global power shifts. He covers topics including asset diversification, Bitcoin vs. gold, and the impact of AI on jobs and wealth inequality. The conversation is intended for general informational purposes and not as financial advice.",
     "tags": [
       "ray dalio",
@@ -2996,7 +3101,8 @@
     "id": "claude-code-doctor-command",
     "name": "Claude Code /doctor Command",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A tutorial on using the /doctor command inside Claude Code to optimize your setup for newer models like Opus 5 and Fable 5. The command performs four key actions: checks setup health, removes duplicate or broken files, trims unused plugins/skills/automations based on 30+ days of usage logs, and frees up context window space.",
     "tags": [
       "claude",
@@ -3026,7 +3132,8 @@
     "id": "common-claude-code-hook-patterns",
     "name": "Common Claude Code Hook Patterns: Block, Lint, and Notify",
     "content_type": "tutorial",
-    "category": "AI coding automation",
+    "category": "ai-coding",
+    "category_original": "AI coding automation",
     "description": "A short tutorial covering three practical Claude Code hook patterns for developers: blocking destructive shell commands with PreToolUse, running a linter automatically after file edits with PostToolUse, and sending desktop notifications when Claude finishes a task using the Stop event. These patterns provide a copy-and-adjust starting point for automating guardrails and workflow notifications around Claude Code sessions.",
     "tags": [
       "claude code",
@@ -3056,7 +3163,8 @@
     "id": "china-advanced-open-source-ai-weekly-roundup",
     "name": "AI Weekly Roundup: China's Open-Source AI & Key Launches",
     "content_type": "other",
-    "category": "AI news roundup",
+    "category": "business-and-career",
+    "category_original": "AI news roundup",
     "description": "A 60-second weekly summary covering major AI releases including China's advanced open-source model, ChatGPT Sites builder, BlackForestLabs Flux 3 multimodal model, Alibaba Qwen 3.8 Max (2.4T parameters), Block's open-source BaaS serverless platform, Anthropic Claude Opus 5, and Obliteratus (LLM censorship remover). The video highlights a rapid democratization of powerful AI tools challenging existing restrictions across coding, multimedia, and AI governance. Notable for its breadth of coverage across open-source, multimodal, and decentralized AI collaboration tools.",
     "tags": [
       "open-source ai",
@@ -3088,7 +3196,8 @@
     "id": "anthropic-live-artifacts",
     "name": "Anthropic Live Artifacts",
     "content_type": "ai-tool",
-    "category": "AI dashboards and data automation",
+    "category": "ai-productivity",
+    "category_original": "AI dashboards and data automation",
     "description": "Live Artifacts is a new Claude feature from Anthropic that enables users to build auto-updating dashboards directly inside Claude chats. Unlike static artifacts, these stay connected to live data and refresh automatically every time they are opened. It supports use cases like KPI boards, sales trackers, project management tools, and content calendars with a one-time setup.",
     "tags": [
       "anthropic",
@@ -3116,7 +3225,8 @@
     "id": "luma-ray-3-2-ai-video-consistency",
     "name": "Luma Ray 3.2",
     "content_type": "ai-tool",
-    "category": "AI video generation",
+    "category": "video-and-film",
+    "category_original": "AI video generation",
     "description": "Luma Ray 3.2 is an AI video generation model that maintains character consistency across multiple story beats within a single clip, without stitching separate generations together. It supports multi-angle re-rendering of the same scene — orbiting, pushing in — while preserving character expressions and scene coherence. It also enables reframing for multiple platforms at full 1080p HDR quality.",
     "tags": [
       "ai video",
@@ -3142,7 +3252,8 @@
     "id": "claude-ai-video-editor-mcp",
     "name": "Claude AI Video Editor (MCP-powered)",
     "content_type": "multimedia-tool",
-    "category": "AI video editing",
+    "category": "video-and-film",
+    "category_original": "AI video editing",
     "description": "An open-source video editor that connects to Claude via MCP, allowing users to edit videos entirely through text commands. Users can instruct it to organize files, trim clips, and remove silences, with edits applied instantly on a multi-track timeline. It also supports manual editing in a Premiere Pro-style interface built specifically for AI integration.",
     "tags": [
       "video editing",
@@ -3171,7 +3282,8 @@
     "id": "anthropic-claude-code-context-engineering-fix",
     "name": "Anthropic Engineers Just Fixed Claude Code: New Rules for Context Engineering",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A tutorial breaking down new context engineering rules published by an Anthropic engineer (Tariq) on the Claude Code technical team, revealing that over 80% of Claude Code's system prompt was deleted with no loss in coding performance. The video explains how to stop over-stuffing CLAUDE.md files, use lazy loading, leverage the hidden /doctor skill, and structure context for efficiency. Practical guidance for reducing token usage, speeding up responses, and improving Claude Code results.",
     "tags": [
       "claude code",
@@ -3199,7 +3311,8 @@
     "id": "claude-blender-mcp-3d-modeling",
     "name": "Claude + Blender via MCP Integration",
     "content_type": "tutorial",
-    "category": "AI 3D modeling",
+    "category": "images-and-3d",
+    "category_original": "AI 3D modeling",
     "description": "A tutorial demonstrating how to connect Claude AI directly to Blender using the Model Context Protocol (MCP) on Claude Desktop to generate 3D models. The creator built a furniture 3D model in 10 minutes using this workflow. A free PDF tutorial is offered via comment engagement.",
     "tags": [
       "claude",
@@ -3229,7 +3342,8 @@
     "id": "pre-built-ai-loops-library",
     "name": "Pre-Built AI Loops Library (100+ Loops)",
     "content_type": "resource",
-    "category": "AI automation",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI automation",
     "description": "A free library of over 100 pre-built loops designed to simplify building agentic or iterative AI workflows. Setting up loops manually can be error-prone and costly in tokens, so this library provides ready-to-copy templates. Shared via a setup doc and library link available through the post's comment prompt.",
     "tags": [
       "ai",
@@ -3258,7 +3372,8 @@
     "id": "newsherethere-el-nino-climate-change-reel",
     "name": "El Niño & Climate Change: The Cost of Waiting",
     "content_type": "other",
-    "category": "climate awareness",
+    "category": "climate-and-environment",
+    "category_original": "climate awareness",
     "description": "A short-form Instagram reel by newsherethere highlighting the real-time consequences of ocean warming, El Niño, and accelerating climate change. The video argues that scientists have been accurate in their predictions for decades, and that extreme weather events — floods, droughts, wildfires, heatwaves — are interconnected symptoms of a larger crisis. It calls attention to political inaction and corporate inertia in the face of mounting evidence.",
     "tags": [
       "climate change",
@@ -3284,7 +3399,8 @@
     "id": "fable-5-prompting-guide",
     "name": "Fable 5 Prompting Guide",
     "content_type": "tutorial",
-    "category": "AI prompting",
+    "category": "ai-prompting",
+    "category_original": "AI prompting",
     "description": "A guide on how to effectively prompt Fable 5 (likely referring to Claude), covering top use cases to maximize its capabilities. The content highlights that the model is currently free on Pro/Max/Team plans through July 7, after which it switches to pay-per-use. Aimed at helping users get the most value out of the model while it's freely accessible.",
     "tags": [
       "claude",
@@ -3313,7 +3429,8 @@
     "id": "kronos-time-series-foundation-model-tutorial",
     "name": "Kronos: Time Series Foundation Model for Financial Forecasting",
     "content_type": "tutorial",
-    "category": "AI finance & forecasting",
+    "category": "personal-finance",
+    "category_original": "AI finance & forecasting",
     "description": "A tutorial introducing Kronos, a time series foundation model designed to forecast price action in financial markets. The video explains how financial data is transformed into a language-like format suitable for the model. It targets learners who want a technical understanding of applying foundation models to finance.",
     "tags": [
       "time series",
@@ -3339,7 +3456,8 @@
     "id": "johan-rockstrom-climate-better-future-pod",
     "name": "Johan Rockström on Avoiding the Worst Climate Impacts – Better Future Pod",
     "content_type": "resource",
-    "category": "climate science & sustainability",
+    "category": "climate-and-environment",
+    "category_original": "climate science & sustainability",
     "description": "A podcast conversation featuring world-renowned sustainability scientist Johan Rockström, director of the Potsdam Institute for Climate Impact Research, discussing the dangers of a warming Earth. The episode covers how to avoid the worst impacts of the environmental crisis and pathways toward a safer, more sustainable future. Shared as an Instagram reel teaser by host michael__mezz.",
     "tags": [
       "climate",
@@ -3365,7 +3483,8 @@
     "id": "loop-engineering-llms-kodekloud",
     "name": "Automating LLMs with Loop Engineering",
     "content_type": "tutorial",
-    "category": "AI agent engineering",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI agent engineering",
     "description": "This tutorial explains loop engineering as an alternative to basic prompt engineering for handling complex, multi-step LLM tasks. It covers how autonomous AI agents can replace manual human intervention by invoking tools, evaluating outputs, and self-correcting until a goal is met. The video highlights frameworks like LangGraph and agent SDKs for building resilient, stateful automation systems.",
     "tags": [
       "llm",
@@ -3394,7 +3513,8 @@
     "id": "fable-5-free-window-guide",
     "name": "Fable 5 — Free Window Use Cases",
     "content_type": "tutorial",
-    "category": "AI productivity tips",
+    "category": "ai-productivity",
+    "category_original": "AI productivity tips",
     "description": "A short-form video guide recommending five ways to get value from Fable 5 before it switches to a paid, API-credit model on 7 July. Suggested use cases include building websites, internal tools, reviewing Claude outputs, business planning, and learning to run local LLMs. The creator positions this as urgent advice ahead of the shift from unlimited free access to metered pay-per-use.",
     "tags": [
       "fable 5",
@@ -3426,7 +3546,8 @@
     "id": "ornith-1-0-deepreinforce-open-source-ai",
     "name": "Ornith 1.0 by DeepReinforce",
     "content_type": "ai-tool",
-    "category": "open source AI models",
+    "category": "ai-models-and-apis",
+    "category_original": "open source AI models",
     "description": "Ornith 1.0 is an open source AI model from DeepReinforce that reportedly leads on key benchmarks. It features a two-stage learnable pipeline at the orchestration layer that automatically builds its own workflow scaffolding, enabling self-directed agentic behavior. It is positioned as a significant US-origin open source AI milestone.",
     "tags": [
       "open source",
@@ -3452,7 +3573,8 @@
     "id": "roland-portmanteau-effect-drum-machine",
     "name": "Roland Portmanteau Effect Demo by Create Music Therapy",
     "content_type": "multimedia-tool",
-    "category": "drum machine / beat making",
+    "category": "music-and-audio",
+    "category_original": "drum machine / beat making",
     "description": "A short Instagram reel by createmusictherapy showcasing the 'portmanteau effect' using Roland gear, demonstrating a creative technique that blends or combines sounds on a drum machine. The video highlights an interesting sound design or performance approach relevant to beatmakers and music producers. It tags Roland Global, suggesting the technique or gear is Roland-specific.",
     "tags": [
       "drum machine",
@@ -3480,7 +3602,8 @@
     "id": "oliver-logic-pro-wild-combo-tip",
     "name": "Logic Pro Wild Combo Tip by oliver.logic.pro",
     "content_type": "tutorial",
-    "category": "music production tips",
+    "category": "music-and-audio",
+    "category_original": "music production tips",
     "description": "A short-form Instagram reel by oliver.logic.pro showcasing an unusual or lesser-known feature combination in Logic Pro. The creator claims this combo is underused and not widely known among producers. It is aimed at Logic Pro users looking to expand their workflow with hidden or advanced techniques.",
     "tags": [
       "logic pro",
@@ -3509,7 +3632,8 @@
     "id": "claude-code-slash-command-stack",
     "name": "Claude Code God-Tier Slash Command Stack",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A tutorial promoting a curated set of slash commands for Claude Code that enables terminal-level agentic engineering workflows. The content claims these commands allow developers to ship production-grade features faster and debug more effectively than standard prompting. Viewers are directed to DM the creator with 'LOOP' to receive the command stack.",
     "tags": [
       "claude code",
@@ -3538,7 +3662,8 @@
     "id": "top-5-secret-ai-repos-github",
     "name": "Top 5 Secret AI Repos on GitHub",
     "content_type": "resource",
-    "category": "AI GitHub repositories",
+    "category": "ai-coding",
+    "category_original": "AI GitHub repositories",
     "description": "A curated list of 5 lesser-known AI repositories on GitHub highlighted by creator cooper.simson. The repos are claimed to be free and not widely discovered yet. Full links and a setup guide are shared via DM to users who comment 'STARS'.",
     "tags": [
       "github",
@@ -3564,7 +3689,8 @@
     "id": "build-ai-operating-system-with-claude",
     "name": "Build an AI Operating System with Claude",
     "content_type": "tutorial",
-    "category": "AI workflow automation",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI workflow automation",
     "description": "A tutorial on using Claude's most powerful model before it moves behind a paywall to build an AI operating system — a reusable system that cheaper models can run for months afterward. The creator offers specific prompts via DM for those who comment 'RUSH'. Focuses on practical, high-leverage use of frontier AI models rather than trivial projects.",
     "tags": [
       "claude",
@@ -3593,7 +3719,8 @@
     "id": "become-immortal-with-ai-fable-5-guide",
     "name": "Become Immortal with AI – Fable 5 Guide",
     "content_type": "tutorial",
-    "category": "AI gaming / productivity guides",
+    "category": "ai-productivity",
+    "category_original": "AI gaming / productivity guides",
     "description": "A free guide by michaelpkocher on using AI within Fable 5, framed around an 'immortality' mechanic or strategy. The guide is distributed via Google Drive and was promoted before the game or related content moves behind a paywall. It is intended to help users take advantage of AI-related features in Fable 5 before access becomes restricted.",
     "tags": [
       "ai",
@@ -3619,7 +3746,8 @@
     "id": "fable5-token-usage-hacks",
     "name": "3 Hacks to Cut Fable 5 Token Usage",
     "content_type": "tutorial",
-    "category": "AI workflow optimization",
+    "category": "ai-coding",
+    "category_original": "AI workflow optimization",
     "description": "A short-form tutorial offering three techniques to reduce token consumption in Fable 5 (likely referring to Claude), helping users maximize their usage within a limited access window. The creator offers a full setup guide with copy-paste prompts via DM. Content appears aimed at non-technical users looking to get more output from AI tools.",
     "tags": [
       "claude",
@@ -3647,7 +3775,8 @@
     "id": "wall-street-ai-trading-tools-claude",
     "name": "AI Trading Tools via Claude (Wall Street Accessible)",
     "content_type": "tutorial",
-    "category": "AI finance & trading",
+    "category": "personal-finance",
+    "category_original": "AI finance & trading",
     "description": "A short-form tutorial showing how to use Claude AI to access financial analysis and trading tools previously gatekept by Wall Street professionals. The content claims these tools can be accessed in under one minute using AI. Targets retail investors interested in stocks and crypto.",
     "tags": [
       "claude",
@@ -3675,7 +3804,8 @@
     "id": "stop-boring-designs-claude-code-3-skills",
     "name": "3 Skills to Stop Making Boring Designs with Claude Code",
     "content_type": "tutorial",
-    "category": "AI-assisted design",
+    "category": "design-and-ui",
+    "category_original": "AI-assisted design",
     "description": "A short-form video tutorial by nateherkai focused on improving design quality when using Claude Code. It highlights 3 specific skills developers and designers can master to produce more visually compelling outputs. Aimed at those already using Claude Code who want to level up their UI/UX results.",
     "tags": [
       "claude code",
@@ -3703,7 +3833,8 @@
     "id": "video-editing-claude-code-codex",
     "name": "Video Editing with Claude Code & Codex",
     "content_type": "tutorial",
-    "category": "AI-assisted video editing",
+    "category": "video-and-film",
+    "category_original": "AI-assisted video editing",
     "description": "A demonstration of using Claude Code and OpenAI Codex together to accomplish video editing tasks. The content showcases how AI coding assistants can be applied to automate or assist with video production workflows. This is interesting for creators looking to leverage AI tools beyond traditional editing software.",
     "tags": [
       "video editing",
@@ -3732,7 +3863,8 @@
     "id": "graphify-claude-code-token-optimizer",
     "name": "Graphify",
     "content_type": "ai-tool",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "Graphify is a free, open-source tool that builds a knowledge graph of your entire codebase so AI coding assistants don't need to re-read raw files at the start of every session. It claims to reduce token usage by up to 70x, allowing users on lower-tier plans to get equivalent performance to higher-cost plans. It supports multiple AI tools including Claude Code, Cursor, Codex, and Gemini CLI.",
     "tags": [
       "claude code",
@@ -3763,7 +3895,8 @@
     "id": "music-producer-resource-roundup-seids",
     "name": "Music Producer Resource Roundup (musictheorysite, SoundGym, Fadr)",
     "content_type": "resource",
-    "category": "music production resources",
+    "category": "music-and-audio",
+    "category_original": "music production resources",
     "description": "A short Instagram reel highlighting three useful resources for music producers: musictheorysite.com for music theory learning, SoundGym for ear training and audio skills, and Fadr for AI-powered music tools. The post is aimed at music producers looking to expand their knowledge and toolkit. It serves as a quick discovery post for lesser-known or underutilized music production websites.",
     "tags": [
       "music production",
@@ -3790,7 +3923,8 @@
     "id": "harrydoesai-clipping-quick-start-guide-day-122",
     "name": "Clipping Quick Start Guide by harrydoesai",
     "content_type": "tutorial",
-    "category": "content clipping and repurposing",
+    "category": "marketing-and-content",
+    "category_original": "content clipping and repurposing",
     "description": "Day 122 of harrydoesai's daily content series, offering a quick start guide for clipping — the practice of cutting and repurposing video content into shorter clips. Viewers are prompted to comment '122' to receive the guide. This is part of an ongoing educational series aimed at creators looking to streamline their content workflow.",
     "tags": [
       "clipping",
@@ -3815,7 +3949,8 @@
     "id": "elliott-smith-vocal-chain-waves-plugins",
     "name": "Elliott Smith Vocal Chain (Waves Plugins Recreation)",
     "content_type": "tutorial",
-    "category": "audio mixing and vocal production",
+    "category": "music-and-audio",
+    "category_original": "audio mixing and vocal production",
     "description": "A tutorial by nvmixes recreating Elliott Smith's iconic vocal chain using only Waves plugins. The preset or chain is available as a free download via the bio link. It's useful for producers and engineers wanting to capture that warm, lo-fi indie vocal aesthetic associated with Elliott Smith's recordings.",
     "tags": [
       "vocal chain",
@@ -3843,7 +3978,8 @@
     "id": "claude-code-masterclass-brennanwells",
     "name": "Claude Code Masterclass by Brennan Wells",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A free masterclass on Claude Code shared via Instagram reel by creator Brennan Wells. The course appears to cover using Anthropic's Claude for coding and AI agent workflows. Access is granted by commenting 'CLAUDE' on the post.",
     "tags": [
       "claude",
@@ -3872,7 +4008,8 @@
     "id": "benoit-malige-second-life-patterns",
     "name": "Invisible Patterns for a Second Life – Benoit Malige",
     "content_type": "other",
-    "category": "personal transformation",
+    "category": "health-and-psychology",
+    "category_original": "personal transformation",
     "description": "A personal narrative by Benoit Malige, an entrepreneur who burned out and rebuilt his life starting in 2023. He shares insights on the 'invisible patterns' behind personal reinvention and creating a second life. The content is motivational and introspective, aimed at people navigating major life transitions.",
     "tags": [
       "personal development",
@@ -3897,7 +4034,8 @@
     "id": "open-generative-ai-anil-matcha",
     "name": "Open Generative AI (by Anil Matcha)",
     "content_type": "ai-tool",
-    "category": "AI creative studio / generative media",
+    "category": "images-and-3d",
+    "category_original": "AI creative studio / generative media",
     "description": "Open Generative AI is a free, MIT-licensed open-source app by Anil Matcha that consolidates image, video, lip sync, and cinematic prompt generation into one interface. It provides access to 50+ image models and 100+ video models (Flux, Kling, Veo, Sora, Imagen 4, etc.) with no subscription or credit ceiling. Users bring their own API keys and pay only per generation, making it a direct alternative to paid platforms like Higgsfield.",
     "tags": [
       "generative-ai",
@@ -3933,7 +4071,8 @@
     "id": "openai-gpt-inside-claude-code-fable5",
     "name": "Running GPT-5.6 Inside Claude Code with Fable 5",
     "content_type": "tutorial",
-    "category": "AI coding workflow",
+    "category": "ai-coding",
+    "category_original": "AI coding workflow",
     "description": "A tutorial claiming to show how to run OpenAI GPT-5.6 inside Claude Code using a tool called Fable 5, purportedly increasing productivity tenfold while reducing API usage costs. The content is likely promotional or speculative, as 'GPT-5.6' and 'Fable 5' are not verified or widely recognized products at this time. Viewers are prompted to comment 'ROUTE' to receive a setup guide.",
     "tags": [
       "claude",
@@ -3963,7 +4102,8 @@
     "id": "100xengineers-brain-prompt-guide",
     "name": "Brain Prompt & Full Guide by 100xEngineers",
     "content_type": "resource",
-    "category": "AI prompting",
+    "category": "ai-prompting",
+    "category_original": "AI prompting",
     "description": "A prompt and full guide shared by 100xEngineers, accessible by commenting 'Brain' on the post. The content appears to focus on AI prompting techniques or cognitive/engineering workflows. It is distributed as an interactive Instagram engagement resource.",
     "tags": [
       "prompt engineering",
@@ -3988,7 +4128,8 @@
     "id": "fable5-exit-interview-prompt",
     "name": "Fable 5 Exit Interview Prompt",
     "content_type": "tutorial",
-    "category": "AI prompt engineering",
+    "category": "ai-prompting",
+    "category_original": "AI prompt engineering",
     "description": "A technique for extracting all project knowledge from a premium AI model (Fable 5) before transitioning to a cheaper alternative. The 'exit interview' prompt makes the outgoing AI hand off its understanding of your project so a less capable model can continue building at the same level. Comment 'RETIRE' on the post to receive the exact prompt and five key questions.",
     "tags": [
       "prompt engineering",
@@ -4017,7 +4158,8 @@
     "id": "wired-best-kids-phone-setup",
     "name": "Best Kids' Phone Setup (WIRED Discovery)",
     "content_type": "tutorial",
-    "category": "parental controls & kids tech",
+    "category": "parenting-and-family",
+    "category_original": "parental controls & kids tech",
     "description": "WIRED's Jeremy White shares an accidentally discovered phone setup for kids that apparently outperforms what Apple officially recommends. The tip is presented as an under-the-radar configuration that parents may not know about. It offers a practical alternative approach to managing children's smartphone use.",
     "tags": [
       "kids",
@@ -4046,7 +4188,8 @@
     "id": "notebooklm-inside-claude-code",
     "name": "NotebookLM Inside Claude Code",
     "content_type": "tutorial",
-    "category": "AI productivity workflow",
+    "category": "ai-productivity",
+    "category_original": "AI productivity workflow",
     "description": "A tutorial showing how to integrate Google NotebookLM directly within Claude Code for an enhanced AI workflow. The creator offers a free setup guide along with prompt templates and use cases. This combination is presented as a powerful productivity cheat code for AI-assisted work.",
     "tags": [
       "notebooklm",
@@ -4075,7 +4218,8 @@
     "id": "fable-orchestrator-token-saving",
     "name": "Fable as Claude Orchestrator",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A tutorial showing how to use Fable as an orchestrator with Claude to dramatically reduce token usage. The technique involves setting up a Fable skill to manage Claude interactions more efficiently. This is aimed at developers doing vibe coding who want to cut AI API costs.",
     "tags": [
       "fable",
@@ -4104,7 +4248,8 @@
     "id": "claude-code-checkup-command",
     "name": "Claude Code CHECKUP Command Tip",
     "content_type": "tutorial",
-    "category": "AI coding",
+    "category": "ai-coding",
+    "category_original": "AI coding",
     "description": "A tip claiming to share a specific Claude Code command that improves speed, intelligence, and token efficiency. The creator attributes the command to the original developer of Claude Code. Access to the exact command is gated behind a comment-to-DM mechanic.",
     "tags": [
       "claude",
@@ -4132,7 +4277,8 @@
     "id": "claude-code-voice-clone",
     "name": "Claude Code Voice Interface with Voice Cloning",
     "content_type": "tutorial",
-    "category": "AI voice automation",
+    "category": "ai-coding",
+    "category_original": "AI voice automation",
     "description": "A tutorial showing how to give Claude Code a voice interface so it can speak responses aloud. It also demonstrates voice cloning and multilingual conversion to over 23 languages, all triggered from a single prompt using a free open-source git repository.",
     "tags": [
       "claude",
@@ -4160,7 +4306,8 @@
     "id": "openclaw-ai-agent",
     "name": "OpenClaw",
     "content_type": "ai-tool",
-    "category": "AI agent framework",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI agent framework",
     "description": "OpenClaw is a free, locally-runnable AI agent tool that the creator positions as an alternative to government- or corporate-controlled AI services. It appears to integrate with Claude as an AI backend. The post promotes it as a downloadable setup that users can run independently, with a setup guide available via comment trigger.",
     "tags": [
       "ai-agent",
@@ -4187,7 +4334,8 @@
     "id": "video-by-imjonathanacuna",
     "name": "Video by imjonathanacuna",
     "content_type": "other",
-    "category": "instagram content",
+    "category": "other",
+    "category_original": "instagram content",
     "description": "An Instagram Reel posted by the account imjonathanacuna. No additional metadata or description is available from the provided content. The specific subject matter of the video cannot be determined without viewing the content directly.",
     "tags": [
       "instagram",
@@ -4211,7 +4359,8 @@
     "id": "hannah-fry-4-part-explainer-structure",
     "name": "Hannah Fry's 4-Part Viral Explainer Structure",
     "content_type": "tutorial",
-    "category": "educational content creation",
+    "category": "marketing-and-content",
+    "category_original": "educational content creation",
     "description": "An analysis of 30 Hannah Fry videos revealing a repeatable four-part structure for making educational content go viral: start with a relatable experience, explain the mechanism step by step, deliver a surprising reveal, and end small with a light observation. The insight is that great explainer content is built on curiosity architecture, not simplification. Useful for educators, communicators, and content creators.",
     "tags": [
       "storytelling",
@@ -4237,7 +4386,8 @@
     "id": "sites-i-steal-aesthetics-from-pt8",
     "name": "Sites I Steal Aesthetics From Pt. 8 — Film Reference & Light Decoding Tip",
     "content_type": "tutorial",
-    "category": "filmmaking & visual aesthetics",
+    "category": "video-and-film",
+    "category_original": "filmmaking & visual aesthetics",
     "description": "A creator shares curated websites for stealing cinematic aesthetics as a learning method, framing reference study as directorial education. A key tip highlights using Claude AI to analyze Film Grab stills and decode lighting setups. Viewers can DM for a list of three sites plus 'THE FIFTY' — 50 favorite frames with lighting breakdowns.",
     "tags": [
       "filmmaking",
@@ -4266,7 +4416,8 @@
     "id": "llm-council-multi-advisor-skill",
     "name": "The LLM Council",
     "content_type": "ai-tool",
-    "category": "AI decision-making prompts",
+    "category": "ai-prompting",
+    "category_original": "AI decision-making prompts",
     "description": "The LLM Council is a Claude prompt skill that routes your question through 5 specialized advisors, each attacking the problem from a different angle. The advisors then anonymously peer-review each other's responses before a Chairman synthesizes a final verdict and recommended next step. It's designed to reduce AI blind spots and produce more robust, multi-perspective answers.",
     "tags": [
       "claude",
@@ -4293,7 +4444,8 @@
     "id": "premortem-ai-project-tool",
     "name": "Premortem AI Project Failure Finder",
     "content_type": "resource",
-    "category": "AI project planning",
+    "category": "ai-coding",
+    "category_original": "AI project planning",
     "description": "A free tool and repo shared by cooper.simson designed to run a 'premortem' analysis on AI projects before development begins. Inspired by MIT research suggesting 95% of AI projects fail, it helps developers identify where a project is likely to break down before wasting time building it. Available as a free GitHub repo with a full setup guide sent via DM.",
     "tags": [
       "ai planning",
@@ -4321,7 +4473,8 @@
     "id": "earth-nullschool-wind-weather-map",
     "name": "earth.nullschool.net — Live Global Atmosphere & Climate Map",
     "content_type": "resource",
-    "category": "data visualization / geospatial",
+    "category": "climate-and-environment",
+    "category_original": "data visualization / geospatial",
     "description": "earth.nullschool.net is an interactive, real-time visualization of global wind, weather, ocean, and air conditions built by Cameron Beccario. It maps the entire atmosphere and climate live, rendering stunning animated overlays of wind patterns, temperature, ocean currents, and more. It's a powerful reference tool for meteorology enthusiasts, geographers, and data visualization fans.",
     "tags": [
       "maps",
@@ -4347,7 +4500,8 @@
     "id": "claude-storm-multi-perspective-research-prompt",
     "name": "Claude STORM-Style Multi-Perspective Research Prompt",
     "content_type": "tutorial",
-    "category": "AI research prompting",
+    "category": "ai-prompting",
+    "category_original": "AI research prompting",
     "description": "A prompting technique inspired by Stanford's STORM research system that instructs Claude to analyze topics from multiple perspectives — practitioner, academic, skeptic, economist, and historian — rather than giving a single surface-level answer. This approach forces the model to compare arguments, find contradictions, and expose blind spots for deeper research briefs. Useful before writing reports, making business decisions, or studying complex topics.",
     "tags": [
       "claude",
@@ -4375,7 +4529,8 @@
     "id": "claude-senior-engineer-prompts",
     "name": "10 Claude Prompts to Think Like a Senior Engineer",
     "content_type": "tutorial",
-    "category": "AI coding prompts",
+    "category": "ai-coding",
+    "category_original": "AI coding prompts",
     "description": "A collection of 10 copy-paste prompts for Claude designed to shift it from generating quick, messy code to reasoning like a senior engineer. Topics covered include architecture design, file structure explanation, codebase auditing, bottleneck detection, backend cleanup, security review, and deployment preparation. Aimed at developers who want higher-quality, production-ready output from Claude.",
     "tags": [
       "claude",
@@ -4404,7 +4559,8 @@
     "id": "claude-fable-workflow-guide",
     "name": "Claude Fable Agent Workflow Guide",
     "content_type": "tutorial",
-    "category": "AI agents and automation",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI agents and automation",
     "description": "A practical guide showing how to use Claude Fable (extended till July 12) to build reusable AI-powered tools rather than one-off tasks. The author shares a workflow of shaping ideas in Opus 4.8 first, then handing off to Fable to build tools like a video editing skill and a voice-to-draft writing skill. Includes prompts and ideas for rebuilding paid apps, ad campaigns, and cross-platform content repurposing.",
     "tags": [
       "claude",
@@ -4435,7 +4591,8 @@
     "id": "openclaw-ai-agents",
     "name": "OpenClaw",
     "content_type": "ai-tool",
-    "category": "AI agents",
+    "category": "ai-agents-and-automation",
+    "category_original": "AI agents",
     "description": "OpenClaw appears to be an AI agent tool or framework referenced in this Instagram post, associated with Claude AI. The post promotes a link (shared via DM on request) related to OpenClaw, suggesting it may be a platform or interface for building or running AI agents powered by Claude. Limited details are available from the post itself.",
     "tags": [
       "ai-agents",
@@ -4462,7 +4619,8 @@
     "id": "42-claude-design-skills",
     "name": "42 Claude Design Skills Collection",
     "content_type": "resource",
-    "category": "AI design prompting",
+    "category": "design-and-ui",
+    "category_original": "AI design prompting",
     "description": "A curated collection of 42 skills organized into 6 layers to improve Claude's design output beyond generic defaults. Covers frontend UI taste, graphics/3D/video, Claude Canvas design systems, interaction patterns, prompt architecture, and agent orchestration. The author recommends stacking 3-4 targeted skills rather than installing all at once.",
     "tags": [
       "claude",

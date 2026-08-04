@@ -1,0 +1,25 @@
+{
+  "_comment": "Closed category taxonomy. Single source of truth for ingest.mjs, query.mjs and mcp-server.mjs. Adding a value here is the ONLY way to introduce a new category.",
+  "categories": [
+    "ai-coding",
+    "ai-agents-and-automation",
+    "ai-prompting",
+    "ai-models-and-apis",
+    "ai-productivity",
+    "design-and-ui",
+    "video-and-film",
+    "music-and-audio",
+    "images-and-3d",
+    "dev-tools-and-infrastructure",
+    "marketing-and-content",
+    "business-and-career",
+    "personal-finance",
+    "science-and-space",
+    "climate-and-environment",
+    "health-and-psychology",
+    "home-and-diy",
+    "parenting-and-family",
+    "privacy-and-security",
+    "other"
+  ]
+}
