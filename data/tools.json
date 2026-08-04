@@ -3166,5 +3166,33 @@
     "notes": "Described as free and open source. Content appears promotional/channel-based; canonical project repo URL not provided. Verify tool authenticity and source before use.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/M_cMbSapeqM?is=ZEFvUHQ227dEZJEK"
+  },
+  {
+    "id": "anthropic-claude-code-context-engineering-fix",
+    "name": "Anthropic Engineers Just Fixed Claude Code: New Rules for Context Engineering",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A tutorial breaking down new context engineering rules published by an Anthropic engineer (Tariq) on the Claude Code technical team, revealing that over 80% of Claude Code's system prompt was deleted with no loss in coding performance. The video explains how to stop over-stuffing CLAUDE.md files, use lazy loading, leverage the hidden /doctor skill, and structure context for efficiency. Practical guidance for reducing token usage, speeding up responses, and improving Claude Code results.",
+    "tags": [
+      "claude code",
+      "context engineering",
+      "prompt optimization",
+      "anthropic",
+      "ai coding",
+      "claude.md"
+    ],
+    "link": "https://youtu.be/UBFHTHUs1wA?is=XjSct_RmaevXVrTY",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Optimizing CLAUDE.md files to reduce token waste and cost",
+      "Using the /doctor skill to audit and trim dead weight from Claude Code context"
+    ],
+    "notes": "References an article by Anthropic engineer Tariq: https://x.com/trq212/article/2080710971228918066. Creator also offers a paid community (Skool) for $9.",
+    "added": "2026-08",
+    "source": "https://youtu.be/UBFHTHUs1wA?is=XjSct_RmaevXVrTY"
   }
 ]
