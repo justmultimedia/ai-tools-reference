@@ -4489,5 +4489,34 @@
     "notes": "Distributed via DM by commenting 'DESIGN' on the post. Free to request. Skills are described as covering Claude Canvas and MCP integrations like Playwright for design feedback loops.",
     "added": "2026-08",
     "source": "https://www.instagram.com/p/DaNYCILlDgO/?img_index=6&igsh=MTlrejA1ZnQyNXU3Nw=="
+  },
+  {
+    "id": "cooper-simson-ai-expert-playbook",
+    "name": "AI Expert Playbook by Cooper Simson",
+    "content_type": "tutorial",
+    "category": "AI productivity and career advice",
+    "description": "A short-form video by Cooper Simson promoting AI literacy as a career advantage. Viewers are encouraged to comment 'ADVICE' to receive a DM containing an 'AI Expert Playbook' with prompts for tools like ChatGPT and Claude. The content focuses on leveraging AI skills for professional growth.",
+    "tags": [
+      "ai prompts",
+      "productivity",
+      "chatgpt",
+      "claude",
+      "career",
+      "ai literacy"
+    ],
+    "link": "https://www.instagram.com/reel/DbkTEuwtVkP/?igsh=d2xiNDdqZmFzb2c1",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "use_cases": [
+      "Learning AI prompting techniques to improve career productivity",
+      "Accessing a curated AI playbook via DM engagement strategy"
+    ],
+    "notes": "The playbook is distributed via Instagram DM using a comment-trigger engagement tactic. Content may be promotional or lead-generation focused.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DbkTEuwtVkP/?igsh=d2xiNDdqZmFzb2c1"
   }
 ]
