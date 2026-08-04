@@ -4342,5 +4342,152 @@
     "notes": "Free to use in the browser; no installation required. Built and maintained by Cameron Beccario as an open-source project.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/Da510GHpkwq/?igsh=eHA0N3c3YmZpd2oz"
+  },
+  {
+    "id": "claude-storm-multi-perspective-research-prompt",
+    "name": "Claude STORM-Style Multi-Perspective Research Prompt",
+    "content_type": "tutorial",
+    "category": "AI research prompting",
+    "description": "A prompting technique inspired by Stanford's STORM research system that instructs Claude to analyze topics from multiple perspectives — practitioner, academic, skeptic, economist, and historian — rather than giving a single surface-level answer. This approach forces the model to compare arguments, find contradictions, and expose blind spots for deeper research briefs. Useful before writing reports, making business decisions, or studying complex topics.",
+    "tags": [
+      "claude",
+      "prompting",
+      "research",
+      "ai productivity",
+      "multi-perspective",
+      "storm"
+    ],
+    "link": "https://www.instagram.com/p/DZ42MczDQLb/?img_index=7&igsh=MWV2aWppNnIxNm5vOA==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Researching a company or industry before a business decision or interview",
+      "Generating a structured research brief covering multiple angles on a complex topic"
+    ],
+    "notes": "Does not replace real citations or source checking; intended to accelerate and deepen initial research thinking. Inspired by Stanford's STORM system but is a prompting pattern, not the STORM software itself.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/p/DZ42MczDQLb/?img_index=7&igsh=MWV2aWppNnIxNm5vOA=="
+  },
+  {
+    "id": "claude-senior-engineer-prompts",
+    "name": "10 Claude Prompts to Think Like a Senior Engineer",
+    "content_type": "tutorial",
+    "category": "AI coding prompts",
+    "description": "A collection of 10 copy-paste prompts for Claude designed to shift it from generating quick, messy code to reasoning like a senior engineer. Topics covered include architecture design, file structure explanation, codebase auditing, bottleneck detection, backend cleanup, security review, and deployment preparation. Aimed at developers who want higher-quality, production-ready output from Claude.",
+    "tags": [
+      "claude",
+      "prompts",
+      "ai coding",
+      "software engineering",
+      "prompt engineering",
+      "productivity"
+    ],
+    "link": "https://www.instagram.com/p/DZzzH4Cje60/?img_index=1&igsh=MWZtaDg0Y3Zhdm0wZw==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Designing system architecture before writing code with Claude",
+      "Auditing and cleaning up an existing codebase using AI prompts",
+      "Reviewing code for security risks and deployment readiness"
+    ],
+    "notes": "Content is carousel-based on Instagram; prompts are embedded in the post images and must be viewed slide by slide.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/p/DZzzH4Cje60/?img_index=1&igsh=MWZtaDg0Y3Zhdm0wZw=="
+  },
+  {
+    "id": "claude-fable-workflow-guide",
+    "name": "Claude Fable Agent Workflow Guide",
+    "content_type": "tutorial",
+    "category": "AI agents and automation",
+    "description": "A practical guide showing how to use Claude Fable (extended till July 12) to build reusable AI-powered tools rather than one-off tasks. The author shares a workflow of shaping ideas in Opus 4.8 first, then handing off to Fable to build tools like a video editing skill and a voice-to-draft writing skill. Includes prompts and ideas for rebuilding paid apps, ad campaigns, and cross-platform content repurposing.",
+    "tags": [
+      "claude",
+      "ai-agents",
+      "fable",
+      "automation",
+      "prompt-engineering",
+      "workflow"
+    ],
+    "link": "https://www.instagram.com/p/DaaeyDIlYdB/?img_index=5",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Opus 4.8",
+      "Claude Fable 5",
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Building a reusable video editing skill that takes raw clips and outputs a first cut",
+      "Creating a voice-to-draft writing tool that mimics the user's writing style",
+      "Spinning up ad campaigns and repurposing video content across platforms"
+    ],
+    "notes": "Fable access extended till July 12. Full prompt list available by commenting 'PROMPTS' on the post. Workflow tip: shape the idea in Opus 4.8 first, then pass the brief to Fable.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/p/DaaeyDIlYdB/?img_index=5"
+  },
+  {
+    "id": "openclaw-ai-agents",
+    "name": "OpenClaw",
+    "content_type": "ai-tool",
+    "category": "AI agents",
+    "description": "OpenClaw appears to be an AI agent tool or framework referenced in this Instagram post, associated with Claude AI. The post promotes a link (shared via DM on request) related to OpenClaw, suggesting it may be a platform or interface for building or running AI agents powered by Claude. Limited details are available from the post itself.",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "openai",
+      "automation",
+      "ai-tools"
+    ],
+    "link": null,
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Building and running AI agents with Claude",
+      "Automating tasks using AI agent frameworks"
+    ],
+    "notes": "Very limited information available from this post. The actual link is shared via Instagram DM upon commenting 'SEND'. Content may be promotional or affiliate in nature.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/p/DaGIKtPki6B/?img_index=4&igsh=enAzYWRmZ3p6aDJs"
+  },
+  {
+    "id": "42-claude-design-skills",
+    "name": "42 Claude Design Skills Collection",
+    "content_type": "resource",
+    "category": "AI design prompting",
+    "description": "A curated collection of 42 skills organized into 6 layers to improve Claude's design output beyond generic defaults. Covers frontend UI taste, graphics/3D/video, Claude Canvas design systems, interaction patterns, prompt architecture, and agent orchestration. The author recommends stacking 3-4 targeted skills rather than installing all at once.",
+    "tags": [
+      "claude",
+      "ai design",
+      "prompt engineering",
+      "ui design",
+      "design systems",
+      "ai tools"
+    ],
+    "link": "https://www.instagram.com/p/DaNYCILlDgO/?img_index=6&igsh=MTlrejA1ZnQyNXU3Nw==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Blender",
+      "Remotion",
+      "After Effects",
+      "Playwright MCP"
+    ],
+    "use_cases": [
+      "Improving Claude-generated UI design to avoid generic gradients and templated defaults",
+      "Building a layered skill stack for high-fidelity app frames and design systems with Claude"
+    ],
+    "notes": "Distributed via DM by commenting 'DESIGN' on the post. Free to request. Skills are described as covering Claude Canvas and MCP integrations like Playwright for design feedback loops.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/p/DaNYCILlDgO/?img_index=6&igsh=MTlrejA1ZnQyNXU3Nw=="
   }
 ]
