@@ -4518,5 +4518,30 @@
     "notes": "The playbook is distributed via Instagram DM using a comment-trigger engagement tactic. Content may be promotional or lead-generation focused.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DbkTEuwtVkP/?igsh=d2xiNDdqZmFzb2c1"
+  },
+  {
+    "id": "one-minute-bass-reels",
+    "name": "One Minute Bass on Reels",
+    "content_type": "tutorial",
+    "category": "music education",
+    "description": "A short-form bass guitar tutorial or performance video shared on Facebook Reels, garnering 413K views and 10K reactions. The 'One Minute Bass' format likely delivers a quick bass technique, riff, or lesson in under a minute. High engagement suggests the content is accessible and appealing to both beginner and intermediate bass players.",
+    "tags": [
+      "bass guitar",
+      "music tutorial",
+      "short-form video",
+      "reels",
+      "instrument lesson"
+    ],
+    "link": "https://www.facebook.com/share/r/1G9LwXrqgs/?mibextid=wwXIfr",
+    "platform": "facebook",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Learning a quick bass guitar technique or riff in under a minute",
+      "Finding inspiration or new ideas for bass playing practice"
+    ],
+    "notes": "Content is a Facebook Reel; no channel name provided. Engagement metrics (413K views, 10K reactions) indicate viral popularity.",
+    "added": "2026-08",
+    "source": "https://www.facebook.com/share/r/1G9LwXrqgs/?mibextid=wwXIfr"
   }
 ]
