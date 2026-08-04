@@ -118,18 +118,27 @@ function detectPlatform(url) {
 // ─── Step 1: metadata + captions ─────────────────────────────────────────────
 
 function fetchMetadata(url, tmpDir) {
-  execSync(
-    `${YTDLP} \
-      --write-info-json \
-      --write-auto-subs \
-      --sub-langs "en,en-US" \
-      --sub-format vtt \
-      --skip-download \
-      --no-playlist \
-      -o "${tmpDir}/video" \
-      "${url}"`,
-    { stdio: 'pipe' }
-  )
+  // --ignore-errors so photo posts / carousels (Instagram /p/ links) still yield
+  // their metadata: yt-dlp exits non-zero with "No video formats found" on every
+  // slide, but it has already written the .info.json we actually need.
+  try {
+    execSync(
+      `${YTDLP} \
+        --ignore-errors \
+        --write-info-json \
+        --write-auto-subs \
+        --sub-langs "en,en-US" \
+        --sub-format vtt \
+        --skip-download \
+        --no-playlist \
+        -o "${tmpDir}/video" \
+        "${url}"`,
+      { stdio: 'pipe' }
+    )
+  } catch (err) {
+    // Only fatal if nothing usable landed on disk — checked just below.
+    if (!readdirSync(tmpDir).some(f => f.endsWith('.info.json'))) throw err
+  }
 
   const infoFile = readdirSync(tmpDir).find(f => f.endsWith('.info.json'))
   if (!infoFile) throw new Error('yt-dlp did not produce metadata — is the URL valid?')
