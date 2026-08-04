@@ -59,7 +59,18 @@ Edit `data/tools.json` and add an entry with this structure:
 
 ## Current tool count
 
-13 tools across categories: design, animation, browser-automation, document-conversion, networking, media, ai-video, claude-workflow, image-generation
+158 entries. Categories have drifted from the enum above — see _notes/2026-08-04-009.
+
+## Ingest evaluation gate — REQUIRED before saving any tool
+
+Before saving anything from ingest or manual addition, verify:
+
+1. **Is it real?** — Confirm the tool actually exists. Search for it, check the official site or repo. Do not save tools with unverified names (e.g. extracted from video captions that may be mishearing).
+2. **Is it specific?** — One entry = one tool. Do not bundle multiple tools into a single entry.
+3. **Is it an actual tool?** — Save installable tools, APIs, libraries, CLIs, and services. Skip general tips, opinions, news, or "lists of things to try."
+4. **Is it safe?** — Check for red flags: unknown publisher, no GitHub/official site, requests unusual permissions, harvests data. If uncertain, do not save.
+
+If a video mentions multiple tools, evaluate and add each one individually, skipping any that fail the above checks.
 
 ## Rule for Claude
 
