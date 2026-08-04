@@ -3194,5 +3194,1153 @@
     "notes": "References an article by Anthropic engineer Tariq: https://x.com/trq212/article/2080710971228918066. Creator also offers a paid community (Skool) for $9.",
     "added": "2026-08",
     "source": "https://youtu.be/UBFHTHUs1wA?is=XjSct_RmaevXVrTY"
+  },
+  {
+    "id": "claude-blender-mcp-3d-modeling",
+    "name": "Claude + Blender via MCP Integration",
+    "content_type": "tutorial",
+    "category": "AI 3D modeling",
+    "description": "A tutorial demonstrating how to connect Claude AI directly to Blender using the Model Context Protocol (MCP) on Claude Desktop to generate 3D models. The creator built a furniture 3D model in 10 minutes using this workflow. A free PDF tutorial is offered via comment engagement.",
+    "tags": [
+      "claude",
+      "blender",
+      "mcp",
+      "3d modeling",
+      "ai automation",
+      "anthropic"
+    ],
+    "link": "https://www.instagram.com/reel/DX7SEv7sGrI/?igsh=MThqbnB6anl2ZWRwMQ==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Desktop",
+      "Blender",
+      "MCP"
+    ],
+    "use_cases": [
+      "Generating 3D furniture models in Blender using natural language via Claude",
+      "Automating Blender workflows through AI-driven MCP integration"
+    ],
+    "notes": "Free PDF tutorial available by commenting '3D' on the post. Also covered as bonus material in creator's paid masterclass. References Anthropic's MCP update enabling direct Blender connection.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DX7SEv7sGrI/?igsh=MThqbnB6anl2ZWRwMQ=="
+  },
+  {
+    "id": "pre-built-ai-loops-library",
+    "name": "Pre-Built AI Loops Library (100+ Loops)",
+    "content_type": "resource",
+    "category": "AI automation",
+    "description": "A free library of over 100 pre-built loops designed to simplify building agentic or iterative AI workflows. Setting up loops manually can be error-prone and costly in tokens, so this library provides ready-to-copy templates. Shared via a setup doc and library link available through the post's comment prompt.",
+    "tags": [
+      "ai",
+      "loops",
+      "automation",
+      "claude",
+      "chatgpt",
+      "free"
+    ],
+    "link": "https://www.instagram.com/reel/DaN--OEuTxI/?igsh=b2l5ZXhwenZ0Mzhv",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "ChatGPT"
+    ],
+    "use_cases": [
+      "Copying pre-built loop templates to avoid token-burning setup mistakes",
+      "Accelerating AI workflow development with ready-made iterative loop structures"
+    ],
+    "notes": "Library link and setup doc are gated behind a comment ('LOOPED') DM interaction on Instagram. Free as of posting.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaN--OEuTxI/?igsh=b2l5ZXhwenZ0Mzhv"
+  },
+  {
+    "id": "newsherethere-el-nino-climate-change-reel",
+    "name": "El Niño & Climate Change: The Cost of Waiting",
+    "content_type": "other",
+    "category": "climate awareness",
+    "description": "A short-form Instagram reel by newsherethere highlighting the real-time consequences of ocean warming, El Niño, and accelerating climate change. The video argues that scientists have been accurate in their predictions for decades, and that extreme weather events — floods, droughts, wildfires, heatwaves — are interconnected symptoms of a larger crisis. It calls attention to political inaction and corporate inertia in the face of mounting evidence.",
+    "tags": [
+      "climate change",
+      "el niño",
+      "global warming",
+      "extreme weather",
+      "climate crisis",
+      "awareness"
+    ],
+    "link": "https://www.instagram.com/reel/DaAMIUEtwQx/?igsh=Nm0zbjB5NTQ5YXpq",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Raising public awareness about the consequences of climate inaction",
+      "Educational content sharing on social media about El Niño and ocean warming"
+    ],
+    "notes": "Opinion/advocacy content; not a scientific study. Intended for general social media audiences. No date explicitly stated in post.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaAMIUEtwQx/?igsh=Nm0zbjB5NTQ5YXpq"
+  },
+  {
+    "id": "fable-5-prompting-guide",
+    "name": "Fable 5 Prompting Guide",
+    "content_type": "tutorial",
+    "category": "AI prompting",
+    "description": "A guide on how to effectively prompt Fable 5 (likely referring to Claude), covering top use cases to maximize its capabilities. The content highlights that the model is currently free on Pro/Max/Team plans through July 7, after which it switches to pay-per-use. Aimed at helping users get the most value out of the model while it's freely accessible.",
+    "tags": [
+      "claude",
+      "prompting",
+      "ai",
+      "productivity",
+      "automation"
+    ],
+    "link": "https://www.instagram.com/reel/DaRohHINdwN/?igsh=dW9xeDZpN2Zia2Vh",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Pro",
+      "Claude Max",
+      "Claude Team"
+    ],
+    "use_cases": [
+      "Learning how to prompt Claude effectively for better outputs",
+      "Discovering top use cases for Claude while it is free on Pro/Max/Team plans"
+    ],
+    "notes": "Free on Claude Pro/Max/Team through July 7; pay-per-use after that. 'Fable 5' appears to be a nickname or reference to a Claude model. Comment 'FABLE5' on the post to receive the prompting guide and top use cases.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaRohHINdwN/?igsh=dW9xeDZpN2Zia2Vh"
+  },
+  {
+    "id": "kronos-time-series-foundation-model-tutorial",
+    "name": "Kronos: Time Series Foundation Model for Financial Forecasting",
+    "content_type": "tutorial",
+    "category": "AI finance & forecasting",
+    "description": "A tutorial introducing Kronos, a time series foundation model designed to forecast price action in financial markets. The video explains how financial data is transformed into a language-like format suitable for the model. It targets learners who want a technical understanding of applying foundation models to finance.",
+    "tags": [
+      "time series",
+      "financial forecasting",
+      "foundation model",
+      "ai finance",
+      "price prediction",
+      "machine learning"
+    ],
+    "link": "https://www.instagram.com/reel/DW2hy6EDqt-/?igsh=ZW44OG5vZnZ2NHk4",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Forecasting financial market price action using a foundation model",
+      "Converting financial time series data into a tokenized language representation for AI modeling"
+    ],
+    "notes": "This is an educational explainer video by creator @gigaqian on Instagram. Kronos itself is the underlying AI model being discussed, not a product being sold in this post.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DW2hy6EDqt-/?igsh=ZW44OG5vZnZ2NHk4"
+  },
+  {
+    "id": "johan-rockstrom-climate-better-future-pod",
+    "name": "Johan Rockström on Avoiding the Worst Climate Impacts – Better Future Pod",
+    "content_type": "resource",
+    "category": "climate science & sustainability",
+    "description": "A podcast conversation featuring world-renowned sustainability scientist Johan Rockström, director of the Potsdam Institute for Climate Impact Research, discussing the dangers of a warming Earth. The episode covers how to avoid the worst impacts of the environmental crisis and pathways toward a safer, more sustainable future. Shared as an Instagram reel teaser by host michael__mezz.",
+    "tags": [
+      "climate",
+      "sustainability",
+      "podcast",
+      "environmental science",
+      "global warming",
+      "johan rockstrom"
+    ],
+    "link": "https://www.instagram.com/reel/DaLG_TLpLck/?igsh=MWNnYzdseXo4ZHlpNg==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Learning about climate tipping points and planetary boundaries from a leading scientist",
+      "Finding evidence-based perspectives on environmental crisis mitigation strategies"
+    ],
+    "notes": "Full episode available via @betterfuturepod; comment 'ep' on the Instagram post to receive the link directly from the creator.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaLG_TLpLck/?igsh=MWNnYzdseXo4ZHlpNg=="
+  },
+  {
+    "id": "loop-engineering-llms-kodekloud",
+    "name": "Automating LLMs with Loop Engineering",
+    "content_type": "tutorial",
+    "category": "AI agent engineering",
+    "description": "This tutorial explains loop engineering as an alternative to basic prompt engineering for handling complex, multi-step LLM tasks. It covers how autonomous AI agents can replace manual human intervention by invoking tools, evaluating outputs, and self-correcting until a goal is met. The video highlights frameworks like LangGraph and agent SDKs for building resilient, stateful automation systems.",
+    "tags": [
+      "llm",
+      "loop engineering",
+      "ai agents",
+      "langgraph",
+      "prompt engineering",
+      "automation"
+    ],
+    "link": "https://www.instagram.com/reel/DaNb20tD5My/?igsh=dmxnaXNta3Vqa21h",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "LangGraph",
+      "Python"
+    ],
+    "use_cases": [
+      "Replacing manual prompt iteration with autonomous AI agent feedback loops",
+      "Building stateful, self-correcting LLM automation pipelines using agent frameworks"
+    ],
+    "notes": "Created by Aditya Chauhan for KodeKloud; narration is AI-generated. Content is educational and conceptual, not a specific tool release.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaNb20tD5My/?igsh=dmxnaXNta3Vqa21h"
+  },
+  {
+    "id": "fable-5-free-window-guide",
+    "name": "Fable 5 — Free Window Use Cases",
+    "content_type": "tutorial",
+    "category": "AI productivity tips",
+    "description": "A short-form video guide recommending five ways to get value from Fable 5 before it switches to a paid, API-credit model on 7 July. Suggested use cases include building websites, internal tools, reviewing Claude outputs, business planning, and learning to run local LLMs. The creator positions this as urgent advice ahead of the shift from unlimited free access to metered pay-per-use.",
+    "tags": [
+      "fable 5",
+      "ai tools",
+      "productivity",
+      "free tier",
+      "local llm",
+      "business automation"
+    ],
+    "link": "https://www.instagram.com/reel/DaSs9YfBo9b/?igsh=MWMyYjF0emE2d29zZA==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Anthropic API",
+      "local LLMs"
+    ],
+    "use_cases": [
+      "Building a front-end website using Fable 5's design capabilities",
+      "Creating internal tools as alternatives to Slack or Notion",
+      "Planning and launching a first online business with AI guidance",
+      "Learning how to run a local LLM to avoid dependency on closed models"
+    ],
+    "notes": "Fable 5 goes paid on 7 July (year not explicitly stated, assumed 2025); after that it runs on API credits only. Creator offers a full guide via DM if users comment 'FABLE'. Content may be promotional.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaSs9YfBo9b/?igsh=MWMyYjF0emE2d29zZA=="
+  },
+  {
+    "id": "ornith-1-0-deepreinforce-open-source-ai",
+    "name": "Ornith 1.0 by DeepReinforce",
+    "content_type": "ai-tool",
+    "category": "open source AI models",
+    "description": "Ornith 1.0 is an open source AI model from DeepReinforce that reportedly leads on key benchmarks. It features a two-stage learnable pipeline at the orchestration layer that automatically builds its own workflow scaffolding, enabling self-directed agentic behavior. It is positioned as a significant US-origin open source AI milestone.",
+    "tags": [
+      "open source",
+      "ai model",
+      "agentic ai",
+      "workflow automation",
+      "deepreinforce",
+      "benchmarks"
+    ],
+    "link": null,
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Automatically generating and managing AI workflow pipelines",
+      "Benchmarking open source AI model performance against leading models"
+    ],
+    "notes": "Information sourced from a promotional Instagram reel by @gigaqian. Claims about benchmark leadership and capabilities should be independently verified. No official product page or install link provided.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaG7TEgpW11/?igsh=MXJ4c3YzbHd5dnd0ag=="
+  },
+  {
+    "id": "roland-portmanteau-effect-drum-machine",
+    "name": "Roland Portmanteau Effect Demo by Create Music Therapy",
+    "content_type": "multimedia-tool",
+    "category": "drum machine / beat making",
+    "description": "A short Instagram reel by createmusictherapy showcasing the 'portmanteau effect' using Roland gear, demonstrating a creative technique that blends or combines sounds on a drum machine. The video highlights an interesting sound design or performance approach relevant to beatmakers and music producers. It tags Roland Global, suggesting the technique or gear is Roland-specific.",
+    "tags": [
+      "drum machine",
+      "roland",
+      "beat making",
+      "music production",
+      "sound design",
+      "music therapy"
+    ],
+    "link": "https://www.instagram.com/reel/DZ6ecnXxUUM/?igsh=aGV4bHdoMWl6dnl2",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Roland drum machines"
+    ],
+    "use_cases": [
+      "Exploring portmanteau/blending sound techniques on Roland drum machines",
+      "Inspiration for beatmakers and music producers seeking creative sound layering ideas"
+    ],
+    "notes": "Short-form reel; specific Roland model not mentioned in description. Portmanteau effect refers to blending/combining two sounds or patterns into one.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DZ6ecnXxUUM/?igsh=aGV4bHdoMWl6dnl2"
+  },
+  {
+    "id": "oliver-logic-pro-wild-combo-tip",
+    "name": "Logic Pro Wild Combo Tip by oliver.logic.pro",
+    "content_type": "tutorial",
+    "category": "music production tips",
+    "description": "A short-form Instagram reel by oliver.logic.pro showcasing an unusual or lesser-known feature combination in Logic Pro. The creator claims this combo is underused and not widely known among producers. It is aimed at Logic Pro users looking to expand their workflow with hidden or advanced techniques.",
+    "tags": [
+      "logic pro",
+      "music production",
+      "daw tips",
+      "audio production",
+      "logic pro x",
+      "tutorial"
+    ],
+    "link": "https://www.instagram.com/reel/DY7hV2oBgQU/?igsh=MTNld2Vnbzdkc2IycA==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Logic Pro",
+      "Logic Pro X"
+    ],
+    "use_cases": [
+      "Discovering underused Logic Pro feature combinations to enhance music production workflow",
+      "Learning advanced or hidden Logic Pro techniques from short-form video content"
+    ],
+    "notes": "Specific details of the combo technique are not described in the available metadata; viewing the reel directly is required to learn the full method.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DY7hV2oBgQU/?igsh=MTNld2Vnbzdkc2IycA=="
+  },
+  {
+    "id": "claude-code-slash-command-stack",
+    "name": "Claude Code God-Tier Slash Command Stack",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A tutorial promoting a curated set of slash commands for Claude Code that enables terminal-level agentic engineering workflows. The content claims these commands allow developers to ship production-grade features faster and debug more effectively than standard prompting. Viewers are directed to DM the creator with 'LOOP' to receive the command stack.",
+    "tags": [
+      "claude code",
+      "ai coding",
+      "slash commands",
+      "agentic workflows",
+      "developer productivity",
+      "chatgpt"
+    ],
+    "link": "https://www.instagram.com/reel/DaU6LKNMSZP/?igsh=MW95dDR2cGVmazRvNg==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "ChatGPT"
+    ],
+    "use_cases": [
+      "Shipping production-grade features using a single agentic command",
+      "Debugging elusive bugs faster using terminal-level Claude Code workflows"
+    ],
+    "notes": "Content is promotional/lead-generation in nature — the actual command stack is gated behind a DM interaction (comment 'LOOP'). No pricing or tool link provided. Treat with skepticism until verified.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaU6LKNMSZP/?igsh=MW95dDR2cGVmazRvNg=="
+  },
+  {
+    "id": "top-5-secret-ai-repos-github",
+    "name": "Top 5 Secret AI Repos on GitHub",
+    "content_type": "resource",
+    "category": "AI GitHub repositories",
+    "description": "A curated list of 5 lesser-known AI repositories on GitHub highlighted by creator cooper.simson. The repos are claimed to be free and not widely discovered yet. Full links and a setup guide are shared via DM to users who comment 'STARS'.",
+    "tags": [
+      "github",
+      "ai tools",
+      "open source",
+      "repositories",
+      "free",
+      "ai resources"
+    ],
+    "link": "https://www.instagram.com/reel/DaWe9HDussx/?igsh=MTR5d2NlanJneGN6MA==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Discovering underrated open-source AI tools and libraries",
+      "Setting up free AI development environments using community-curated repos"
+    ],
+    "notes": "Actual GitHub links are not publicly listed in the post; users must comment 'STARS' to receive them via DM. Content may be engagement-bait and links are unverified.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaWe9HDussx/?igsh=MTR5d2NlanJneGN6MA=="
+  },
+  {
+    "id": "build-ai-operating-system-with-claude",
+    "name": "Build an AI Operating System with Claude",
+    "content_type": "tutorial",
+    "category": "AI workflow automation",
+    "description": "A tutorial on using Claude's most powerful model before it moves behind a paywall to build an AI operating system — a reusable system that cheaper models can run for months afterward. The creator offers specific prompts via DM for those who comment 'RUSH'. Focuses on practical, high-leverage use of frontier AI models rather than trivial projects.",
+    "tags": [
+      "claude",
+      "ai workflow",
+      "ai automation",
+      "prompt engineering",
+      "claudeai",
+      "productivity"
+    ],
+    "link": "https://www.instagram.com/reel/DabomVStNCH/?igsh=aGxsY2d0dTk0YWM3",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Anthropic API"
+    ],
+    "use_cases": [
+      "Designing a reusable AI operating system using Claude's flagship model",
+      "Automating workflows that cheaper AI models can execute long-term"
+    ],
+    "notes": "Content references Claude's powerful model going behind a paywall in '48 hours' — timing is relative to posting date. Prompts are gated behind a DM interaction (comment 'RUSH'). Hashtag #fable5 may be unrelated or a campaign tag.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DabomVStNCH/?igsh=aGxsY2d0dTk0YWM3"
+  },
+  {
+    "id": "become-immortal-with-ai-fable-5-guide",
+    "name": "Become Immortal with AI – Fable 5 Guide",
+    "content_type": "tutorial",
+    "category": "AI gaming / productivity guides",
+    "description": "A free guide by michaelpkocher on using AI within Fable 5, framed around an 'immortality' mechanic or strategy. The guide is distributed via Google Drive and was promoted before the game or related content moves behind a paywall. It is intended to help users take advantage of AI-related features in Fable 5 before access becomes restricted.",
+    "tags": [
+      "ai",
+      "fable 5",
+      "gaming",
+      "guide",
+      "free resource",
+      "tutorial"
+    ],
+    "link": "https://drive.google.com/file/d/1o9f5v4QX8J8ibZNkdN8KHNr0UbIQ1eI0/view",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Learning AI-assisted strategies or mechanics in Fable 5",
+      "Accessing a free guide before content moves behind a paywall"
+    ],
+    "notes": "Instagram automation was down at time of posting; link provided directly in description. Content may move behind a paywall soon. Verify guide is still accessible via the Google Drive link.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaVsgWuxYIv/?igsh=MWQxYzJib2dmZWFxaA=="
+  },
+  {
+    "id": "fable5-token-usage-hacks",
+    "name": "3 Hacks to Cut Fable 5 Token Usage",
+    "content_type": "tutorial",
+    "category": "AI workflow optimization",
+    "description": "A short-form tutorial offering three techniques to reduce token consumption in Fable 5 (likely referring to Claude), helping users maximize their usage within a limited access window. The creator offers a full setup guide with copy-paste prompts via DM. Content appears aimed at non-technical users looking to get more output from AI tools.",
+    "tags": [
+      "claude",
+      "ai workflow",
+      "token optimization",
+      "fable5",
+      "prompt engineering",
+      "productivity"
+    ],
+    "link": "https://www.instagram.com/reel/DahNrmitcCi/?igsh=aTN6cmc1a2JjaDJj",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Reducing token usage during extended AI sessions",
+      "Maximizing output within a limited AI access window"
+    ],
+    "notes": "The hashtags reference 'Fable5' and 'ClaudeAI' — 'Fable 5' appears to be a branded or colloquial name used by this creator, possibly referring to Claude 5 or a specific plan tier. Guide is delivered via DM upon commenting 'EFFORT'. Verify accuracy before relying on tips.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DahNrmitcCi/?igsh=aTN6cmc1a2JjaDJj"
+  },
+  {
+    "id": "wall-street-ai-trading-tools-claude",
+    "name": "AI Trading Tools via Claude (Wall Street Accessible)",
+    "content_type": "tutorial",
+    "category": "AI finance & trading",
+    "description": "A short-form tutorial showing how to use Claude AI to access financial analysis and trading tools previously gatekept by Wall Street professionals. The content claims these tools can be accessed in under one minute using AI. Targets retail investors interested in stocks and crypto.",
+    "tags": [
+      "claude",
+      "ai",
+      "trading",
+      "stocks",
+      "crypto",
+      "finance"
+    ],
+    "link": "https://www.instagram.com/reel/DZVEOM-oo4Z/?igsh=eXgzeDFqZnFnMjh0",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Retail investors using AI to perform professional-grade stock analysis",
+      "Crypto traders leveraging Claude for market insights and trading strategies"
+    ],
+    "notes": "Content is promotional/educational in nature; specific tools or prompts referenced in the video are not described in the caption alone. Financial advice disclaimer context unknown.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DZVEOM-oo4Z/?igsh=eXgzeDFqZnFnMjh0"
+  },
+  {
+    "id": "stop-boring-designs-claude-code-3-skills",
+    "name": "3 Skills to Stop Making Boring Designs with Claude Code",
+    "content_type": "tutorial",
+    "category": "AI-assisted design",
+    "description": "A short-form video tutorial by nateherkai focused on improving design quality when using Claude Code. It highlights 3 specific skills developers and designers can master to produce more visually compelling outputs. Aimed at those already using Claude Code who want to level up their UI/UX results.",
+    "tags": [
+      "claude code",
+      "design",
+      "ai coding",
+      "ui design",
+      "tutorial",
+      "tips"
+    ],
+    "link": "https://www.instagram.com/reel/DYU6TXpDxtt/?igsh=MWEyN2ZnMDJ0NjB5ZQ==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Improving visual design quality when building with Claude Code",
+      "Learning techniques to generate non-generic UI layouts and styles"
+    ],
+    "notes": "Content is a short Instagram Reel; specific skills discussed are not detailed in the description alone — watching the video required for full context.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DYU6TXpDxtt/?igsh=MWEyN2ZnMDJ0NjB5ZQ=="
+  },
+  {
+    "id": "video-editing-claude-code-codex",
+    "name": "Video Editing with Claude Code & Codex",
+    "content_type": "tutorial",
+    "category": "AI-assisted video editing",
+    "description": "A demonstration of using Claude Code and OpenAI Codex together to accomplish video editing tasks. The content showcases how AI coding assistants can be applied to automate or assist with video production workflows. This is interesting for creators looking to leverage AI tools beyond traditional editing software.",
+    "tags": [
+      "video editing",
+      "claude code",
+      "codex",
+      "ai coding",
+      "automation",
+      "workflow"
+    ],
+    "link": "https://www.instagram.com/reel/DadyntUSP0G/?igsh=MWFsY3Bram1jMTIybw==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "OpenAI Codex"
+    ],
+    "use_cases": [
+      "Automating video editing tasks using AI coding assistants",
+      "Using Claude Code and Codex together in a creative production pipeline"
+    ],
+    "notes": "Content is a short-form Instagram Reel; full technical details may be limited. References Claude Code (Anthropic) and Codex (OpenAI).",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DadyntUSP0G/?igsh=MWFsY3Bram1jMTIybw=="
+  },
+  {
+    "id": "graphify-claude-code-token-optimizer",
+    "name": "Graphify",
+    "content_type": "ai-tool",
+    "category": "AI coding",
+    "description": "Graphify is a free, open-source tool that builds a knowledge graph of your entire codebase so AI coding assistants don't need to re-read raw files at the start of every session. It claims to reduce token usage by up to 70x, allowing users on lower-tier plans to get equivalent performance to higher-cost plans. It supports multiple AI tools including Claude Code, Cursor, Codex, and Gemini CLI.",
+    "tags": [
+      "claude code",
+      "token optimization",
+      "knowledge graph",
+      "open source",
+      "ai coding",
+      "developer tools"
+    ],
+    "link": null,
+    "platform": "instagram",
+    "install": "/graphify",
+    "works_with": [
+      "Claude Code",
+      "Cursor",
+      "Codex",
+      "Gemini CLI"
+    ],
+    "use_cases": [
+      "Reducing token consumption when using Claude Code on large codebases",
+      "Building a persistent queryable knowledge graph of code, docs, PDFs, and images for AI navigation"
+    ],
+    "notes": "GitHub link is distributed via DM after following and commenting 'REPO' on the post. Tool is claimed to be 100% free and open source. The 70x token reduction figure is unverified and self-reported.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaeHnQXR76N/?igsh=MTVrdW84aHhjZHR4eA=="
+  },
+  {
+    "id": "music-producer-resource-roundup-seids",
+    "name": "Music Producer Resource Roundup (musictheorysite, SoundGym, Fadr)",
+    "content_type": "resource",
+    "category": "music production resources",
+    "description": "A short Instagram reel highlighting three useful resources for music producers: musictheorysite.com for music theory learning, SoundGym for ear training and audio skills, and Fadr for AI-powered music tools. The post is aimed at music producers looking to expand their knowledge and toolkit. It serves as a quick discovery post for lesser-known or underutilized music production websites.",
+    "tags": [
+      "music production",
+      "music theory",
+      "ear training",
+      "audio tools",
+      "music resources",
+      "producer tips"
+    ],
+    "link": "http://www.musictheorysite.com",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Learning music theory fundamentals via musictheorysite.com",
+      "Improving ear training and audio perception skills with SoundGym",
+      "Remixing or analyzing tracks using Fadr's AI music tools"
+    ],
+    "notes": "Three separate resources mentioned: (1) musictheorysite.com, (2) soundgym.co (@soundgym), (3) fadr.com (@fadrmusic). Each is an independent platform.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DXkIF9lkdnN/?igsh=djlicDBoNGplb2Y1"
+  },
+  {
+    "id": "harrydoesai-clipping-quick-start-guide-day-122",
+    "name": "Clipping Quick Start Guide by harrydoesai",
+    "content_type": "tutorial",
+    "category": "content clipping and repurposing",
+    "description": "Day 122 of harrydoesai's daily content series, offering a quick start guide for clipping — the practice of cutting and repurposing video content into shorter clips. Viewers are prompted to comment '122' to receive the guide. This is part of an ongoing educational series aimed at creators looking to streamline their content workflow.",
+    "tags": [
+      "clipping",
+      "content creation",
+      "video repurposing",
+      "quick start guide",
+      "instagram reels"
+    ],
+    "link": "https://www.instagram.com/reel/DaV8x1XMaTh/?igsh=MWJybjlrOHV2NmQ3dg==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Learning how to clip and repurpose long-form video into short-form content",
+      "Getting started with content clipping as a creator or side hustle"
+    ],
+    "notes": "Guide is distributed via DM by commenting '122' on the post. Part of a daily series (Day 122).",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaV8x1XMaTh/?igsh=MWJybjlrOHV2NmQ3dg=="
+  },
+  {
+    "id": "elliott-smith-vocal-chain-waves-plugins",
+    "name": "Elliott Smith Vocal Chain (Waves Plugins Recreation)",
+    "content_type": "tutorial",
+    "category": "audio mixing and vocal production",
+    "description": "A tutorial by nvmixes recreating Elliott Smith's iconic vocal chain using only Waves plugins. The preset or chain is available as a free download via the bio link. It's useful for producers and engineers wanting to capture that warm, lo-fi indie vocal aesthetic associated with Elliott Smith's recordings.",
+    "tags": [
+      "vocal chain",
+      "waves plugins",
+      "elliott smith",
+      "mixing",
+      "audio production",
+      "presets"
+    ],
+    "link": "https://www.instagram.com/reel/DaigQBOs08j/?igsh=MXdiYzVma201dzkzZw==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Waves Audio plugins"
+    ],
+    "use_cases": [
+      "Replicating Elliott Smith's signature vocal tone in a mix",
+      "Learning how to chain Waves plugins for indie/folk vocal processing"
+    ],
+    "notes": "Free download available via link in bio on the nvmixes Instagram profile. Requires Waves Audio plugins to use the chain.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaigQBOs08j/?igsh=MXdiYzVma201dzkzZw=="
+  },
+  {
+    "id": "claude-code-masterclass-brennanwells",
+    "name": "Claude Code Masterclass by Brennan Wells",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A free masterclass on Claude Code shared via Instagram reel by creator Brennan Wells. The course appears to cover using Anthropic's Claude for coding and AI agent workflows. Access is granted by commenting 'CLAUDE' on the post.",
+    "tags": [
+      "claude",
+      "ai coding",
+      "tutorial",
+      "ai agents",
+      "anthropic",
+      "masterclass"
+    ],
+    "link": "https://www.instagram.com/reel/Dag_Y4BOaGT/?igsh=MWRrb3VlejZsc2E4eA==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Anthropic API"
+    ],
+    "use_cases": [
+      "Learning how to use Claude Code for AI-assisted development",
+      "Building AI agents using Claude"
+    ],
+    "notes": "Free masterclass accessible by commenting 'CLAUDE' on the Instagram post. Content delivery method (DM, link, etc.) not specified. Availability may be time-limited.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Dag_Y4BOaGT/?igsh=MWRrb3VlejZsc2E4eA=="
+  },
+  {
+    "id": "benoit-malige-second-life-patterns",
+    "name": "Invisible Patterns for a Second Life – Benoit Malige",
+    "content_type": "other",
+    "category": "personal transformation",
+    "description": "A personal narrative by Benoit Malige, an entrepreneur who burned out and rebuilt his life starting in 2023. He shares insights on the 'invisible patterns' behind personal reinvention and creating a second life. The content is motivational and introspective, aimed at people navigating major life transitions.",
+    "tags": [
+      "personal development",
+      "reinvention",
+      "burnout",
+      "entrepreneurship",
+      "life transformation"
+    ],
+    "link": "https://www.instagram.com/reel/DadUzayuS2D/?igsh=cHppbHJ5enB1b3N6",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Finding inspiration during personal or professional burnout",
+      "Learning frameworks for rebuilding life after failure or major setback"
+    ],
+    "notes": "This is a personal brand reel, not a structured course or product. Content may be part of an ongoing series by the creator.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DadUzayuS2D/?igsh=cHppbHJ5enB1b3N6"
+  },
+  {
+    "id": "open-generative-ai-anil-matcha",
+    "name": "Open Generative AI (by Anil Matcha)",
+    "content_type": "ai-tool",
+    "category": "AI creative studio / generative media",
+    "description": "Open Generative AI is a free, MIT-licensed open-source app by Anil Matcha that consolidates image, video, lip sync, and cinematic prompt generation into one interface. It provides access to 50+ image models and 100+ video models (Flux, Kling, Veo, Sora, Imagen 4, etc.) with no subscription or credit ceiling. Users bring their own API keys and pay only per generation, making it a direct alternative to paid platforms like Higgsfield.",
+    "tags": [
+      "generative-ai",
+      "open-source",
+      "text-to-video",
+      "image-generation",
+      "lip-sync",
+      "ai-video"
+    ],
+    "link": "https://github.com/anilmatcha/open-generative-ai",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Flux",
+      "Midjourney",
+      "Imagen 4",
+      "Kling",
+      "Veo",
+      "Sora",
+      "Seedance",
+      "Wan 2.2"
+    ],
+    "use_cases": [
+      "Generating AI images and videos without a monthly subscription using your own API keys",
+      "Creating talking portrait lip-sync videos with multiple model options",
+      "Composing structured cinematic prompts with lens, focal length, and aperture controls"
+    ],
+    "notes": "Users still pay for underlying AI model API usage — no monthly fee but per-generation costs apply. Reached 5,200 GitHub stars within days of release. MIT licensed. Positioned as a free alternative to Higgsfield ($100+/month).",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DXZlhjFjz7v/?igsh=MXcwN2F5MTUxNmJheA=="
+  },
+  {
+    "id": "openai-gpt-inside-claude-code-fable5",
+    "name": "Running GPT-5.6 Inside Claude Code with Fable 5",
+    "content_type": "tutorial",
+    "category": "AI coding workflow",
+    "description": "A tutorial claiming to show how to run OpenAI GPT-5.6 inside Claude Code using a tool called Fable 5, purportedly increasing productivity tenfold while reducing API usage costs. The content is likely promotional or speculative, as 'GPT-5.6' and 'Fable 5' are not verified or widely recognized products at this time. Viewers are prompted to comment 'ROUTE' to receive a setup guide.",
+    "tags": [
+      "claude",
+      "chatgpt",
+      "gpt",
+      "ai-workflow",
+      "productivity",
+      "integration"
+    ],
+    "link": "https://www.instagram.com/reel/DaojVuSNKno/",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "OpenAI GPT",
+      "Fable 5"
+    ],
+    "use_cases": [
+      "Combining multiple AI models in a single coding workflow",
+      "Reducing AI API usage costs while maintaining output volume"
+    ],
+    "notes": "Significant credibility concerns: 'GPT-5.6' and 'Fable 5' are unverified product names not recognized in mainstream AI tooling as of mid-2026. This may be misinformation, exaggerated marketing, or use of fictional version numbers. The engagement-bait mechanic (comment 'ROUTE') is a common low-trust social media pattern. Verify claims independently before following any setup instructions.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaojVuSNKno/"
+  },
+  {
+    "id": "100xengineers-brain-prompt-guide",
+    "name": "Brain Prompt & Full Guide by 100xEngineers",
+    "content_type": "resource",
+    "category": "AI prompting",
+    "description": "A prompt and full guide shared by 100xEngineers, accessible by commenting 'Brain' on the post. The content appears to focus on AI prompting techniques or cognitive/engineering workflows. It is distributed as an interactive Instagram engagement resource.",
+    "tags": [
+      "prompt engineering",
+      "ai guide",
+      "100xengineers",
+      "instagram resource",
+      "productivity"
+    ],
+    "link": "https://www.instagram.com/reel/Dap7UCLpSy1/?igsh=enlqcmU0b3h5YjMw",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Learning a specific AI prompt technique shared by 100xEngineers",
+      "Accessing a curated guide on AI or engineering workflows via Instagram DM"
+    ],
+    "notes": "Content is gated behind a comment interaction — users must comment 'Brain' to receive the prompt and guide, likely delivered via Instagram DM automation.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Dap7UCLpSy1/?igsh=enlqcmU0b3h5YjMw"
+  },
+  {
+    "id": "fable5-exit-interview-prompt",
+    "name": "Fable 5 Exit Interview Prompt",
+    "content_type": "tutorial",
+    "category": "AI prompt engineering",
+    "description": "A technique for extracting all project knowledge from a premium AI model (Fable 5) before transitioning to a cheaper alternative. The 'exit interview' prompt makes the outgoing AI hand off its understanding of your project so a less capable model can continue building at the same level. Comment 'RETIRE' on the post to receive the exact prompt and five key questions.",
+    "tags": [
+      "prompt engineering",
+      "ai handoff",
+      "claude",
+      "fable5",
+      "ai tools",
+      "workflow"
+    ],
+    "link": "https://www.instagram.com/reel/Darg20FtbJy/?igsh=b3Yya3NjbnlsNnRp",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Fable 5"
+    ],
+    "use_cases": [
+      "Transferring project context from an expensive AI model to a cheaper one",
+      "Documenting AI-assisted project knowledge before switching tools or plans"
+    ],
+    "notes": "Content implies Fable 5 is moving to a pay-per-use pricing model. The specific prompt is gated behind a comment ('RETIRE') on the Instagram post. Fable 5 may refer to a specific AI model or service tier.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Darg20FtbJy/?igsh=b3Yya3NjbnlsNnRp"
+  },
+  {
+    "id": "wired-best-kids-phone-setup",
+    "name": "Best Kids' Phone Setup (WIRED Discovery)",
+    "content_type": "tutorial",
+    "category": "parental controls & kids tech",
+    "description": "WIRED's Jeremy White shares an accidentally discovered phone setup for kids that apparently outperforms what Apple officially recommends. The tip is presented as an under-the-radar configuration that parents may not know about. It offers a practical alternative approach to managing children's smartphone use.",
+    "tags": [
+      "kids",
+      "parenting",
+      "iphone",
+      "screen time",
+      "phone setup",
+      "apple"
+    ],
+    "link": "https://www.instagram.com/reel/DaaRRE-ER6m/?igsh=MXV2dGRxb2s0dDE4dw==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "iPhone",
+      "iOS"
+    ],
+    "use_cases": [
+      "Setting up a safer and more controlled smartphone experience for children",
+      "Finding alternatives to Apple's default parental control recommendations"
+    ],
+    "notes": "Full details available via the link in WIRED's Instagram bio. Content is a short-form video reel; depth of information may be limited without visiting the full article.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaaRRE-ER6m/?igsh=MXV2dGRxb2s0dDE4dw=="
+  },
+  {
+    "id": "notebooklm-inside-claude-code",
+    "name": "NotebookLM Inside Claude Code",
+    "content_type": "tutorial",
+    "category": "AI productivity workflow",
+    "description": "A tutorial showing how to integrate Google NotebookLM directly within Claude Code for an enhanced AI workflow. The creator offers a free setup guide along with prompt templates and use cases. This combination is presented as a powerful productivity cheat code for AI-assisted work.",
+    "tags": [
+      "notebooklm",
+      "claude",
+      "ai workflow",
+      "productivity",
+      "prompt engineering",
+      "automation"
+    ],
+    "link": "https://www.instagram.com/reel/DV7fxIbCdzm/?igsh=a2dxN3dtMXpsM3U2",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "NotebookLM",
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Using NotebookLM as a knowledge source within Claude Code sessions",
+      "Automating content research and generation by combining NotebookLM and Claude"
+    ],
+    "notes": "Free setup guide and prompt templates available by commenting 'NOTEBOOK' on the original Instagram post.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DV7fxIbCdzm/?igsh=a2dxN3dtMXpsM3U2"
+  },
+  {
+    "id": "fable-orchestrator-token-saving",
+    "name": "Fable as Claude Orchestrator",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A tutorial showing how to use Fable as an orchestrator with Claude to dramatically reduce token usage. The technique involves setting up a Fable skill to manage Claude interactions more efficiently. This is aimed at developers doing vibe coding who want to cut AI API costs.",
+    "tags": [
+      "fable",
+      "claude",
+      "orchestration",
+      "token-optimization",
+      "vibe-coding",
+      "ai-coding"
+    ],
+    "link": "https://www.instagram.com/reel/DaneCPSBvBO/?igsh=MWplbHByMHZzaHhseQ==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Fable"
+    ],
+    "use_cases": [
+      "Reducing token consumption when using Claude for coding tasks",
+      "Setting up Fable as an AI orchestration layer for multi-step coding workflows"
+    ],
+    "notes": "Short-form video tutorial; full implementation details may require following the creator's other content or linked resources.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaneCPSBvBO/?igsh=MWplbHByMHZzaHhseQ=="
+  },
+  {
+    "id": "claude-code-checkup-command",
+    "name": "Claude Code CHECKUP Command Tip",
+    "content_type": "tutorial",
+    "category": "AI coding",
+    "description": "A tip claiming to share a specific Claude Code command that improves speed, intelligence, and token efficiency. The creator attributes the command to the original developer of Claude Code. Access to the exact command is gated behind a comment-to-DM mechanic.",
+    "tags": [
+      "claude",
+      "claude code",
+      "ai coding",
+      "token optimization",
+      "vibe coding",
+      "productivity"
+    ],
+    "link": "https://www.instagram.com/reel/DauKnTkNiIq/?igsh=aDFiNHNwYjJmMXA2",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Reducing token usage when working with Claude Code",
+      "Improving Claude Code response speed and quality"
+    ],
+    "notes": "Content is engagement-bait requiring users to comment 'CHECKUP' to receive the command via DM. The claim that the 'guy who created Claude Code' leaked the command is unverified marketing language. Actual command details are not disclosed in the post itself.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DauKnTkNiIq/?igsh=aDFiNHNwYjJmMXA2"
+  },
+  {
+    "id": "claude-code-voice-clone",
+    "name": "Claude Code Voice Interface with Voice Cloning",
+    "content_type": "tutorial",
+    "category": "AI voice automation",
+    "description": "A tutorial showing how to give Claude Code a voice interface so it can speak responses aloud. It also demonstrates voice cloning and multilingual conversion to over 23 languages, all triggered from a single prompt using a free open-source git repository.",
+    "tags": [
+      "claude",
+      "voice cloning",
+      "tts",
+      "ai automation",
+      "cli",
+      "multilingual"
+    ],
+    "link": "https://www.instagram.com/reel/Damcm7-tg8Q/?igsh=MWppZTV4YzNrbjdleA==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Adding spoken voice output to Claude Code sessions for hands-free interaction",
+      "Cloning your own voice and converting speech content into 23+ languages automatically"
+    ],
+    "notes": "The git repo is shared by DMing 'CLONE' to the creator on Instagram. Described as free to use. Specific repo URL not publicly listed in the post.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Damcm7-tg8Q/?igsh=MWppZTV4YzNrbjdleA=="
+  },
+  {
+    "id": "openclaw-ai-agent",
+    "name": "OpenClaw",
+    "content_type": "ai-tool",
+    "category": "AI agent framework",
+    "description": "OpenClaw is a free, locally-runnable AI agent tool that the creator positions as an alternative to government- or corporate-controlled AI services. It appears to integrate with Claude as an AI backend. The post promotes it as a downloadable setup that users can run independently, with a setup guide available via comment trigger.",
+    "tags": [
+      "ai-agent",
+      "claude",
+      "open-source",
+      "local-ai",
+      "automation"
+    ],
+    "link": "https://www.instagram.com/reel/DZiwouCTONz/?igsh=cmczNnN0dnpjMGVh",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Running a local AI agent without relying on cloud-controlled platforms",
+      "Automating tasks using Claude as the underlying AI model"
+    ],
+    "notes": "Limited technical details available from this post alone. Setup guide is distributed via Instagram DM by commenting 'OpenClaw'. Claims to be free. Framing around government data concerns may be promotional rather than technical.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DZiwouCTONz/?igsh=cmczNnN0dnpjMGVh"
+  },
+  {
+    "id": "video-by-imjonathanacuna",
+    "name": "Video by imjonathanacuna",
+    "content_type": "other",
+    "category": "instagram content",
+    "description": "An Instagram Reel posted by the account imjonathanacuna. No additional metadata or description is available from the provided content. The specific subject matter of the video cannot be determined without viewing the content directly.",
+    "tags": [
+      "instagram",
+      "reel",
+      "video",
+      "social media"
+    ],
+    "link": "https://www.instagram.com/reel/DavWgEal_RZ/?igsh=MTlnc3NqcGdpZTdiZA==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "viewing instagram reel content",
+      "following imjonathanacuna's updates"
+    ],
+    "notes": "Insufficient metadata provided to fully categorize or describe this content. Visit the URL directly for full context.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DavWgEal_RZ/?igsh=MTlnc3NqcGdpZTdiZA=="
+  },
+  {
+    "id": "hannah-fry-4-part-explainer-structure",
+    "name": "Hannah Fry's 4-Part Viral Explainer Structure",
+    "content_type": "tutorial",
+    "category": "educational content creation",
+    "description": "An analysis of 30 Hannah Fry videos revealing a repeatable four-part structure for making educational content go viral: start with a relatable experience, explain the mechanism step by step, deliver a surprising reveal, and end small with a light observation. The insight is that great explainer content is built on curiosity architecture, not simplification. Useful for educators, communicators, and content creators.",
+    "tags": [
+      "storytelling",
+      "explainer videos",
+      "educational content",
+      "communication",
+      "public speaking",
+      "content structure"
+    ],
+    "link": "https://www.instagram.com/reel/DazjzEQo4gP/?igsh=MWY1ZHdibDFxemQ0bQ==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Structuring short-form educational videos for higher engagement and watch time",
+      "Designing presentations or explainers that build curiosity before delivering the concept"
+    ],
+    "notes": "Framework derived from transcribing 30 of Hannah Fry's highest-performing videos. Creator is @robdwillis, self-described Chief Story Officer.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DazjzEQo4gP/?igsh=MWY1ZHdibDFxemQ0bQ=="
+  },
+  {
+    "id": "sites-i-steal-aesthetics-from-pt8",
+    "name": "Sites I Steal Aesthetics From Pt. 8 — Film Reference & Light Decoding Tip",
+    "content_type": "tutorial",
+    "category": "filmmaking & visual aesthetics",
+    "description": "A creator shares curated websites for stealing cinematic aesthetics as a learning method, framing reference study as directorial education. A key tip highlights using Claude AI to analyze Film Grab stills and decode lighting setups. Viewers can DM for a list of three sites plus 'THE FIFTY' — 50 favorite frames with lighting breakdowns.",
+    "tags": [
+      "filmmaking",
+      "cinematography",
+      "visual reference",
+      "lighting",
+      "ai analysis",
+      "film education"
+    ],
+    "link": "https://www.instagram.com/reel/DasnllNq0e-/?igsh=anJxcDB5dWg5YTE4",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Film Grab"
+    ],
+    "use_cases": [
+      "Using Claude to analyze cinematic stills and understand lighting techniques",
+      "Studying reference frames from curated film sites to develop a personal visual aesthetic"
+    ],
+    "notes": "Sites and 'THE FIFTY' resource are shared via DM upon commenting 'STEAL'. Content is part of an ongoing series (Pt. 8). No cost mentioned but access is gated through engagement.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DasnllNq0e-/?igsh=anJxcDB5dWg5YTE4"
+  },
+  {
+    "id": "llm-council-multi-advisor-skill",
+    "name": "The LLM Council",
+    "content_type": "ai-tool",
+    "category": "AI decision-making prompts",
+    "description": "The LLM Council is a Claude prompt skill that routes your question through 5 specialized advisors, each attacking the problem from a different angle. The advisors then anonymously peer-review each other's responses before a Chairman synthesizes a final verdict and recommended next step. It's designed to reduce AI blind spots and produce more robust, multi-perspective answers.",
+    "tags": [
+      "claude",
+      "prompt engineering",
+      "decision making",
+      "ai advisors",
+      "llm skill"
+    ],
+    "link": "https://www.instagram.com/reel/DaxyaqXyqCR/?igsh=MW9wZ25iZW5pcG93Zw==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Getting multi-perspective analysis on complex business or personal decisions",
+      "Peer-reviewing AI-generated advice to reduce single-model bias"
+    ],
+    "notes": "Comment 'COUNCIL' on the original Instagram post to receive the skill guide. No pricing mentioned; appears to be a free prompt template.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaxyaqXyqCR/?igsh=MW9wZ25iZW5pcG93Zw=="
+  },
+  {
+    "id": "premortem-ai-project-tool",
+    "name": "Premortem AI Project Failure Finder",
+    "content_type": "resource",
+    "category": "AI project planning",
+    "description": "A free tool and repo shared by cooper.simson designed to run a 'premortem' analysis on AI projects before development begins. Inspired by MIT research suggesting 95% of AI projects fail, it helps developers identify where a project is likely to break down before wasting time building it. Available as a free GitHub repo with a full setup guide sent via DM.",
+    "tags": [
+      "ai planning",
+      "premortem",
+      "vibe coding",
+      "claude",
+      "project management",
+      "ai tools"
+    ],
+    "link": "https://www.instagram.com/reel/Da9IBiKJwzz/?igsh=MWJxNW5nNHYzczd5cQ==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "claude"
+    ],
+    "use_cases": [
+      "Identifying failure points in an AI project before building",
+      "Pre-development risk analysis for AI/vibe coding projects"
+    ],
+    "notes": "Repo is distributed via Instagram DM — comment 'PREMORTEM' on the post to receive the free repo and setup. Exact repo URL not publicly listed in post.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Da9IBiKJwzz/?igsh=MWJxNW5nNHYzczd5cQ=="
+  },
+  {
+    "id": "earth-nullschool-wind-weather-map",
+    "name": "earth.nullschool.net — Live Global Atmosphere & Climate Map",
+    "content_type": "resource",
+    "category": "data visualization / geospatial",
+    "description": "earth.nullschool.net is an interactive, real-time visualization of global wind, weather, ocean, and air conditions built by Cameron Beccario. It maps the entire atmosphere and climate live, rendering stunning animated overlays of wind patterns, temperature, ocean currents, and more. It's a powerful reference tool for meteorology enthusiasts, geographers, and data visualization fans.",
+    "tags": [
+      "maps",
+      "data visualization",
+      "weather",
+      "geospatial",
+      "climate",
+      "real-time"
+    ],
+    "link": "https://earth.nullschool.net",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Visualizing live global wind and weather patterns for meteorological analysis",
+      "Educational reference for geography and climate studies"
+    ],
+    "notes": "Free to use in the browser; no installation required. Built and maintained by Cameron Beccario as an open-source project.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Da510GHpkwq/?igsh=eHA0N3c3YmZpd2oz"
   }
 ]
