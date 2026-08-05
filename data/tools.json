@@ -4785,5 +4785,33 @@
     "notes": "Content references 2026 as the target year. Tool of choice is Emergent for building dashboards and websites. No pricing information provided.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/-YY2DdkuY20?is=GietvjgOchOdelQj"
+  },
+  {
+    "id": "five-claude-skills-to-install",
+    "name": "5 Claude Skills You Need to Install",
+    "content_type": "tutorial",
+    "category": "ai-productivity",
+    "description": "A short-form video showcasing five free Claude skills/integrations to boost productivity: Marketing Skills by Corey Haynes (23 marketing agents), Stop Slop (human-like writing), UIUX Pro Max (UI/UX best practices library), Remotion (text-to-animated video), and Context Engineering (token efficiency). Each skill extends Claude's default capabilities for specific professional use cases.",
+    "tags": [
+      "claude",
+      "ai tools",
+      "productivity",
+      "mcp",
+      "prompting",
+      "marketing"
+    ],
+    "link": "https://youtube.com/shorts/C6oAYf_xNUs?is=XyKJu861aCLgwBgg",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Running SEO audits, ad copywriting, and email sequences via Claude marketing agents",
+      "Generating polished UI designs and animated video clips directly from text prompts in Claude"
+    ],
+    "notes": "Skills are claimed to be free. The video promotes following the creator and commenting 'skills' to receive a list of 50+ additional Claude skills. No direct install links provided in the video.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/C6oAYf_xNUs?is=XyKJu861aCLgwBgg"
   }
 ]
