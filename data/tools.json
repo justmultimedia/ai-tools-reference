@@ -4813,5 +4813,32 @@
     "notes": "Skills are claimed to be free. The video promotes following the creator and commenting 'skills' to receive a list of 50+ additional Claude skills. No direct install links provided in the video.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/C6oAYf_xNUs?is=XyKJu861aCLgwBgg"
+  },
+  {
+    "id": "claude-reverse-engineer-prompt-technique",
+    "name": "Claude Reverse Engineering Prompt Technique",
+    "content_type": "tutorial",
+    "category": "ai-prompting",
+    "description": "A prompting technique that uses a psychological hack to make Claude reverse engineer a problem before starting a project, reducing the need for corrections mid-way. The creator shares a build guide via DM for followers who comment 'INSTINCT'. It's designed to improve output quality by forcing upfront problem decomposition.",
+    "tags": [
+      "claude",
+      "prompting",
+      "productivity",
+      "ai-workflow",
+      "prompt-engineering"
+    ],
+    "link": "https://www.instagram.com/reel/DbpbB5-NK0U/?igsh=czdpZG1sNnVnbWI=",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Reducing iteration cycles when using Claude for complex projects",
+      "Structuring prompts to get Claude to plan before executing tasks"
+    ],
+    "notes": "Full build guide and repo are shared via Instagram DM — requires following the account and commenting 'INSTINCT' to receive it.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DbpbB5-NK0U/?igsh=czdpZG1sNnVnbWI="
   }
 ]
