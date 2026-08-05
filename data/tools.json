@@ -4840,5 +4840,32 @@
     "notes": "Full build guide and repo are shared via Instagram DM — requires following the account and commenting 'INSTINCT' to receive it.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DbpbB5-NK0U/?igsh=czdpZG1sNnVnbWI="
+  },
+  {
+    "id": "5-apps-cancelled-using-claude-code-part-2",
+    "name": "5 Apps CANCELLED Using Claude Code (Part 2)",
+    "content_type": "tutorial",
+    "category": "ai-coding",
+    "description": "A tutorial video showcasing 5 app ideas that can be built or replaced using Claude Code, effectively cancelling paid app subscriptions. Part 2 of a series by Jonathan Acuna aimed at entrepreneurs and developers looking to leverage AI coding tools. A cheat sheet is available by commenting 'CLAUDE' on the post.",
+    "tags": [
+      "claude",
+      "ai-coding",
+      "app-building",
+      "automation",
+      "entrepreneurship"
+    ],
+    "link": "https://www.instagram.com/reel/DbmD_8LyMtS/?igsh=MW5xeTcyZWZzcm02OQ==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code"
+    ],
+    "use_cases": [
+      "Replacing paid apps by building custom alternatives with Claude Code",
+      "Learning how to use Claude Code to automate and build software as an entrepreneur"
+    ],
+    "notes": "Part 2 of a series. Comment 'CLAUDE' on the original post to receive the cheat sheet.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DbmD_8LyMtS/?igsh=MW5xeTcyZWZzcm02OQ=="
   }
 ]
