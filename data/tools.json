@@ -4701,5 +4701,35 @@
     "notes": "Content is a Facebook Reel; no channel name provided. Engagement metrics (413K views, 10K reactions) indicate viral popularity.",
     "added": "2026-08",
     "source": "https://www.facebook.com/share/r/1G9LwXrqgs/?mibextid=wwXIfr"
+  },
+  {
+    "id": "top-5-claude-code-plugins",
+    "name": "Top 5 Claude Code Plugins for Unlimited Tokens & 10x Workflows",
+    "content_type": "tutorial",
+    "category": "ai-coding",
+    "description": "A short-form video overview of five Claude Code plugins: OmniRoute (routes to 200+ free AI providers for near-unlimited tokens), Claude Mem (persistent memory across sessions), Headroom (token compression), Claude Code Setup (official Anthropic codebase scanner), and Task Observer (learns your working style). Together these plugins aim to extend usage limits, reduce token costs, and automate project configuration.",
+    "tags": [
+      "claude code",
+      "claude plugins",
+      "ai coding",
+      "token optimization",
+      "mcp"
+    ],
+    "link": "https://youtube.com/shorts/bU5ZDdRnN2M?is=2Jroao1CytLNZtt-",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Anthropic Claude",
+      "MCP servers"
+    ],
+    "use_cases": [
+      "Extending Claude Code usage beyond token limits by auto-switching to free AI providers",
+      "Maintaining persistent project memory across Claude Code sessions without re-explaining context",
+      "Compressing prompts to use fewer tokens while preserving output quality"
+    ],
+    "notes": "Claims of '1.6 billion free tokens per month' via OmniRoute should be independently verified. Quality and reliability of 200+ free AI providers may vary significantly. Claude Code Setup is described as an official Anthropic plugin.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/bU5ZDdRnN2M?is=2Jroao1CytLNZtt-"
   }
 ]
