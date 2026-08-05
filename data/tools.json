@@ -4867,5 +4867,33 @@
     "notes": "Part 2 of a series. Comment 'CLAUDE' on the original post to receive the cheat sheet.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DbmD_8LyMtS/?igsh=MW5xeTcyZWZzcm02OQ=="
+  },
+  {
+    "id": "claude-code-6-new-rules-context-engineering",
+    "name": "Claude Code Just Changed Forever (6 NEW Rules by Anthropic Engineers)",
+    "content_type": "tutorial",
+    "category": "ai-prompting",
+    "description": "A breakdown of six new rules for Claude Code based on a viral article by a lead Anthropic engineer about context engineering for Claude 5 models. The video covers changes that can make agentic setups faster and cheaper, some of which contradict previously accepted best practices. Also introduces a free skill to automatically apply these improvements.",
+    "tags": [
+      "claude code",
+      "context engineering",
+      "anthropic",
+      "ai agents",
+      "prompt engineering"
+    ],
+    "link": "https://youtu.be/gQeRjkb_Hlc?is=-TZtRU4xt--RhqlQ",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Claude 5"
+    ],
+    "use_cases": [
+      "Optimizing Claude Code agentic setups for speed and cost reduction",
+      "Learning updated context engineering best practices for Claude 5 models"
+    ],
+    "notes": "References Thariq's article on X (https://x.com/trq212/status/2080710971228918066) which had 4 million views. A free '/doctor-plus' skill is offered via the RoboNuggets Skool community.",
+    "added": "2026-08",
+    "source": "https://youtu.be/gQeRjkb_Hlc?is=-TZtRU4xt--RhqlQ"
   }
 ]
