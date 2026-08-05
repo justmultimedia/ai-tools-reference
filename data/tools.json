@@ -4731,5 +4731,31 @@
     "notes": "Claims of '1.6 billion free tokens per month' via OmniRoute should be independently verified. Quality and reliability of 200+ free AI providers may vary significantly. Claude Code Setup is described as an official Anthropic plugin.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/bU5ZDdRnN2M?is=2Jroao1CytLNZtt-"
+  },
+  {
+    "id": "microsoft-ai-for-beginners-curriculum",
+    "name": "Microsoft AI for Beginners",
+    "content_type": "resource",
+    "category": "ai-models-and-apis",
+    "description": "Microsoft's free, open-source AI curriculum spanning 12 weeks and 24 lessons, taking learners from zero to LLMs. Covers AI history, symbolic AI, neural networks, computer vision (CNNs, GANs), NLP (transformers, BERT), reinforcement learning, and AI ethics. Each lesson includes notebooks, quizzes, and hands-on labs runnable in-browser or locally.",
+    "tags": [
+      "ai",
+      "curriculum",
+      "free",
+      "open-source",
+      "machine-learning",
+      "education"
+    ],
+    "link": "https://github.com/microsoft/AI-For-Beginners",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Self-paced learning of AI fundamentals from scratch",
+      "Structured study of modern AI topics including computer vision and NLP"
+    ],
+    "notes": "100% free and self-paced. Can be run locally or in the browser via notebooks. No specific end date mentioned.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/E_fhjQwrrXA?is=Dp2Q3WuFxWCHZHxZ"
   }
 ]
