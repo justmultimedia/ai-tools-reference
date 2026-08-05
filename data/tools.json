@@ -4757,5 +4757,33 @@
     "notes": "100% free and self-paced. Can be run locally or in the browser via notebooks. No specific end date mentioned.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/E_fhjQwrrXA?is=Dp2Q3WuFxWCHZHxZ"
+  },
+  {
+    "id": "sell-ai-to-local-businesses-guide",
+    "name": "Stop Selling AI to Strangers — Sell It to Local Businesses",
+    "content_type": "tutorial",
+    "category": "business-and-career",
+    "description": "A step-by-step guide on monetizing AI by targeting local businesses (e.g., trades like plumbers and electricians) rather than random online audiences. The approach involves building an AI 'Second Brain' dashboard using Emergent, creating an AI agency website, and pitching to businesses with real problems and budgets. Focuses on niching down locally for faster sales and higher conversion.",
+    "tags": [
+      "ai agency",
+      "local business",
+      "second brain",
+      "emergent",
+      "monetization",
+      "ai consulting"
+    ],
+    "link": "https://youtube.com/shorts/-YY2DdkuY20?is=GietvjgOchOdelQj",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Emergent"
+    ],
+    "use_cases": [
+      "Building and selling an AI Second Brain dashboard to local trade businesses",
+      "Setting up an AI agency website to attract local business clients"
+    ],
+    "notes": "Content references 2026 as the target year. Tool of choice is Emergent for building dashboards and websites. No pricing information provided.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/-YY2DdkuY20?is=GietvjgOchOdelQj"
   }
 ]
