@@ -4652,7 +4652,7 @@
     "id": "cooper-simson-ai-expert-playbook",
     "name": "AI Expert Playbook by Cooper Simson",
     "content_type": "tutorial",
-    "category": "AI productivity and career advice",
+    "category": "ai-prompting",
     "description": "A short-form video by Cooper Simson promoting AI literacy as a career advantage. Viewers are encouraged to comment 'ADVICE' to receive a DM containing an 'AI Expert Playbook' with prompts for tools like ChatGPT and Claude. The content focuses on leveraging AI skills for professional growth.",
     "tags": [
       "ai prompts",
@@ -4675,13 +4675,14 @@
     ],
     "notes": "The playbook is distributed via Instagram DM using a comment-trigger engagement tactic. Content may be promotional or lead-generation focused.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DbkTEuwtVkP/?igsh=d2xiNDdqZmFzb2c1"
+    "source": "https://www.instagram.com/reel/DbkTEuwtVkP/?igsh=d2xiNDdqZmFzb2c1",
+    "category_original": "AI productivity and career advice"
   },
   {
     "id": "one-minute-bass-reels",
     "name": "One Minute Bass on Reels",
     "content_type": "tutorial",
-    "category": "music education",
+    "category": "music-and-audio",
     "description": "A short-form bass guitar tutorial or performance video shared on Facebook Reels, garnering 413K views and 10K reactions. The 'One Minute Bass' format likely delivers a quick bass technique, riff, or lesson in under a minute. High engagement suggests the content is accessible and appealing to both beginner and intermediate bass players.",
     "tags": [
       "bass guitar",
@@ -4700,7 +4701,8 @@
     ],
     "notes": "Content is a Facebook Reel; no channel name provided. Engagement metrics (413K views, 10K reactions) indicate viral popularity.",
     "added": "2026-08",
-    "source": "https://www.facebook.com/share/r/1G9LwXrqgs/?mibextid=wwXIfr"
+    "source": "https://www.facebook.com/share/r/1G9LwXrqgs/?mibextid=wwXIfr",
+    "category_original": "music education"
   },
   {
     "id": "top-5-claude-code-plugins",

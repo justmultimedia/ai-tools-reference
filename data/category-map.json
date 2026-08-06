@@ -148,7 +148,9 @@
     "SEO / web development": "marketing-and-content",
     "SEO and AI search optimization": "marketing-and-content",
     "social media analytics": "marketing-and-content",
-    "space science education": "science-and-space"
+    "space science education": "science-and-space",
+    "AI productivity and career advice": "ai-prompting",
+    "music education": "music-and-audio"
   },
   "overrides": {
     "airllm": {
