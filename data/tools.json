@@ -4895,5 +4895,34 @@
     "notes": "References Thariq's article on X (https://x.com/trq212/status/2080710971228918066) which had 4 million views. A free '/doctor-plus' skill is offered via the RoboNuggets Skool community.",
     "added": "2026-08",
     "source": "https://youtu.be/gQeRjkb_Hlc?is=-TZtRU4xt--RhqlQ"
+  },
+  {
+    "id": "let-ai-pick-the-problem-2026",
+    "name": "Don't Tell AI What to Do — Let It Find the Problem",
+    "content_type": "tutorial",
+    "category": "ai-agents-and-automation",
+    "description": "A technique for 2026-era AI usage where instead of prompting AI with a specific task, you give it open access to your files, Slack, and business processes and ask it to identify what's worth automating. The author tested this head-to-head with Codex and Fable, finding that different models surfaced different problems. This shifts AI from task executor to autonomous problem-finder.",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "codex",
+      "fable",
+      "problem-finding",
+      "ai-strategy"
+    ],
+    "link": "https://natesnewsletter.substack.com/p/let-ai-pick-what-to-automate",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Codex",
+      "Fable"
+    ],
+    "use_cases": [
+      "Letting AI audit your business workflows to identify automation opportunities you might overlook",
+      "Comparing how different AI models prioritize and diagnose business bottlenecks"
+    ],
+    "notes": "Full breakdown of the Codex vs Fable head-to-head comparison is available on the author's Substack newsletter.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/TRIO7lBfgNQ?is=cmGxwJe5Ct8po3T5"
   }
 ]
