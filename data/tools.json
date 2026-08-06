@@ -4926,5 +4926,35 @@
     "notes": "Full breakdown of the Codex vs Fable head-to-head comparison is available on the author's Substack newsletter.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/TRIO7lBfgNQ?is=cmGxwJe5Ct8po3T5"
+  },
+  {
+    "id": "plotline-ai-story-editing-tool",
+    "name": "Plotline – AI Story Finder for Video Editors",
+    "content_type": "tutorial",
+    "category": "video-and-film",
+    "description": "Plotline is an AI tool that analyzes hours of raw footage audio to help editors find the story before they start cutting, generating a full script and timeline exportable to an NLE. The video walks through a real-world test with 4 hours of footage, showing how it produces a structured narrative without magically assembling b-roll or music. It's aimed at editors working on weddings, documentaries, branded content, and YouTube videos.",
+    "tags": [
+      "ai editing",
+      "video editing",
+      "documentary",
+      "story structure",
+      "nle",
+      "plotline"
+    ],
+    "link": "https://plotline.pro",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "NLE (non-linear editor)",
+      "Premiere Pro",
+      "DaVinci Resolve"
+    ],
+    "use_cases": [
+      "Finding the narrative structure in hours of unscripted documentary or wedding footage",
+      "Exporting an AI-generated story script and timeline directly into a video editing NLE"
+    ],
+    "notes": "Use coupon code YOUTUBE at checkout for the first month free. Tool focuses on story/script generation from audio, not automated b-roll or music selection.",
+    "added": "2026-08",
+    "source": "https://youtu.be/SqYIcNsL2F8"
   }
 ]
