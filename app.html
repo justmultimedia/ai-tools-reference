@@ -353,7 +353,8 @@ body{display:flex;flex-direction:column;min-height:100vh}
 </div>
 
 <script>
-const ICONS = {design:'🎨',animation:'✨','browser-automation':'🌐','document-conversion':'📄',networking:'🔗',media:'🎬','ai-video':'🎥','claude-workflow':'🤖','image-generation':'🖼️','image-processing':'📷','local-llm':'💻',other:'🔧'}
+// Keyed to the closed taxonomy in data/categories.json — keep the two in step.
+const ICONS = {'ai-coding':'⌨️','ai-agents-and-automation':'🤖','ai-prompting':'💬','ai-models-and-apis':'🧠','ai-productivity':'⚡','design-and-ui':'🎨','video-and-film':'🎬','music-and-audio':'🎵','images-and-3d':'🖼️','dev-tools-and-infrastructure':'🔧','marketing-and-content':'📣','business-and-career':'💼','personal-finance':'💰','science-and-space':'🔭','climate-and-environment':'🌍','health-and-psychology':'🧭','home-and-diy':'🪴','parenting-and-family':'👨‍👩‍👧','privacy-and-security':'🔒',other:'📌'}
 const TYPE_ICONS = {'ai-tool':'🤖','multimedia-tool':'🎬','tutorial':'📖','event':'📅','product':'📦','resource':'🔗','other':'📌'}
 
 let tools=[], transcripts=[], screenshots=[], activeCat='all', openId=null
@@ -451,13 +452,16 @@ document.addEventListener('DOMContentLoaded', () => {
 function buildFilters() {
   const groups = {}
   tools.forEach(t=>{
-    const key = t.content_type || t.category
+    const key = t.category || t.content_type
     groups[key] = (groups[key]||0)+1
   })
   const sorted = Object.entries(groups).sort((a,b)=>b[1]-a[1])
+  // A filter held from a previous render can outlive its chip (re-categorisation,
+  // or a tab open across a deploy). Without this the grid silently shows nothing.
+  if (activeCat !== 'all' && !groups[activeCat]) activeCat = 'all'
   document.getElementById('cat-filters').innerHTML =
-    `<span class="f-chip on" onclick="filter('all',this)">All (${tools.length})</span>`
-    + sorted.map(([c,n])=>`<span class="f-chip" onclick="filter('${jsq(c)}',this)">${TYPE_ICONS[c]||ICONS[c]||''} ${x(c)} (${n})</span>`).join('')
+    `<span class="f-chip${activeCat==='all'?' on':''}" onclick="filter('all',this)">All (${tools.length})</span>`
+    + sorted.map(([c,n])=>`<span class="f-chip${c===activeCat?' on':''}" onclick="filter('${jsq(c)}',this)">${ICONS[c]||TYPE_ICONS[c]||''} ${x(c)} (${n})</span>`).join('')
 }
 
 function filter(cat, el) {
@@ -471,7 +475,7 @@ function renderTools() {
   const q = document.getElementById('q').value.toLowerCase()
   const shown = tools.filter(t=>{
     if(activeCat!=='all') {
-      const key = t.content_type || t.category
+      const key = t.category || t.content_type
       if(key!==activeCat) return false
     }
     if(!q) return true
@@ -487,7 +491,7 @@ function cardHTML(t) {
   const ts = t.transcriptSlug
   return `<div class="card${open?' open':''}" id="card-${t.id}" onclick="toggle('${jsq(t.id)}')">
   <div class="card-top">
-    <div class="card-icon">${TYPE_ICONS[t.content_type]||ICONS[t.category]||'🔧'}</div>
+    <div class="card-icon">${ICONS[t.category]||TYPE_ICONS[t.content_type]||'🔧'}</div>
     <div class="card-meta">
       <div class="card-name">${x(t.name)}</div>
       <div class="chips">

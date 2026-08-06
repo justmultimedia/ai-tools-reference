@@ -150,8 +150,17 @@ function apiStats() {
   const transcripts = existsSync(transcriptsDir)
     ? readdirSync(transcriptsDir).filter(f => f.endsWith('.txt')).length : 0
   const ss = apiScreenshots()
-  const types = [...new Set(tools.map(t => t.content_type || 'ai-tool'))]
-  return { tools: tools.length, transcripts, screenshots: ss.length, categories: types.length }
+  // The 'Categories' stat used to count content_type, which is a different axis
+  // and always read ~6. Count real categories, and expose a fingerprint so the
+  // client poll notices a re-categorisation even when no entries were added.
+  const cats = [...new Set(tools.map(t => t.category).filter(Boolean))]
+  return {
+    tools: tools.length,
+    transcripts,
+    screenshots: ss.length,
+    categories: cats.length,
+    categoryFingerprint: cats.sort().join('|'),
+  }
 }
 
 // ── Server ────────────────────────────────────────────────────────────────────
