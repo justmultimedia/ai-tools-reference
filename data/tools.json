@@ -4982,5 +4982,35 @@
     "notes": "Content is Ireland-specific and may not apply to other jurisdictions. Produced by Ask About Wealth channel on Facebook.",
     "added": "2026-08",
     "source": "https://www.facebook.com/share/r/1LV8JXHfvK/?mibextid=wwXIfr"
+  },
+  {
+    "id": "open-montage-agentic-video-production",
+    "name": "Open Montage",
+    "content_type": "ai-tool",
+    "category": "video-and-film",
+    "description": "Open Montage is the world's first agentic video production system that turns Claude Code into a full production studio at zero cost. It accepts plain English prompts and autonomously handles research, scripting, voiceover, visuals, and editing across 11 production pipelines with over 400 agent skills. It runs locally using free tools with no API key required, making professional video production accessible to creators, marketers, and businesses.",
+    "tags": [
+      "ai-video",
+      "agentic-ai",
+      "video-production",
+      "claude-code",
+      "open-source",
+      "no-cost"
+    ],
+    "link": "https://youtube.com/shorts/vrMNcQ3Xyik?is=EfqogTE7P8H21nnF",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Cursor",
+      "Copilot"
+    ],
+    "use_cases": [
+      "Generating animated explainer videos, cinematic trailers, and product ads from text prompts",
+      "Creating talking head videos and podcast clips with live web search for up-to-date content"
+    ],
+    "notes": "Runs locally with no API key required; uses free tools. A cinematic sci-fi trailer and product ad were reportedly produced for $69 total. Integrates live web search across YouTube, Reddit, and news sites for grounded content.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/vrMNcQ3Xyik?is=EfqogTE7P8H21nnF"
   }
 ]
