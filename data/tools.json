@@ -5122,5 +5122,33 @@
     "notes": "Described as free in the video. Available inside Google Flow Music. Trained on licensed data, addressing copyright concerns. Supports multi-language vocals.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/juTcssMLrE4?is=6XS8vhk_G4Mo81xo"
+  },
+  {
+    "id": "gemini-consistent-illustration-style-templates",
+    "name": "Gemini AI Illustration Style Template Trick",
+    "content_type": "tutorial",
+    "category": "ai-prompting",
+    "description": "A technique using Google Gemini to create consistent AI-generated illustrations by uploading a reference image and asking Gemini to generate a reusable JSON prompt template that captures the style. The template can then be reused in new chats to generate unlimited images in the same visual style. This eliminates the need to manually hunt for matching illustrations and streamlines design workflows.",
+    "tags": [
+      "gemini",
+      "illustration",
+      "style-consistency",
+      "json-prompt",
+      "ai-design",
+      "prompt-engineering"
+    ],
+    "link": "https://youtube.com/shorts/MpwM78N0JrY?is=QjH3ZSfqYrppUVNU",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Google Gemini"
+    ],
+    "use_cases": [
+      "Generating consistent illustration sets for websites or apps without a designer",
+      "Creating cohesive visual branding assets for marketing campaigns"
+    ],
+    "notes": "Free to use with Google Gemini. Requires uploading a reference illustration to Gemini and prompting it to extract a JSON style template. Quality may vary depending on Gemini's image analysis capabilities.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/MpwM78N0JrY?is=QjH3ZSfqYrppUVNU"
   }
 ]
