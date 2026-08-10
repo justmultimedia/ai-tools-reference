@@ -5150,5 +5150,31 @@
     "notes": "Free to use with Google Gemini. Requires uploading a reference illustration to Gemini and prompting it to extract a JSON style template. Quality may vary depending on Gemini's image analysis capabilities.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/MpwM78N0JrY?is=QjH3ZSfqYrppUVNU"
+  },
+  {
+    "id": "yuval-noah-harari-skills-10-years",
+    "name": "What skills will matter in 10 years? | Yuval Noah Harari",
+    "content_type": "resource",
+    "category": "business-and-career",
+    "description": "Yuval Noah Harari argues that focusing on a narrow set of skills is dangerous in a rapidly changing world. He recommends cultivating a broad combination of intellectual, emotional/social, and physical skills to remain adaptable. The most critical skill, he suggests, is maintaining a flexible mind capable of coping with accelerating change.",
+    "tags": [
+      "future of work",
+      "skills",
+      "adaptability",
+      "ai",
+      "education",
+      "career"
+    ],
+    "link": "https://youtube.com/shorts/qkT9O34GBzI?is=hand0OJr4QNiNiU_",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Reflecting on long-term career and skill development strategy",
+      "Educators and learners thinking about curriculum design in the age of AI"
+    ],
+    "notes": "Short-form video (YouTube Shorts) by Yuval Noah Harari. No specific date given for the recording.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/qkT9O34GBzI?is=hand0OJr4QNiNiU_"
   }
 ]
