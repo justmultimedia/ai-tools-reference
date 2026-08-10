@@ -5094,5 +5094,33 @@
     "notes": "Short-form Instagram Reel; full details or materials list may not be included in the video.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/Dbp8KQ7CzTL/?igsh=dzZ2N25lN3I3aTVr"
+  },
+  {
+    "id": "google-lyria-3-5-ai-music-model",
+    "name": "Google Lyria 3.5",
+    "content_type": "ai-tool",
+    "category": "music-and-audio",
+    "description": "Google DeepMind's Lyria 3.5 is an AI music model integrated into Google Flow Music that generates full songs with vocals, lyrics, and melody up to 3 minutes long from a text prompt in under a minute. It features improved natural-sounding vocals with emotion, pronunciation, and multi-language support, plus stem exports for drums, bass, and vocals separately. Trained exclusively on licensed data, it avoids the copyright issues facing competitors like Suno and Udio.",
+    "tags": [
+      "ai music",
+      "google deepmind",
+      "vocals",
+      "stem export",
+      "music generation",
+      "licensed data"
+    ],
+    "link": "https://deepmind.google",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Google Flow Music"
+    ],
+    "use_cases": [
+      "Generating full songs with vocals and lyrics from a text prompt for rapid demo creation",
+      "Exporting individual stems (drums, bass, vocals) for use in a DAW or music production project"
+    ],
+    "notes": "Described as free in the video. Available inside Google Flow Music. Trained on licensed data, addressing copyright concerns. Supports multi-language vocals.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/juTcssMLrE4?is=6XS8vhk_G4Mo81xo"
   }
 ]
