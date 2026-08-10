@@ -5038,5 +5038,36 @@
     "notes": "Content appears to be Irish-law specific (Terry Gorry & Co. Solicitors is an Irish firm). Viewers should verify current planning regulations as rules may change.",
     "added": "2026-08",
     "source": "https://www.facebook.com/share/v/18FWVP1zRg/?mibextid=wwXIfr"
+  },
+  {
+    "id": "claude-code-7-free-upgrades",
+    "name": "Claude Code: 7 Free Upgrades to Unlock Full Power",
+    "content_type": "tutorial",
+    "category": "ai-prompting",
+    "description": "A tutorial breaking down 7 free enhancements to Claude Code that significantly boost its capabilities out of the box. Covers official Anthropic skills, cleaner code via Superpowers, autonomous project management with the BMAD Method, and expert personas from SuperClaude. Part 1 of a 2-part series.",
+    "tags": [
+      "claude code",
+      "claude",
+      "anthropic",
+      "superclaude",
+      "bmad method",
+      "ai coding"
+    ],
+    "link": "https://www.instagram.com/reel/Dbv4vK4BEHd/?igsh=MTlhY2o4cmhnbjc0aw==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Anthropic",
+      "SuperClaude",
+      "BMAD Method"
+    ],
+    "use_cases": [
+      "Enhancing Claude Code with expert personas and autonomous project management",
+      "Writing cleaner code and improving AI-assisted development workflows"
+    ],
+    "notes": "This is Part 1 of a 2-part series; Part 2 covers the remaining 3 upgrades. All upgrades mentioned are free.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Dbv4vK4BEHd/?igsh=MTlhY2o4cmhnbjc0aw=="
   }
 ]
