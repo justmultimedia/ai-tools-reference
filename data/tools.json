@@ -5176,5 +5176,34 @@
     "notes": "Short-form video (YouTube Shorts) by Yuval Noah Harari. No specific date given for the recording.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/qkT9O34GBzI?is=hand0OJr4QNiNiU_"
+  },
+  {
+    "id": "claude-for-small-business-setup-service",
+    "name": "Install Claude for Small Business for Local Shops",
+    "content_type": "tutorial",
+    "category": "business-and-career",
+    "description": "A side-business idea centered on installing and managing Anthropic's Claude for Small Business platform for local shops like dry cleaners, plumbers, and gyms. The platform ships 15 pre-built AI workflows including invoice chasing, payroll planning, and end-of-month close. The opportunity is charging $1,500 for setup and $500/month per client, with free training available from Anthropic.",
+    "tags": [
+      "claude",
+      "small business",
+      "ai automation",
+      "side hustle",
+      "anthropic",
+      "invoice automation"
+    ],
+    "link": "https://youtube.com/shorts/FQVe8onsG8c?is=PFKVBvuCDAoT4Oxm",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude",
+      "Anthropic"
+    ],
+    "use_cases": [
+      "Setting up AI-powered invoice chasing for local small businesses",
+      "Offering managed AI workflow services to non-technical business owners for recurring monthly revenue"
+    ],
+    "notes": "Suggested pricing: $1,500 setup fee + $500/month per client. Five clients = ~$30k/year. Free training reportedly available from Anthropic. Comment 'biz' on the video for a guide.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/FQVe8onsG8c?is=PFKVBvuCDAoT4Oxm"
   }
 ]
