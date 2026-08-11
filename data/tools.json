@@ -5205,5 +5205,31 @@
     "notes": "Suggested pricing: $1,500 setup fee + $500/month per client. Five clients = ~$30k/year. Free training reportedly available from Anthropic. Comment 'biz' on the video for a guide.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/FQVe8onsG8c?is=PFKVBvuCDAoT4Oxm"
+  },
+  {
+    "id": "strix-ai-pen-testing-tool",
+    "name": "Strix",
+    "content_type": "ai-tool",
+    "category": "privacy-and-security",
+    "description": "Strix is a free, open-source AI-powered penetration testing tool that deploys specialized AI agents to simulate real hacker attacks on web apps and personal projects. Unlike traditional scanners, it runs your app live, launches targeted exploits, and delivers working proof-of-concept for each vulnerability along with suggested fixes. With over 45,000 GitHub stars, it democratizes thorough security testing for solo developers and small teams.",
+    "tags": [
+      "penetration-testing",
+      "ai-agents",
+      "open-source",
+      "cybersecurity",
+      "vulnerability-assessment",
+      "devsecops"
+    ],
+    "link": "https://github.com/search?q=strix+pen+testing",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Testing vibe-coded or quickly built apps for security vulnerabilities before deployment",
+      "Running automated penetration tests on websites or personal projects without hiring a security team"
+    ],
+    "notes": "Free and open-source. Reported 45,000+ GitHub stars at time of video. Canonical GitHub repo URL not confirmed from available content.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/Yjmu78SgeqA?is=e5ihuAFnfhGT9ONb"
   }
 ]
