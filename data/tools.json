@@ -5231,5 +5231,32 @@
     "notes": "Free and open-source. Reported 45,000+ GitHub stars at time of video. Canonical GitHub repo URL not confirmed from available content.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/Yjmu78SgeqA?is=e5ihuAFnfhGT9ONb"
+  },
+  {
+    "id": "tencent-db-agent-memory",
+    "name": "Tencent DB Agent Memory",
+    "content_type": "ai-tool",
+    "category": "ai-agents-and-automation",
+    "description": "Tencent DB Agent Memory is a fully open-source, locally-run memory system that gives AI agents human-like long-term recall using a four-tier memory model inspired by human short-term and long-term memory. It extracts and stores user preferences and conversation context across sessions, eliminating the cold-start problem where agents forget everything between sessions. It reduces token costs by 61% and improves task success rates by over 50% while preserving privacy by running entirely on-device.",
+    "tags": [
+      "memory",
+      "ai-agents",
+      "open-source",
+      "local-ai",
+      "personalization",
+      "tencent"
+    ],
+    "link": "https://github.com/tencent",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Enabling AI agents to remember user preferences and context across multiple sessions",
+      "Reducing token usage and API costs in long-running agentic workflows",
+      "Building privacy-preserving personalized AI assistants that run fully locally"
+    ],
+    "notes": "Runs entirely locally, ensuring user data privacy. Open-sourced by Tencent. Specific GitHub repo URL not provided in the source content.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/Fdby_VU9rWo?is=JafcUvzNf0zR1qPB"
   }
 ]
