@@ -5341,5 +5341,35 @@
     "notes": "Full setup guide and AI prompt are shared via DM when users comment 'RADAR'. Claims may be exaggerated — verify independently whether social media accounts can directly influence Google Search Console rankings.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/Db9iQOSOsk3/?igsh=MTV2em9wZmphdDl3bQ=="
+  },
+  {
+    "id": "premortem-prompting-technique",
+    "name": "Premortem Prompting Technique",
+    "content_type": "tutorial",
+    "category": "ai-prompting",
+    "description": "A decision-improvement technique popularized by Daniel Kahneman where you prompt AI by assuming your plan has already failed, then ask it to explain why. This reverse-engineering approach surfaces blind spots and fatal flaws that forward-looking analysis tends to miss. The post outlines a five-prompt sequence covering autopsy, fatal flaw identification, plan rebuilding, competitor attack simulation, and early warning tripwires.",
+    "tags": [
+      "premortem",
+      "decision-making",
+      "prompting",
+      "ai-strategy",
+      "critical-thinking",
+      "chatgpt"
+    ],
+    "link": "https://www.instagram.com/p/DbneRvGiJjP/?img_index=8&igsh=MTd0MW10dHowY25jMA==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "ChatGPT",
+      "Claude",
+      "any LLM"
+    ],
+    "use_cases": [
+      "Stress-testing a business plan or product launch before execution",
+      "Identifying hidden risks in high-stakes decisions like investments or strategic pivots"
+    ],
+    "notes": "Post promotes a '700+ AI toolkit' via DM giveaway (comment 'YES'). Technique is credited to Daniel Kahneman and reportedly used by Google and Goldman Sachs.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/p/DbneRvGiJjP/?img_index=8&igsh=MTd0MW10dHowY25jMA=="
   }
 ]
