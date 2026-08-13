@@ -5542,5 +5542,34 @@
     "notes": "Runs locally on Mac only. Supports 40+ app connectors. Prompts user for confirmation before consequential actions. Model names like 'GPT 5.6' and 'Sol' may be inaccurate transcriptions from auto-captions.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/GyS86nLCPu4?is=-doR6oTNRWxIZ9Cy"
+  },
+  {
+    "id": "record-and-replay-ai-automation-tip",
+    "name": "Record and Replay: Teaching AI Repetitive Tasks",
+    "content_type": "tutorial",
+    "category": "ai-agents-and-automation",
+    "description": "A tip about using the 'Record and Replay' plugin in ChatGPT and Claude to automate repetitive tasks by demonstrating them once. Unlike traditional robotic process automation, this feature learns the user's intent rather than exact pixel positions, making it more robust. Once recorded, the AI can replay the skill autonomously on your computer.",
+    "tags": [
+      "chatgpt",
+      "claude",
+      "automation",
+      "record-and-replay",
+      "ai-tips",
+      "rpa"
+    ],
+    "link": "https://youtube.com/shorts/H6EE5GiTwmk?is=WJQ5TjgUvVpFr5nY",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "use_cases": [
+      "Automating repetitive computer tasks by recording a step-by-step walkthrough once",
+      "Building reusable AI skills from standard operating procedures (SOPs)"
+    ],
+    "notes": "Claims about a 'Record and Replay' plugin for ChatGPT and Claude should be verified; this may be referring to emerging or third-party tooling rather than an officially released feature. Content may be exaggerated or speculative.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/H6EE5GiTwmk?is=WJQ5TjgUvVpFr5nY"
   }
 ]
