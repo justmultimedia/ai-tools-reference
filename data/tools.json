@@ -5309,5 +5309,37 @@
     "notes": "Published by Gript Media, a right-leaning Irish outlet. Content represents a minority scientific viewpoint that challenges the mainstream IPCC consensus on climate change. Viewer discretion and critical evaluation advised.",
     "added": "2026-08",
     "source": "https://youtu.be/v36HzErkBHA?is=CTa50DNSEQlFlSuN"
+  },
+  {
+    "id": "social-media-google-search-console-seo-radar",
+    "name": "Connect Social Media to Google Search Console for SEO",
+    "content_type": "tutorial",
+    "category": "marketing-and-content",
+    "description": "A tutorial showing how to connect social media accounts to Google Search Console to improve search rankings without needing a website. Uses AI prompts (referencing Claude/ChatGPT) to gain content insights and identify what content has the highest viral potential.",
+    "tags": [
+      "seo",
+      "google search console",
+      "social media",
+      "ai prompts",
+      "content strategy",
+      "viral content"
+    ],
+    "link": "https://www.instagram.com/reel/Db9iQOSOsk3/?igsh=MTV2em9wZmphdDl3bQ==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Google Search Console",
+      "Claude",
+      "ChatGPT",
+      "Instagram",
+      "social media platforms"
+    ],
+    "use_cases": [
+      "Ranking higher in Google search without owning a traditional website",
+      "Identifying which social media content has the highest chance of going viral using AI-generated insights"
+    ],
+    "notes": "Full setup guide and AI prompt are shared via DM when users comment 'RADAR'. Claims may be exaggerated — verify independently whether social media accounts can directly influence Google Search Console rankings.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Db9iQOSOsk3/?igsh=MTV2em9wZmphdDl3bQ=="
   }
 ]
