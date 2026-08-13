@@ -5424,5 +5424,31 @@
     "notes": "Links are distributed via Instagram DM when users comment 'PLUGIN' — not publicly listed in the post. Individual plugin availability and reliability are unverified. Claude Code Setup is noted as being made by Anthropic; others appear to be third-party tools.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/Db6khknApK_/?igsh=eTg0MXk0cXYwcHRq"
+  },
+  {
+    "id": "taxunwrapped-ireland-inheritance-tax-explainer",
+    "name": "Ireland's Inheritance Tax: Is It Fair? – Tax Unwrapped",
+    "content_type": "tutorial",
+    "category": "personal-finance",
+    "description": "A short-form video from Tax Unwrapped critiquing Leo Varadkar's defence of inheritance tax in Ireland, arguing that taxing already-taxed income passed to children is double taxation. The creator explains why Ireland's inheritance tax thresholds and rates are more aggressive than commonly understood. It invites viewers to consider whether the tax should be kept, reformed, or abolished.",
+    "tags": [
+      "inheritance tax",
+      "ireland",
+      "estate planning",
+      "wealth planning",
+      "tax education",
+      "irish tax"
+    ],
+    "link": "https://taxunwrapped.ie",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Understanding how Ireland's inheritance tax rules work and how they compare internationally",
+      "Evaluating estate planning strategies to minimise inheritance tax liability in Ireland"
+    ],
+    "notes": "Content reflects the creator's personal opinion and is not professional tax advice. Viewers should consult a qualified tax adviser for their specific circumstances.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DbTdNFBjd_g/?igsh=MTViZG1xN3RiaGlkaA=="
   }
 ]
