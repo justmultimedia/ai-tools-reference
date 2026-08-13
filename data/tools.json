@@ -5508,5 +5508,39 @@
     "notes": "Covers multiple tools in one short video; some tool names may be slightly misheard via auto-captions (e.g. 'Qtie' for PocketTTS, 'Cody Search' for Hermes Skills Hub, 'MuseCode' for Meta's coding agent). Alibaba Qwen 3.8 Max reportedly has 2.4 trillion parameters.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/XU2rzDbS2sU?is=-IOW-2zlK7OF2U9B"
+  },
+  {
+    "id": "openworker-ai-assistant",
+    "name": "OpenWorker",
+    "content_type": "ai-tool",
+    "category": "ai-agents-and-automation",
+    "description": "OpenWorker is an open-source, local-first AI co-worker released by Andrew Ng that autonomously completes tasks across 40+ apps including Slack, calendar, and document tools. Unlike chat-based AI, it delivers finished outputs like polished briefs and sent replies. It runs entirely on your Mac, supports bring-your-own-model (GPT, DeepSeek, Ollama, etc.), and keeps your data private by default.",
+    "tags": [
+      "ai-agent",
+      "local-ai",
+      "automation",
+      "open-source",
+      "productivity",
+      "mac"
+    ],
+    "link": null,
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Slack",
+      "Google Calendar",
+      "GPT",
+      "DeepSeek",
+      "Ollama",
+      "Fable",
+      "Kimi K3"
+    ],
+    "use_cases": [
+      "Automatically triage and reply to Slack messages on your behalf",
+      "Generate polished customer briefs and update calendar entries autonomously"
+    ],
+    "notes": "Runs locally on Mac only. Supports 40+ app connectors. Prompts user for confirmation before consequential actions. Model names like 'GPT 5.6' and 'Sol' may be inaccurate transcriptions from auto-captions.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/GyS86nLCPu4?is=-doR6oTNRWxIZ9Cy"
   }
 ]
