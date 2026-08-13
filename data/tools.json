@@ -5476,5 +5476,37 @@
     "notes": "Originally aired/reported in 2021; features climate scientist Brad Udall and correspondent Bill Whitaker.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/Db_t68BRYFq/?igsh=bzkxMHIzY2gxcmhj"
+  },
+  {
+    "id": "china-open-source-ai-2t-parameter-weekly-roundup",
+    "name": "AI Weekly Roundup: China's Top Open-Source Model & 2T Parameter on Laptop",
+    "content_type": "resource",
+    "category": "ai-models-and-apis",
+    "description": "A 60-second weekly AI news roundup covering China's release of the world's most advanced open-source AI model and a tool enabling a 2 trillion parameter model to run on a laptop with just 8 GB RAM and no GPU. Also covers Qtie's PocketTTS voice cloning, Hermes Skills Hub with 90,000 community AI skills, xAI's Grok Imagine 2.0, Meta's MuseCode coding agent, and Alibaba's Qwen 3.8 Max with 2.4 trillion parameters. These developments signal a major shift in AI democratization, making powerful models accessible on consumer hardware.",
+    "tags": [
+      "open-source-ai",
+      "large-language-models",
+      "alibaba-qwen",
+      "ai-democratization",
+      "voice-cloning",
+      "ai-weekly"
+    ],
+    "link": "https://youtube.com/shorts/XU2rzDbS2sU?is=-IOW-2zlK7OF2U9B",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "OpenAI",
+      "Anthropic",
+      "Nvidia",
+      "Meta",
+      "xAI"
+    ],
+    "use_cases": [
+      "Staying up to date on the latest AI model releases and breakthroughs",
+      "Discovering lightweight AI tools that run on consumer hardware without a GPU"
+    ],
+    "notes": "Covers multiple tools in one short video; some tool names may be slightly misheard via auto-captions (e.g. 'Qtie' for PocketTTS, 'Cody Search' for Hermes Skills Hub, 'MuseCode' for Meta's coding agent). Alibaba Qwen 3.8 Max reportedly has 2.4 trillion parameters.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/XU2rzDbS2sU?is=-IOW-2zlK7OF2U9B"
   }
 ]
