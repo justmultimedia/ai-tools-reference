@@ -5396,5 +5396,33 @@
     "notes": "No pricing or purchase link provided in the post. Product source or brand is unclear beyond the Instagram channel suger.me1.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/Db00Q5uoOJI/?igsh=N2gwM3hlaHJiYnF4"
+  },
+  {
+    "id": "claude-code-plugins-five-pack",
+    "name": "5 Free Claude Code Plugins (OmniRoute, ClaudeMem, Headroom, Claude Code Setup, Task Observer)",
+    "content_type": "tutorial",
+    "category": "ai-coding",
+    "description": "A roundup of five free plugins for Claude Code that extend its capabilities: OmniRoute (multi-provider failover), ClaudeMem (cross-session memory), Headroom (context compression), Claude Code Setup (project hook/MCP scanner by Anthropic), and Task Observer (style-learning skill upgrader). The video walks through what each plugin does and how they collectively reduce friction when running a business inside Claude Code. Viewers comment 'PLUGIN' to receive links to all five.",
+    "tags": [
+      "claude code",
+      "plugins",
+      "ai-coding",
+      "context-management",
+      "automation"
+    ],
+    "link": "https://www.instagram.com/reel/Db6khknApK_/?igsh=eTg0MXk0cXYwcHRq",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Anthropic Claude"
+    ],
+    "use_cases": [
+      "Preventing Claude Code session interruptions by auto-rolling to alternative AI providers when usage limits are hit",
+      "Reducing token consumption and maintaining persistent project context across multiple Claude Code sessions"
+    ],
+    "notes": "Links are distributed via Instagram DM when users comment 'PLUGIN' — not publicly listed in the post. Individual plugin availability and reliability are unverified. Claude Code Setup is noted as being made by Anthropic; others appear to be third-party tools.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Db6khknApK_/?igsh=eTg0MXk0cXYwcHRq"
   }
 ]
