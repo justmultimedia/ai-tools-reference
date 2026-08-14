@@ -5571,5 +5571,31 @@
     "notes": "Claims about a 'Record and Replay' plugin for ChatGPT and Claude should be verified; this may be referring to emerging or third-party tooling rather than an officially released feature. Content may be exaggerated or speculative.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/H6EE5GiTwmk?is=WJQ5TjgUvVpFr5nY"
+  },
+  {
+    "id": "10-ai-skills-that-matter-2026",
+    "name": "The Only 10 AI Skills That Actually Matter in 2026",
+    "content_type": "tutorial",
+    "category": "ai-productivity",
+    "description": "A concise overview of the 10 AI skills deemed essential for 2026, including prompt engineering, AI agents, workflow automation, RAG, multimodal AI, AEO, tool stacking, and LLM management. The video argues that everything outside these core competencies is noise and encourages viewers to focus their learning accordingly. It serves as a quick orientation for professionals looking to prioritize their AI skill development.",
+    "tags": [
+      "ai skills",
+      "prompt engineering",
+      "ai agents",
+      "rag",
+      "workflow automation",
+      "llm management"
+    ],
+    "link": "https://youtube.com/shorts/wtOafwpgNxM?is=BHDop9vRybqZbMCw",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Identifying which AI skills to prioritize for career growth in 2026",
+      "Getting a high-level map of AI competencies before diving into deeper learning resources"
+    ],
+    "notes": "Short-form content (YouTube Shorts). Creator offers to send learning resources if viewers comment 'learn'. No specific tools or courses are named in the video itself.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/wtOafwpgNxM?is=BHDop9vRybqZbMCw"
   }
 ]
