@@ -5597,5 +5597,31 @@
     "notes": "Short-form content (YouTube Shorts). Creator offers to send learning resources if viewers comment 'learn'. No specific tools or courses are named in the video itself.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/wtOafwpgNxM?is=BHDop9vRybqZbMCw"
+  },
+  {
+    "id": "how-much-alcohol-should-you-drink",
+    "name": "How Much Alcohol Should You Drink?",
+    "content_type": "tutorial",
+    "category": "health-and-psychology",
+    "description": "A short educational video by Dr Faye Bate discussing the toxicology of alcohol and what legal limits would look like if alcohol were discovered today. The video also debunks the popular 'one glass of red wine a day is good for your heart' claim that was widely promoted in past decades. It highlights how scientific understanding of alcohol's health effects has evolved.",
+    "tags": [
+      "alcohol",
+      "health",
+      "debunked myths",
+      "toxicology",
+      "nutrition",
+      "wellness"
+    ],
+    "link": "https://youtube.com/shorts/MiU32hk95Ek?is=qbXLw1Z3ImmE0PmX",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Understanding the health risks of alcohol consumption",
+      "Debunking myths about moderate alcohol use being beneficial"
+    ],
+    "notes": "Content is from a YouTube Shorts video. Claims are based on toxicology standards and updated scientific consensus; the 'red wine is good for the heart' narrative has been widely debunked in modern research.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/MiU32hk95Ek?is=qbXLw1Z3ImmE0PmX"
   }
 ]
