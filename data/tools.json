@@ -5623,5 +5623,34 @@
     "notes": "Content is from a YouTube Shorts video. Claims are based on toxicology standards and updated scientific consensus; the 'red wine is good for the heart' narrative has been widely debunked in modern research.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/MiU32hk95Ek?is=qbXLw1Z3ImmE0PmX"
+  },
+  {
+    "id": "claude-higgsfield-mcp-real-estate-video-automation",
+    "name": "Claude + Higgsfield MCP: Automated Real Estate Video Production",
+    "content_type": "tutorial",
+    "category": "video-and-film",
+    "description": "A workflow connecting Claude AI to the Higgsfield MCP to automate real estate marketing video production from property listings. Users paste a listing URL and optionally a reference video style, then Claude orchestrates Higgsfield to generate multi-scene property tour videos ready to post. This eliminates traditional filming and editing, enabling scalable, viral-style video content creation with minimal human input.",
+    "tags": [
+      "claude",
+      "higgsfield",
+      "mcp",
+      "real-estate",
+      "video-automation",
+      "ai-workflow"
+    ],
+    "link": "https://youtube.com/shorts/7a8iJcL1Sk0?is=Gja5ixEoQHRNK5Xr",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Claude AI",
+      "Higgsfield MCP"
+    ],
+    "use_cases": [
+      "Generating ready-to-post property tour videos from real estate listing URLs",
+      "Recreating viral real estate video styles automatically using AI-driven multi-scene production"
+    ],
+    "notes": "Requires access to both Claude and the Higgsfield MCP. Setup is described as taking under 10 seconds. No pricing or availability details provided in the content.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/7a8iJcL1Sk0?is=Gja5ixEoQHRNK5Xr"
   }
 ]
