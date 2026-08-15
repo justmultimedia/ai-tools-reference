@@ -5731,5 +5731,31 @@
     "notes": "Local inference requires an RTX 4090 GPU or better. The official website offers free credits for easier access without local hardware. Model weights are available on Hugging Face and the project is open-source on GitHub.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/VnAEVdpPegA?is=xD4phLOUTMr_4MG0"
+  },
+  {
+    "id": "dont-underestimate-dying-without-a-will",
+    "name": "Don't Underestimate What Happens If You Die Without a Will",
+    "content_type": "tutorial",
+    "category": "personal-finance",
+    "description": "A short financial advisory video explaining the legal consequences of dying intestate (without a will) in Ireland. Covers scenarios for married couples, unmarried partners with children, and single individuals with no dependents. Highlights that only 27% of Irish adults have a will, urging those with any assets to create one.",
+    "tags": [
+      "estate planning",
+      "will",
+      "inheritance",
+      "intestacy",
+      "succession planning",
+      "ireland"
+    ],
+    "link": "https://youtube.com/shorts/NqO6cH0Xh7U?is=Rh25SQku7D8CXEZz",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Understanding how assets are distributed under Irish intestacy law",
+      "Motivating individuals with assets to create a will as part of financial planning"
+    ],
+    "notes": "Content appears to be specific to Irish law (e.g., references Irish adults and Irish intestacy rules). Rules may differ significantly in other jurisdictions.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/NqO6cH0Xh7U?is=Rh25SQku7D8CXEZz"
   }
 ]
