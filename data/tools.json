@@ -5703,5 +5703,33 @@
     "notes": "Affiliate links provided for EU and US markets. A synth giveaway by Unz Unz store is mentioned but limited to EU countries only. Video features 15+ guest creators from the synth community.",
     "added": "2026-08",
     "source": "https://youtu.be/50-kK0lrQWI?is=0h8_wIJ9T8s4b2ct"
+  },
+  {
+    "id": "skyreels-v2-unlimited-ai-video-model",
+    "name": "SkyReels V2",
+    "content_type": "ai-tool",
+    "category": "video-and-film",
+    "description": "SkyReels V2 is an open-source AI video generation model by SkyWork AI that can produce unlimited-length videos by using a technique called diffusion forcing, which predicts future frames based on prior content rather than stitching clips together. It accepts text prompts or reference images and delivers visual quality comparable to paid tools like Kling and Runway. It is available via Hugging Face for local use or through the official SkyReels website with free credits.",
+    "tags": [
+      "ai video",
+      "open source",
+      "diffusion forcing",
+      "video generation",
+      "hugging face"
+    ],
+    "link": "https://skyreels.ai",
+    "platform": "youtube",
+    "install": null,
+    "works_with": [
+      "Hugging Face",
+      "GitHub"
+    ],
+    "use_cases": [
+      "Generating unlimited-length AI videos from text prompts or reference images",
+      "Creating high-quality video content locally on a high-end GPU or via the SkyReels web platform"
+    ],
+    "notes": "Local inference requires an RTX 4090 GPU or better. The official website offers free credits for easier access without local hardware. Model weights are available on Hugging Face and the project is open-source on GitHub.",
+    "added": "2026-08",
+    "source": "https://youtube.com/shorts/VnAEVdpPegA?is=xD4phLOUTMr_4MG0"
   }
 ]
