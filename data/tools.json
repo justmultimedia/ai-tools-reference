@@ -5757,5 +5757,37 @@
     "notes": "Content appears to be specific to Irish law (e.g., references Irish adults and Irish intestacy rules). Rules may differ significantly in other jurisdictions.",
     "added": "2026-08",
     "source": "https://youtube.com/shorts/NqO6cH0Xh7U?is=Rh25SQku7D8CXEZz"
+  },
+  {
+    "id": "build-website-cheap-cloud-secrets",
+    "name": "Build a Website for $1/Month Using Cloud Tools",
+    "content_type": "tutorial",
+    "category": "dev-tools-and-infrastructure",
+    "description": "A tutorial on building and hosting a website for approximately $1/month using tools like Cloud Code, CMUX, Genspark Design, Hostinger, and ChatGPT. It covers scraping an existing site as a base, generating professional designs, and using AI for image creation. Aimed at budget-conscious builders wanting a full web presence cheaply.",
+    "tags": [
+      "web hosting",
+      "budget website",
+      "ai web design",
+      "hostinger",
+      "chatgpt",
+      "cloud tools"
+    ],
+    "link": "https://www.instagram.com/reel/DcBogQcFIbB/?igsh=MXRieTcwd3Z1YThpbg==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Cloud Code",
+      "CMUX",
+      "Genspark Design",
+      "Hostinger",
+      "ChatGPT"
+    ],
+    "use_cases": [
+      "Hosting a personal or small business website for as low as $1/month",
+      "Using AI tools to generate images and professional designs without hiring a designer"
+    ],
+    "notes": "Mentions a live app-building workshop on a Saturday; comment 'CLAUDE' for tickets. Hosting cost cited as ~$1/month via Hostinger.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DcBogQcFIbB/?igsh=MXRieTcwd3Z1YThpbg=="
   }
 ]
