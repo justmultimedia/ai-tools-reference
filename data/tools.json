@@ -5789,5 +5789,33 @@
     "notes": "Mentions a live app-building workshop on a Saturday; comment 'CLAUDE' for tickets. Hosting cost cited as ~$1/month via Hostinger.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DcBogQcFIbB/?igsh=MXRieTcwd3Z1YThpbg=="
+  },
+  {
+    "id": "claude-shopping-skill-lowest-price",
+    "name": "Claude Shopping Skill – Lowest Price Finder",
+    "content_type": "tutorial",
+    "category": "ai-agents-and-automation",
+    "description": "A Claude skill that reads actual store pages directly to find the lowest price on products, bypassing Google Shopping results which often show inflated or sponsored prices. The creator shares this skill via DM to followers who comment 'CHEAPEST'. It demonstrates how Claude can be used as an intelligent shopping agent that parses real retailer pages rather than relying on aggregated rankings.",
+    "tags": [
+      "claude",
+      "shopping",
+      "price-comparison",
+      "automation",
+      "ai-skill",
+      "productivity"
+    ],
+    "link": "https://www.instagram.com/reel/Dbm_Wj2h88J/?igsh=MXBxdTI4NjBrdWthdw==",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude"
+    ],
+    "use_cases": [
+      "Finding the lowest price on a product across multiple retailers",
+      "Bypassing Google Shopping's sponsored or inflated results to get accurate pricing"
+    ],
+    "notes": "Skill is shared via Instagram DM — comment 'CHEAPEST' on the post to receive it. No public repo or direct download link provided.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/Dbm_Wj2h88J/?igsh=MXBxdTI4NjBrdWthdw=="
   }
 ]
