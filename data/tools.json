@@ -5844,5 +5844,31 @@
     "notes": "Full setup details shared via DM when users comment 'Claude Edit' on the post. Actual workflow details are not publicly visible without engaging with the post.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/Db4PVCotlC4/?igsh=MXRjM3RoZjZ1dWhjcQ=="
+  },
+  {
+    "id": "europe-scorching-summer-impacts-newschambers",
+    "name": "Europe's Scorching Summer: Lasting Impacts on Households, Farmers & Economies",
+    "content_type": "resource",
+    "category": "climate-and-environment",
+    "description": "A news video by newschambers covering the ongoing impacts of Europe's extreme summer heat, including pressures on governments like Ireland to respond. The content outlines surprising and often alarming ways the prolonged heatwave may have permanently altered Europe, with wide-ranging consequences for households, agriculture, and national economies.",
+    "tags": [
+      "europe",
+      "heatwave",
+      "climate",
+      "summer",
+      "agriculture",
+      "economy"
+    ],
+    "link": "https://www.instagram.com/reel/DcLcBFEuU-L/?igsi=aXZuMDU3bDBmZTZv",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Staying informed about climate-related impacts across Europe",
+      "Understanding how extreme heat events affect governments, farmers, and economies"
+    ],
+    "notes": "Content is a short-form Instagram reel from the newschambers channel; specific date of the heatwave events not provided in the description.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DcLcBFEuU-L/?igsi=aXZuMDU3bDBmZTZv"
   }
 ]
