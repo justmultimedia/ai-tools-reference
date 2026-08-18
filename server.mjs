@@ -6,7 +6,7 @@
 
 import { createServer } from 'http'
 import { readFileSync, readdirSync, statSync, existsSync } from 'fs'
-import { join, dirname, extname } from 'path'
+import { join, dirname, extname, basename, resolve, sep } from 'path'
 import { fileURLToPath } from 'url'
 
 const __dir = dirname(fileURLToPath(import.meta.url))
@@ -194,7 +194,7 @@ const server = createServer(async (req, res) => {
     }
 
     if (path.startsWith('/api/transcripts/')) {
-      const slug = decodeURIComponent(path.slice('/api/transcripts/'.length))
+      const slug = basename(decodeURIComponent(path.slice('/api/transcripts/'.length)))
       const text = apiTranscript(slug)
       if (!text) { res.writeHead(404); res.end('Not found'); return }
       res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' })
@@ -203,12 +203,21 @@ const server = createServer(async (req, res) => {
     }
 
     if (path.startsWith('/screenshots/')) {
-      const name = decodeURIComponent(path.slice('/screenshots/'.length))
+      // Only ever a bare filename. Before this, an encoded traversal
+      // (/screenshots/..%2f.env) escaped the directory and served .env with the
+      // API keys in it to anyone on the internet. new URL() normalises a plain
+      // ../ but not a percent-encoded one, and the decode happened after the
+      // slice - so the guard has to be here, on the decoded value.
+      const requested = decodeURIComponent(path.slice('/screenshots/'.length))
+      const name = basename(requested)
+      if (!name || name !== requested) { res.writeHead(400); res.end('Bad request'); return }
+
       const dirs = [join(__dir, 'screenshots'), join(__dir, 'data/screenshots')]
       let found = null
       for (const d of dirs) {
         const f = join(d, name)
-        if (existsSync(f)) { found = f; break }
+        // Belt and braces: the resolved path must still sit inside the directory.
+        if (resolve(f).startsWith(resolve(d) + sep) && existsSync(f)) { found = f; break }
       }
       if (!found) { res.writeHead(404); res.end('Not found'); return }
       const ext = extname(found).toLowerCase()
