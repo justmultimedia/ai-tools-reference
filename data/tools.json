@@ -5899,5 +5899,31 @@
     "notes": "Link to the tool is shared via DM on Instagram by commenting 'here' on the post. No pricing info provided. here.now is described as a Vercel product with built-in agent integration.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DcC9uspG5Io/?igsi=NnVrZ2xyNDBpdHVz"
+  },
+  {
+    "id": "china-claude-opus-level-local-ai-open-source-breakthroughs",
+    "name": "Open-Source AI Breakthroughs: Local Claude Opus-Level Model & 7 New Tools",
+    "content_type": "resource",
+    "category": "ai-models-and-apis",
+    "description": "A roundup of seven major open-source AI breakthroughs including a China-released Claude Opus-level model that runs fully local and free. The week's highlights cover tools for watermark removal, browser-driven site cloning, and powerful local models from Meta, xAI, Zhipu, and Alibaba. Rapid innovation in open-source AI is making frontier-level capabilities accessible without cost or cloud dependency.",
+    "tags": [
+      "open-source",
+      "local-ai",
+      "llm",
+      "alibaba-qwen",
+      "meta-llama",
+      "ai-models"
+    ],
+    "link": "https://www.instagram.com/reel/DcJ3PUDyIvS/?igsi=ZjR2MGg1NWo4cDV3",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Running frontier-level AI models locally without cloud costs or privacy concerns",
+      "Discovering and evaluating the latest open-source AI tools for watermark removal and site cloning"
+    ],
+    "notes": "This is a curated video roundup, not a single tool. Specific model names and release dates are not detailed in the description. Models mentioned include offerings from Meta, xAI, Zhipu, and Alibaba.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DcJ3PUDyIvS/?igsi=ZjR2MGg1NWo4cDV3"
   }
 ]
