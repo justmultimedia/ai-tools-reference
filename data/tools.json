@@ -5870,5 +5870,34 @@
     "notes": "Content is a short-form Instagram reel from the newschambers channel; specific date of the heatwave events not provided in the description.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DcLcBFEuU-L/?igsi=aXZuMDU3bDBmZTZv"
+  },
+  {
+    "id": "here-now-video-review-tool",
+    "name": "here.now (by Vercel) — Timestamped Video Review Tool",
+    "content_type": "ai-tool",
+    "category": "ai-agents-and-automation",
+    "description": "here.now is a Vercel-made tool that lets you spin up a review page where you can watch a video and leave comments at specific timestamps. It integrates with AI coding agents like Claude Code, enabling a feedback loop where the agent reads timestamped notes and builds the next video version automatically. Useful for anyone using AI to generate or edit video content and needing a structured review workflow.",
+    "tags": [
+      "video-review",
+      "claude-code",
+      "ai-agents",
+      "vercel",
+      "timestamped-feedback",
+      "workflow"
+    ],
+    "link": null,
+    "platform": "instagram",
+    "install": null,
+    "works_with": [
+      "Claude Code",
+      "Vercel"
+    ],
+    "use_cases": [
+      "Reviewing AI-generated video edits with timestamped comments from a phone",
+      "Feeding structured video feedback back into an AI coding agent to iterate on video versions"
+    ],
+    "notes": "Link to the tool is shared via DM on Instagram by commenting 'here' on the post. No pricing info provided. here.now is described as a Vercel product with built-in agent integration.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DcC9uspG5Io/?igsi=NnVrZ2xyNDBpdHVz"
   }
 ]
