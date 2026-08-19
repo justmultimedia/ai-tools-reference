@@ -5977,5 +5977,31 @@
     "notes": "Content is from an Instagram Reel and may be brief or simplified for a general audience. No clinical or diagnostic guidance should be inferred.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DcLlzZ4N_OJ/?igsi=aXRoaWN0Y2h5eHA1"
+  },
+  {
+    "id": "cryptocrushshow-crypto-future-masterclass",
+    "name": "Crypto Future Masterclass by CryptoCrushShow",
+    "content_type": "tutorial",
+    "category": "personal-finance",
+    "description": "An Instagram reel by CryptoCrushShow teasing a 'masterclass' on the future of crypto, covering topics like CBDC, ISO 20022, and XRP. Viewers are prompted to comment 'masterclass' to receive more information. The content appears to be educational or promotional material around emerging crypto standards and digital currencies.",
+    "tags": [
+      "crypto",
+      "xrp",
+      "cbdc",
+      "iso20022",
+      "cryptocurrency",
+      "cryptonews"
+    ],
+    "link": "https://www.instagram.com/reel/DcMS-xnhmue/?igsi=Y2hleWxoOXN0bGho",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Learning about the future direction of cryptocurrency and digital assets",
+      "Understanding CBDC and ISO 20022 standards in relation to XRP"
+    ],
+    "notes": "Content is gated behind a comment-triggered DM funnel; may be promotional or lead-generation in nature. Treat investment-related claims with caution.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DcMS-xnhmue/?igsi=Y2hleWxoOXN0bGho"
   }
 ]
