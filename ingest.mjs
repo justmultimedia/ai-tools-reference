@@ -69,7 +69,7 @@ async function main() {
   const auto = process.argv.includes('--auto')
 
   if (!url || url.startsWith('--')) {
-    console.error('Usage: node ingest.mjs <url> [--fast] [--auto]')
+    console.error('Usage: node ingest.mjs <url> [--fast] [--auto] [--update]')
     process.exit(1)
   }
 
@@ -184,7 +184,7 @@ async function main() {
     }
 
     if (action === 'y' || action === 'e') {
-      saveEntry(entry, auto)
+      saveEntry(entry, auto, process.argv.includes('--update'))
     } else {
       console.log('Skipped.')
     }
@@ -399,7 +399,7 @@ Return a JSON object:
 
 // ─── Step 4: save ─────────────────────────────────────────────────────────────
 
-async function saveEntry(entry, auto = false) {
+async function saveEntry(entry, auto = false, update = false) {
   const tools = JSON.parse(readFileSync(TOOLS_PATH, 'utf8'))
 
   // A full timestamp as well as `added`, which is only month-granular. Over a
@@ -419,6 +419,16 @@ async function saveEntry(entry, auto = false) {
   if (existing < 0) existing = tools.findIndex(t => t.id === entry.id)
 
   if (existing >= 0) {
+    // --update refreshes a post that is already saved. Everything archived
+    // before transcription existed was catalogued from its title and post text
+    // alone, so this is how those entries get what was actually said.
+    if (update) {
+      const kept = tools[existing]
+      tools[existing] = { ...kept, ...entry, added: kept.added, ingested_at: kept.ingested_at }
+      writeFileSync(TOOLS_PATH, JSON.stringify(tools, null, 2) + '\n')
+      console.log(`\nUpdated "${entry.name}" — ${entry.transcribed ? 'now has a transcript' : 're-catalogued'}`)
+      return
+    }
     if (auto) { console.log(`\nSkipped — "${entry.name}" already in database.`); return }
     const overwrite = await ask(`ID "${entry.id}" already exists. Overwrite? [y/n]: `)
     if (overwrite !== 'y') { console.log('Skipped.'); return }

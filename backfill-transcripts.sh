@@ -1,0 +1,53 @@
+#!/bin/bash
+#
+# Give every already-saved post the transcript it never had.
+#
+# Everything archived before transcription existed was catalogued from its title
+# and post text alone. This walks the archive oldest-first and re-ingests each
+# entry with --update, so the record gains what was actually said without losing
+# the date it was originally saved.
+#
+# Safe to stop and re-run: entries that already have a transcript are skipped.
+#
+#   bash backfill-transcripts.sh          # everything still missing one
+#   bash backfill-transcripts.sh 20       # just the next 20
+set -u
+cd "$(dirname "$0")"
+export PATH="/opt/homebrew/bin:/Users/ai-code/.nvm/versions/node/v24.16.0/bin:$PATH"
+
+LIMIT="${1:-9999}"
+LOG="data/maintenance/backfill-$(date +%Y%m%d-%H%M%S).log"
+mkdir -p data/maintenance
+
+mapfile -t URLS < <(python3 -c "
+import json
+for e in json.load(open('data/tools.json')):
+    if e.get('transcribed') or e.get('transcriptSlug'): continue
+    s = e.get('source') or ''
+    if s.startswith('http'): print(s)
+")
+
+TOTAL=${#URLS[@]}
+echo "$TOTAL entries have no transcript. Doing up to $LIMIT." | tee -a "$LOG"
+
+DONE=0 OK=0 FAIL=0
+for URL in "${URLS[@]}"; do
+  [ "$DONE" -ge "$LIMIT" ] && break
+  DONE=$((DONE + 1))
+  echo "[$DONE/$TOTAL] $URL" | tee -a "$LOG"
+  if node --env-file=.env ingest.mjs "$URL" --fast --auto --update >> "$LOG" 2>&1; then
+    OK=$((OK + 1))
+  else
+    FAIL=$((FAIL + 1))
+    echo "  failed - left as it was" | tee -a "$LOG"
+  fi
+  # The mini is also serving five sites and running Verbatim. Transcription is
+  # the heaviest thing on it, so leave the machine some room between posts.
+  sleep 3
+done
+
+echo "Done: $OK updated, $FAIL failed, $((TOTAL - DONE)) still to do." | tee -a "$LOG"
+
+if command -v notify >/dev/null 2>&1; then
+  notify "Research archive: transcribed $OK of $DONE posts. $((TOTAL - DONE)) remaining."
+fi
