@@ -87,6 +87,11 @@ ${evidence}`
     // rescued from. A category outside the list means the extraction is not
     // trustworthy, so hand over to the API rather than coercing it quietly.
     if (!entry.name || !categories.includes(entry.category)) return null
+
+    // The model is not asked for an id - it would invent inconsistent ones.
+    // Derive it from the name, the same shape the rest of the file uses.
+    entry.id = entry.name.toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60)
     if (!CONTENT_TYPES.includes(entry.content_type)) entry.content_type = 'other'
 
     return entry

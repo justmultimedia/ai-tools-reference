@@ -406,7 +406,17 @@ async function saveEntry(entry, auto = false) {
   // hundred entries share the current month, so `added` alone cannot say which
   // arrived first - and the page needs that to show the newest at the top.
   if (!entry.ingested_at) entry.ingested_at = new Date().toISOString()
-  const existing = tools.findIndex(t => t.id === entry.id)
+  // Match on the link first, then the id. The id comes from a name the model
+  // invents, so re-ingesting the same post after any prompt change added a
+  // second copy of it instead of updating the first.
+  //
+  // Only a real URL counts as a link. Entries ingested from a screenshot all
+  // carry the source "screenshot", and keying on that would treat every one of
+  // them as the same post.
+  const linkKey = v => (v && /^https?:\/\//.test(v) ? v.split('?')[0] : '')
+  const key = linkKey(entry.source)
+  let existing = key ? tools.findIndex(t => linkKey(t.source) === key) : -1
+  if (existing < 0) existing = tools.findIndex(t => t.id === entry.id)
 
   if (existing >= 0) {
     if (auto) { console.log(`\nSkipped — "${entry.name}" already in database.`); return }
