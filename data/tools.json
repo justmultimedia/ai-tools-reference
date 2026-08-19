@@ -3412,15 +3412,13 @@
     "content_type": "tutorial",
     "category": "science-and-space",
     "category_original": "science education",
-    "description": "Jim Al-Khalili discusses the possibility of time travel, exploring theories from Einstein's relativity to quantum mechanics, and the paradoxes that arise from such concepts.",
+    "description": "Jim Al-Khalili explores the possibility of time travel and the paradoxes it presents, discussing theories from Einstein's relativity to quantum mechanics and the work of modern physicists.",
     "tags": [
       "time travel",
-      "physics",
-      "relativity",
-      "quantum mechanics",
       "paradoxes",
+      "physics",
       "Einstein",
-      "Jim Al-Khalili"
+      "relativity"
     ],
     "link": "https://youtu.be/c63XUCGg9hM?is=giiGZsazZnQV8l3B",
     "platform": "youtube",
@@ -3432,19 +3430,22 @@
     ],
     "notes": "Contains a typographical error in the spacetime interval equation at 08:21; corrected equation provided in the description. Correction does not affect the explanations or conclusions.",
     "added": "2026-07",
-    "source": "https://youtu.be/c63XUCGg9hM?is=giiGZsazZnQV8l3B",
+    "source": "https://youtu.be/c63XUCGg9hM",
     "ingested_at": "2026-07-17T10:02:50+01:00",
     "topics": [
       "time travel",
+      "paradoxes",
       "physics"
     ],
     "key_points": [
-      "Time travel is explored through Einstein's relativity and quantum mechanics.",
-      "Paradoxes such as the grandfather paradox are discussed.",
-      "Modern physicists like Dr. Fabio Costa and Dr. Lorenzo Gavassino are mentioned in relation to their research on time travel."
+      "Time travel to the future is theoretically possible according to Einstein's special theory of relativity.",
+      "Paradoxes such as the Grandfather Paradox and Bootstrap Paradox challenge the feasibility of time travel.",
+      "Modern physicists like Dr. Fabio Costa and Dr. Lorenzo Gavassino are researching time travel paradoxes."
     ],
     "transcribed": false,
-    "transcript_note": "no audio track available"
+    "transcript_note": "no audio track available",
+    "caption_kind": "published subtitles (human)",
+    "transcriptSlug": "https-youtu-be-c63XUCGg9hM"
   },
   {
     "id": "scott-galloway-the-biggest-business-story-that-s-getting-the",
@@ -7915,32 +7916,6 @@
     ],
     "transcribed": false,
     "transcriptSlug": "https-youtu-be-50-kK0lrQWI-is-0h8-wIJ9T8s4b2ct"
-  },
-  {
-    "id": "best-synths-music-production-gear-2025-bobeats",
-    "name": "Best Synths & Music Production Gear 2025 – BoBeats Synth Awards",
-    "content_type": "resource",
-    "category": "music-and-audio",
-    "description": "An annual synth awards show hosted by BoBeats featuring guests from the synth YouTube community, highlighting the best synthesizers and music production gear of 2025. Winners include the Waldorf Protein (Best Budget Synth) and Akai MPC Live III (Best Sampler). Includes affiliate purchase links for EU and US buyers.",
-    "tags": [
-      "synthesizers",
-      "music gear",
-      "synth awards",
-      "music production",
-      "gear review"
-    ],
-    "link": "https://youtu.be/50-kK0lrQWI?is=0h8_wIJ9T8s4b2ct",
-    "platform": "youtube",
-    "install": null,
-    "works_with": [],
-    "use_cases": [
-      "Discovering the best-rated synthesizers and music production gear of 2025",
-      "Getting community-curated recommendations before purchasing music hardware"
-    ],
-    "notes": "Affiliate links provided for EU and US markets. A synth giveaway by Unz Unz store is mentioned but limited to EU countries only. Video features 15+ guest creators from the synth community.",
-    "added": "2026-08",
-    "source": "https://youtu.be/50-kK0lrQWI?is=0h8_wIJ9T8s4b2ct",
-    "ingested_at": "2026-08-14T18:12:20+01:00"
   },
   {
     "id": "skyreels-v2-launches-an-unlimited-length-ai-video-model",
