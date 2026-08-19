@@ -21,5 +21,27 @@
     "parenting-and-family",
     "privacy-and-security",
     "other"
-  ]
+  ],
+  "descriptions": {
+    "ai-coding": "writing or reviewing code with AI assistants",
+    "ai-agents-and-automation": "autonomous agents, workflows and automating tasks with AI",
+    "ai-prompting": "prompt technique, context engineering, getting better output",
+    "ai-models-and-apis": "the models themselves, benchmarks, APIs, running models locally",
+    "ai-productivity": "using AI for everyday work: notes, email, research, admin",
+    "design-and-ui": "visual design, interfaces, typography, design systems",
+    "video-and-film": "shooting, editing, colour, cameras, post-production",
+    "music-and-audio": "music production, instruments, sound design, audio gear",
+    "images-and-3d": "photography, image generation, 3D, rendering",
+    "dev-tools-and-infrastructure": "servers, deployment, databases, developer tooling",
+    "marketing-and-content": "growing an audience, social strategy, copywriting, SEO",
+    "business-and-career": "running a business, pricing, hiring, career decisions",
+    "personal-finance": "money, investing, tax, pensions, crypto, currencies, economics",
+    "science-and-space": "physics, astronomy, biology, general science",
+    "climate-and-environment": "climate change, energy, sustainability, nature",
+    "health-and-psychology": "physical health, nutrition, mental health, neuroscience, neurodiversity",
+    "home-and-diy": "building, repairing, gardening, home improvement",
+    "parenting-and-family": "raising children, family life, education",
+    "privacy-and-security": "surveillance, encryption, digital rights, staying secure",
+    "other": "genuinely does not fit any category above"
+  }
 }

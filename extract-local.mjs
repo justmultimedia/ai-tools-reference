@@ -35,7 +35,11 @@ export async function localModelAvailable() {
  * something wrong.
  */
 export async function extractLocally({ title, description, channel, captions, transcript, videoAnalysis, url, platform, dir }) {
-  const categories = JSON.parse(readFileSync(join(dir, 'data/categories.json'), 'utf8')).categories
+  const taxonomy = JSON.parse(readFileSync(join(dir, 'data/categories.json'), 'utf8'))
+  const categories = taxonomy.categories
+  const glossed = categories
+    .map(c => `- ${c}: ${(taxonomy.descriptions || {})[c] || ''}`)
+    .join('\n')
 
   // Transcript first: it is what was actually said, where title and post text are
   // frequently marketing or nothing at all.
@@ -52,7 +56,10 @@ export async function extractLocally({ title, description, channel, captions, tr
 
 Keys: name, category, content_type, description, tags, topics, key_points.
 - name: a specific, factual title. Never "Video by <account>".
-- category: EXACTLY one of: ${categories.join(', ')}
+- category: EXACTLY one slug from the list below. Choose by the SUBJECT MATTER
+  of what is being said, not by any technology that happens to be mentioned. A
+  post about money is personal-finance even if it mentions AI or blockchain.
+${glossed}
 - content_type: one of: ${CONTENT_TYPES.join(', ')}
 - description: 2-3 sentences on what the post ACTUALLY SAYS. Base this on the
   transcript where there is one. Never say the content cannot be determined.
