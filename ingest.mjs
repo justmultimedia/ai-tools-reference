@@ -86,7 +86,7 @@ async function main() {
   try {
     // Step 1: fetch metadata + captions
     console.log('\n[1/4] Fetching metadata and captions...')
-    const { title, description, channel, captions } = fetchMetadata(url, tmpDir)
+    const { title, description, channel, captions, captionKind } = fetchMetadata(url, tmpDir)
     console.log(`  Platform: ${platform}`)
     console.log(`  Title:    ${title}`)
     console.log(`  Channel:  ${channel}`)
@@ -101,7 +101,7 @@ async function main() {
     let transcript = '', transcriptNote = ''
     if (captions) {
       transcript = captions
-      console.log('\n[2/5] Using the caption track already published with the video.')
+      console.log(`\n[2/5] Using the ${captionKind} published with the video.`)
     } else if (whisperAvailable()) {
       console.log('\n[2/5] No captions. Transcribing the audio locally...')
       const r = transcribeAudio(url, tmpDir)
@@ -159,6 +159,7 @@ async function main() {
     entry.platform = platform
     entry.source = url
     entry.transcribed = Boolean(transcript) && !captions
+    if (captions && captionKind) entry.caption_kind = captionKind
     if (transcriptNote) entry.transcript_note = transcriptNote
     console.log('\nExtracted entry:')
     console.log(JSON.stringify(entry, null, 2))
@@ -215,8 +216,9 @@ function fetchMetadata(url, tmpDir) {
       `${YTDLP} \
         --ignore-errors \
         --write-info-json \
+        --write-subs \
         --write-auto-subs \
-        --sub-langs "en,en-US" \
+        --sub-langs "en.*" \
         --sub-format vtt \
         --skip-download \
         --no-playlist \
@@ -235,11 +237,23 @@ function fetchMetadata(url, tmpDir) {
   const meta = JSON.parse(readFileSync(join(tmpDir, infoFile), 'utf8'))
   const { title = '', description = '', channel = '', webpage_url = url } = meta
 
-  let captions = ''
-  const vttFile = readdirSync(tmpDir).find(f => f.endsWith('.vtt'))
-  if (vttFile) captions = parseVtt(readFileSync(join(tmpDir, vttFile), 'utf8'))
+  // Human-written subtitles beat machine ones, and it matters which you have:
+  // an auto-caption is another machine's guess at the audio, and treating it as
+  // ground truth is exactly the mistake this archive exists to avoid.
+  //
+  // Only auto-captions were requested before, in "en,en-US" - so a talk with a
+  // proper human en-GB transcript was read as having no captions at all, and
+  // then failed to transcribe because YouTube refused the audio.
+  let captions = '', captionKind = ''
+  const vtts = readdirSync(tmpDir).filter(f => f.endsWith('.vtt'))
+  const human = vtts.find(f => !f.includes('.auto.') && !/\.orig\./.test(f))
+  const chosen = human || vtts[0]
+  if (chosen) {
+    captions = parseVtt(readFileSync(join(tmpDir, chosen), 'utf8'))
+    captionKind = human ? 'published subtitles (human)' : 'auto-captions (machine)'
+  }
 
-  return { title, description, channel, url: webpage_url, captions }
+  return { title, description, channel, url: webpage_url, captions, captionKind }
 }
 
 function parseVtt(raw) {
