@@ -101,7 +101,7 @@ async function main() {
     let transcript = '', transcriptNote = ''
     if (captions) {
       transcript = captions
-      console.log(`\n[2/5] Using the ${captionKind} published with the video.`)
+      console.log(`\n[2/5] Using the ${captionKind} that came with the video.`)
     } else if (whisperAvailable()) {
       console.log('\n[2/5] No captions. Transcribing the audio locally...')
       const r = transcribeAudio(url, tmpDir)
