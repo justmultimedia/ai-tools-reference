@@ -96,6 +96,33 @@ taxonomy in `data/categories.json` still applies — whatever drives ingest must
 keep reading it, or the sprawl returns. As of this note it is holding: 208
 entries, 0 outside the taxonomy.
 
+## In-flight work at session close — NOT committed
+Two pieces of unfinished work were sitting in working trees when this session
+closed. Both are left **uncommitted on purpose** — they are another session's
+work-in-progress and not mine to declare finished. Neither is lost; both are on
+disk. Do not blow either away with a `checkout`/`reset` before reading them.
+
+**Laptop — `server.mjs`, +97 lines, uncommitted.** A transcript search endpoint:
+full-text search across the archive returning the surrounding sentence as proof,
+with an in-memory index cached against the newest transcript file. Its own
+comment makes the case well: *titles and captions are marketing, the transcript
+is the content*. Looks close to complete; needs a read, a test and a commit.
+
+**Mini — a transcript backfill, uncommitted.** ~110 modified and ~70 new
+transcript files plus `data/tools.json`, from commits `bc056f8` ("Backfill
+transcripts into posts saved before transcription existed") and `5a2f962`
+("Backfill died immediately: macOS bash has no mapfile" — i.e. it needed a
+second pass). No backfill process is still running. So this is a **completed run
+whose output was never committed**. Review and commit it on the mini, or the next
+`git pull` there will conflict against every one of those files.
+
+Order matters: commit the mini's backfill output first (it is the bigger, more
+conflict-prone tree), then the laptop's `server.mjs`.
+
+## Data state at close
+208 entries, 0 outside the taxonomy, 20 categories, 0 coercions.
+`node normalize-categories.mjs` reports clean.
+
 ## Standing gotcha
 The bot ingests continuously, so any long job touching `data/tools.json` **will**
 hit a merge conflict. Resolve by taking the remote (the bot's new entries) and
