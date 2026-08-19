@@ -100,10 +100,23 @@ function apiTools() {
     ? readdirSync(transcriptsDir).filter(f => f.endsWith('.txt'))
     : []
 
+  // Matching an entry to its transcript file is fiddly because the filename is
+  // derived from whatever URL was passed at ingest - sometimes carrying an
+  // ?igsh= tracking parameter, sometimes not, and always truncated to 80 chars.
+  // Comparing the part before any query, on whichever is shorter, matches the
+  // same post however it was linked. Without this, transcripts written today
+  // showed up in search with no entry attached at all.
+  const slugify = s => (s || '').replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '').toLowerCase()
+  const fileKeys = tFiles.map(f => ({ file: f, key: slugify(f.replace('.txt', '')) }))
+
   return tools.map(t => {
-    const srcSlug = (t.source || '').replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '').slice(0, 80)
-    const match = tFiles.find(f => f.replace('.txt', '') === srcSlug || f.startsWith(srcSlug.slice(0, 30)))
-    return { ...t, transcriptSlug: match ? match.replace('.txt', '') : null }
+    const key = slugify((t.source || '').split('?')[0])
+    if (!key) return { ...t, transcriptSlug: null }
+    const match = fileKeys.find(({ key: fk }) => {
+      const n = Math.min(key.length, fk.length, 60)
+      return n >= 20 && key.slice(0, n) === fk.slice(0, n)
+    })
+    return { ...t, transcriptSlug: match ? match.file.replace('.txt', '') : null }
   })
 }
 
