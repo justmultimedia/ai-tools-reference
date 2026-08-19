@@ -6003,5 +6003,30 @@
     "notes": "Content is gated behind a comment-triggered DM funnel; may be promotional or lead-generation in nature. Treat investment-related claims with caution.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DcMS-xnhmue/?igsi=Y2hleWxoOXN0bGho"
+  },
+  {
+    "id": "chriskohlernews-finance-markets-reel",
+    "name": "Finance & Markets Commentary by Chris Kohler",
+    "content_type": "other",
+    "category": "personal-finance",
+    "description": "A short Instagram reel by chriskohlernews touching on finance and markets topics. The creator describes the content as calming, suggesting it may involve market commentary, data visualization, or a soothing take on financial trends. Minimal description makes the specific subject unclear.",
+    "tags": [
+      "finance",
+      "markets",
+      "instagram",
+      "commentary",
+      "investing"
+    ],
+    "link": "https://www.instagram.com/reel/DaR5CRxAvD6/?igsi=cmQ3emp6eW12OW9u",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "staying informed on market trends",
+      "casual financial entertainment or commentary"
+    ],
+    "notes": "Very limited description available; content details are unclear from metadata alone.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DaR5CRxAvD6/?igsi=cmQ3emp6eW12OW9u"
   }
 ]
