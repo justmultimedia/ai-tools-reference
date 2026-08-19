@@ -344,6 +344,11 @@ Return a JSON object:
 
 async function saveEntry(entry, auto = false) {
   const tools = JSON.parse(readFileSync(TOOLS_PATH, 'utf8'))
+
+  // A full timestamp as well as `added`, which is only month-granular. Over a
+  // hundred entries share the current month, so `added` alone cannot say which
+  // arrived first - and the page needs that to show the newest at the top.
+  if (!entry.ingested_at) entry.ingested_at = new Date().toISOString()
   const existing = tools.findIndex(t => t.id === entry.id)
 
   if (existing >= 0) {

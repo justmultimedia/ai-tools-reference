@@ -471,9 +471,28 @@ function filter(cat, el) {
   renderTools()
 }
 
+// Newest first.
+//
+// Cards used to render in raw array order, and ingest appends. So the top of
+// the page was permanently the oldest entries and anything archived today
+// landed 200 cards down - which looked exactly like it had never been archived
+// at all.
+//
+// `added` is month-granular ("2026-08"), and over a hundred entries share the
+// current month, so it cannot order within a month on its own. Position in the
+// file IS ingestion order, so it breaks the tie. `ingested_at` is used when
+// present and entries written from now on carry one.
+function sortedNewestFirst(list) {
+  const at = t => t.ingested_at || (t.added ? t.added + '-01' : '')
+  return list
+    .map((t, i) => ({ t, i }))
+    .sort((a, b) => (at(b.t) > at(a.t) ? 1 : at(b.t) < at(a.t) ? -1 : b.i - a.i))
+    .map(x => x.t)
+}
+
 function renderTools() {
   const q = document.getElementById('q').value.toLowerCase()
-  const shown = tools.filter(t=>{
+  const shown = sortedNewestFirst(tools).filter(t=>{
     if(activeCat!=='all') {
       const key = t.category || t.content_type
       if(key!==activeCat) return false
