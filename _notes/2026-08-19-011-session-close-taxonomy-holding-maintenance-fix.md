@@ -65,6 +65,37 @@ already been done.
 6. **Note numbering** — `2026-08-18-001-path-traversal-fix.md` restarted the NNN
    counter instead of continuing (should have been 011). This note takes 011.
 
+## Context: this project is moving (recorded 19 Aug)
+Eoin: **ait is being folded into the justmultimedia.com project and becoming
+`research.jambles.com`, as part of a wider system.**
+
+Consistent with that, the mini now runs a cluster of `com.jambles.*` launchd
+agents that did not exist when notes 009/010 were written:
+
+| agent | working dir |
+|---|---|
+| `mission-control`, `junction-proxy`, `research-proxy` | `~/projects/status` |
+| `verbatim` | `~/projects/yt` |
+| `control-agent`, `nightly`, `ollama`, `yt-transcript`, `yt-maintenance` | — |
+
+Two things that follow, for whoever picks this up:
+
+1. **ait itself is still not supervised.** Nothing under `~/Library/LaunchAgents`
+   references `~/projects/ait`. Its web server and the Telegram listener both
+   started at boot (18 Aug 11:29) by some other mechanism, and nothing restarts
+   them if they die. That was a tolerable wart for a personal tool; it is worth
+   fixing before ait becomes `research.jambles.com` and other services depend on
+   it. The `com.jambles.*` agents are the pattern to copy.
+2. `~/projects/status/server.mjs` shares a filename with ait's. When checking
+   processes, match on **working directory**, not the command string — `ps` shows
+   both as `node server.mjs` and they are easy to mistake for a duplicate.
+
+Recent commits show ingest has moved to a **local model** ("Tell the local model
+what each category means", "Entries from the local model had no id"). The closed
+taxonomy in `data/categories.json` still applies — whatever drives ingest must
+keep reading it, or the sprawl returns. As of this note it is holding: 208
+entries, 0 outside the taxonomy.
+
 ## Standing gotcha
 The bot ingests continuously, so any long job touching `data/tools.json` **will**
 hit a merge conflict. Resolve by taking the remote (the bot's new entries) and
