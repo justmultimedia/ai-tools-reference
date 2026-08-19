@@ -4223,15 +4223,17 @@
     "id": "run-this-claude-command-and-streamline-your-setup",
     "name": "Run This Claude Command And Streamline Your Setup",
     "content_type": "tutorial",
-    "category": "ai-coding",
+    "category": "ai-productivity",
     "category_original": "AI coding",
-    "description": "This post provides a specific command for using Claude, an AI coding assistant, to automate setup processes and improve workflow efficiency.",
+    "description": "This post explains the benefits of using the Ford/Doctor command in Claude code, detailing how it optimizes setup, trims plugins, updates configurations, and pre-approves commands to enhance productivity.",
     "tags": [
       "claude",
-      "ai coding",
-      "setup automation",
-      "coding assistant",
-      "automation"
+      "ai-productivity",
+      "setup optimization",
+      "command",
+      "automation",
+      "plugins",
+      "permissions"
     ],
     "link": "https://youtube.com/shorts/BqXFVtxvCBA?is=FVaCId4HB0G0QWex",
     "platform": "youtube",
@@ -4250,15 +4252,17 @@
     "source": "https://youtube.com/shorts/BqXFVtxvCBA?is=FVaCId4HB0G0QWex",
     "ingested_at": "2026-07-31T04:39:44+01:00",
     "topics": [
-      "AI tools",
-      "Coding and development"
+      "AI productivity",
+      "Code optimization"
     ],
     "key_points": [
-      "Provides a command for using Claude",
-      "Focuses on setup automation"
+      "The Ford/Doctor command checks and optimizes Claude setup.",
+      "It trims unused plugins and skills, freeing up context.",
+      "It updates and simplifies configurations for better performance.",
+      "It pre-approves commands to reduce permission prompts."
     ],
     "transcribed": false,
-    "transcript_note": "no audio track available"
+    "transcriptSlug": "https-youtube-com-shorts-BqXFVtxvCBA-is-FVaCId4HB0G0QWex"
   },
   {
     "id": "common-claude-code-hook-patterns-block-lint-and-notify",
@@ -5135,19 +5139,18 @@
     "transcriptSlug": "https-www-instagram-com-reel-DaVsgWuxYIv-igsh-MWQxYzJib2dmZWFxaA"
   },
   {
-    "id": "fable5-token-usage-hacks",
-    "name": "3 Hacks to Cut Fable 5 Token Usage",
+    "id": "maximizing-fable-5-usage-with-3-hacks",
+    "name": "Maximizing Fable 5 Usage with 3 Hacks",
     "content_type": "tutorial",
-    "category": "ai-coding",
+    "category": "ai-agents-and-automation",
     "category_original": "AI workflow optimization",
-    "description": "A short-form tutorial offering three techniques to reduce token consumption in Fable 5 (likely referring to Claude), helping users maximize their usage within a limited access window. The creator offers a full setup guide with copy-paste prompts via DM. Content appears aimed at non-technical users looking to get more output from AI tools.",
+    "description": "The post details three strategies to optimize the use of Fable 5, a language model, by reducing its token usage, thereby extending the user's access period.",
     "tags": [
-      "claude",
-      "ai workflow",
-      "token optimization",
       "fable5",
-      "prompt engineering",
-      "productivity"
+      "ai workflow",
+      "token usage",
+      "language model",
+      "optimization"
     ],
     "link": "https://www.instagram.com/reel/DahNrmitcCi/?igsh=aTN6cmc1a2JjaDJj",
     "platform": "instagram",
@@ -5162,7 +5165,18 @@
     "notes": "The hashtags reference 'Fable5' and 'ClaudeAI' — 'Fable 5' appears to be a branded or colloquial name used by this creator, possibly referring to Claude 5 or a specific plan tier. Guide is delivered via DM upon commenting 'EFFORT'. Verify accuracy before relying on tips.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DahNrmitcCi/?igsh=aTN6cmc1a2JjaDJj",
-    "ingested_at": "2026-08-04T16:05:46+01:00"
+    "ingested_at": "2026-08-04T16:05:46+01:00",
+    "topics": [
+      "AI Agents",
+      "Automation"
+    ],
+    "key_points": [
+      "Check and set effort level to high to prevent overthinking",
+      "Update CloudMD file with handoff and delegation rules",
+      "Build a ranking and prioritization for models based on cost, intelligence, and taste"
+    ],
+    "transcribed": true,
+    "transcriptSlug": "https-www-instagram-com-reel-DahNrmitcCi-igsh-aTN6cmc1a2JjaDJj"
   },
   {
     "id": "how-to-access-entropic-s-new-financial-agents-with-claude",
@@ -7870,13 +7884,13 @@
     "name": "Best Synths & Music Production Gear 2025",
     "content_type": "tutorial",
     "category": "music-and-audio",
-    "description": "The post is a summary of the Best Synths and Music Production Gear of 2025, featuring a series of interviews with various music producers and showcasing the winners of the year's awards. It also includes links to purchase the winning gear.",
+    "description": "The post discusses the best synths and music production gear of 2025, featuring a variety of experts who share their favorite gear and the winner of the best sampler award.",
     "tags": [
       "synths",
       "music production",
-      "gear awards",
-      "best synths",
-      "music tech"
+      "gear",
+      "sampler",
+      "Akai MPC Live III"
     ],
     "link": "https://youtu.be/50-kK0lrQWI?is=X4YTSsG8h-fDqCgN",
     "platform": "youtube",
@@ -7895,9 +7909,9 @@
       "gear reviews"
     ],
     "key_points": [
-      "Best Budget Friendly Synth (Waldorf Protein)",
-      "Best Sampler 2025 (Akai MPC Live III)",
-      "Synth Awards 2025"
+      "Best sampler of the year is the Akai MPC Live III",
+      "Experts share their favorite gear",
+      "Discussion on the evolution of samplers"
     ],
     "transcribed": false,
     "transcriptSlug": "https-youtu-be-50-kK0lrQWI-is-0h8-wIJ9T8s4b2ct"
