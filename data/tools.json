@@ -30,7 +30,8 @@
     "screenshot": "screenshots/impeccable-design-skill.jpeg",
     "status": "available",
     "notes": "May be private repo — try install and see",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "taste-skill",
@@ -57,7 +58,8 @@
     "link": "https://tasteskill.dev",
     "screenshot": "screenshots/taste-skill-tasteskill-dev.jpeg",
     "status": "available",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "ui-ux-pro-max",
@@ -87,7 +89,8 @@
     ],
     "screenshot": "screenshots/ui-ux-pro-max.jpeg",
     "status": "available",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "21st-dev",
@@ -118,7 +121,8 @@
     "link": "https://21st.dev/community/components",
     "screenshot": "screenshots/21st-dev-components.jpeg",
     "status": "available",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "framer-motion",
@@ -148,7 +152,8 @@
     ],
     "link": "https://motion.dev",
     "status": "installed-in-jambles",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "agent-browser",
@@ -178,7 +183,8 @@
     "link": "https://github.com/vercel-labs/agent-browser",
     "screenshot": "screenshots/agent-browser-vercel-labs.jpeg",
     "status": "installed-globally-mbp",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "playwright",
@@ -208,7 +214,8 @@
     ],
     "link": "https://playwright.dev",
     "status": "installed-in-jambles",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "markitdown",
@@ -238,7 +245,8 @@
     "link": "https://github.com/microsoft/markitdown",
     "screenshot": "screenshots/markitdown-microsoft-pdf-tool.jpeg",
     "status": "available",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "banana-claude",
@@ -266,7 +274,8 @@
     "link": "https://github.com/AgriciDaniel/banana-claude",
     "screenshot": "screenshots/banana-claude-image-gen-skill.jpeg",
     "status": "available",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "find-skills",
@@ -292,7 +301,8 @@
     ],
     "screenshot": "screenshots/find-skills-command.jpeg",
     "status": "installed-in-jambles",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "tailscale",
@@ -323,7 +333,8 @@
     "link": "https://tailscale.com",
     "status": "installed-mbp-and-mini",
     "notes": "MBP: 100.116.171.74 | mac-mini: 100.89.17.28",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "exifr",
@@ -351,7 +362,8 @@
     ],
     "link": "https://github.com/MikeKovarik/exifr",
     "status": "installed-in-jambles",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "twelvelabs",
@@ -379,7 +391,8 @@
     ],
     "link": "https://twelvelabs.io",
     "status": "available-as-mcp",
-    "added": "2026-05"
+    "added": "2026-05",
+    "ingested_at": "2026-06-03T02:29:53+01:00"
   },
   {
     "id": "ollama",
@@ -411,7 +424,8 @@
     "link": "https://ollama.com",
     "status": "available",
     "notes": "Mac mini (32GB) can run models up to ~34B at 4-bit quantisation. 64GB machines can run up to ~70B. Run `ollama run <model>` to pull and start. `ollama list` shows installed models. Local API at localhost:11434.",
-    "added": "2026-06"
+    "added": "2026-06",
+    "ingested_at": "2026-06-18T11:54:50+01:00"
   },
   {
     "id": "glm-5.2",
@@ -440,7 +454,8 @@
     "link": "https://ollama.com/library/glm-5.2",
     "status": "available",
     "notes": "756B params — CANNOT run locally on Mac mini (needs ~380GB RAM at 4-bit). The :cloud tag routes to Z.ai's servers. For a local GLM, use glm4 (9B) which fits in 32GB. Discovered 2026-06-18.",
-    "added": "2026-06"
+    "added": "2026-06",
+    "ingested_at": "2026-06-18T11:54:50+01:00"
   },
   {
     "id": "bg-remove",
@@ -473,7 +488,8 @@
     "screenshot": null,
     "status": "installed",
     "notes": "birefnet-general weights download on first run (~900 MB, cached in ~/.u2net/). Skill lives at ~/.claude/skills/bg-remove/. Invoke via /bg-remove in Claude Code.",
-    "added": "2026-06"
+    "added": "2026-06",
+    "ingested_at": "2026-06-18T11:54:50+01:00"
   },
   {
     "id": "clerk-authentication",
@@ -506,7 +522,8 @@
     "status": "available",
     "notes": "Includes an AI prompt feature to help wire up authentication automatically, minimizing manual configuration.",
     "added": "2026-06",
-    "source": "https://www.youtube.com/shorts/PYdN6nmG7i8"
+    "source": "https://www.youtube.com/shorts/PYdN6nmG7i8",
+    "ingested_at": "2026-06-19T02:29:37+01:00"
   },
   {
     "id": "airllm",
@@ -538,7 +555,8 @@
     "status": "available",
     "notes": "Layer-by-layer loading from disk is slower than full in-memory inference; trade-off is memory vs. speed.",
     "added": "2026-06",
-    "source": "https://www.youtube.com/shorts/WgYS3W04aVA"
+    "source": "https://www.youtube.com/shorts/WgYS3W04aVA",
+    "ingested_at": "2026-06-19T02:29:37+01:00"
   },
   {
     "id": "openclaw",
@@ -569,7 +587,8 @@
     "status": "available",
     "notes": "Open-source, 68K+ GitHub stars. Requires a home machine to run locally. GitHub: github.com/openclaw/openclaw",
     "added": "2026-06",
-    "source": "https://www.youtube.com/shorts/ECgUMiuG9go"
+    "source": "https://www.youtube.com/shorts/ECgUMiuG9go",
+    "ingested_at": "2026-06-19T02:29:37+01:00"
   },
   {
     "id": "claude-code-dynamic-workflows",
@@ -597,7 +616,8 @@
     "status": "available",
     "notes": "Recommended for experienced users only — beginners should use single-chat for small tasks and reserve dynamic workflows for large, repeatable, or parallelizable jobs.",
     "added": "2026-06",
-    "source": "https://www.youtube.com/shorts/Sm3GTeimyk4"
+    "source": "https://www.youtube.com/shorts/Sm3GTeimyk4",
+    "ingested_at": "2026-06-19T02:31:53+01:00"
   },
   {
     "id": "skills-cli",
@@ -632,7 +652,8 @@
     "status": "available",
     "notes": "Underlying CLI used by many skills in this database (the `npx skills add` install command). The skills.sh directory reportedly hosts 10,000+ skills. The find-skills skill ([[find-skills]]) wraps this CLI so Claude can search/install without leaving the session.",
     "added": "2026-06",
-    "source": "screenshot"
+    "source": "screenshot",
+    "ingested_at": "2026-06-19T02:44:36+01:00"
   },
   {
     "id": "claude-canva-integration",
@@ -662,7 +683,8 @@
     ],
     "notes": "Requires a Canva account and access to Claude's connectors feature. Setup involves navigating to Claude > Customize Connectors > Browse Connectors > Canva. Availability of connectors may depend on Claude subscription tier.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/OR202ZFAmbc?is=EQJ0hGZcBhPtkJGD"
+    "source": "https://youtube.com/shorts/OR202ZFAmbc?is=EQJ0hGZcBhPtkJGD",
+    "ingested_at": "2026-06-19T12:22:09+01:00"
   },
   {
     "id": "allaboardadhd-hypermobility-neurodivergence-episode",
@@ -689,7 +711,8 @@
     ],
     "notes": "Full podcast available on major podcast platforms by searching 'All Aboard ADHD'; Instagram users can comment LISTEN to receive a DM with the direct link.",
     "added": "2026-06",
-    "source": "https://www.instagram.com/reel/DZt92X4jTCG/?igsh=cWwzYzcyOHM5bGQw"
+    "source": "https://www.instagram.com/reel/DZt92X4jTCG/?igsh=cWwzYzcyOHM5bGQw",
+    "ingested_at": "2026-06-19T14:42:28+01:00"
   },
   {
     "id": "make-your-own-trees-for-free",
@@ -716,7 +739,8 @@
     ],
     "notes": "Video creator is Adam Kirtland from 'View From The Potting Bench'. Specific propagation method (e.g. cuttings, layering) not detailed in the post description alone.",
     "added": "2026-06",
-    "source": "https://www.facebook.com/share/r/1bMCxyGbkW/?mibextid=wwXIfr"
+    "source": "https://www.facebook.com/share/r/1bMCxyGbkW/?mibextid=wwXIfr",
+    "ingested_at": "2026-06-20T00:28:50+01:00"
   },
   {
     "id": "stop-writing-commit-messages-claude-code",
@@ -747,7 +771,8 @@
     ],
     "notes": "Episode 7 of the Claude Code series by the 'Just Hit Send' channel. Requires Claude Code (Anthropic). Episode 8 is referenced as upcoming.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/MkhJdY5JaMg?is=Cij3IdFlBqsjoa74"
+    "source": "https://youtube.com/shorts/MkhJdY5JaMg?is=Cij3IdFlBqsjoa74",
+    "ingested_at": "2026-06-20T00:34:21+01:00"
   },
   {
     "id": "cooper-simson-ai-harness-course",
@@ -776,7 +801,8 @@
     ],
     "notes": "Access is gated behind a comment-triggered DM — comment 'HARNESS' on the Instagram reel to receive the free course and guide. No pricing mentioned beyond 'free'.",
     "added": "2026-06",
-    "source": "https://www.instagram.com/reel/DZwTet4h289/?igsh=MThna2UyNjhzNHU0YQ=="
+    "source": "https://www.instagram.com/reel/DZwTet4h289/?igsh=MThna2UyNjhzNHU0YQ==",
+    "ingested_at": "2026-06-20T08:58:04+01:00"
   },
   {
     "id": "kimiwork-ai-agent-tool",
@@ -810,7 +836,8 @@
     ],
     "notes": "Available on desktop and iOS. Described as free, positioning it against paid AI services. Claims of 90M overnight users and Elon Musk endorsement are unverified marketing assertions. Content is a promotional short-form video, not official documentation.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/S2sWaVWjO2E?is=bnn4qhGOIP67_1i9"
+    "source": "https://youtube.com/shorts/S2sWaVWjO2E?is=bnn4qhGOIP67_1i9",
+    "ingested_at": "2026-06-20T22:02:24+01:00"
   },
   {
     "id": "claude-hidden-tutor-mode-5-prompts",
@@ -839,7 +866,8 @@
     ],
     "notes": "Content is promotional in nature; creator asks viewers to comment 'brain' to receive the five prompts. No cost mentioned beyond access to Claude.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/-NxG2HZFReI?is=s8ye28Q-4C2MAaGk"
+    "source": "https://youtube.com/shorts/-NxG2HZFReI?is=s8ye28Q-4C2MAaGk",
+    "ingested_at": "2026-06-22T15:17:21+01:00"
   },
   {
     "id": "full-ai-agency-147-sub-agents",
@@ -871,7 +899,8 @@
     ],
     "notes": "Specific GitHub repository URL not provided in the video. Free and open-source. Requires integration with a supported cloud coding platform to run agents in parallel.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/6ltekUcyjl4?is=Km9YM53xFolgy8ev"
+    "source": "https://youtube.com/shorts/6ltekUcyjl4?is=Km9YM53xFolgy8ev",
+    "ingested_at": "2026-06-22T16:25:11+01:00"
   },
   {
     "id": "claude-code-free-ai-terminal",
@@ -905,7 +934,8 @@
     ],
     "notes": "Performance is estimated at 80-90% of Claude Code. Local Ollama usage requires a compatible GPU. Free provider API keys (NVIDIA NIM, OpenRouter) may have their own usage limits.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/GjNiG4gAOHg?is=Yr8lDqfXbO71uxDk"
+    "source": "https://youtube.com/shorts/GjNiG4gAOHg?is=Yr8lDqfXbO71uxDk",
+    "ingested_at": "2026-06-22T16:25:54+01:00"
   },
   {
     "id": "claude-code-subagents-explained-for-beginners",
@@ -934,7 +964,8 @@
     ],
     "notes": "Episode 108 of the Just Hit Send series. A free Claude Code cheat sheet is mentioned as available via link in bio.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/FTflRrjHrjo?is=6QiFEMlP9G0dL3oG"
+    "source": "https://youtube.com/shorts/FTflRrjHrjo?is=6QiFEMlP9G0dL3oG",
+    "ingested_at": "2026-06-22T22:06:17+01:00"
   },
   {
     "id": "claude-skill-stack-for-builders",
@@ -963,7 +994,8 @@
     ],
     "notes": "References five specific Claude skills: Marketing Skills Library by Corey Haines (32 skills), Web Asset Generator, Jobs to Be Done, Front-End Design (by Anthropic), and Deep Research (built-in, no install needed). Community linked to Ai Agency Launch on Skool.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/Rh6e3jTuZ7k?is=moplHYaehE7h_fHv"
+    "source": "https://youtube.com/shorts/Rh6e3jTuZ7k?is=moplHYaehE7h_fHv",
+    "ingested_at": "2026-06-23T08:47:01+01:00"
   },
   {
     "id": "ai-certifications-that-get-you-hired",
@@ -990,7 +1022,8 @@
     ],
     "notes": "Google AI Essentials costs $49 and takes ~2 weeks; IBM Generative AI Engineering is free; AWS cert takes ~4 weeks; GitHub Foundation Certification noted as non-negotiable in 2026.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/z4dUH2EGMRk?is=JV-hx3XMnN4Bl8RQ"
+    "source": "https://youtube.com/shorts/z4dUH2EGMRk?is=JV-hx3XMnN4Bl8RQ",
+    "ingested_at": "2026-06-23T09:00:11+01:00"
   },
   {
     "id": "claude-security-risks-mcp-chrome-code",
@@ -1022,7 +1055,8 @@
     ],
     "notes": "Risks are sourced from Anthropic's own documentation. No specific dates mentioned; viewers should check Anthropic's current security guidance for the latest recommendations.",
     "added": "2026-06",
-    "source": "https://www.instagram.com/reel/DYWhHA3tik7/?igsh=cnRwb3J3YzJzZ3h6"
+    "source": "https://www.instagram.com/reel/DYWhHA3tik7/?igsh=cnRwb3J3YzJzZ3h6",
+    "ingested_at": "2026-06-23T10:16:43+01:00"
   },
   {
     "id": "nasa-climate-spiral-1880-present",
@@ -1049,7 +1083,8 @@
     ],
     "notes": "Produced by NASA's Scientific Visualization Studio. Free to access at the SVS website.",
     "added": "2026-06",
-    "source": "https://www.instagram.com/reel/DZ44mN9tafE/?igsh=MWZjZGg2YTl0aGo5cw=="
+    "source": "https://www.instagram.com/reel/DZ44mN9tafE/?igsh=MWZjZGg2YTl0aGo5cw==",
+    "ingested_at": "2026-06-23T11:38:45+01:00"
   },
   {
     "id": "claude-watch",
@@ -1083,7 +1118,8 @@
     "screenshot": "screenshots/1782372297.jpg",
     "notes": "Three install paths shown: Claude Code (/plugin marketplace add + /plugin install watch@claude-watch); claude.ai web (download watch.skill, drop into Settings → Capabilities → Skills); Codex/generic (git clone the GitHub repo). ffmpeg auto-installs on first run. Captions cover most public videos; API key only needed when captions aren't available. Exact GitHub repo URL truncated in screenshot (github.com/taoufik...). Source: YouTube Short by @Yury_AI, 'Claude Can Now Watch Any Video for You'.",
     "added": "2026-06",
-    "source": "screenshot"
+    "source": "screenshot",
+    "ingested_at": "2026-06-25T08:25:34+01:00"
   },
   {
     "id": "google-free-ai-tools-suite",
@@ -1116,7 +1152,8 @@
     ],
     "notes": "Tool names like 'Nano Banana Pro' and 'Pameli/Pomelli' may be misidentified or misspelled due to auto-caption errors — verify exact product names via Google's official channels before use. All tools are described as free at time of posting.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/h322ODX0t6U?is=B_ZyLOZFSDxUZ4L-"
+    "source": "https://youtube.com/shorts/h322ODX0t6U?is=B_ZyLOZFSDxUZ4L-",
+    "ingested_at": "2026-06-25T10:31:56+01:00"
   },
   {
     "id": "claude-code-deepseek-cost-reduction",
@@ -1147,7 +1184,8 @@
     ],
     "notes": "DeepSeek V4 Pro pricing cited at ~$1.74/million tokens vs Anthropic's ~$15/million tokens. Full walkthrough delivered via DM to commenters. Requires commenting 'DEEPSEEK' on the video to receive the guide.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/OjhUwhilobI?is=lTESqXult9F7Ahb0"
+    "source": "https://youtube.com/shorts/OjhUwhilobI?is=lTESqXult9F7Ahb0",
+    "ingested_at": "2026-06-25T10:36:21+01:00"
   },
   {
     "id": "claude-grades-itself-until-perfect",
@@ -1177,7 +1215,8 @@
     ],
     "notes": "References a claim that the head of Claude Code at Anthropic no longer prompts manually but writes loops instead. Template document is publicly accessible via Google Docs.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/uX5O0iVWK8Y?is=LfHF5OngK_nrUxyv"
+    "source": "https://youtube.com/shorts/uX5O0iVWK8Y?is=LfHF5OngK_nrUxyv",
+    "ingested_at": "2026-06-25T10:38:51+01:00"
   },
   {
     "id": "space-finderqq-cosmic-scale-reel",
@@ -1204,7 +1243,8 @@
     ],
     "notes": "Content is from the Instagram account space_finderqq, focused on daily space facts. No original source or creator credited beyond 'Via:' (left blank in description).",
     "added": "2026-06",
-    "source": "https://www.instagram.com/reel/DZqmenMTTMD/?igsh=YXN1Z3FnYzk5cTNp"
+    "source": "https://www.instagram.com/reel/DZqmenMTTMD/?igsh=YXN1Z3FnYzk5cTNp",
+    "ingested_at": "2026-06-26T08:27:49+01:00"
   },
   {
     "id": "g-stack-claude-code-ops-toolkit",
@@ -1233,7 +1273,8 @@
     ],
     "notes": "Open-source and free; over 108,000 GitHub stars at time of publishing; created and used daily by Gary Tan (Y Combinator CEO)",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/85P6ygXB9AY?is=C9UdgXbNWvufiuNG"
+    "source": "https://youtube.com/shorts/85P6ygXB9AY?is=C9UdgXbNWvufiuNG",
+    "ingested_at": "2026-06-27T14:36:15+01:00"
   },
   {
     "id": "claude-code-security-guidance-plugin",
@@ -1261,7 +1302,8 @@
     ],
     "notes": "Described as an early warning layer only — not a security guarantee. Should be used alongside code review and CI pipelines. Custom rules are configured via .claude/claudesecurityguidance.md.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/gfUJUIbQ-hs?is=CZrcw2kvsxOvkHS0"
+    "source": "https://youtube.com/shorts/gfUJUIbQ-hs?is=CZrcw2kvsxOvkHS0",
+    "ingested_at": "2026-06-27T14:52:57+01:00"
   },
   {
     "id": "markitdown-claude-pdf-token-optimization",
@@ -1292,7 +1334,8 @@
     ],
     "notes": "Free and open-source tool by Microsoft. Claims up to 70% token reduction. MCP server integration requires Claude Desktop.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/wmmh83AjEWA?is=QJkMMoxChlYZyyi2"
+    "source": "https://youtube.com/shorts/wmmh83AjEWA?is=QJkMMoxChlYZyyi2",
+    "ingested_at": "2026-06-27T15:11:58+01:00"
   },
   {
     "id": "council-prompt-claude-multi-agent",
@@ -1320,7 +1363,8 @@
     ],
     "notes": "This is a prompting pattern, not a standalone tool — requires crafting a specific system prompt to activate the Council behavior in Claude. No cost beyond normal Claude API/usage fees.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/11zuICZJqSE?is=z2o-45zryA7bvld5"
+    "source": "https://youtube.com/shorts/11zuICZJqSE?is=z2o-45zryA7bvld5",
+    "ingested_at": "2026-06-27T15:13:36+01:00"
   },
   {
     "id": "tmux-for-ai-engineers",
@@ -1351,7 +1395,8 @@
     ],
     "notes": "Tmux is free and open-source. The video uses 'T-Mox/T-Max/T-Mux' interchangeably in captions — all refer to Tmux.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/DyZrsWpilcM?is=rGc9XM9crHjQqgEP"
+    "source": "https://youtube.com/shorts/DyZrsWpilcM?is=rGc9XM9crHjQqgEP",
+    "ingested_at": "2026-06-28T14:46:18+01:00"
   },
   {
     "id": "fatboy-slim-right-here-right-now-making-of",
@@ -1378,7 +1423,8 @@
     ],
     "notes": "Content is a YouTube Short; full narrative may be truncated in auto-captions. References Massive Attack and a '90s sci-fi movie as influences.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/HbUDP-dTD4s?is=fuhok4AaV8mYmjcn"
+    "source": "https://youtube.com/shorts/HbUDP-dTD4s?is=fuhok4AaV8mYmjcn",
+    "ingested_at": "2026-06-28T14:48:32+01:00"
   },
   {
     "id": "biggest-tax-mistake-40-years-ireland",
@@ -1405,7 +1451,8 @@
     ],
     "notes": "Content is Ireland-specific (🇺🇸 references SBE and Irish tax structures). Published as a YouTube Short by the channel 'Ask About Wealth'.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/pLH-RHOC6go?is=lBeTOIS9oRG3oPL3"
+    "source": "https://youtube.com/shorts/pLH-RHOC6go?is=lBeTOIS9oRG3oPL3",
+    "ingested_at": "2026-06-28T14:49:59+01:00"
   },
   {
     "id": "chatgpt-profile-data-prompts",
@@ -1434,7 +1481,8 @@
     ],
     "notes": "Applies to ChatGPT accounts with memory features enabled. Steps may vary depending on ChatGPT plan (Free vs Plus) and interface updates from OpenAI.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/63W-0ajabxA?is=eis69P8ETXfd_36s"
+    "source": "https://youtube.com/shorts/63W-0ajabxA?is=eis69P8ETXfd_36s",
+    "ingested_at": "2026-06-28T14:51:31+01:00"
   },
   {
     "id": "how-to-pay-less-inheritance-and-capital-gains-tax-ireland",
@@ -1461,7 +1509,8 @@
     ],
     "notes": "Content is specific to Irish tax law (CAT/CGT rules). Figures used: €2M property, €500k original cost, €400k CAT threshold per child (3 children). Tax rules may change — consult a qualified Irish tax adviser before acting.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/LQ0t0hA01Oc?is=1flwffaUtLRA7crQ"
+    "source": "https://youtube.com/shorts/LQ0t0hA01Oc?is=1flwffaUtLRA7crQ",
+    "ingested_at": "2026-06-28T14:56:44+01:00"
   },
   {
     "id": "wan-open-source-ai-video-model",
@@ -1491,7 +1540,8 @@
     ],
     "notes": "Requires a consumer GPU to run locally. Apache 2.0 licensed with open weights available for download. Mentioned as an alternative after OpenAI's Sora was shut down.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/bSVAnBqCiPY?is=LptjlUhyam1mlwum"
+    "source": "https://youtube.com/shorts/bSVAnBqCiPY?is=LptjlUhyam1mlwum",
+    "ingested_at": "2026-06-28T23:28:37+01:00"
   },
   {
     "id": "ai-loops-prompting-method-upgraded",
@@ -1521,7 +1571,8 @@
     ],
     "notes": "Created just before Anthropic released Claude Fable 5 (June 9, 2026), described as Anthropic's first Mythos-class model built for long-running autonomous tasks. Peter Steinberger's tool is referred to as 'OpenClaw' in the description but 'Open Claude' in the captions — likely the same tool under a slightly different name.",
     "added": "2026-06",
-    "source": "https://youtu.be/Ry3YyG22EUc?si=P1m_NpdaTfJTv0F5"
+    "source": "https://youtu.be/Ry3YyG22EUc?si=P1m_NpdaTfJTv0F5",
+    "ingested_at": "2026-06-28T23:52:28+01:00"
   },
   {
     "id": "claude-code-remote-control-explained",
@@ -1552,7 +1603,8 @@
     ],
     "notes": "Security warning: the remote QR code or link should be treated like terminal access — never share, screenshot, or post it publicly.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/WjK-fTHjZzM?is=lw8XeVo8cwXWPF_K"
+    "source": "https://youtube.com/shorts/WjK-fTHjZzM?is=lw8XeVo8cwXWPF_K",
+    "ingested_at": "2026-06-29T02:07:51+01:00"
   },
   {
     "id": "6-claude-code-plugins-nobody-is-using",
@@ -1582,7 +1634,8 @@
     ],
     "notes": "Video is a YouTube Short. Viewer can comment 'plugins' to receive a full list with links. Stack plugin attributed to Garry Tan at Y Combinator with 23 specialized skills.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/lBFXRik6XLs?is=XT8szIc6DO6Ml8wI"
+    "source": "https://youtube.com/shorts/lBFXRik6XLs?is=XT8szIc6DO6Ml8wI",
+    "ingested_at": "2026-06-29T02:14:11+01:00"
   },
   {
     "id": "nvidia-parallel-box-decoding-vision-model",
@@ -1612,7 +1665,8 @@
     ],
     "notes": "Claimed to be up to 10x faster than Qwen-3-VL. Fully open-sourced on HuggingFace and GitHub. Exact model name/repo URL not specified in the video.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/BhIVDXpBHMs?is=MmpXM2HXVothIfDi"
+    "source": "https://youtube.com/shorts/BhIVDXpBHMs?is=MmpXM2HXVothIfDi",
+    "ingested_at": "2026-06-29T09:01:26+01:00"
   },
   {
     "id": "ornith-1-0-open-source-coding-llm",
@@ -1641,7 +1695,8 @@
     ],
     "notes": "MIT licensed. The 9B model is 5.6 GB. Benchmark comparisons are against Claude Opus 4.7. Four sizes available: 9B Dense, 31B Dense, 35B MoE, 397B MoE.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/8Cw1jX6o9w0?is=uOSFhyhi-FVn4Oq1"
+    "source": "https://youtube.com/shorts/8Cw1jX6o9w0?is=uOSFhyhi-FVn4Oq1",
+    "ingested_at": "2026-06-29T09:04:01+01:00"
   },
   {
     "id": "stanford-claude-agrees-llm-council-prompt",
@@ -1672,7 +1727,8 @@
     ],
     "notes": "The video claims Andrej Karpathy is an OpenAI co-founder 'now at Anthropic building Claude' — this is inaccurate; Karpathy co-founded OpenAI and later worked at Tesla, but is not at Anthropic. The core prompting technique may still be useful regardless. A free prompt link is referenced in the creator's bio.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/Jb65hehBiR8?is=0D8Mu9EsWzWIAqwP"
+    "source": "https://youtube.com/shorts/Jb65hehBiR8?is=0D8Mu9EsWzWIAqwP",
+    "ingested_at": "2026-06-29T09:21:24+01:00"
   },
   {
     "id": "claude-code-adversarial-bug-review",
@@ -1702,7 +1758,8 @@
     ],
     "notes": "Short-form video (YouTube Shorts). The workflow described uses multiple AI agents in an adversarial red-team role, distinct from the agent that wrote the original code.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/nWSi0p929Bc?is=ds7YdlV8Sozsmlj7"
+    "source": "https://youtube.com/shorts/nWSi0p929Bc?is=ds7YdlV8Sozsmlj7",
+    "ingested_at": "2026-06-29T10:04:01+01:00"
   },
   {
     "id": "steven-bartlett-parents-agree",
@@ -1729,7 +1786,8 @@
     ],
     "notes": "2.8M views and 35K reactions indicate high viral engagement. Full context of the question posed is not available from the metadata alone.",
     "added": "2026-06",
-    "source": "https://www.facebook.com/share/r/1DEZv5sdy7/?mibextid=wwXIfr"
+    "source": "https://www.facebook.com/share/r/1DEZv5sdy7/?mibextid=wwXIfr",
+    "ingested_at": "2026-06-30T00:19:24+01:00"
   },
   {
     "id": "thinking-negatively-destroying-brain-diary-of-ceo",
@@ -1756,7 +1814,8 @@
     ],
     "notes": "This is a short-form video clip shared on Facebook from The Diary of a CEO podcast. No specific episode number or guest is mentioned in the metadata.",
     "added": "2026-06",
-    "source": "https://www.facebook.com/share/r/18vmHrpfoS/?mibextid=wwXIfr"
+    "source": "https://www.facebook.com/share/r/18vmHrpfoS/?mibextid=wwXIfr",
+    "ingested_at": "2026-06-30T07:47:54+01:00"
   },
   {
     "id": "agentreach-realtime-social-ai",
@@ -1790,7 +1849,8 @@
     ],
     "notes": "Uses browser cookie login for Twitter and Reddit access; no additional setup needed for YouTube and GitHub. Free and open-source with no API costs.",
     "added": "2026-06",
-    "source": "https://youtube.com/shorts/mvovVat3wWo?is=pX_SjdIhrsNWMBLI"
+    "source": "https://youtube.com/shorts/mvovVat3wWo?is=pX_SjdIhrsNWMBLI",
+    "ingested_at": "2026-06-30T07:55:54+01:00"
   },
   {
     "id": "billionaire-warning-jeremy-grantham-crash",
@@ -1817,7 +1877,8 @@
     ],
     "notes": "Jeremy Grantham's comments represent his personal opinions only, not those of GMO. Views expressed are contrarian and include predictions such as Bitcoin going to zero and a 30% decline in house prices.",
     "added": "2026-06",
-    "source": "https://youtu.be/32u5T6lO8qk?is=yQp2d90mU2-YH1Jm"
+    "source": "https://youtu.be/32u5T6lO8qk?is=yQp2d90mU2-YH1Jm",
+    "ingested_at": "2026-06-30T08:24:54+01:00"
   },
   {
     "id": "nvidia-build-free-ai-api-access",
@@ -1848,7 +1909,8 @@
     ],
     "notes": "Free tier access; rate limits or usage caps may apply. Availability of specific models may change over time.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/_t4v_qmYAGM?is=NbbodOaXb32MhuJ1"
+    "source": "https://youtube.com/shorts/_t4v_qmYAGM?is=NbbodOaXb32MhuJ1",
+    "ingested_at": "2026-07-02T00:47:52+01:00"
   },
   {
     "id": "irish-tax-worse-than-most-people-realise",
@@ -1875,7 +1937,8 @@
     ],
     "notes": "Figures are based on a €100,000 gross salary scenario. Capital gains and inheritance tax rankings are across 35 European countries. The €400 million overpayment figure comes from a report by the Irish Public Accounts Committee (PAC) from Revenue.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/P_hJUjNjkr8?is=rCcL5hnAX1j0Q_JR"
+    "source": "https://youtube.com/shorts/P_hJUjNjkr8?is=rCcL5hnAX1j0Q_JR",
+    "ingested_at": "2026-07-02T00:50:09+01:00"
   },
   {
     "id": "claude-council-workflow",
@@ -1903,7 +1966,8 @@
     ],
     "notes": "No special plugin or tool required — workflow is prompt-based and works directly in Claude. The trigger phrase described is 'counsel this'. Technique relies on Claude's instruction-following to role-play multiple personas in sequence.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/r4SvGVC7jvY?is=G1uI2J0CXRrsleQt"
+    "source": "https://youtube.com/shorts/r4SvGVC7jvY?is=G1uI2J0CXRrsleQt",
+    "ingested_at": "2026-07-02T00:55:10+01:00"
   },
   {
     "id": "alibaba-qwen-agent-world",
@@ -1930,7 +1994,8 @@
     ],
     "notes": "Version and exact release date unconfirmed from video alone. Benchmark figures (GPT 5.4, Claude Opus 4.8) reference unreleased model versions and should be treated cautiously. Free and open source; runs locally on consumer hardware.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/WMlINO1Kzug?is=_0KWH89CHQjR_h33"
+    "source": "https://youtube.com/shorts/WMlINO1Kzug?is=_0KWH89CHQjR_h33",
+    "ingested_at": "2026-07-03T00:36:07+01:00"
   },
   {
     "id": "claude-research-upgrade-nick-sadler",
@@ -1963,7 +2028,8 @@
     ],
     "notes": "The creator refers to Claude's upgrade as 'Fable' which appears to be an internal or community nickname, not an official product name. Prompts are offered via DM to followers who comment. No pricing or specific model version mentioned.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/56fxyefhaUs?is=b-7kOVv0BNXa7BSg"
+    "source": "https://youtube.com/shorts/56fxyefhaUs?is=b-7kOVv0BNXa7BSg",
+    "ingested_at": "2026-07-04T09:44:17+01:00"
   },
   {
     "id": "build-ai-team-launch-90-days-claude",
@@ -1992,7 +2058,8 @@
     ],
     "notes": "Specific prompts referenced in the video are shown on screen but not fully captured in captions. No pricing discussed; Claude API or subscription costs would apply.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/auKVvHBtQHg?is=voq59VsZgchAueIa"
+    "source": "https://youtube.com/shorts/auKVvHBtQHg?is=voq59VsZgchAueIa",
+    "ingested_at": "2026-07-04T09:50:55+01:00"
   },
   {
     "id": "google-preferred-sources-ai-seo",
@@ -2022,7 +2089,8 @@
     ],
     "notes": "Feature appears to be newly launched; adoption advantage may diminish as competitors become aware. No pricing involved — feature is native to Google Search.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/KTcPPM4Q2_s?is=VBaveIzU6trT13fL"
+    "source": "https://youtube.com/shorts/KTcPPM4Q2_s?is=VBaveIzU6trT13fL",
+    "ingested_at": "2026-07-04T10:09:14+01:00"
   },
   {
     "id": "business-loaned-goods-allowance-ireland",
@@ -2049,7 +2117,8 @@
     ],
     "notes": "Applies to Irish tax law specifically. Irish Revenue requires that assets purchased by the company must be justifiably useful to the business. Always consult a qualified tax advisor before applying this strategy.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/GZoerx-FFTA?is=TqxfmM7Wk0QclwZ0"
+    "source": "https://youtube.com/shorts/GZoerx-FFTA?is=TqxfmM7Wk0QclwZ0",
+    "ingested_at": "2026-07-05T08:31:11+01:00"
   },
   {
     "id": "reusable-fable-5-prompt-template-claude-code",
@@ -2079,7 +2148,8 @@
     ],
     "notes": "Episode 131 of the Just Hit Send channel. References a related Fable prompting video from the previous day. A free Claude Code cheat sheet is mentioned as available via link in bio.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/9uPKyGmkUPk?is=tAGt4ZTgn6ksPiSc"
+    "source": "https://youtube.com/shorts/9uPKyGmkUPk?is=tAGt4ZTgn6ksPiSc",
+    "ingested_at": "2026-07-05T10:06:09+01:00"
   },
   {
     "id": "building-automated-video-production-factory",
@@ -2110,7 +2180,8 @@
     ],
     "notes": "As of July 7, Anthropic's Fable model becomes more expensive, accessible only via usage credits on paid plans. This video was created as a demonstration before that pricing change took effect.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/1CAy_mB6E-g?is=yzP9o2SinSd90reM"
+    "source": "https://youtube.com/shorts/1CAy_mB6E-g?is=yzP9o2SinSd90reM",
+    "ingested_at": "2026-07-07T06:03:07+01:00"
   },
   {
     "id": "emergent-ai-second-brain-client-management",
@@ -2137,7 +2208,8 @@
     ],
     "notes": "The tool highlighted is Emergent. No pricing details given. App is built via natural language conversation — no coding required. Creator claims build time under 1 hour.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/-xoLJAWkWN0?is=fTOblqIhpxKe69GO"
+    "source": "https://youtube.com/shorts/-xoLJAWkWN0?is=fTOblqIhpxKe69GO",
+    "ingested_at": "2026-07-07T06:59:26+01:00"
   },
   {
     "id": "top-fable-5-use-cases",
@@ -2169,7 +2241,8 @@
     ],
     "notes": "Video warns that Fable 5 free access is ending soon due to upcoming API pricing changes. Time-sensitive content.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/yXpeTaAitWY?is=tTRrHI9FGta110SM"
+    "source": "https://youtube.com/shorts/yXpeTaAitWY?is=tTRrHI9FGta110SM",
+    "ingested_at": "2026-07-07T07:01:16+01:00"
   },
   {
     "id": "sandcastles-ai-claude-social-media-plugin",
@@ -2198,7 +2271,8 @@
     ],
     "notes": "Requires installing the Sandcastles AI plugin inside Claude. The \\analyze command is one of 14 unlocked capabilities. Pricing and availability not mentioned in the video.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/NzWBmSp05ss?is=31T8G73sI7wpB_t2"
+    "source": "https://youtube.com/shorts/NzWBmSp05ss?is=31T8G73sI7wpB_t2",
+    "ingested_at": "2026-07-09T07:22:10+01:00"
   },
   {
     "id": "vassilios-sirakis-atlassian-edge-infrastructure",
@@ -2232,7 +2306,8 @@
     ],
     "notes": "Sovereign, the custom control plane built by Sirakis, was open-sourced. The layoff occurred during Atlassian's AI-focused strategy pivot despite the company reporting record profits.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/CQNmTpikzPE?is=SIKvzgArjXZVK69D"
+    "source": "https://youtube.com/shorts/CQNmTpikzPE?is=SIKvzgArjXZVK69D",
+    "ingested_at": "2026-07-09T07:24:50+01:00"
   },
   {
     "id": "stop-prompting-start-looping-plan-optimizer",
@@ -2262,7 +2337,8 @@
     ],
     "notes": "Plan Optimizer is described as free with a one-command install. The presenter offers a free 'loop guide' to commenters. Tool name may refer to an open-source CLI or MCP tool — verify before use.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/N30NZ69IwcM?is=WV8xm0AHXxXaNZ40"
+    "source": "https://youtube.com/shorts/N30NZ69IwcM?is=WV8xm0AHXxXaNZ40",
+    "ingested_at": "2026-07-09T07:31:07+01:00"
   },
   {
     "id": "claude-code-artifacts",
@@ -2293,7 +2369,8 @@
     ],
     "notes": "Currently in beta for Claude Team and Enterprise plans only. No hosting or deployment needed; tools are shared via a private link.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/Tc-ZUF9rzko?is=Fi_WfaxlJFFKN1yY"
+    "source": "https://youtube.com/shorts/Tc-ZUF9rzko?is=Fi_WfaxlJFFKN1yY",
+    "ingested_at": "2026-07-09T07:46:49+01:00"
   },
   {
     "id": "self-improving-ai-second-brain-claude",
@@ -2322,7 +2399,8 @@
     ],
     "notes": "Downloadable system template available at bettercreating.com/coworkos. Full demo video at https://youtu.be/ib74sLgjIBM. Inspired by Andrej Karpathy's personal knowledge base setup.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/f_iWrXDpUkw?is=Y2XYgaXB-sLw0OYn"
+    "source": "https://youtube.com/shorts/f_iWrXDpUkw?is=Y2XYgaXB-sLw0OYn",
+    "ingested_at": "2026-07-09T08:00:16+01:00"
   },
   {
     "id": "ai-engineer-vs-electrician-financial-comparison",
@@ -2349,7 +2427,8 @@
     ],
     "notes": "Financial figures are illustrative estimates presented by the creator, not sourced from a formal study. Tuition cost ($200K) and earnings figures may not reflect all scenarios. Comment 'TRADES' on the video for the creator's full breakdown.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/8hl7_u0LUnw?is=6Rcy_-0HiZXmsQoe"
+    "source": "https://youtube.com/shorts/8hl7_u0LUnw?is=6Rcy_-0HiZXmsQoe",
+    "ingested_at": "2026-07-10T20:51:21+01:00"
   },
   {
     "id": "vibe-trading-ai-hedge-fund",
@@ -2381,7 +2460,8 @@
     ],
     "notes": "Free and open-source. Runs on a local laptop. Over 400 pre-built quant strategies and a community of 15,000 developers. Released by a Hong Kong university. Monte Carlo stress testing performed before live investment.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/8mshTnSPGeM?is=UeCZ_5rJDyjWO0ar"
+    "source": "https://youtube.com/shorts/8mshTnSPGeM?is=UeCZ_5rJDyjWO0ar",
+    "ingested_at": "2026-07-11T09:08:52+01:00"
   },
   {
     "id": "attachment-styles-adult-relationships-baby-blueprint",
@@ -2408,7 +2488,8 @@
     ],
     "notes": "Creator acknowledges the study has been simplified. References two key academic sources: Ainsworth & Bell (1970) and Ainsworth et al. (1978). Content is a YouTube Short (short-form video).",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/GQ9y4c6AbCg?is=-AAonQvqDbttS5k6"
+    "source": "https://youtube.com/shorts/GQ9y4c6AbCg?is=-AAonQvqDbttS5k6",
+    "ingested_at": "2026-07-11T09:11:24+01:00"
   },
   {
     "id": "claude-infinite-memory-notebooklm-integration",
@@ -2438,7 +2519,8 @@
     ],
     "notes": "This is a workflow/integration tutorial, not an official feature. Exact steps are offered via comment engagement ('Comment AI below'). No pricing details provided; relies on free tiers of both Claude and Notebook LM.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/m1cE5fNldMA?is=3YRjQJjle9VE1Hvi"
+    "source": "https://youtube.com/shorts/m1cE5fNldMA?is=3YRjQJjle9VE1Hvi",
+    "ingested_at": "2026-07-11T20:26:50+01:00"
   },
   {
     "id": "consciousness-fundamental-universe-new-scientist",
@@ -2465,7 +2547,8 @@
     ],
     "notes": "This is a YouTube Shorts clip; the full interview is available at https://youtu.be/kLDvk2urghs. Views expressed are those of Ivette Fuentes and represent a philosophical/speculative perspective, not established scientific consensus.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/17LT0BaqhmI?is=2Jf6zLpQsaITWbLh"
+    "source": "https://youtube.com/shorts/17LT0BaqhmI?is=2Jf6zLpQsaITWbLh",
+    "ingested_at": "2026-07-15T09:03:08+01:00"
   },
   {
     "id": "11-laws-of-the-universe-david-epstein",
@@ -2491,7 +2574,8 @@
     ],
     "notes": "YouTube Short format; references David Epstein's book 'Range' and a related book 'Inside the Box: How Constraints Make Us Better'.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/DRX5JpyX0B8?is=3iTroj4MLdu4KGAO"
+    "source": "https://youtube.com/shorts/DRX5JpyX0B8?is=3iTroj4MLdu4KGAO",
+    "ingested_at": "2026-07-16T08:56:05+01:00"
   },
   {
     "id": "kimi-work-agent-swarm",
@@ -2518,7 +2602,8 @@
     ],
     "notes": "Free desktop app but comes with a data-privacy caveat (data processed on your computer but review privacy policy for Chinese jurisdiction concerns). Requires reviewing the linked setup guide for safe usage instructions.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/frdK8dKgTes?is=mkpOgsaP_2_5-w1y"
+    "source": "https://youtube.com/shorts/frdK8dKgTes?is=mkpOgsaP_2_5-w1y",
+    "ingested_at": "2026-07-16T08:59:02+01:00"
   },
   {
     "id": "could-i-travel-back-in-time-jim-al-khalili",
@@ -2545,7 +2630,8 @@
     ],
     "notes": "Contains a typographical error in the spacetime interval equation at 08:21; corrected equation provided in the description. Correction does not affect the explanations or conclusions.",
     "added": "2026-07",
-    "source": "https://youtu.be/c63XUCGg9hM?is=giiGZsazZnQV8l3B"
+    "source": "https://youtu.be/c63XUCGg9hM?is=giiGZsazZnQV8l3B",
+    "ingested_at": "2026-07-17T10:02:50+01:00"
   },
   {
     "id": "scott-galloway-ai-race-china-margins",
@@ -2572,7 +2658,8 @@
     ],
     "notes": "Short-form clip from the Pivot podcast with Kara Swisher and Scott Galloway. Full episode available at https://youtu.be/dm7rTPnZfK8. References Moonshot AI's Kimi K3 model and comparisons to DeepSeek.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/UJLmOwxmm0k?is=KkijNS27QSOp3mBu"
+    "source": "https://youtube.com/shorts/UJLmOwxmm0k?is=KkijNS27QSOp3mBu",
+    "ingested_at": "2026-07-22T23:41:08+01:00"
   },
   {
     "id": "michelle-thaller-atoms-quantum-physics",
@@ -2599,7 +2686,8 @@
     ],
     "notes": "The dramatic title is intentionally clickbait; the video clarifies that school models are simplifications, not lies. Presented as a YouTube Short by channel ViralFactsBlitz featuring Michelle Thaller.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/dUNyTuupxO4?is=d0oqxvsPMwBIcqMb"
+    "source": "https://youtube.com/shorts/dUNyTuupxO4?is=d0oqxvsPMwBIcqMb",
+    "ingested_at": "2026-07-24T20:18:35+01:00"
   },
   {
     "id": "rope-and-sticks-handmade-basket",
@@ -2626,7 +2714,8 @@
     ],
     "notes": "Short-form YouTube video (Shorts format). No tools or special materials required beyond wooden sticks and rope.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/uc1HF5REYmk?is=N_uCQntW2S9xHU3T"
+    "source": "https://youtube.com/shorts/uc1HF5REYmk?is=N_uCQntW2S9xHU3T",
+    "ingested_at": "2026-07-25T09:21:21+01:00"
   },
   {
     "id": "claude-tricks-that-actually-work",
@@ -2654,7 +2743,8 @@
     ],
     "notes": "Claims in this video (e.g. 'thinks 10x harder') are anecdotal and not verified by Anthropic. Some commands may behave as informal prompt instructions rather than official Claude features. Results may vary.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/vDoWl-UWyQU?is=yJjgyDAgWd4CzELY"
+    "source": "https://youtube.com/shorts/vDoWl-UWyQU?is=yJjgyDAgWd4CzELY",
+    "ingested_at": "2026-07-25T09:59:04+01:00"
   },
   {
     "id": "bind-skills-claude-skill-finder",
@@ -2683,7 +2773,8 @@
     ],
     "notes": "The specific platform hosting the ~10,000 Claude skills is not named in the video. Security verification is recommended before adding any skill. 'Bind Skills' has reportedly been installed over 1.5 million times.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/IBS3aIdOZ9w?is=2LXZrPH1JOhJKQ1v"
+    "source": "https://youtube.com/shorts/IBS3aIdOZ9w?is=2LXZrPH1JOhJKQ1v",
+    "ingested_at": "2026-07-25T10:04:00+01:00"
   },
   {
     "id": "claude-remove-personal-data-brokers",
@@ -2713,7 +2804,8 @@
     ],
     "notes": "Claude does not actually browse the live internet by default — this workflow likely requires Claude with tool/web access or computer-use features. Results may vary; data broker removal is an ongoing process, not a one-time fix. The creator offers a full prompt guide via comment engagement ('erase').",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/GnF6lzkBpt0?is=btvX4WWuwWij3dpc"
+    "source": "https://youtube.com/shorts/GnF6lzkBpt0?is=btvX4WWuwWij3dpc",
+    "ingested_at": "2026-07-25T10:29:33+01:00"
   },
   {
     "id": "vibe-coded-site-seo-crawl-prompt",
@@ -2745,7 +2837,8 @@
     ],
     "notes": "The prompt to use: 'Act like a Google bot crawling my site for the first time. Fetch [your URL] and tell me exactly what context you can see without executing JavaScript.' Comment 'crawl' on the video to receive a follow-up fix prompt from the creator.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/7D7wKGQw91k?is=AFkHlPSJRwUUrSe0"
+    "source": "https://youtube.com/shorts/7D7wKGQw91k?is=AFkHlPSJRwUUrSe0",
+    "ingested_at": "2026-07-25T10:53:40+01:00"
   },
   {
     "id": "new-autism-and-trauma-research",
@@ -2772,7 +2865,8 @@
     ],
     "notes": "Content is from a YouTube Shorts format via the channel 'THE HIDDEN 20%'. The research referenced relates to hypermobility and brain-body type connections to neurodivergence. No specific study citation is provided in the clip.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/vbpYEY0lYuQ?is=fk1NPNerCczs54J2"
+    "source": "https://youtube.com/shorts/vbpYEY0lYuQ?is=fk1NPNerCczs54J2",
+    "ingested_at": "2026-07-25T11:02:16+01:00"
   },
   {
     "id": "claude-code-notebooklm-automation",
@@ -2803,7 +2897,8 @@
     ],
     "notes": "NotebookLM does not have a public API; notebooklm.py is a third-party repository that bridges this gap. Comment 'lm' on the video to receive the repo link and a quick start guide.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/WmbtG77z_yY?is=Nh9WOpZLHYwNrS7N"
+    "source": "https://youtube.com/shorts/WmbtG77z_yY?is=Nh9WOpZLHYwNrS7N",
+    "ingested_at": "2026-07-28T21:30:05+01:00"
   },
   {
     "id": "ai-3d-property-mapping-real-estate",
@@ -2832,7 +2927,8 @@
     ],
     "notes": "The specific open-source software is not named in the video. Tool is described as free and open-source, developed by a team of researchers. No direct download link provided.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/GLl1dgOP1Ss?is=t79gN5EZK0YBGEeU"
+    "source": "https://youtube.com/shorts/GLl1dgOP1Ss?is=t79gN5EZK0YBGEeU",
+    "ingested_at": "2026-07-28T21:36:54+01:00"
   },
   {
     "id": "fastest-diy-woodworking-craft-stool",
@@ -2859,7 +2955,8 @@
     ],
     "notes": "Short-form video (YouTube Shorts) by channel FloraVid; no material list or measurements are provided in the captions.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/lgLSrc9-m2o?is=IkfS4OuHDVsvMRTM"
+    "source": "https://youtube.com/shorts/lgLSrc9-m2o?is=IkfS4OuHDVsvMRTM",
+    "ingested_at": "2026-07-29T08:29:15+01:00"
   },
   {
     "id": "cooper-simson-five-step-build-your-own-software",
@@ -2890,7 +2987,8 @@
     "screenshot": "screenshots/1785334934.jpg",
     "notes": "Creator: cooper.simson. Captured from an Instagram/Reels post (audio 'Xlavier · Every Living'). Post asks viewers to follow and comment 'VIBE'. Same creator as the [[cooper-simson-ai-harness-course]] entry but distinct content.",
     "added": "2026-07",
-    "source": "screenshot"
+    "source": "screenshot",
+    "ingested_at": "2026-07-29T15:22:56+01:00"
   },
   {
     "id": "claude-opus-5-review",
@@ -2921,7 +3019,8 @@
     ],
     "notes": "Video sponsored by Luma AI (lumalabs.ai). Covers specs, pricing, and benchmark comparisons against other frontier models. Includes a 'FROG TEST' and guardrails evaluation segment.",
     "added": "2026-07",
-    "source": "https://youtu.be/RCsBJz4W4bA?is=vIWl9bMwJ_VKll8v"
+    "source": "https://youtu.be/RCsBJz4W4bA?is=vIWl9bMwJ_VKll8v",
+    "ingested_at": "2026-07-29T16:39:18+01:00"
   },
   {
     "id": "antarctic-ice-core-1-2m-years-climate-history",
@@ -2948,7 +3047,8 @@
     ],
     "notes": "The 1.2 million-year ice core milestone was achieved in 2025. The extraction process involves slicing the core and crushing or melting it in a vacuum to release ancient gas bubbles without contamination.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/LQTO2ljmi5s?is=pIdf6slZ71txF2xD"
+    "source": "https://youtube.com/shorts/LQTO2ljmi5s?is=pIdf6slZ71txF2xD",
+    "ingested_at": "2026-07-30T08:34:02+01:00"
   },
   {
     "id": "last-30-days-github-repo",
@@ -2978,7 +3078,8 @@
     ],
     "notes": "The canonical GitHub repo URL is not provided in the video. The presenter references a longer deep-dive video on their YouTube channel for more details.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/fqcGWCDTJqo?is=BAipKxNkLsj4_-_p"
+    "source": "https://youtube.com/shorts/fqcGWCDTJqo?is=BAipKxNkLsj4_-_p",
+    "ingested_at": "2026-07-30T08:40:44+01:00"
   },
   {
     "id": "superpowers-claude-skills-repo",
@@ -3008,7 +3109,8 @@
     ],
     "notes": "Canonical GitHub URL not provided in the video; creator asks viewers to comment 'POWERS' to receive the install link. Repo star count cited as 240,000+.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/19M06k95xPo?is=cuBqKoyZqoT_lTzp"
+    "source": "https://youtube.com/shorts/19M06k95xPo?is=cuBqKoyZqoT_lTzp",
+    "ingested_at": "2026-07-30T08:45:18+01:00"
   },
   {
     "id": "google-15-free-ai-tools-marketing-design-coding",
@@ -3041,7 +3143,8 @@
     ],
     "notes": "Video covers only 5 of the 15 tools in detail; viewers are prompted to comment 'Google' to receive the full list. Tool names may differ slightly between description and captions (e.g., 'Mixport' vs 'Mix board'). All tools are stated to be free at time of publication.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/rj8FFabmQFw?is=d0dINsj5cOy7zKyc"
+    "source": "https://youtube.com/shorts/rj8FFabmQFw?is=d0dINsj5cOy7zKyc",
+    "ingested_at": "2026-07-30T08:48:52+01:00"
   },
   {
     "id": "ai-gap-cooper-simpson-founders-garage",
@@ -3068,7 +3171,8 @@
     ],
     "notes": "Hosted by Dean Sutton on the Founders Garage channel. Features timestamps for key segments including moats, content strategy, job displacement, and bubble analysis. Cooper's social handle is @cooper.simpson.",
     "added": "2026-07",
-    "source": "https://youtu.be/XtHUyH_7Y34?is=Tbij5K84QH_L39jN"
+    "source": "https://youtu.be/XtHUyH_7Y34?is=Tbij5K84QH_L39jN",
+    "ingested_at": "2026-07-30T21:53:19+01:00"
   },
   {
     "id": "ray-dalio-ai-bubble-economic-decline-diary-of-a-ceo",
@@ -3095,7 +3199,8 @@
     ],
     "notes": "Content reflects Ray Dalio's personal views only and should not be taken as financial or investment advice. Hosted by The Diary Of A CEO channel.",
     "added": "2026-07",
-    "source": "https://youtu.be/Bu0xNDLNORU?is=jLNwwAFDDHiglgnZ"
+    "source": "https://youtu.be/Bu0xNDLNORU?is=jLNwwAFDDHiglgnZ",
+    "ingested_at": "2026-07-30T21:53:38+01:00"
   },
   {
     "id": "claude-code-doctor-command",
@@ -3126,7 +3231,8 @@
     ],
     "notes": "Content references Opus 5 and Fable 5 as new models, suggesting this tip is relevant to a recent Claude Code update cycle. The /doctor command reviews the last 30+ days of usage logs to determine which skills to remove.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/BqXFVtxvCBA?is=FVaCId4HB0G0QWex"
+    "source": "https://youtube.com/shorts/BqXFVtxvCBA?is=FVaCId4HB0G0QWex",
+    "ingested_at": "2026-07-31T04:39:44+01:00"
   },
   {
     "id": "common-claude-code-hook-patterns",
@@ -3157,7 +3263,8 @@
     ],
     "notes": "Short-form video (YouTube Shorts). Mentions a free Claude Code cheat sheet linked in the channel bio. Teases a follow-up video on writing hook scripts in any language.",
     "added": "2026-07",
-    "source": "https://youtube.com/shorts/_TNYH3W1mA8?is=gjXsNdej_whSegp2"
+    "source": "https://youtube.com/shorts/_TNYH3W1mA8?is=gjXsNdej_whSegp2",
+    "ingested_at": "2026-07-31T07:48:48+01:00"
   },
   {
     "id": "china-advanced-open-source-ai-weekly-roundup",
@@ -3190,7 +3297,8 @@
     ],
     "notes": "Covers multiple distinct product launches in one video: ChatGPT Sites, BlackForestLabs Flux 3, Alibaba Qwen 3.8 Max, Block BaaS, Anthropic Claude Opus 5, and Obliteratus. Some product names (e.g. 'ChaiGPT', 'Gwen3.8') may reflect transcription errors. Verify individual tool names before use.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/6PXZ1ZApWTA?is=GvYRomAnYWGBl53o"
+    "source": "https://youtube.com/shorts/6PXZ1ZApWTA?is=GvYRomAnYWGBl53o",
+    "ingested_at": "2026-08-01T08:55:02+01:00"
   },
   {
     "id": "anthropic-live-artifacts",
@@ -3219,7 +3327,8 @@
     ],
     "notes": "Feature announced by Anthropic for Claude; replaces static snapshot artifacts with live, data-connected versions. No pricing details mentioned.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/Z_Sgbk-CSw0?is=vJfOMk9-kWOvx1ru"
+    "source": "https://youtube.com/shorts/Z_Sgbk-CSw0?is=vJfOMk9-kWOvx1ru",
+    "ingested_at": "2026-08-01T10:11:51+01:00"
   },
   {
     "id": "luma-ray-3-2-ai-video-consistency",
@@ -3246,7 +3355,8 @@
     ],
     "notes": "Demonstrated via YouTube Shorts by Nick Sadler; full guide available by commenting 'Luma' on the video or via links in bio. Pricing and availability not specified in the content.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/Z6ryGmuXwSc?is=B6ZQ81-bvHEA04MJ"
+    "source": "https://youtube.com/shorts/Z6ryGmuXwSc?is=B6ZQ81-bvHEA04MJ",
+    "ingested_at": "2026-08-01T10:15:26+01:00"
   },
   {
     "id": "claude-ai-video-editor-mcp",
@@ -3276,7 +3386,8 @@
     ],
     "notes": "Described as free and open source. Content appears promotional/channel-based; canonical project repo URL not provided. Verify tool authenticity and source before use.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/M_cMbSapeqM?is=ZEFvUHQ227dEZJEK"
+    "source": "https://youtube.com/shorts/M_cMbSapeqM?is=ZEFvUHQ227dEZJEK",
+    "ingested_at": "2026-08-03T02:21:51+01:00"
   },
   {
     "id": "anthropic-claude-code-context-engineering-fix",
@@ -3305,7 +3416,8 @@
     ],
     "notes": "References an article by Anthropic engineer Tariq: https://x.com/trq212/article/2080710971228918066. Creator also offers a paid community (Skool) for $9.",
     "added": "2026-08",
-    "source": "https://youtu.be/UBFHTHUs1wA?is=XjSct_RmaevXVrTY"
+    "source": "https://youtu.be/UBFHTHUs1wA?is=XjSct_RmaevXVrTY",
+    "ingested_at": "2026-08-04T13:41:00+01:00"
   },
   {
     "id": "claude-blender-mcp-3d-modeling",
@@ -3336,7 +3448,8 @@
     ],
     "notes": "Free PDF tutorial available by commenting '3D' on the post. Also covered as bonus material in creator's paid masterclass. References Anthropic's MCP update enabling direct Blender connection.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DX7SEv7sGrI/?igsh=MThqbnB6anl2ZWRwMQ=="
+    "source": "https://www.instagram.com/reel/DX7SEv7sGrI/?igsh=MThqbnB6anl2ZWRwMQ==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "pre-built-ai-loops-library",
@@ -3366,7 +3479,8 @@
     ],
     "notes": "Library link and setup doc are gated behind a comment ('LOOPED') DM interaction on Instagram. Free as of posting.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaN--OEuTxI/?igsh=b2l5ZXhwenZ0Mzhv"
+    "source": "https://www.instagram.com/reel/DaN--OEuTxI/?igsh=b2l5ZXhwenZ0Mzhv",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "newsherethere-el-nino-climate-change-reel",
@@ -3393,7 +3507,8 @@
     ],
     "notes": "Opinion/advocacy content; not a scientific study. Intended for general social media audiences. No date explicitly stated in post.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaAMIUEtwQx/?igsh=Nm0zbjB5NTQ5YXpq"
+    "source": "https://www.instagram.com/reel/DaAMIUEtwQx/?igsh=Nm0zbjB5NTQ5YXpq",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "fable-5-prompting-guide",
@@ -3423,7 +3538,8 @@
     ],
     "notes": "Free on Claude Pro/Max/Team through July 7; pay-per-use after that. 'Fable 5' appears to be a nickname or reference to a Claude model. Comment 'FABLE5' on the post to receive the prompting guide and top use cases.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaRohHINdwN/?igsh=dW9xeDZpN2Zia2Vh"
+    "source": "https://www.instagram.com/reel/DaRohHINdwN/?igsh=dW9xeDZpN2Zia2Vh",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "kronos-time-series-foundation-model-tutorial",
@@ -3450,7 +3566,8 @@
     ],
     "notes": "This is an educational explainer video by creator @gigaqian on Instagram. Kronos itself is the underlying AI model being discussed, not a product being sold in this post.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DW2hy6EDqt-/?igsh=ZW44OG5vZnZ2NHk4"
+    "source": "https://www.instagram.com/reel/DW2hy6EDqt-/?igsh=ZW44OG5vZnZ2NHk4",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "johan-rockstrom-climate-better-future-pod",
@@ -3477,7 +3594,8 @@
     ],
     "notes": "Full episode available via @betterfuturepod; comment 'ep' on the Instagram post to receive the link directly from the creator.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaLG_TLpLck/?igsh=MWNnYzdseXo4ZHlpNg=="
+    "source": "https://www.instagram.com/reel/DaLG_TLpLck/?igsh=MWNnYzdseXo4ZHlpNg==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "loop-engineering-llms-kodekloud",
@@ -3507,7 +3625,8 @@
     ],
     "notes": "Created by Aditya Chauhan for KodeKloud; narration is AI-generated. Content is educational and conceptual, not a specific tool release.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaNb20tD5My/?igsh=dmxnaXNta3Vqa21h"
+    "source": "https://www.instagram.com/reel/DaNb20tD5My/?igsh=dmxnaXNta3Vqa21h",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "fable-5-free-window-guide",
@@ -3540,7 +3659,8 @@
     ],
     "notes": "Fable 5 goes paid on 7 July (year not explicitly stated, assumed 2025); after that it runs on API credits only. Creator offers a full guide via DM if users comment 'FABLE'. Content may be promotional.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaSs9YfBo9b/?igsh=MWMyYjF0emE2d29zZA=="
+    "source": "https://www.instagram.com/reel/DaSs9YfBo9b/?igsh=MWMyYjF0emE2d29zZA==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "ornith-1-0-deepreinforce-open-source-ai",
@@ -3567,7 +3687,8 @@
     ],
     "notes": "Information sourced from a promotional Instagram reel by @gigaqian. Claims about benchmark leadership and capabilities should be independently verified. No official product page or install link provided.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaG7TEgpW11/?igsh=MXJ4c3YzbHd5dnd0ag=="
+    "source": "https://www.instagram.com/reel/DaG7TEgpW11/?igsh=MXJ4c3YzbHd5dnd0ag==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "roland-portmanteau-effect-drum-machine",
@@ -3596,7 +3717,8 @@
     ],
     "notes": "Short-form reel; specific Roland model not mentioned in description. Portmanteau effect refers to blending/combining two sounds or patterns into one.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DZ6ecnXxUUM/?igsh=aGV4bHdoMWl6dnl2"
+    "source": "https://www.instagram.com/reel/DZ6ecnXxUUM/?igsh=aGV4bHdoMWl6dnl2",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "oliver-logic-pro-wild-combo-tip",
@@ -3626,7 +3748,8 @@
     ],
     "notes": "Specific details of the combo technique are not described in the available metadata; viewing the reel directly is required to learn the full method.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DY7hV2oBgQU/?igsh=MTNld2Vnbzdkc2IycA=="
+    "source": "https://www.instagram.com/reel/DY7hV2oBgQU/?igsh=MTNld2Vnbzdkc2IycA==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "claude-code-slash-command-stack",
@@ -3656,7 +3779,8 @@
     ],
     "notes": "Content is promotional/lead-generation in nature — the actual command stack is gated behind a DM interaction (comment 'LOOP'). No pricing or tool link provided. Treat with skepticism until verified.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaU6LKNMSZP/?igsh=MW95dDR2cGVmazRvNg=="
+    "source": "https://www.instagram.com/reel/DaU6LKNMSZP/?igsh=MW95dDR2cGVmazRvNg==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "top-5-secret-ai-repos-github",
@@ -3683,7 +3807,8 @@
     ],
     "notes": "Actual GitHub links are not publicly listed in the post; users must comment 'STARS' to receive them via DM. Content may be engagement-bait and links are unverified.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaWe9HDussx/?igsh=MTR5d2NlanJneGN6MA=="
+    "source": "https://www.instagram.com/reel/DaWe9HDussx/?igsh=MTR5d2NlanJneGN6MA==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "build-ai-operating-system-with-claude",
@@ -3713,7 +3838,8 @@
     ],
     "notes": "Content references Claude's powerful model going behind a paywall in '48 hours' — timing is relative to posting date. Prompts are gated behind a DM interaction (comment 'RUSH'). Hashtag #fable5 may be unrelated or a campaign tag.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DabomVStNCH/?igsh=aGxsY2d0dTk0YWM3"
+    "source": "https://www.instagram.com/reel/DabomVStNCH/?igsh=aGxsY2d0dTk0YWM3",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "become-immortal-with-ai-fable-5-guide",
@@ -3740,7 +3866,8 @@
     ],
     "notes": "Instagram automation was down at time of posting; link provided directly in description. Content may move behind a paywall soon. Verify guide is still accessible via the Google Drive link.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaVsgWuxYIv/?igsh=MWQxYzJib2dmZWFxaA=="
+    "source": "https://www.instagram.com/reel/DaVsgWuxYIv/?igsh=MWQxYzJib2dmZWFxaA==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "fable5-token-usage-hacks",
@@ -3769,7 +3896,8 @@
     ],
     "notes": "The hashtags reference 'Fable5' and 'ClaudeAI' — 'Fable 5' appears to be a branded or colloquial name used by this creator, possibly referring to Claude 5 or a specific plan tier. Guide is delivered via DM upon commenting 'EFFORT'. Verify accuracy before relying on tips.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DahNrmitcCi/?igsh=aTN6cmc1a2JjaDJj"
+    "source": "https://www.instagram.com/reel/DahNrmitcCi/?igsh=aTN6cmc1a2JjaDJj",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "wall-street-ai-trading-tools-claude",
@@ -3798,7 +3926,8 @@
     ],
     "notes": "Content is promotional/educational in nature; specific tools or prompts referenced in the video are not described in the caption alone. Financial advice disclaimer context unknown.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DZVEOM-oo4Z/?igsh=eXgzeDFqZnFnMjh0"
+    "source": "https://www.instagram.com/reel/DZVEOM-oo4Z/?igsh=eXgzeDFqZnFnMjh0",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "stop-boring-designs-claude-code-3-skills",
@@ -3827,7 +3956,8 @@
     ],
     "notes": "Content is a short Instagram Reel; specific skills discussed are not detailed in the description alone — watching the video required for full context.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DYU6TXpDxtt/?igsh=MWEyN2ZnMDJ0NjB5ZQ=="
+    "source": "https://www.instagram.com/reel/DYU6TXpDxtt/?igsh=MWEyN2ZnMDJ0NjB5ZQ==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "video-editing-claude-code-codex",
@@ -3857,7 +3987,8 @@
     ],
     "notes": "Content is a short-form Instagram Reel; full technical details may be limited. References Claude Code (Anthropic) and Codex (OpenAI).",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DadyntUSP0G/?igsh=MWFsY3Bram1jMTIybw=="
+    "source": "https://www.instagram.com/reel/DadyntUSP0G/?igsh=MWFsY3Bram1jMTIybw==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "graphify-claude-code-token-optimizer",
@@ -3889,7 +4020,8 @@
     ],
     "notes": "GitHub link is distributed via DM after following and commenting 'REPO' on the post. Tool is claimed to be 100% free and open source. The 70x token reduction figure is unverified and self-reported.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaeHnQXR76N/?igsh=MTVrdW84aHhjZHR4eA=="
+    "source": "https://www.instagram.com/reel/DaeHnQXR76N/?igsh=MTVrdW84aHhjZHR4eA==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "music-producer-resource-roundup-seids",
@@ -3917,7 +4049,8 @@
     ],
     "notes": "Three separate resources mentioned: (1) musictheorysite.com, (2) soundgym.co (@soundgym), (3) fadr.com (@fadrmusic). Each is an independent platform.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DXkIF9lkdnN/?igsh=djlicDBoNGplb2Y1"
+    "source": "https://www.instagram.com/reel/DXkIF9lkdnN/?igsh=djlicDBoNGplb2Y1",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "harrydoesai-clipping-quick-start-guide-day-122",
@@ -3943,7 +4076,8 @@
     ],
     "notes": "Guide is distributed via DM by commenting '122' on the post. Part of a daily series (Day 122).",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaV8x1XMaTh/?igsh=MWJybjlrOHV2NmQ3dg=="
+    "source": "https://www.instagram.com/reel/DaV8x1XMaTh/?igsh=MWJybjlrOHV2NmQ3dg==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "elliott-smith-vocal-chain-waves-plugins",
@@ -3972,7 +4106,8 @@
     ],
     "notes": "Free download available via link in bio on the nvmixes Instagram profile. Requires Waves Audio plugins to use the chain.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaigQBOs08j/?igsh=MXdiYzVma201dzkzZw=="
+    "source": "https://www.instagram.com/reel/DaigQBOs08j/?igsh=MXdiYzVma201dzkzZw==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "claude-code-masterclass-brennanwells",
@@ -4002,7 +4137,8 @@
     ],
     "notes": "Free masterclass accessible by commenting 'CLAUDE' on the Instagram post. Content delivery method (DM, link, etc.) not specified. Availability may be time-limited.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Dag_Y4BOaGT/?igsh=MWRrb3VlejZsc2E4eA=="
+    "source": "https://www.instagram.com/reel/Dag_Y4BOaGT/?igsh=MWRrb3VlejZsc2E4eA==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "benoit-malige-second-life-patterns",
@@ -4028,7 +4164,8 @@
     ],
     "notes": "This is a personal brand reel, not a structured course or product. Content may be part of an ongoing series by the creator.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DadUzayuS2D/?igsh=cHppbHJ5enB1b3N6"
+    "source": "https://www.instagram.com/reel/DadUzayuS2D/?igsh=cHppbHJ5enB1b3N6",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "open-generative-ai-anil-matcha",
@@ -4065,7 +4202,8 @@
     ],
     "notes": "Users still pay for underlying AI model API usage — no monthly fee but per-generation costs apply. Reached 5,200 GitHub stars within days of release. MIT licensed. Positioned as a free alternative to Higgsfield ($100+/month).",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DXZlhjFjz7v/?igsh=MXcwN2F5MTUxNmJheA=="
+    "source": "https://www.instagram.com/reel/DXZlhjFjz7v/?igsh=MXcwN2F5MTUxNmJheA==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "openai-gpt-inside-claude-code-fable5",
@@ -4096,7 +4234,8 @@
     ],
     "notes": "Significant credibility concerns: 'GPT-5.6' and 'Fable 5' are unverified product names not recognized in mainstream AI tooling as of mid-2026. This may be misinformation, exaggerated marketing, or use of fictional version numbers. The engagement-bait mechanic (comment 'ROUTE') is a common low-trust social media pattern. Verify claims independently before following any setup instructions.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaojVuSNKno/"
+    "source": "https://www.instagram.com/reel/DaojVuSNKno/",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "100xengineers-brain-prompt-guide",
@@ -4122,7 +4261,8 @@
     ],
     "notes": "Content is gated behind a comment interaction — users must comment 'Brain' to receive the prompt and guide, likely delivered via Instagram DM automation.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Dap7UCLpSy1/?igsh=enlqcmU0b3h5YjMw"
+    "source": "https://www.instagram.com/reel/Dap7UCLpSy1/?igsh=enlqcmU0b3h5YjMw",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "fable5-exit-interview-prompt",
@@ -4152,7 +4292,8 @@
     ],
     "notes": "Content implies Fable 5 is moving to a pay-per-use pricing model. The specific prompt is gated behind a comment ('RETIRE') on the Instagram post. Fable 5 may refer to a specific AI model or service tier.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Darg20FtbJy/?igsh=b3Yya3NjbnlsNnRp"
+    "source": "https://www.instagram.com/reel/Darg20FtbJy/?igsh=b3Yya3NjbnlsNnRp",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "wired-best-kids-phone-setup",
@@ -4182,7 +4323,8 @@
     ],
     "notes": "Full details available via the link in WIRED's Instagram bio. Content is a short-form video reel; depth of information may be limited without visiting the full article.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaaRRE-ER6m/?igsh=MXV2dGRxb2s0dDE4dw=="
+    "source": "https://www.instagram.com/reel/DaaRRE-ER6m/?igsh=MXV2dGRxb2s0dDE4dw==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "notebooklm-inside-claude-code",
@@ -4212,7 +4354,8 @@
     ],
     "notes": "Free setup guide and prompt templates available by commenting 'NOTEBOOK' on the original Instagram post.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DV7fxIbCdzm/?igsh=a2dxN3dtMXpsM3U2"
+    "source": "https://www.instagram.com/reel/DV7fxIbCdzm/?igsh=a2dxN3dtMXpsM3U2",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "fable-orchestrator-token-saving",
@@ -4242,7 +4385,8 @@
     ],
     "notes": "Short-form video tutorial; full implementation details may require following the creator's other content or linked resources.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaneCPSBvBO/?igsh=MWplbHByMHZzaHhseQ=="
+    "source": "https://www.instagram.com/reel/DaneCPSBvBO/?igsh=MWplbHByMHZzaHhseQ==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "claude-code-checkup-command",
@@ -4271,7 +4415,8 @@
     ],
     "notes": "Content is engagement-bait requiring users to comment 'CHECKUP' to receive the command via DM. The claim that the 'guy who created Claude Code' leaked the command is unverified marketing language. Actual command details are not disclosed in the post itself.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DauKnTkNiIq/?igsh=aDFiNHNwYjJmMXA2"
+    "source": "https://www.instagram.com/reel/DauKnTkNiIq/?igsh=aDFiNHNwYjJmMXA2",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "claude-code-voice-clone",
@@ -4300,7 +4445,8 @@
     ],
     "notes": "The git repo is shared by DMing 'CLONE' to the creator on Instagram. Described as free to use. Specific repo URL not publicly listed in the post.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Damcm7-tg8Q/?igsh=MWppZTV4YzNrbjdleA=="
+    "source": "https://www.instagram.com/reel/Damcm7-tg8Q/?igsh=MWppZTV4YzNrbjdleA==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "openclaw-ai-agent",
@@ -4328,7 +4474,8 @@
     ],
     "notes": "Limited technical details available from this post alone. Setup guide is distributed via Instagram DM by commenting 'OpenClaw'. Claims to be free. Framing around government data concerns may be promotional rather than technical.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DZiwouCTONz/?igsh=cmczNnN0dnpjMGVh"
+    "source": "https://www.instagram.com/reel/DZiwouCTONz/?igsh=cmczNnN0dnpjMGVh",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "video-by-imjonathanacuna",
@@ -4353,7 +4500,8 @@
     ],
     "notes": "Insufficient metadata provided to fully categorize or describe this content. Visit the URL directly for full context.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DavWgEal_RZ/?igsh=MTlnc3NqcGdpZTdiZA=="
+    "source": "https://www.instagram.com/reel/DavWgEal_RZ/?igsh=MTlnc3NqcGdpZTdiZA==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "hannah-fry-4-part-explainer-structure",
@@ -4380,7 +4528,8 @@
     ],
     "notes": "Framework derived from transcribing 30 of Hannah Fry's highest-performing videos. Creator is @robdwillis, self-described Chief Story Officer.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DazjzEQo4gP/?igsh=MWY1ZHdibDFxemQ0bQ=="
+    "source": "https://www.instagram.com/reel/DazjzEQo4gP/?igsh=MWY1ZHdibDFxemQ0bQ==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "sites-i-steal-aesthetics-from-pt8",
@@ -4410,7 +4559,8 @@
     ],
     "notes": "Sites and 'THE FIFTY' resource are shared via DM upon commenting 'STEAL'. Content is part of an ongoing series (Pt. 8). No cost mentioned but access is gated through engagement.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DasnllNq0e-/?igsh=anJxcDB5dWg5YTE4"
+    "source": "https://www.instagram.com/reel/DasnllNq0e-/?igsh=anJxcDB5dWg5YTE4",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "llm-council-multi-advisor-skill",
@@ -4438,7 +4588,8 @@
     ],
     "notes": "Comment 'COUNCIL' on the original Instagram post to receive the skill guide. No pricing mentioned; appears to be a free prompt template.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaxyaqXyqCR/?igsh=MW9wZ25iZW5pcG93Zw=="
+    "source": "https://www.instagram.com/reel/DaxyaqXyqCR/?igsh=MW9wZ25iZW5pcG93Zw==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "premortem-ai-project-tool",
@@ -4467,7 +4618,8 @@
     ],
     "notes": "Repo is distributed via Instagram DM — comment 'PREMORTEM' on the post to receive the free repo and setup. Exact repo URL not publicly listed in post.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Da9IBiKJwzz/?igsh=MWJxNW5nNHYzczd5cQ=="
+    "source": "https://www.instagram.com/reel/Da9IBiKJwzz/?igsh=MWJxNW5nNHYzczd5cQ==",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "earth-nullschool-wind-weather-map",
@@ -4494,7 +4646,8 @@
     ],
     "notes": "Free to use in the browser; no installation required. Built and maintained by Cameron Beccario as an open-source project.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Da510GHpkwq/?igsh=eHA0N3c3YmZpd2oz"
+    "source": "https://www.instagram.com/reel/Da510GHpkwq/?igsh=eHA0N3c3YmZpd2oz",
+    "ingested_at": "2026-08-04T16:05:46+01:00"
   },
   {
     "id": "claude-storm-multi-perspective-research-prompt",
@@ -4523,7 +4676,8 @@
     ],
     "notes": "Does not replace real citations or source checking; intended to accelerate and deepen initial research thinking. Inspired by Stanford's STORM system but is a prompting pattern, not the STORM software itself.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/p/DZ42MczDQLb/?img_index=7&igsh=MWV2aWppNnIxNm5vOA=="
+    "source": "https://www.instagram.com/p/DZ42MczDQLb/?img_index=7&igsh=MWV2aWppNnIxNm5vOA==",
+    "ingested_at": "2026-08-04T17:28:42+01:00"
   },
   {
     "id": "claude-senior-engineer-prompts",
@@ -4553,7 +4707,8 @@
     ],
     "notes": "Content is carousel-based on Instagram; prompts are embedded in the post images and must be viewed slide by slide.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/p/DZzzH4Cje60/?img_index=1&igsh=MWZtaDg0Y3Zhdm0wZw=="
+    "source": "https://www.instagram.com/p/DZzzH4Cje60/?img_index=1&igsh=MWZtaDg0Y3Zhdm0wZw==",
+    "ingested_at": "2026-08-04T17:28:42+01:00"
   },
   {
     "id": "claude-fable-workflow-guide",
@@ -4585,7 +4740,8 @@
     ],
     "notes": "Fable access extended till July 12. Full prompt list available by commenting 'PROMPTS' on the post. Workflow tip: shape the idea in Opus 4.8 first, then pass the brief to Fable.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/p/DaaeyDIlYdB/?img_index=5"
+    "source": "https://www.instagram.com/p/DaaeyDIlYdB/?img_index=5",
+    "ingested_at": "2026-08-04T17:28:42+01:00"
   },
   {
     "id": "openclaw-ai-agents",
@@ -4613,7 +4769,8 @@
     ],
     "notes": "Very limited information available from this post. The actual link is shared via Instagram DM upon commenting 'SEND'. Content may be promotional or affiliate in nature.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/p/DaGIKtPki6B/?img_index=4&igsh=enAzYWRmZ3p6aDJs"
+    "source": "https://www.instagram.com/p/DaGIKtPki6B/?img_index=4&igsh=enAzYWRmZ3p6aDJs",
+    "ingested_at": "2026-08-04T17:28:42+01:00"
   },
   {
     "id": "42-claude-design-skills",
@@ -4646,7 +4803,8 @@
     ],
     "notes": "Distributed via DM by commenting 'DESIGN' on the post. Free to request. Skills are described as covering Claude Canvas and MCP integrations like Playwright for design feedback loops.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/p/DaNYCILlDgO/?img_index=6&igsh=MTlrejA1ZnQyNXU3Nw=="
+    "source": "https://www.instagram.com/p/DaNYCILlDgO/?img_index=6&igsh=MTlrejA1ZnQyNXU3Nw==",
+    "ingested_at": "2026-08-04T17:28:42+01:00"
   },
   {
     "id": "cooper-simson-ai-expert-playbook",
@@ -4676,7 +4834,8 @@
     "notes": "The playbook is distributed via Instagram DM using a comment-trigger engagement tactic. Content may be promotional or lead-generation focused.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DbkTEuwtVkP/?igsh=d2xiNDdqZmFzb2c1",
-    "category_original": "AI productivity and career advice"
+    "category_original": "AI productivity and career advice",
+    "ingested_at": "2026-08-04T18:16:56+01:00"
   },
   {
     "id": "one-minute-bass-reels",
@@ -4702,7 +4861,8 @@
     "notes": "Content is a Facebook Reel; no channel name provided. Engagement metrics (413K views, 10K reactions) indicate viral popularity.",
     "added": "2026-08",
     "source": "https://www.facebook.com/share/r/1G9LwXrqgs/?mibextid=wwXIfr",
-    "category_original": "music education"
+    "category_original": "music education",
+    "ingested_at": "2026-08-04T20:18:39+01:00"
   },
   {
     "id": "top-5-claude-code-plugins",
@@ -4732,7 +4892,8 @@
     ],
     "notes": "Claims of '1.6 billion free tokens per month' via OmniRoute should be independently verified. Quality and reliability of 200+ free AI providers may vary significantly. Claude Code Setup is described as an official Anthropic plugin.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/bU5ZDdRnN2M?is=2Jroao1CytLNZtt-"
+    "source": "https://youtube.com/shorts/bU5ZDdRnN2M?is=2Jroao1CytLNZtt-",
+    "ingested_at": "2026-08-05T02:07:56+01:00"
   },
   {
     "id": "microsoft-ai-for-beginners-curriculum",
@@ -4758,7 +4919,8 @@
     ],
     "notes": "100% free and self-paced. Can be run locally or in the browser via notebooks. No specific end date mentioned.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/E_fhjQwrrXA?is=Dp2Q3WuFxWCHZHxZ"
+    "source": "https://youtube.com/shorts/E_fhjQwrrXA?is=Dp2Q3WuFxWCHZHxZ",
+    "ingested_at": "2026-08-05T02:30:41+01:00"
   },
   {
     "id": "sell-ai-to-local-businesses-guide",
@@ -4786,7 +4948,8 @@
     ],
     "notes": "Content references 2026 as the target year. Tool of choice is Emergent for building dashboards and websites. No pricing information provided.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/-YY2DdkuY20?is=GietvjgOchOdelQj"
+    "source": "https://youtube.com/shorts/-YY2DdkuY20?is=GietvjgOchOdelQj",
+    "ingested_at": "2026-08-05T02:37:20+01:00"
   },
   {
     "id": "five-claude-skills-to-install",
@@ -4814,7 +4977,8 @@
     ],
     "notes": "Skills are claimed to be free. The video promotes following the creator and commenting 'skills' to receive a list of 50+ additional Claude skills. No direct install links provided in the video.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/C6oAYf_xNUs?is=XyKJu861aCLgwBgg"
+    "source": "https://youtube.com/shorts/C6oAYf_xNUs?is=XyKJu861aCLgwBgg",
+    "ingested_at": "2026-08-05T02:42:32+01:00"
   },
   {
     "id": "claude-reverse-engineer-prompt-technique",
@@ -4841,7 +5005,8 @@
     ],
     "notes": "Full build guide and repo are shared via Instagram DM — requires following the account and commenting 'INSTINCT' to receive it.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DbpbB5-NK0U/?igsh=czdpZG1sNnVnbWI="
+    "source": "https://www.instagram.com/reel/DbpbB5-NK0U/?igsh=czdpZG1sNnVnbWI=",
+    "ingested_at": "2026-08-05T09:43:25+01:00"
   },
   {
     "id": "5-apps-cancelled-using-claude-code-part-2",
@@ -4868,7 +5033,8 @@
     ],
     "notes": "Part 2 of a series. Comment 'CLAUDE' on the original post to receive the cheat sheet.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DbmD_8LyMtS/?igsh=MW5xeTcyZWZzcm02OQ=="
+    "source": "https://www.instagram.com/reel/DbmD_8LyMtS/?igsh=MW5xeTcyZWZzcm02OQ==",
+    "ingested_at": "2026-08-05T09:45:12+01:00"
   },
   {
     "id": "claude-code-6-new-rules-context-engineering",
@@ -4896,7 +5062,8 @@
     ],
     "notes": "References Thariq's article on X (https://x.com/trq212/status/2080710971228918066) which had 4 million views. A free '/doctor-plus' skill is offered via the RoboNuggets Skool community.",
     "added": "2026-08",
-    "source": "https://youtu.be/gQeRjkb_Hlc?is=-TZtRU4xt--RhqlQ"
+    "source": "https://youtu.be/gQeRjkb_Hlc?is=-TZtRU4xt--RhqlQ",
+    "ingested_at": "2026-08-05T10:30:29+01:00"
   },
   {
     "id": "let-ai-pick-the-problem-2026",
@@ -4925,7 +5092,8 @@
     ],
     "notes": "Full breakdown of the Codex vs Fable head-to-head comparison is available on the author's Substack newsletter.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/TRIO7lBfgNQ?is=cmGxwJe5Ct8po3T5"
+    "source": "https://youtube.com/shorts/TRIO7lBfgNQ?is=cmGxwJe5Ct8po3T5",
+    "ingested_at": "2026-08-06T09:25:22+01:00"
   },
   {
     "id": "plotline-ai-story-editing-tool",
@@ -4955,7 +5123,8 @@
     ],
     "notes": "Use coupon code YOUTUBE at checkout for the first month free. Tool focuses on story/script generation from audio, not automated b-roll or music selection.",
     "added": "2026-08",
-    "source": "https://youtu.be/SqYIcNsL2F8"
+    "source": "https://youtu.be/SqYIcNsL2F8",
+    "ingested_at": "2026-08-06T16:00:51+01:00"
   },
   {
     "id": "married-couples-will-ireland-finance-tip",
@@ -4981,7 +5150,8 @@
     ],
     "notes": "Content is Ireland-specific and may not apply to other jurisdictions. Produced by Ask About Wealth channel on Facebook.",
     "added": "2026-08",
-    "source": "https://www.facebook.com/share/r/1LV8JXHfvK/?mibextid=wwXIfr"
+    "source": "https://www.facebook.com/share/r/1LV8JXHfvK/?mibextid=wwXIfr",
+    "ingested_at": "2026-08-07T13:01:04+01:00"
   },
   {
     "id": "open-montage-agentic-video-production",
@@ -5011,7 +5181,8 @@
     ],
     "notes": "Runs locally with no API key required; uses free tools. A cinematic sci-fi trailer and product ad were reportedly produced for $69 total. Integrates live web search across YouTube, Reddit, and news sites for grounded content.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/vrMNcQ3Xyik?is=EfqogTE7P8H21nnF"
+    "source": "https://youtube.com/shorts/vrMNcQ3Xyik?is=EfqogTE7P8H21nnF",
+    "ingested_at": "2026-08-08T13:40:42+01:00"
   },
   {
     "id": "detached-homes-auxiliary-dwellings-planning-exemption",
@@ -5037,7 +5208,8 @@
     ],
     "notes": "Content appears to be Irish-law specific (Terry Gorry & Co. Solicitors is an Irish firm). Viewers should verify current planning regulations as rules may change.",
     "added": "2026-08",
-    "source": "https://www.facebook.com/share/v/18FWVP1zRg/?mibextid=wwXIfr"
+    "source": "https://www.facebook.com/share/v/18FWVP1zRg/?mibextid=wwXIfr",
+    "ingested_at": "2026-08-09T14:13:43+01:00"
   },
   {
     "id": "claude-code-7-free-upgrades",
@@ -5068,7 +5240,8 @@
     ],
     "notes": "This is Part 1 of a 2-part series; Part 2 covers the remaining 3 upgrades. All upgrades mentioned are free.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Dbv4vK4BEHd/?igsh=MTlhY2o4cmhnbjc0aw=="
+    "source": "https://www.instagram.com/reel/Dbv4vK4BEHd/?igsh=MTlhY2o4cmhnbjc0aw==",
+    "ingested_at": "2026-08-10T23:58:07+01:00"
   },
   {
     "id": "diy-sink-s-kalovv",
@@ -5093,7 +5266,8 @@
     ],
     "notes": "Short-form Instagram Reel; full details or materials list may not be included in the video.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Dbp8KQ7CzTL/?igsh=dzZ2N25lN3I3aTVr"
+    "source": "https://www.instagram.com/reel/Dbp8KQ7CzTL/?igsh=dzZ2N25lN3I3aTVr",
+    "ingested_at": "2026-08-10T23:59:47+01:00"
   },
   {
     "id": "google-lyria-3-5-ai-music-model",
@@ -5121,7 +5295,8 @@
     ],
     "notes": "Described as free in the video. Available inside Google Flow Music. Trained on licensed data, addressing copyright concerns. Supports multi-language vocals.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/juTcssMLrE4?is=6XS8vhk_G4Mo81xo"
+    "source": "https://youtube.com/shorts/juTcssMLrE4?is=6XS8vhk_G4Mo81xo",
+    "ingested_at": "2026-08-11T00:21:35+01:00"
   },
   {
     "id": "gemini-consistent-illustration-style-templates",
@@ -5149,7 +5324,8 @@
     ],
     "notes": "Free to use with Google Gemini. Requires uploading a reference illustration to Gemini and prompting it to extract a JSON style template. Quality may vary depending on Gemini's image analysis capabilities.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/MpwM78N0JrY?is=QjH3ZSfqYrppUVNU"
+    "source": "https://youtube.com/shorts/MpwM78N0JrY?is=QjH3ZSfqYrppUVNU",
+    "ingested_at": "2026-08-11T00:27:57+01:00"
   },
   {
     "id": "yuval-noah-harari-skills-10-years",
@@ -5175,7 +5351,8 @@
     ],
     "notes": "Short-form video (YouTube Shorts) by Yuval Noah Harari. No specific date given for the recording.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/qkT9O34GBzI?is=hand0OJr4QNiNiU_"
+    "source": "https://youtube.com/shorts/qkT9O34GBzI?is=hand0OJr4QNiNiU_",
+    "ingested_at": "2026-08-11T00:36:10+01:00"
   },
   {
     "id": "claude-for-small-business-setup-service",
@@ -5204,7 +5381,8 @@
     ],
     "notes": "Suggested pricing: $1,500 setup fee + $500/month per client. Five clients = ~$30k/year. Free training reportedly available from Anthropic. Comment 'biz' on the video for a guide.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/FQVe8onsG8c?is=PFKVBvuCDAoT4Oxm"
+    "source": "https://youtube.com/shorts/FQVe8onsG8c?is=PFKVBvuCDAoT4Oxm",
+    "ingested_at": "2026-08-11T23:44:04+01:00"
   },
   {
     "id": "strix-ai-pen-testing-tool",
@@ -5230,7 +5408,8 @@
     ],
     "notes": "Free and open-source. Reported 45,000+ GitHub stars at time of video. Canonical GitHub repo URL not confirmed from available content.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/Yjmu78SgeqA?is=e5ihuAFnfhGT9ONb"
+    "source": "https://youtube.com/shorts/Yjmu78SgeqA?is=e5ihuAFnfhGT9ONb",
+    "ingested_at": "2026-08-11T23:46:20+01:00"
   },
   {
     "id": "tencent-db-agent-memory",
@@ -5257,7 +5436,8 @@
     ],
     "notes": "Runs entirely locally, ensuring user data privacy. Open-sourced by Tencent. Specific GitHub repo URL not provided in the source content.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/Fdby_VU9rWo?is=JafcUvzNf0zR1qPB"
+    "source": "https://youtube.com/shorts/Fdby_VU9rWo?is=JafcUvzNf0zR1qPB",
+    "ingested_at": "2026-08-12T10:26:23+01:00"
   },
   {
     "id": "legal-right-share-spouse-will-ireland",
@@ -5283,7 +5463,8 @@
     ],
     "notes": "Content is specific to Irish law and may not apply to other jurisdictions. Not a substitute for professional legal advice.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Db0-tQvj4w9/?igsh=bXc0cjUybmhxanc1"
+    "source": "https://www.instagram.com/reel/Db0-tQvj4w9/?igsh=bXc0cjUybmhxanc1",
+    "ingested_at": "2026-08-13T08:30:13+01:00"
   },
   {
     "id": "irish-climate-scientist-ray-bates-speaks-out",
@@ -5308,7 +5489,8 @@
     ],
     "notes": "Published by Gript Media, a right-leaning Irish outlet. Content represents a minority scientific viewpoint that challenges the mainstream IPCC consensus on climate change. Viewer discretion and critical evaluation advised.",
     "added": "2026-08",
-    "source": "https://youtu.be/v36HzErkBHA?is=CTa50DNSEQlFlSuN"
+    "source": "https://youtu.be/v36HzErkBHA?is=CTa50DNSEQlFlSuN",
+    "ingested_at": "2026-08-13T08:35:45+01:00"
   },
   {
     "id": "social-media-google-search-console-seo-radar",
@@ -5340,7 +5522,8 @@
     ],
     "notes": "Full setup guide and AI prompt are shared via DM when users comment 'RADAR'. Claims may be exaggerated — verify independently whether social media accounts can directly influence Google Search Console rankings.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Db9iQOSOsk3/?igsh=MTV2em9wZmphdDl3bQ=="
+    "source": "https://www.instagram.com/reel/Db9iQOSOsk3/?igsh=MTV2em9wZmphdDl3bQ==",
+    "ingested_at": "2026-08-13T15:12:39+01:00"
   },
   {
     "id": "premortem-prompting-technique",
@@ -5370,7 +5553,8 @@
     ],
     "notes": "Post promotes a '700+ AI toolkit' via DM giveaway (comment 'YES'). Technique is credited to Daniel Kahneman and reportedly used by Google and Goldman Sachs.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/p/DbneRvGiJjP/?img_index=8&igsh=MTd0MW10dHowY25jMA=="
+    "source": "https://www.instagram.com/p/DbneRvGiJjP/?img_index=8&igsh=MTd0MW10dHowY25jMA==",
+    "ingested_at": "2026-08-13T15:41:52+01:00"
   },
   {
     "id": "garden-decoration-light-suger-me1",
@@ -5395,7 +5579,8 @@
     ],
     "notes": "No pricing or purchase link provided in the post. Product source or brand is unclear beyond the Instagram channel suger.me1.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Db00Q5uoOJI/?igsh=N2gwM3hlaHJiYnF4"
+    "source": "https://www.instagram.com/reel/Db00Q5uoOJI/?igsh=N2gwM3hlaHJiYnF4",
+    "ingested_at": "2026-08-13T15:43:06+01:00"
   },
   {
     "id": "claude-code-plugins-five-pack",
@@ -5423,7 +5608,8 @@
     ],
     "notes": "Links are distributed via Instagram DM when users comment 'PLUGIN' — not publicly listed in the post. Individual plugin availability and reliability are unverified. Claude Code Setup is noted as being made by Anthropic; others appear to be third-party tools.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Db6khknApK_/?igsh=eTg0MXk0cXYwcHRq"
+    "source": "https://www.instagram.com/reel/Db6khknApK_/?igsh=eTg0MXk0cXYwcHRq",
+    "ingested_at": "2026-08-13T15:50:49+01:00"
   },
   {
     "id": "taxunwrapped-ireland-inheritance-tax-explainer",
@@ -5449,7 +5635,8 @@
     ],
     "notes": "Content reflects the creator's personal opinion and is not professional tax advice. Viewers should consult a qualified tax adviser for their specific circumstances.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DbTdNFBjd_g/?igsh=MTViZG1xN3RiaGlkaA=="
+    "source": "https://www.instagram.com/reel/DbTdNFBjd_g/?igsh=MTViZG1xN3RiaGlkaA==",
+    "ingested_at": "2026-08-13T16:00:31+01:00"
   },
   {
     "id": "60minutes-lake-mead-colorado-river-shortage",
@@ -5475,7 +5662,8 @@
     ],
     "notes": "Originally aired/reported in 2021; features climate scientist Brad Udall and correspondent Bill Whitaker.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Db_t68BRYFq/?igsh=bzkxMHIzY2gxcmhj"
+    "source": "https://www.instagram.com/reel/Db_t68BRYFq/?igsh=bzkxMHIzY2gxcmhj",
+    "ingested_at": "2026-08-13T23:28:37+01:00"
   },
   {
     "id": "china-open-source-ai-2t-parameter-weekly-roundup",
@@ -5507,7 +5695,8 @@
     ],
     "notes": "Covers multiple tools in one short video; some tool names may be slightly misheard via auto-captions (e.g. 'Qtie' for PocketTTS, 'Cody Search' for Hermes Skills Hub, 'MuseCode' for Meta's coding agent). Alibaba Qwen 3.8 Max reportedly has 2.4 trillion parameters.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/XU2rzDbS2sU?is=-IOW-2zlK7OF2U9B"
+    "source": "https://youtube.com/shorts/XU2rzDbS2sU?is=-IOW-2zlK7OF2U9B",
+    "ingested_at": "2026-08-14T00:14:18+01:00"
   },
   {
     "id": "openworker-ai-assistant",
@@ -5541,7 +5730,8 @@
     ],
     "notes": "Runs locally on Mac only. Supports 40+ app connectors. Prompts user for confirmation before consequential actions. Model names like 'GPT 5.6' and 'Sol' may be inaccurate transcriptions from auto-captions.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/GyS86nLCPu4?is=-doR6oTNRWxIZ9Cy"
+    "source": "https://youtube.com/shorts/GyS86nLCPu4?is=-doR6oTNRWxIZ9Cy",
+    "ingested_at": "2026-08-14T00:26:49+01:00"
   },
   {
     "id": "record-and-replay-ai-automation-tip",
@@ -5570,7 +5760,8 @@
     ],
     "notes": "Claims about a 'Record and Replay' plugin for ChatGPT and Claude should be verified; this may be referring to emerging or third-party tooling rather than an officially released feature. Content may be exaggerated or speculative.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/H6EE5GiTwmk?is=WJQ5TjgUvVpFr5nY"
+    "source": "https://youtube.com/shorts/H6EE5GiTwmk?is=WJQ5TjgUvVpFr5nY",
+    "ingested_at": "2026-08-14T00:31:48+01:00"
   },
   {
     "id": "10-ai-skills-that-matter-2026",
@@ -5596,7 +5787,8 @@
     ],
     "notes": "Short-form content (YouTube Shorts). Creator offers to send learning resources if viewers comment 'learn'. No specific tools or courses are named in the video itself.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/wtOafwpgNxM?is=BHDop9vRybqZbMCw"
+    "source": "https://youtube.com/shorts/wtOafwpgNxM?is=BHDop9vRybqZbMCw",
+    "ingested_at": "2026-08-14T03:28:49+01:00"
   },
   {
     "id": "how-much-alcohol-should-you-drink",
@@ -5622,7 +5814,8 @@
     ],
     "notes": "Content is from a YouTube Shorts video. Claims are based on toxicology standards and updated scientific consensus; the 'red wine is good for the heart' narrative has been widely debunked in modern research.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/MiU32hk95Ek?is=qbXLw1Z3ImmE0PmX"
+    "source": "https://youtube.com/shorts/MiU32hk95Ek?is=qbXLw1Z3ImmE0PmX",
+    "ingested_at": "2026-08-14T04:16:05+01:00"
   },
   {
     "id": "claude-higgsfield-mcp-real-estate-video-automation",
@@ -5651,7 +5844,8 @@
     ],
     "notes": "Requires access to both Claude and the Higgsfield MCP. Setup is described as taking under 10 seconds. No pricing or availability details provided in the content.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/7a8iJcL1Sk0?is=Gja5ixEoQHRNK5Xr"
+    "source": "https://youtube.com/shorts/7a8iJcL1Sk0?is=Gja5ixEoQHRNK5Xr",
+    "ingested_at": "2026-08-14T10:00:53+01:00"
   },
   {
     "id": "bobeats-best-synths-music-production-gear-2025",
@@ -5677,7 +5871,8 @@
     ],
     "notes": "Includes affiliate purchase links for EU and US markets. A synth giveaway by Unz Unz store is mentioned but limited to EU countries only. Video features 15+ guest creators from the synth YouTube community.",
     "added": "2026-08",
-    "source": "https://youtu.be/50-kK0lrQWI?is=X4YTSsG8h-fDqCgN"
+    "source": "https://youtu.be/50-kK0lrQWI?is=X4YTSsG8h-fDqCgN",
+    "ingested_at": "2026-08-14T13:37:41+01:00"
   },
   {
     "id": "best-synths-music-production-gear-2025-bobeats",
@@ -5702,7 +5897,8 @@
     ],
     "notes": "Affiliate links provided for EU and US markets. A synth giveaway by Unz Unz store is mentioned but limited to EU countries only. Video features 15+ guest creators from the synth community.",
     "added": "2026-08",
-    "source": "https://youtu.be/50-kK0lrQWI?is=0h8_wIJ9T8s4b2ct"
+    "source": "https://youtu.be/50-kK0lrQWI?is=0h8_wIJ9T8s4b2ct",
+    "ingested_at": "2026-08-14T18:12:20+01:00"
   },
   {
     "id": "skyreels-v2-unlimited-ai-video-model",
@@ -5730,7 +5926,8 @@
     ],
     "notes": "Local inference requires an RTX 4090 GPU or better. The official website offers free credits for easier access without local hardware. Model weights are available on Hugging Face and the project is open-source on GitHub.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/VnAEVdpPegA?is=xD4phLOUTMr_4MG0"
+    "source": "https://youtube.com/shorts/VnAEVdpPegA?is=xD4phLOUTMr_4MG0",
+    "ingested_at": "2026-08-16T00:50:25+01:00"
   },
   {
     "id": "dont-underestimate-dying-without-a-will",
@@ -5756,7 +5953,8 @@
     ],
     "notes": "Content appears to be specific to Irish law (e.g., references Irish adults and Irish intestacy rules). Rules may differ significantly in other jurisdictions.",
     "added": "2026-08",
-    "source": "https://youtube.com/shorts/NqO6cH0Xh7U?is=Rh25SQku7D8CXEZz"
+    "source": "https://youtube.com/shorts/NqO6cH0Xh7U?is=Rh25SQku7D8CXEZz",
+    "ingested_at": "2026-08-16T00:54:06+01:00"
   },
   {
     "id": "build-website-cheap-cloud-secrets",
@@ -5788,7 +5986,8 @@
     ],
     "notes": "Mentions a live app-building workshop on a Saturday; comment 'CLAUDE' for tickets. Hosting cost cited as ~$1/month via Hostinger.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DcBogQcFIbB/?igsh=MXRieTcwd3Z1YThpbg=="
+    "source": "https://www.instagram.com/reel/DcBogQcFIbB/?igsh=MXRieTcwd3Z1YThpbg==",
+    "ingested_at": "2026-08-16T09:05:30+01:00"
   },
   {
     "id": "claude-shopping-skill-lowest-price",
@@ -5816,7 +6015,8 @@
     ],
     "notes": "Skill is shared via Instagram DM — comment 'CHEAPEST' on the post to receive it. No public repo or direct download link provided.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Dbm_Wj2h88J/?igsh=MXBxdTI4NjBrdWthdw=="
+    "source": "https://www.instagram.com/reel/Dbm_Wj2h88J/?igsh=MXBxdTI4NjBrdWthdw==",
+    "ingested_at": "2026-08-16T09:06:46+01:00"
   },
   {
     "id": "mr-paidsocial-claude-edit-setup",
@@ -5843,7 +6043,8 @@
     ],
     "notes": "Full setup details shared via DM when users comment 'Claude Edit' on the post. Actual workflow details are not publicly visible without engaging with the post.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/Db4PVCotlC4/?igsh=MXRjM3RoZjZ1dWhjcQ=="
+    "source": "https://www.instagram.com/reel/Db4PVCotlC4/?igsh=MXRjM3RoZjZ1dWhjcQ==",
+    "ingested_at": "2026-08-17T07:12:10+01:00"
   },
   {
     "id": "europe-scorching-summer-impacts-newschambers",
@@ -5869,7 +6070,8 @@
     ],
     "notes": "Content is a short-form Instagram reel from the newschambers channel; specific date of the heatwave events not provided in the description.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DcLcBFEuU-L/?igsi=aXZuMDU3bDBmZTZv"
+    "source": "https://www.instagram.com/reel/DcLcBFEuU-L/?igsi=aXZuMDU3bDBmZTZv",
+    "ingested_at": "2026-08-18T12:49:04+01:00"
   },
   {
     "id": "here-now-video-review-tool",
@@ -5898,7 +6100,8 @@
     ],
     "notes": "Link to the tool is shared via DM on Instagram by commenting 'here' on the post. No pricing info provided. here.now is described as a Vercel product with built-in agent integration.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DcC9uspG5Io/?igsi=NnVrZ2xyNDBpdHVz"
+    "source": "https://www.instagram.com/reel/DcC9uspG5Io/?igsi=NnVrZ2xyNDBpdHVz",
+    "ingested_at": "2026-08-19T00:30:28+01:00"
   },
   {
     "id": "china-claude-opus-level-local-ai-open-source-breakthroughs",
@@ -5924,7 +6127,8 @@
     ],
     "notes": "This is a curated video roundup, not a single tool. Specific model names and release dates are not detailed in the description. Models mentioned include offerings from Meta, xAI, Zhipu, and Alibaba.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DcJ3PUDyIvS/?igsi=ZjR2MGg1NWo4cDV3"
+    "source": "https://www.instagram.com/reel/DcJ3PUDyIvS/?igsi=ZjR2MGg1NWo4cDV3",
+    "ingested_at": "2026-08-19T00:32:43+01:00"
   },
   {
     "id": "vittorioangelone-edinburgh-fringe-uk-ireland-tour",
@@ -5950,7 +6154,8 @@
     ],
     "notes": "Tickets on sale now; all dates available via link in bio. Edinburgh Fringe dates and UK/Ireland tour extension included.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DcBMta0Nibh/?igsi=anNwYzY5MDc4djVk"
+    "source": "https://www.instagram.com/reel/DcBMta0Nibh/?igsi=anNwYzY5MDc4djVk",
+    "ingested_at": "2026-08-19T08:59:27+01:00"
   },
   {
     "id": "epigenetic-changes-adhd-autism-jasonfield",
@@ -5976,7 +6181,8 @@
     ],
     "notes": "Content is from an Instagram Reel and may be brief or simplified for a general audience. No clinical or diagnostic guidance should be inferred.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DcLlzZ4N_OJ/?igsi=aXRoaWN0Y2h5eHA1"
+    "source": "https://www.instagram.com/reel/DcLlzZ4N_OJ/?igsi=aXRoaWN0Y2h5eHA1",
+    "ingested_at": "2026-08-19T09:15:37+01:00"
   },
   {
     "id": "cryptocrushshow-crypto-future-masterclass",
@@ -6002,7 +6208,8 @@
     ],
     "notes": "Content is gated behind a comment-triggered DM funnel; may be promotional or lead-generation in nature. Treat investment-related claims with caution.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DcMS-xnhmue/?igsi=Y2hleWxoOXN0bGho"
+    "source": "https://www.instagram.com/reel/DcMS-xnhmue/?igsi=Y2hleWxoOXN0bGho",
+    "ingested_at": "2026-08-19T10:40:34+01:00"
   },
   {
     "id": "chriskohlernews-finance-markets-reel",
@@ -6027,6 +6234,7 @@
     ],
     "notes": "Very limited description available; content details are unclear from metadata alone.",
     "added": "2026-08",
-    "source": "https://www.instagram.com/reel/DaR5CRxAvD6/?igsi=cmQ3emp6eW12OW9u"
+    "source": "https://www.instagram.com/reel/DaR5CRxAvD6/?igsi=cmQ3emp6eW12OW9u",
+    "ingested_at": "2026-08-19T12:23:55+01:00"
   }
 ]
