@@ -243,13 +243,34 @@ function fetchMetadata(url, tmpDir) {
 }
 
 function parseVtt(raw) {
-  return raw
+  // YouTube's auto-captions are "rollup": each cue repeats the previous line
+  // with one more word on the end, so a naive join says everything two or three
+  // times over. That made the stored transcripts unreadable and search snippets
+  // useless - "People seem to think that you couldn't People seem to think that
+  // you couldn't People seem to think..." - so identical and prefix-duplicated
+  // lines are collapsed as they are read.
+  const lines = raw
     .split('\n')
-    .filter(l => l.trim() && !l.startsWith('WEBVTT') && !l.match(/^\d{2}:/) && !l.startsWith('NOTE'))
-    .join(' ')
-    .replace(/<[^>]+>/g, '')
-    .replace(/\s+/g, ' ')
-    .trim()
+    .map(l => l.replace(/<[^>]+>/g, '').trim())
+    .filter(l =>
+      l &&
+      !l.startsWith('WEBVTT') &&
+      !l.startsWith('NOTE') &&
+      !/^\d{2}:/.test(l) &&
+      !/^(Kind|Language):/.test(l) &&
+      !/^(align|position):/.test(l))
+
+  const kept = []
+  for (const line of lines) {
+    const last = kept[kept.length - 1]
+    if (!last) { kept.push(line); continue }
+    if (line === last) continue                     // exact repeat
+    if (last.endsWith(line)) continue               // already contained
+    if (line.startsWith(last)) { kept[kept.length - 1] = line; continue }  // grown by a word
+    kept.push(line)
+  }
+
+  return kept.join(' ').replace(/\s+/g, ' ').trim()
 }
 
 // ─── Step 2: TwelveLabs ───────────────────────────────────────────────────────

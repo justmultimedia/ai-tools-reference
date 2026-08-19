@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Archive</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#080a12;--s1:#0f1120;--s2:#161829;--s3:#1d2038;
+  --border:#252840;--border2:#2e3150;
+  --text:#dde0f5;--muted:#6068a0;--dim:#888eb8;
+  --purple:#8b72ff;--blue:#4da6ff;--green:#36d98c;
+  --pink:#e060b0;--orange:#f09030;--teal:#30d0c0;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
+  --mono:'SF Mono','Fira Code','Cascadia Code',monospace;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--font)}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--s1)}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+
+.wrap{max-width:900px;margin:0 auto;padding:0 24px}
+
+/* The search field is the product. It gets the room. */
+.top{padding:56px 0 28px;text-align:center}
+.title{font-size:15px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.lede{margin-top:10px;font-size:26px;font-weight:700;letter-spacing:-.4px}
+.lede em{font-style:normal;background:linear-gradient(135deg,var(--purple),var(--blue));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.sub{margin-top:8px;font-size:13px;color:var(--muted)}
+
+.field{margin-top:26px;display:flex;align-items:center;gap:10px;
+  background:var(--s2);border:1px solid var(--border2);border-radius:12px;padding:14px 16px;
+  transition:border-color .18s var(--ease),box-shadow .18s var(--ease)}
+.field:focus-within{border-color:var(--purple);box-shadow:0 0 0 4px rgba(139,114,255,.12)}
+.field input{flex:1;background:none;border:none;outline:none;color:var(--text);font-size:16px}
+.field input::placeholder{color:var(--muted)}
+.field .k{font-size:11px;color:var(--muted);font-family:var(--mono);
+  border:1px solid var(--border2);border-radius:5px;padding:2px 6px}
+
+.hints{margin-top:12px;display:flex;gap:7px;flex-wrap:wrap;justify-content:center}
+.hint{font-size:12px;color:var(--dim);background:var(--s1);border:1px solid var(--border);
+  border-radius:20px;padding:5px 12px;cursor:pointer;transition:all .15s var(--ease)}
+.hint:hover{border-color:var(--purple);color:var(--text)}
+
+.status{padding:14px 0 6px;font-size:12px;color:var(--muted);
+  display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
+.filters select{background:var(--s2);color:var(--dim);border:1px solid var(--border);
+  border-radius:7px;padding:5px 8px;font-size:12px;outline:none}
+
+.results{padding-bottom:64px;display:flex;flex-direction:column;gap:10px}
+
+.hit{background:var(--s1);border:1px solid var(--border);border-radius:12px;padding:16px 18px;
+  animation:rise .32s var(--ease) both}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.hit-top{display:flex;align-items:baseline;gap:10px;margin-bottom:9px;flex-wrap:wrap}
+.hit-name{font-size:15px;font-weight:650;letter-spacing:-.2px}
+.hit-meta{margin-left:auto;font-size:11px;color:var(--muted);font-family:var(--mono);white-space:nowrap}
+.tag{font-size:10px;font-weight:600;padding:2px 8px;border-radius:5px;
+  background:rgba(139,114,255,.14);color:#b9a6ff}
+.tag.plat{background:rgba(77,166,255,.13);color:#8fc9ff}
+.tag.said{background:rgba(54,217,140,.13);color:#6ee2ad}
+
+/* The evidence. Why this result is here, without opening it. */
+.quote{font-size:14px;line-height:1.65;color:var(--dim);
+  border-left:2px solid var(--border2);padding-left:14px}
+.quote mark{background:rgba(240,144,48,.22);color:#ffc078;border-radius:3px;padding:0 2px}
+
+.hit-foot{margin-top:11px;display:flex;gap:14px;font-size:12px}
+.hit-foot a{color:var(--muted);text-decoration:none;transition:color .15s var(--ease)}
+.hit-foot a:hover{color:var(--blue)}
+
+.empty{padding:56px 0;text-align:center;color:var(--muted);font-size:14px;line-height:1.7}
+.empty b{color:var(--dim);font-weight:600}
+.spin{display:inline-block;width:11px;height:11px;border:2px solid var(--border2);
+  border-top-color:var(--purple);border-radius:50%;animation:sp .7s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+.reader{position:fixed;inset:0;background:rgba(4,5,12,.72);backdrop-filter:blur(3px);
+  display:none;align-items:flex-end;justify-content:center;z-index:40}
+.reader.on{display:flex}
+.sheet{width:min(820px,100%);max-height:86vh;background:var(--s1);
+  border:1px solid var(--border2);border-radius:16px 16px 0 0;display:flex;flex-direction:column;
+  animation:up .34s var(--ease) both}
+@keyframes up{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
+.sheet-top{padding:18px 22px;border-bottom:1px solid var(--border);display:flex;
+  align-items:center;gap:12px}
+.sheet-top h3{font-size:15px;font-weight:650;flex:1}
+.x{background:none;border:1px solid var(--border2);color:var(--muted);border-radius:7px;
+  padding:4px 10px;cursor:pointer;font-size:12px}
+.x:hover{color:var(--text);border-color:var(--purple)}
+.sheet-body{padding:22px;overflow-y:auto;font-size:14px;line-height:1.85;color:var(--dim);
+  white-space:pre-wrap}
+.sheet-body mark{background:rgba(240,144,48,.22);color:#ffc078}
+@media(max-width:620px){.lede{font-size:21px}.top{padding:36px 0 22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="title">Research Archive</div>
+    <div class="lede">Search <em>what was actually said</em></div>
+    <div class="sub" id="scope">loading the archive…</div>
+
+    <div class="field">
+      <input id="q" placeholder="a phrase, a claim, a name…" autocomplete="off" autofocus>
+      <span class="k">↵</span>
+    </div>
+    <div class="hints" id="hints"></div>
+  </div>
+
+  <div class="status" id="status"></div>
+  <div class="results" id="results"></div>
+</div>
+
+<div class="reader" id="reader">
+  <div class="sheet">
+    <div class="sheet-top">
+      <h3 id="readerTitle"></h3>
+      <a class="x" id="readerLink" target="_blank" rel="noopener">Open post ↗</a>
+      <button class="x" onclick="closeReader()">Close</button>
+    </div>
+    <div class="sheet-body" id="readerBody"></div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id)
+let TOOLS = [], TERMS = []
+
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))
+
+// Show WHY a result matched. A snippet with the term buried in it makes you
+// hunt; highlighted, you can judge relevance without opening anything.
+function mark(text, terms) {
+  let out = esc(text)
+  for (const t of terms) {
+    if (t.length < 2) continue
+    out = out.replace(new RegExp(`(${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<mark>$1</mark>')
+  }
+  return out
+}
+
+function when(e) {
+  const iso = e?.ingested_at
+  if (!iso) return e?.added || ''
+  const d = new Date(iso)
+  const days = Math.round((new Date().setHours(0,0,0,0) - new Date(d).setHours(0,0,0,0)) / 86400000)
+  if (days === 0) return 'today'
+  if (days === 1) return 'yesterday'
+  if (days < 30) return days + ' days ago'
+  return d.toLocaleDateString('en-IE', { day: 'numeric', month: 'short', year: 'numeric' })
+}
+
+async function boot() {
+  const [tools, stats] = await Promise.all([
+    fetch('/api/tools').then(r => r.json()).catch(() => []),
+    fetch('/api/stats').then(r => r.json()).catch(() => ({})),
+  ])
+  TOOLS = tools
+  const withText = tools.filter(t => t.transcriptSlug).length
+  $('scope').textContent =
+    `${tools.length} saved posts · ${withText} with a transcript of what was said`
+
+  // Suggestions drawn from the archive itself, so they always lead somewhere.
+  const cats = [...new Set(tools.map(t => t.category).filter(Boolean))]
+  const picks = ['adhd', 'trauma', 'climate', 'pension', 'claude', 'sleep']
+  $('hints').innerHTML = picks.map(p => `<span class="hint" onclick="go('${p}')">${p}</span>`).join('')
+
+  $('status').innerHTML = `<span>Nothing searched yet.</span>
+    <div class="filters">
+      <select id="cat" onchange="run()">
+        <option value="">every category</option>
+        ${cats.sort().map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('')}
+      </select>
+    </div>`
+}
+
+function go(q) { $('q').value = q; run() }
+
+let timer
+$('q').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(run, 260) })
+$('q').addEventListener('keydown', e => { if (e.key === 'Enter') { clearTimeout(timer); run() } })
+
+async function run() {
+  const q = $('q').value.trim()
+  const cat = $('cat')?.value || ''
+  if (!q) {
+    $('results').innerHTML = ''
+    $('status').querySelector('span').textContent = 'Nothing searched yet.'
+    return
+  }
+  $('status').querySelector('span').innerHTML = '<span class="spin"></span> searching transcripts…'
+
+  const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&category=${encodeURIComponent(cat)}`)
+    .then(r => r.json()).catch(() => ({ results: [] }))
+
+  TERMS = /^".+"$/.test(q) ? [q.slice(1, -1)] : q.split(/\s+/).filter(Boolean)
+  const r = res.results || []
+  $('status').querySelector('span').textContent =
+    r.length ? `${r.length} post${r.length === 1 ? '' : 's'} said this` : 'no post said that'
+
+  if (!r.length) {
+    $('results').innerHTML = `<div class="empty">
+      Nothing in the archive says <b>${esc(q)}</b>.<br>
+      Only posts with a transcript can be searched by what was said.<br>
+      Try fewer words, or put a phrase in "quotes" to match it exactly.</div>`
+    return
+  }
+
+  $('results').innerHTML = r.map((x, i) => {
+    const e = x.entry || {}
+    return `<div class="hit" style="animation-delay:${Math.min(i * 28, 300)}ms">
+      <div class="hit-top">
+        <span class="hit-name">${esc(e.name || x.slug)}</span>
+        ${e.category ? `<span class="tag">${esc(e.category)}</span>` : ''}
+        ${e.platform ? `<span class="tag plat">${esc(e.platform)}</span>` : ''}
+        ${e.transcribed ? '<span class="tag said">transcribed here</span>' : ''}
+        <span class="hit-meta">${x.hits} mention${x.hits === 1 ? '' : 's'} · ${when(e)}</span>
+      </div>
+      <div class="quote">${mark(x.snippet, TERMS)}</div>
+      <div class="hit-foot">
+        <a href="#" onclick="read('${esc(x.slug)}','${esc((e.name||'').replace(/'/g,''))}','${esc(e.source||e.link||'')}');return false">Read the transcript</a>
+        ${e.source ? `<a href="${esc(e.source)}" target="_blank" rel="noopener">Open the post ↗</a>` : ''}
+      </div>
+    </div>`
+  }).join('')
+}
+
+async function read(slug, name, link) {
+  $('readerTitle').textContent = name || slug
+  $('readerBody').innerHTML = 'loading…'
+  $('readerLink').href = link || '#'
+  $('readerLink').style.display = link ? '' : 'none'
+  $('reader').classList.add('on')
+  // The endpoint serves the transcript as plain text, header block and all.
+  const raw = await fetch('/api/transcripts/' + encodeURIComponent(slug))
+    .then(r => r.ok ? r.text() : '').catch(() => '')
+  const body = raw.split('\n\n').slice(1).join('\n\n').trim() || 'Transcript could not be loaded.'
+  $('readerBody').innerHTML = mark(body, TERMS)
+  // Put the first match on screen rather than making you hunt for it.
+  const hit = $('readerBody').querySelector('mark')
+  if (hit) hit.scrollIntoView({ block: 'center' })
+}
+
+function closeReader() { $('reader').classList.remove('on') }
+$('reader').addEventListener('click', e => { if (e.target === $('reader')) closeReader() })
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeReader() })
+
+boot()
+</script>
+</body>
+</html>

@@ -107,6 +107,136 @@ function apiTools() {
   })
 }
 
+/**
+ * Search what was actually SAID across the whole archive.
+ *
+ * This is the thing the archive exists for. Titles and post captions are
+ * marketing; the transcript is the content. Searching a phrase here finds the
+ * post where someone said it, and returns the sentence around it as proof.
+ *
+ * The index is built in memory and cached against the newest transcript file,
+ * so it rebuilds only when something has actually been archived. 200-odd short
+ * transcripts is well under a megabyte - a database would be more machinery
+ * than the problem needs.
+ */
+let INDEX = null
+let INDEX_STAMP = ''
+
+/**
+ * Collapse rollup-caption repetition at read time.
+ *
+ * Transcripts written before the parser was fixed contain every phrase two or
+ * three times, because YouTube's auto-captions repeat the previous line with one
+ * more word appended. Cleaning here means the archive reads correctly now,
+ * without rewriting files while a backfill is running against them.
+ */
+function deRollup(text) {
+  // Strip the VTT preamble. It survives inside the body rather than on its own
+  // line, because the original parser joined every line together first.
+  // Captions arrive HTML-escaped. Left as-is they get escaped a second time on
+  // the way to the page and render as literal "&gt;&gt;" in the middle of a
+  // sentence. ">>" is a caption speaker-change marker, not speech, so it goes.
+  const cleaned = text
+    .replace(/^\s*(Kind:\s*\S+\s*)?(Language:\s*\S+\s*)?/i, '')
+    .replace(/&(amp|lt|gt|quot|#39|apos|nbsp);/g, m => ({
+      '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"',
+      '&#39;': "'", '&apos;': "'", '&nbsp;': ' ',
+    }[m] || m))
+    .replace(/>>+/g, ' ')
+    .replace(/\s+/g, ' ')
+
+  const w = cleaned.split(/\s+/).filter(Boolean)
+  const out = []
+  let i = 0
+  while (i < w.length) {
+    // Does the run about to be read repeat the run just written? Longest match
+    // first, so "you couldn't easily diagnose" collapses as a unit rather than
+    // word by word.
+    let skip = 0
+    for (let len = Math.min(20, out.length, w.length - i); len >= 3; len--) {
+      let same = true
+      for (let k = 0; k < len; k++) {
+        if (out[out.length - len + k] !== w[i + k]) { same = false; break }
+      }
+      if (same) { skip = len; break }
+    }
+    if (skip) { i += skip; continue }
+    out.push(w[i]); i++
+  }
+  return out.join(' ')
+}
+
+
+function buildIndex() {
+  const dir = join(__dir, 'data/transcripts')
+  const files = existsSync(dir) ? readdirSync(dir).filter(f => f.endsWith('.txt')) : []
+  const stamp = files
+    .map(f => `${f}:${statSync(join(dir, f)).mtimeMs}`)
+    .sort()
+    .join('|')
+  if (INDEX && stamp === INDEX_STAMP) return INDEX
+
+  const tools = apiTools()
+  INDEX = files.map(f => {
+    const raw = readFileSync(join(dir, f), 'utf8')
+    // Everything after the header block is the transcript itself.
+    const body = deRollup(
+      raw.split('\n\n').slice(1).join(' ').replace(/\s+/g, ' ').trim())
+    const slug = f.replace('.txt', '')
+    const entry = tools.find(t => t.transcriptSlug === slug)
+    return {
+      slug,
+      body,
+      lower: body.toLowerCase(),
+      entry: entry || null,
+    }
+  })
+  INDEX_STAMP = stamp
+  return INDEX
+}
+
+function searchTranscripts(q, { category = '', platform = '', limit = 60 } = {}) {
+  const query = String(q || '').trim().toLowerCase()
+  if (!query) return []
+
+  // Quoted text means that exact phrase. Otherwise every word must appear
+  // somewhere in the transcript - an AND, because an OR across six common words
+  // returns the whole archive and is no use to anybody.
+  const phrase = /^".+"$/.test(query)
+  const terms = phrase ? [query.slice(1, -1)] : query.split(/\s+/).filter(Boolean)
+
+  const out = []
+  for (const doc of buildIndex()) {
+    if (!terms.every(term => doc.lower.includes(term))) continue
+    const e = doc.entry
+    if (category && e?.category !== category) continue
+    if (platform && e?.platform !== platform) continue
+
+    // Show the sentence the first match sits in, so the result carries its own
+    // evidence rather than asking you to open it to find out why it matched.
+    const at = doc.lower.indexOf(terms[0])
+    const from = Math.max(0, doc.body.lastIndexOf('.', at - 1) + 1)
+    let to = doc.body.indexOf('.', at + terms[0].length)
+    if (to < 0 || to - from > 400) to = Math.min(doc.body.length, at + 260)
+    const snippet = doc.body.slice(from, to + 1).trim()
+
+    out.push({
+      slug: doc.slug,
+      snippet,
+      hits: terms.reduce((n, term) => n + doc.lower.split(term).length - 1, 0),
+      entry: e && {
+        id: e.id, name: e.name, category: e.category, content_type: e.content_type,
+        platform: e.platform, source: e.source, link: e.link,
+        ingested_at: e.ingested_at, added: e.added, transcribed: e.transcribed,
+      },
+    })
+  }
+
+  // Most mentions first: a post that says the word once is usually an aside,
+  // one that says it nine times is about it.
+  return out.sort((a, b) => b.hits - a.hits).slice(0, limit)
+}
+
 function apiTranscripts() {
   const dir = join(__dir, 'data/transcripts')
   if (!existsSync(dir)) return []
@@ -130,7 +260,12 @@ function apiTranscripts() {
 function apiTranscript(slug) {
   const file = join(__dir, 'data/transcripts', slug + '.txt')
   if (!existsSync(file)) return null
-  return readFileSync(file, 'utf8')
+  const raw = readFileSync(file, 'utf8')
+  // Same cleaning the search index applies, so what you read matches what you
+  // searched. Files written before the caption parser was fixed repeat every
+  // phrase two or three times.
+  const [head, ...rest] = raw.split('\n\n')
+  return `${head}\n\n${deRollup(rest.join(' ').replace(/\s+/g, ' ').trim())}\n`
 }
 
 function apiScreenshots() {
@@ -176,13 +311,47 @@ const server = createServer(async (req, res) => {
 
   try {
     if (path === '/' || path === '/index.html') {
+      // One server, two front doors. research.jambles.com opens on the search,
+      // because the question there is "what did anyone say about X". ait keeps
+      // the browsable tool grid it has always had, and its links keep working.
+      //
+      // The proxy forwards the original Host, so this reads the real hostname
+      // rather than localhost.
+      const host = String(req.headers['x-forwarded-host'] || req.headers.host || '')
+      const page = host.startsWith('research.') ? 'research.html' : 'app.html'
       res.writeHead(200, { 'Content-Type': 'text/html', 'Cache-Control': 'no-cache, no-store, must-revalidate' })
+      res.end(readFileSync(join(__dir, page), 'utf8'))
+      return
+    }
+
+    // Either page is reachable by name from either host, so the search can be
+    // linked to directly and the grid is never stranded.
+    if (path === '/research' || path === '/search') {
+      res.writeHead(200, { 'Content-Type': 'text/html', 'Cache-Control': 'no-cache' })
+      res.end(readFileSync(join(__dir, 'research.html'), 'utf8'))
+      return
+    }
+    if (path === '/tools' || path === '/archive') {
+      res.writeHead(200, { 'Content-Type': 'text/html', 'Cache-Control': 'no-cache' })
       res.end(readFileSync(join(__dir, 'app.html'), 'utf8'))
       return
     }
 
     if (path === '/api/tools')       { json(apiTools());       return }
     if (path === '/api/transcripts') { json(apiTranscripts()); return }
+
+    if (path === '/api/search') {
+      const p = new URL(req.url, 'http://localhost').searchParams
+      json({
+        query: p.get('q') || '',
+        results: searchTranscripts(p.get('q'), {
+          category: p.get('category') || '',
+          platform: p.get('platform') || '',
+          limit: Math.min(Number(p.get('limit')) || 60, 200),
+        }),
+      })
+      return
+    }
     if (path === '/api/screenshots') { json(apiScreenshots()); return }
     if (path === '/api/stats')       { json(apiStats());       return }
 
