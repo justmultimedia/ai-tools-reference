@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DYU6TXpDxtt/?igsh=MWEyN2ZnMDJ0NjB5ZQ==
+Title: Video by nateherkai
+Channel: nateherkai
+Transcript: transcribed locally with Whisper
+
+If your Claude code designs look average, it's not Claude. It's your setup. Here are three skills that actually fix that. First, Emil Kowalski design. This adds proper motion and easing, so your UI doesn't feel static anymore. It actually feels alive. Second, impeccable design. Instead of guessing layout, spacing, typography, you just run one command and it cleans everything up. Third, taste kill. This is the big one. It pulls real design references, so Claude stops making generic sites and starts making things that actually look good. Same tool, but completely different output.

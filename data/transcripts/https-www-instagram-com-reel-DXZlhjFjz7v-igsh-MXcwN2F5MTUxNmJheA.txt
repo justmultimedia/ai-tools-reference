@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DXZlhjFjz7v/?igsh=MXcwN2F5MTUxNmJheA==
+Title: Video by ashharrisprod
+Channel: ashharrisprod
+Transcript: transcribed locally with Whisper
+
+One guy just killed Higgsfield. Not because he built something free, but because he built the same thing, open sourced it, and everybody's talking about it. His name is Anil Marcha, and he calls it open generative AI. It already has over 5,000 stars in its first week. You've got four studios and one free app. Image, video, lip sync, and this, Cinema Studio, a straight mirror of Higgsfield's camera modeling capabilities. There's 200 AI models, everything you would expect to see, Seedance, Kling, Veo, they're all in here. But there's no monthly subscription. You plug in your own API key and only have to pay for what you generate, so there's no credit limit and no recurring bills. I've been paying Higgsfield every month. This guy just made it optional. Comment open, and I'll send you the link.

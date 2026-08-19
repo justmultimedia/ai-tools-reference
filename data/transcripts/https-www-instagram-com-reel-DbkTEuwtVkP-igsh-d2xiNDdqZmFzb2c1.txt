@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DbkTEuwtVkP/?igsh=d2xiNDdqZmFzb2c1
+Title: Video by cooper.simson
+Channel: cooper.simson
+Transcript: transcribed locally with Whisper
+
+Never prompt AI, have it interview you. Always start with a goal, not instructions. Don't type your prompts, use voice AI to talk to your agents. For large projects, give instructions one task at a time. Don't just describe errors, screenshot them instead. Never copy and paste responses into other tabs. Connect tools so your agent can do it for you. Cut long sessions at 75% context to save on tokens and increase quality. Use expensive models to plan and cheap models to execute. For big projects, always start in plan mode first. Ignore other tools and just learn cloud code or codex. Everything else is a distraction. If you do a task two times, turn it into a skill. But less is more. Don't just download every skill. Audit your entire system and files every new model release. Don't accept finished work. Have a second agent audit it and find the blind spots. If you correct a mistake two times, tell your agent to update its own skills plus rules. Give every project a memory file so sessions start pre-briefed. Make sure every project has its own Git repo and version control. Use scheduled tasks to automate repeat tasks. And AI won't replace you with somebody who knows all of this will.

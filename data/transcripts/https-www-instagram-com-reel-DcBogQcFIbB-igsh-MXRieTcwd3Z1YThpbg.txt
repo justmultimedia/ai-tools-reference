@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DcBogQcFIbB/?igsh=MXRieTcwd3Z1YThpbg==
+Title: Video by imjonathanacuna
+Channel: imjonathanacuna
+Transcript: transcribed locally with Whisper
+
+Illegal Clod Secrets You Shouldn't Know Part 40. How to build a website using Clod and get it hosted for as little as a dollar a month. Yeah, you're definitely going to want to bookmark this one. Step number one, you're going to download Clod code. You cannot do this with Clod Cowork. Step two, you're going to download Cmux, which is a free tool that allows you to build with Clod. Then copy this illegal prompt. This will scrape any website, their entire website and images, and download it to your computer so that you can remix it. Then you're going to use Genspark Design to make your website, well, not look vibe-coded. Genspark will make your website look nice and professional. Then you're going to sign up for Hostinger, where you can host three websites, separate domains, for $3 a month. Then you use ChatGPT to create all the images. My whole website was built using this process, and you don't need to be techie to do this. I have a 300-page document that goes through the entire process. Comment the word Clod. Comment the word Clod to get the cheat sheet.

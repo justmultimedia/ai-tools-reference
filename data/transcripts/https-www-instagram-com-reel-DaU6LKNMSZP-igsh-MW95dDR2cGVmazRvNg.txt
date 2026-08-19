@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DaU6LKNMSZP/?igsh=MW95dDR2cGVmazRvNg==
+Title: Video by ultra.skills
+Channel: ultra.skills
+Transcript: transcribed locally with Whisper
+
+Cloud Code is hiding four commands almost nobody uses. First, slash ultra plan. It sends a swarm of AI helpers to draft your whole plan in the cloud. Smart move, rebuild that same plan on your own machine so you don't spend extra credits. Then, slash goal. You give it the finish line. And code keeps working toward it on its own, turn after turn. It can run for days until the job is actually done. A slash agent pushes that running job into the background, so you can start a second one right beside it. Now two things are getting built at once. When it's finished, slash ultra review sends another swarm to check all the work it just produced. Run that one on your own machine too, and you keep your credits. Chain all four and you set a goal, walk away and come back to finish checked work. 80% of Anthropic's own new code is already written this way. Um, comment loop and I'll send you the local command set.

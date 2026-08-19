@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/Dap7UCLpSy1/?igsh=enlqcmU0b3h5YjMw
+Title: Video by 100xengineers
+Channel: 100xengineers
+Transcript: transcribed locally with Whisper
+
+Anthropic is shifting Fable 5 to pay-per-use starting July 12th, meaning even on max subscription, you'll have to pay $50 for every million tokens you use. But there's a secret workaround which lets you keep Fable 5's thinking without even paying for it. So first you open a fresh chat and switch to Fable 5. Then ask it to write a complete instruction guide for itself and all you need is one prompt to do this. Now Fable writes down its entire thinking process as a step-by-step document and saves it as a clean markdown file. And you can use this thinking structure with any low-cost model which would give you better outputs. So you create a new cloud project, paste that entire document into the project instructions and set the model to Opus 4.8 or whichever you feel works best for your task. So now every chat inside this project runs on Fable's standards, on a model you're not paying extra for. And if you're too lazy to do this yourself, just comment brain and I'll send you the exact prompt and the project setup guide for this.

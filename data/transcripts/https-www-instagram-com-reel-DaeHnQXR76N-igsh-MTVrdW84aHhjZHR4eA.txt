@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DaeHnQXR76N/?igsh=MTVrdW84aHhjZHR4eA==
+Title: Video by kayvon.ai
+Channel: kayvon.ai
+Transcript: transcribed locally with Whisper
+
+Anthropic CEO is so pissed right now. And why wouldn't he be? Because every Cloud Code developer is canceling their $100 max plan. All because one developer dropped a free tool that killed the token problem forever. It's called Graphify. Here's the problem. Every new Cloud Code session, Cloud rereads your entire code base. Every single file and every function. That's thousands of tokens burned before you even ask a question. Graphify solves that. It runs one time. Scans your whole code base and builds a complete knowledge graph of everything inside it. Every connection, every relationship, and every architectural decision. Then, next session, Cloud just navigates the graph instead of rereading files. We're talking 70% less token consumption. Your $20 plan basically turns into a $100 plan for free. Follow me in the comment repo and I'll send you the direct GitHub link.

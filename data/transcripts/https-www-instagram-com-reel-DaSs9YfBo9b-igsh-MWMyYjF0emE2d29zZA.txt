@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DaSs9YfBo9b/?igsh=MWMyYjF0emE2d29zZA==
+Title: Video by charliehills
+Channel: charliehills
+Transcript: transcribed locally with Whisper
+
+So you have six days. Six days to use Fable 5 before it becomes paid through API credits. So here are the top five use cases that you should be doing in the next six days. So number one is to build an awesome website with Fable 5 because Fable 5 crushes it at front end design. I even built my own one. So if you want to check that out, just click the link above and I'll show you exactly how. So number two is to build an internal tool. Instead of using a tool like Slack, Notion, whatever it might be, you can build that using Fable 5 and then you can run it for you or your business. So number three is to get Fable to review everything that you've done within Claude since the initial Fable ban. Number four is to give Fable your goals, ambitions and interests and then ask it how you can build your first business to make money online. Number five, and this one's spicy because you can then ask Fable how to build a local LLM so that you're no longer relying on closed source models. And this is how you can protect yourself in the future of AI.
