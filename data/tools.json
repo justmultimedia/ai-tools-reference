@@ -5925,5 +5925,31 @@
     "notes": "This is a curated video roundup, not a single tool. Specific model names and release dates are not detailed in the description. Models mentioned include offerings from Meta, xAI, Zhipu, and Alibaba.",
     "added": "2026-08",
     "source": "https://www.instagram.com/reel/DcJ3PUDyIvS/?igsi=ZjR2MGg1NWo4cDV3"
+  },
+  {
+    "id": "vittorioangelone-edinburgh-fringe-uk-ireland-tour",
+    "name": "Vittorio Angelone – Edinburgh Fringe & UK/Ireland Tour",
+    "content_type": "event",
+    "category": "other",
+    "description": "Comedian Vittorio Angelone is promoting an Edinburgh Fringe appearance and an extended UK & Ireland tour. Tickets are currently on sale, with all dates linked in his bio. He also recommends books, suggesting a literary or intellectual theme to his comedy.",
+    "tags": [
+      "comedy",
+      "live-tour",
+      "edinburgh-fringe",
+      "uk-tour",
+      "stand-up",
+      "ireland"
+    ],
+    "link": "https://www.instagram.com/reel/DcBMta0Nibh/?igsi=anNwYzY5MDc4djVk",
+    "platform": "instagram",
+    "install": null,
+    "works_with": [],
+    "use_cases": [
+      "Finding tickets for Vittorio Angelone's Edinburgh Fringe shows",
+      "Booking seats for UK and Ireland tour dates"
+    ],
+    "notes": "Tickets on sale now; all dates available via link in bio. Edinburgh Fringe dates and UK/Ireland tour extension included.",
+    "added": "2026-08",
+    "source": "https://www.instagram.com/reel/DcBMta0Nibh/?igsi=anNwYzY5MDc4djVk"
   }
 ]
