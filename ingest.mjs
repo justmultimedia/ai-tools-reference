@@ -55,6 +55,9 @@ function enforceCategory(entry, categories) {
   }
   return entry
 }
+import { transcribeAudio, whisperAvailable } from './transcribe.mjs'
+import { extractLocally, localModelAvailable } from './extract-local.mjs'
+
 const TL_BASE = 'https://api.twelvelabs.io/v1.3'
 const TL_INDEX_NAME = 'ai-tools-shorts'
 
@@ -70,10 +73,10 @@ async function main() {
     process.exit(1)
   }
 
+  // No longer fatal. The local model on the mini does the cataloguing; the API
+  // is only a fallback, so a missing key must not stop an ingest.
   if (!process.env.ANTHROPIC_API_KEY) {
-    console.error('Error: ANTHROPIC_API_KEY is not set.')
-    console.error('Get one at console.anthropic.com and run: export ANTHROPIC_API_KEY=sk-...')
-    process.exit(1)
+    console.log('Note: ANTHROPIC_API_KEY not set - local model only, no API fallback.')
   }
 
   const tmpDir = mkdtempSync(join(tmpdir(), 'yt-ingest-'))
@@ -89,9 +92,34 @@ async function main() {
     console.log(`  Channel:  ${channel}`)
     console.log(`  Captions: ${captions ? `${captions.length} chars` : 'none'}`)
 
-    // Step 2: TwelveLabs video analysis (unless --fast)
+    // Step 2: transcribe what was actually said.
+    //
+    // This is the step the archive spent months without. Instagram and Facebook
+    // carry no caption track, so without it a post is catalogued from its title
+    // and post text alone - which is how entries ended up saying the subject
+    // matter could not be determined.
+    let transcript = '', transcriptNote = ''
+    if (captions) {
+      transcript = captions
+      console.log('\n[2/5] Using the caption track already published with the video.')
+    } else if (whisperAvailable()) {
+      console.log('\n[2/5] No captions. Transcribing the audio locally...')
+      const r = transcribeAudio(url, tmpDir)
+      transcript = r.text
+      transcriptNote = r.note
+      console.log(r.speech
+        ? `  Transcribed ${r.text.length} chars of speech (${r.seconds}s of audio)`
+        : `  ${r.note}`)
+    } else {
+      transcriptNote = 'whisper is not available on this machine'
+      console.log('\n[2/5] No captions, and Whisper is not installed here.')
+    }
+
+    // Step 3: only when nothing was said does it become worth paying to LOOK at
+    // the video. A post with a transcript needs no visual analysis.
     let videoAnalysis = ''
-    if (!fast) {
+    const noSpeech = !transcript
+    if (!fast && noSpeech) {
       if (!process.env.TWELVELABS_API_KEY) {
         console.log('\n[2/4] Skipping TwelveLabs (TWELVELABS_API_KEY not set)')
       } else {
@@ -99,25 +127,54 @@ async function main() {
         videoAnalysis = await analyzeWithTwelveLabs(url, tmpDir)
         console.log(`  Analysis: ${videoAnalysis.slice(0, 80)}...`)
       }
+    } else if (!noSpeech) {
+      console.log('\n[3/5] Speech was transcribed, so no video analysis is needed.')
     } else {
-      console.log('\n[2/4] Skipped (--fast mode)')
+      console.log('\n[3/5] Skipped (--fast mode)')
     }
 
-    // Step 3: Claude API extraction
-    console.log('\n[3/4] Extracting entry with Claude...')
-    const entry = await extractEntry({ title, description, channel, captions, videoAnalysis, url, platform })
+    // Step 4: catalogue it. The local model first - free, private, and with a
+    // real transcript to work from it does this well. The API is the fallback.
+    console.log('\n[4/5] Cataloguing...')
+    let entry = null
+    if (await localModelAvailable()) {
+      entry = await extractLocally({ title, description, channel, captions, transcript,
+                                     videoAnalysis, url, platform, dir: __dir })
+      if (entry) console.log('  Catalogued by the local model (no API cost).')
+      else console.log('  Local model could not produce a usable entry.')
+    }
+    if (!entry) {
+      if (!process.env.ANTHROPIC_API_KEY) {
+        throw new Error('Local model unavailable and no ANTHROPIC_API_KEY to fall back on.')
+      }
+      console.log('  Falling back to the Claude API.')
+      entry = await extractEntry({ title, description, channel,
+                                   captions: transcript || captions,
+                                   videoAnalysis, url, platform })
+    }
+
+    // What we know about how this entry was arrived at, kept with the entry. A
+    // description built from a transcript and one guessed from a post caption
+    // are not the same thing and must never look alike.
+    entry.platform = platform
+    entry.source = url
+    entry.transcribed = Boolean(transcript) && !captions
+    if (transcriptNote) entry.transcript_note = transcriptNote
     console.log('\nExtracted entry:')
     console.log(JSON.stringify(entry, null, 2))
 
-    // Save transcript alongside the tool entry
-    if (captions) {
+    // Save transcript alongside the entry
+    if (transcript) {
       if (!existsSync(TRANSCRIPTS_DIR)) mkdirSync(TRANSCRIPTS_DIR, { recursive: true })
       const slug = url.replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '').slice(0, 80)
-      writeFileSync(join(TRANSCRIPTS_DIR, `${slug}.txt`), `Source: ${url}\nTitle: ${title}\nChannel: ${channel}\n\n${captions}\n`)
+      writeFileSync(join(TRANSCRIPTS_DIR, `${slug}.txt`),
+        `Source: ${url}\nTitle: ${title}\nChannel: ${channel}\n` +
+        `Transcript: ${captions ? 'published captions' : 'transcribed locally with Whisper'}\n\n${transcript}\n`)
+      entry.transcriptSlug = slug
     }
 
     // Step 4: confirm and save
-    const action = auto ? 'y' : await ask('\n[4/4] Save to tools.json? [y]es / [e]dit / [n]o: ')
+    const action = auto ? 'y' : await ask('\n[5/5] Save to tools.json? [y]es / [e]dit / [n]o: ')
 
     if (action === 'e') {
       const draft = join(tmpDir, 'entry.json')
