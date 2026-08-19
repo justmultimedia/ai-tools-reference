@@ -19,19 +19,24 @@ LIMIT="${1:-9999}"
 LOG="data/maintenance/backfill-$(date +%Y%m%d-%H%M%S).log"
 mkdir -p data/maintenance
 
-mapfile -t URLS < <(python3 -c "
+# A plain file, not a bash array: macOS ships bash 3.2, which has no mapfile.
+# The first run of this script died on exactly that and transcribed nothing.
+QUEUE=$(mktemp)
+trap 'rm -f "$QUEUE"' EXIT
+python3 -c "
 import json
 for e in json.load(open('data/tools.json')):
     if e.get('transcribed') or e.get('transcriptSlug'): continue
     s = e.get('source') or ''
     if s.startswith('http'): print(s)
-")
+" > "$QUEUE"
 
-TOTAL=${#URLS[@]}
+TOTAL=$(grep -c . "$QUEUE" || echo 0)
 echo "$TOTAL entries have no transcript. Doing up to $LIMIT." | tee -a "$LOG"
 
 DONE=0 OK=0 FAIL=0
-for URL in "${URLS[@]}"; do
+while IFS= read -r URL; do
+  [ -z "$URL" ] && continue
   [ "$DONE" -ge "$LIMIT" ] && break
   DONE=$((DONE + 1))
   echo "[$DONE/$TOTAL] $URL" | tee -a "$LOG"
@@ -44,7 +49,7 @@ for URL in "${URLS[@]}"; do
   # The mini is also serving five sites and running Verbatim. Transcription is
   # the heaviest thing on it, so leave the machine some room between posts.
   sleep 3
-done
+done < "$QUEUE"
 
 echo "Done: $OK updated, $FAIL failed, $((TOTAL - DONE)) still to do." | tee -a "$LOG"
 
