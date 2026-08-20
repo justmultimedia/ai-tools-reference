@@ -8431,5 +8431,35 @@
     "transcribed": true,
     "transcriptSlug": "https-www-instagram-com-reel-DcNkAaQtZwv-igsi-a25leG03dWpsanQy",
     "ingested_at": "2026-08-20T08:36:46.262Z"
+  },
+  {
+    "name": "Passive Solar and Water Efficiency in Earthship Design",
+    "category": "science-and-space",
+    "content_type": "tutorial",
+    "description": "The post shares five key lessons learned from the Earthship Academy about passive solar design and water efficiency in eco-village construction, focusing on the principles of passive solar heating, multi-use water systems, and natural cooling methods.",
+    "tags": [
+      "earthship",
+      "passive solar",
+      "water efficiency",
+      "eco-village",
+      "sustainability"
+    ],
+    "topics": [
+      "sustainability",
+      "eco-design"
+    ],
+    "key_points": [
+      "Passive solar heating through south-facing glass walls",
+      "Multi-use water systems",
+      "Indoor gardens for year-round food production",
+      "Use of underground earth for temperature regulation",
+      "Natural air conditioning through Earthship design"
+    ],
+    "id": "passive-solar-and-water-efficiency-in-earthship-design",
+    "platform": "instagram",
+    "source": "https://www.instagram.com/reel/DcNCQgCMsAr/?igsi=eGJzcjM3dHpuYW11",
+    "transcribed": true,
+    "transcriptSlug": "https-www-instagram-com-reel-DcNCQgCMsAr-igsi-eGJzcjM3dHpuYW11",
+    "ingested_at": "2026-08-20T16:19:20.446Z"
   }
 ]
