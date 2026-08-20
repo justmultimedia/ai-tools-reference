@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/Dajsl8WxKlQ/?igsi=MTdxMGU5bWE2ZjN0cQ==
+Title: Video by jens.heitmann
+Channel: jens.heitmann
+Transcript: transcribed locally with Whisper
+
+With the release of Fable 5 and soon to be Codex 5.6, you can literally give your cloud code RocketFuel by having them work together looking just like this. Using the principles from Gina Wickman's book called RocketFuel, I am turning Fable and Codex 5.6 into co-founders to help me tackle my next projects. So here's how you can do so as well. First, you'll want to navigate to YouTube and find a course summary of RocketFuel. Or if you have the PDF version of the book, you can use that as well. As your data. Next, you're going to want to go to this GitHub repo right here to acquire the Codex skill for your cloud code so it can properly use Codex. Finally, with everything collected, you're going to want to put everything together in this prompt right here, modified to your use case. Congratulations, you now have a skill that takes advantage of both models for your projects. Now, I do recommend building this for yourself as everybody is different. But if you want mine as an example, I created a guide and a GitHub repo. And if you want that for yourself, just comment Rocket. And I'll send you a link to that. And I'll send it to you directly.

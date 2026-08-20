@@ -8461,5 +8461,34 @@
     "transcribed": true,
     "transcriptSlug": "https-www-instagram-com-reel-DcNCQgCMsAr-igsi-eGJzcjM3dHpuYW11",
     "ingested_at": "2026-08-20T16:19:20.446Z"
+  },
+  {
+    "name": "Building Co-Founders for Your Projects with Fable 5 and Codex 5.6",
+    "category": "ai-productivity",
+    "content_type": "tutorial",
+    "description": "A tutorial on how to integrate Fable 5 and Codex 5.6 with Claude Code to create a co-founding team for project management, using principles from Gina Wickman's book RocketFuel.",
+    "tags": [
+      "fable 5",
+      "codex 5.6",
+      "claude code",
+      "rocketfuel",
+      "co-founders"
+    ],
+    "topics": [
+      "AI productivity",
+      "project management"
+    ],
+    "key_points": [
+      "Integrating Fable 5 and Codex 5.6 with Claude Code",
+      "Using RocketFuel principles for co-founder collaboration",
+      "Creating a co-founding team for project management",
+      "Automated project kickoffs and codebase audits"
+    ],
+    "id": "building-co-founders-for-your-projects-with-fable-5-and-code",
+    "platform": "instagram",
+    "source": "https://www.instagram.com/reel/Dajsl8WxKlQ/?igsi=MTdxMGU5bWE2ZjN0cQ==",
+    "transcribed": true,
+    "transcriptSlug": "https-www-instagram-com-reel-Dajsl8WxKlQ-igsi-MTdxMGU5bWE2ZjN0cQ",
+    "ingested_at": "2026-08-20T16:21:19.012Z"
   }
 ]
