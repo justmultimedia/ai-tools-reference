@@ -8519,5 +8519,33 @@
     "transcribed": true,
     "transcriptSlug": "https-www-instagram-com-reel-DcDHiJXoyd-igsi-dzd0ajBvNzR4bDk5",
     "ingested_at": "2026-08-20T16:24:42.317Z"
+  },
+  {
+    "name": "Free AI Video Model vs. Seedance 2.0",
+    "category": "ai-models-and-apis",
+    "content_type": "tutorial",
+    "description": "The post compares the quality of videos generated using the free Minimax H3 model running locally on a Dell T2 tower with those from the paid Seedance 2.0 service, using prompts and references from Higgsfield's open-source project.",
+    "tags": [
+      "minimax h3",
+      "local ai",
+      "free ai",
+      "video generation",
+      "higgsfield"
+    ],
+    "topics": [
+      "AI video generation",
+      "local AI models"
+    ],
+    "key_points": [
+      "Minimax H3 generates video content locally without internet connection",
+      "Quality comparison between free Minimax H3 and paid Seedance 2.0",
+      "Use of open-source prompts and references from Higgsfield"
+    ],
+    "id": "free-ai-video-model-vs-seedance-2-0",
+    "platform": "instagram",
+    "source": "https://www.instagram.com/reel/DcNcLjPOLRs/?igsi=cmxvdWpndjNnZms3",
+    "transcribed": true,
+    "transcriptSlug": "https-www-instagram-com-reel-DcNcLjPOLRs-igsi-cmxvdWpndjNnZms3",
+    "ingested_at": "2026-08-20T16:26:16.523Z"
   }
 ]
