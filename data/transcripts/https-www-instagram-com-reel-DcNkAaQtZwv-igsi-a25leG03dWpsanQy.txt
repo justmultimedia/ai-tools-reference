@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DcNkAaQtZwv/?igsi=a25leG03dWpsanQy
+Title: Video by cooper.simson
+Channel: cooper.simson
+Transcript: transcribed locally with Whisper
+
+Prompting, context windows, tokens, projects, API keys, CLI, MCP servers, cloud MD files, slash commands, model routing, sub-agents, prompt caching, get work trees, skills, hooks, harness engineering, background agents, headless runs, parallel agents, progressive disclosure, eval-driven loops, orchestrator workers, ultra-think, memory consolidation, self-improving loops, tool poisoning, self-healing agent tests, agent-run CICD, agents managing agents, and multi-repro orchestration. So comment below how many of these you actually knew and send this to a friend to see if you know more than them. And if you comment sonar, I'll send you the full guide going over all 30 of these terms, plus the exact status and use cases for each one, and follow to make sure you keep up with everything AI.

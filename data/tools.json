@@ -8402,5 +8402,34 @@
     ],
     "transcribed": true,
     "transcriptSlug": "https-www-instagram-com-reel-DaR5CRxAvD6-igsi-cmQ3emp6eW12OW9u"
+  },
+  {
+    "name": "AI Terminology Guide",
+    "category": "ai-coding",
+    "content_type": "resource",
+    "description": "A comprehensive guide to various AI-related terms and concepts, including context windows, tokens, API keys, and more, aimed at helping developers and enthusiasts understand the terminology used in AI development.",
+    "tags": [
+      "ai",
+      "terminology",
+      "coding",
+      "development",
+      "mcp",
+      "agents"
+    ],
+    "topics": [
+      "AI development",
+      "coding"
+    ],
+    "key_points": [
+      "30 AI-related terms and concepts",
+      "Context windows, tokens, API keys",
+      "MCP servers, CLI, and sub-agents"
+    ],
+    "id": "ai-terminology-guide",
+    "platform": "instagram",
+    "source": "https://www.instagram.com/reel/DcNkAaQtZwv/?igsi=a25leG03dWpsanQy",
+    "transcribed": true,
+    "transcriptSlug": "https-www-instagram-com-reel-DcNkAaQtZwv-igsi-a25leG03dWpsanQy",
+    "ingested_at": "2026-08-20T08:36:46.262Z"
   }
 ]
