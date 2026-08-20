@@ -8490,5 +8490,34 @@
     "transcribed": true,
     "transcriptSlug": "https-www-instagram-com-reel-Dajsl8WxKlQ-igsi-MTdxMGU5bWE2ZjN0cQ",
     "ingested_at": "2026-08-20T16:21:19.012Z"
+  },
+  {
+    "name": "How to Use AI to Delete Your Digital Footprint",
+    "category": "personal-finance",
+    "content_type": "tutorial",
+    "description": "A tutorial on using AI assistants like Cloud or ChatGPT to delete personal data from the internet, including steps and prompts.",
+    "tags": [
+      "AI",
+      "data deletion",
+      "digital footprint",
+      "data brokers",
+      "privacy"
+    ],
+    "topics": [
+      "privacy",
+      "data management"
+    ],
+    "key_points": [
+      "AI can help delete personal data from the internet",
+      "Detailed prompts are needed for effective data removal",
+      "Sources and inferred data are ranked and removed",
+      "Regular maintenance is recommended for ongoing privacy"
+    ],
+    "id": "how-to-use-ai-to-delete-your-digital-footprint",
+    "platform": "instagram",
+    "source": "https://www.instagram.com/reel/DcDHiJXoyd_/?igsi=dzd0ajBvNzR4bDk5",
+    "transcribed": true,
+    "transcriptSlug": "https-www-instagram-com-reel-DcDHiJXoyd-igsi-dzd0ajBvNzR4bDk5",
+    "ingested_at": "2026-08-20T16:24:42.317Z"
   }
 ]
