@@ -99,21 +99,18 @@ async function main() {
     // and post text alone - which is how entries ended up saying the subject
     // matter could not be determined.
     let transcript = '', transcriptNote = ''
-    // Which source to trust, in order.
+    // The audio is the truth. Always transcribe it when it can be fetched.
     //
-    // Human-written subtitles win: a person typed them. But YouTube's
-    // auto-captions are ASR - another machine's guess at the same audio - and
-    // Whisper large-v3 is simply better at it. Preferring any caption track
-    // over Whisper meant taking the weaker transcript whenever YouTube happened
-    // to offer one, which is the exact mistake Verbatim exists to catch.
+    // Auto-captions are ASR - another machine's guess at the same audio - and
+    // Whisper large-v3 is better at it. Published human subtitles are not a
+    // safe substitute either: broadcast and platform subtitles are routinely
+    // CONDENSED for reading speed, so they are not verbatim. For an archive
+    // searched by what was actually said, neither is good enough when the real
+    // audio is available.
     //
-    // Auto-captions are still kept as a fallback for when the audio cannot be
-    // fetched at all - YouTube now refuses some downloads outright.
-    const humanSubs = captions && /human/.test(captionKind)
-    if (humanSubs) {
-      transcript = captions
-      console.log(`\n[2/5] Using the ${captionKind} that came with the video.`)
-    } else if (whisperAvailable()) {
+    // Captions are kept only for when the audio cannot be fetched at all -
+    // YouTube now refuses some downloads outright - and are labelled as such.
+    if (whisperAvailable()) {
       console.log(captions
         ? '\n[2/5] Auto-captions only. Transcribing the audio instead - Whisper is better than YouTube ASR.'
         : '\n[2/5] No captions. Transcribing the audio locally...')
