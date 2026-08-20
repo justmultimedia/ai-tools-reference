@@ -99,17 +99,38 @@ async function main() {
     // and post text alone - which is how entries ended up saying the subject
     // matter could not be determined.
     let transcript = '', transcriptNote = ''
-    if (captions) {
+    // Which source to trust, in order.
+    //
+    // Human-written subtitles win: a person typed them. But YouTube's
+    // auto-captions are ASR - another machine's guess at the same audio - and
+    // Whisper large-v3 is simply better at it. Preferring any caption track
+    // over Whisper meant taking the weaker transcript whenever YouTube happened
+    // to offer one, which is the exact mistake Verbatim exists to catch.
+    //
+    // Auto-captions are still kept as a fallback for when the audio cannot be
+    // fetched at all - YouTube now refuses some downloads outright.
+    const humanSubs = captions && /human/.test(captionKind)
+    if (humanSubs) {
       transcript = captions
       console.log(`\n[2/5] Using the ${captionKind} that came with the video.`)
     } else if (whisperAvailable()) {
-      console.log('\n[2/5] No captions. Transcribing the audio locally...')
+      console.log(captions
+        ? '\n[2/5] Auto-captions only. Transcribing the audio instead - Whisper is better than YouTube ASR.'
+        : '\n[2/5] No captions. Transcribing the audio locally...')
       const r = transcribeAudio(url, tmpDir)
       transcript = r.text
       transcriptNote = r.note
       console.log(r.speech
         ? `  Transcribed ${r.text.length} chars of speech (${r.seconds}s of audio)`
         : `  ${r.note}`)
+
+      // Whisper could not hear it, but the platform published a machine
+      // transcript. Weaker, and labelled as such, but better than nothing.
+      if (!transcript && captions) {
+        transcript = captions
+        transcriptNote = 'audio unavailable - fell back to the platform\'s auto-captions'
+        console.log('  Falling back to the auto-captions published with the video.')
+      }
     } else {
       transcriptNote = 'whisper is not available on this machine'
       console.log('\n[2/5] No captions, and Whisper is not installed here.')
@@ -158,8 +179,11 @@ async function main() {
     // are not the same thing and must never look alike.
     entry.platform = platform
     entry.source = url
-    entry.transcribed = Boolean(transcript) && !captions
+    entry.transcribed = Boolean(transcript) && transcript !== captions
     if (captions && captionKind) entry.caption_kind = captionKind
+    entry.transcript_source = entry.transcribed
+      ? 'whisper large-v3'
+      : (captionKind || 'unknown')
     if (transcriptNote) entry.transcript_note = transcriptNote
     console.log('\nExtracted entry:')
     console.log(JSON.stringify(entry, null, 2))
