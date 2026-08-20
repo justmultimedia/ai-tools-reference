@@ -15,6 +15,12 @@ set -u
 cd "$(dirname "$0")"
 export PATH="/opt/homebrew/bin:/Users/ai-code/.nvm/versions/node/v24.16.0/bin:$PATH"
 
+# By default, only posts with no transcript at all.
+#   --from-captions   also redo posts whose transcript came from captions
+#                     rather than from the audio. Those were built from
+#                     YouTube's ASR, which is worse than Whisper.
+MODE=missing
+if [ "${1:-}" = "--from-captions" ]; then MODE=captions; shift; fi
 LIMIT="${1:-9999}"
 LOG="data/maintenance/backfill-$(date +%Y%m%d-%H%M%S).log"
 mkdir -p data/maintenance
@@ -23,16 +29,25 @@ mkdir -p data/maintenance
 # The first run of this script died on exactly that and transcribed nothing.
 QUEUE=$(mktemp)
 trap 'rm -f "$QUEUE"' EXIT
-python3 -c "
-import json
+MODE="$MODE" python3 -c "
+import json, os
+mode = os.environ['MODE']
 for e in json.load(open('data/tools.json')):
-    if e.get('transcribed') or e.get('transcriptSlug'): continue
     s = e.get('source') or ''
-    if s.startswith('http'): print(s)
+    if not s.startswith('http'): continue
+    from_audio = e.get('transcribed') or e.get('transcript_source') == 'whisper large-v3'
+    if from_audio: continue
+    has_any = e.get('transcriptSlug') or e.get('transcribed')
+    if mode == 'missing' and has_any: continue
+    print(s)
 " > "$QUEUE"
 
 TOTAL=$(grep -c . "$QUEUE" || echo 0)
-echo "$TOTAL entries have no transcript. Doing up to $LIMIT." | tee -a "$LOG"
+if [ "$MODE" = captions ]; then
+  echo "$TOTAL entries are not transcribed from audio. Doing up to $LIMIT." | tee -a "$LOG"
+else
+  echo "$TOTAL entries have no transcript. Doing up to $LIMIT." | tee -a "$LOG"
+fi
 
 DONE=0 OK=0 FAIL=0
 while IFS= read -r URL; do
