@@ -8959,5 +8959,41 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-youtube-com-shorts-u3-hNwSED6E-is-uZNLhih71mJNx6If",
     "ingested_at": "2026-08-21T00:21:25.966Z"
+  },
+  {
+    "name": "ChatCut: Free AI Video Editor for Quick Edits",
+    "category": "ai-productivity",
+    "content_type": "resource",
+    "description": "This post introduces ChatCut, a free AI video editor that allows users to edit videos using simple English commands within ChatGPT and Claude, or locally, making video editing faster and more accessible.",
+    "tags": [
+      "ChatCut",
+      "AI editing",
+      "video editing",
+      "ChatGPT",
+      "Claude",
+      "AI productivity",
+      "video production",
+      "content creation"
+    ],
+    "topics": [
+      "AI tools",
+      "video editing"
+    ],
+    "key_points": [
+      "ChatCut is a free AI video editor",
+      "it allows editing videos through simple English commands",
+      "it works inside chat interfaces or locally",
+      "it is designed for quick, basic edits",
+      "it streamlines video production by removing the need for complex software",
+      "it is suitable for rapid turnaround edits but not high-end creative projects"
+    ],
+    "id": "chatcut-free-ai-video-editor-for-quick-edits",
+    "platform": "youtube",
+    "source": "https://youtube.com/shorts/6Nwhjf3HAkI?is=Ala6DA6sMFymcwE2",
+    "transcribed": true,
+    "caption_kind": "published subtitles (human)",
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-youtube-com-shorts-6Nwhjf3HAkI-is-Ala6DA6sMFymcwE2",
+    "ingested_at": "2026-08-21T00:22:37.526Z"
   }
 ]
