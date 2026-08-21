@@ -8893,5 +8893,39 @@
     "transcript_note": "audio unavailable - fell back to the platform's auto-captions",
     "transcriptSlug": "https-youtube-com-shorts-9kvMXP66b10-is-YvBfJbC2GW1wtwwX",
     "ingested_at": "2026-08-21T00:13:27.966Z"
+  },
+  {
+    "name": "LTX 2.5: Open Source AI Video Generator",
+    "category": "ai-models-and-apis",
+    "content_type": "resource",
+    "description": "This post introduces LTX 2.5, an open-source AI video generator that runs locally on NVIDIA RTX GPUs, offering text-to-video, image-to-video, video-to-video, and audio-conditioned generation with perfect lip sync.",
+    "tags": [
+      "LTX 2.5",
+      "open source",
+      "AI video generator",
+      "NVIDIA RTX",
+      "text-to-video",
+      "audio-conditioned generation",
+      "lip sync",
+      "fine-tuning"
+    ],
+    "topics": [
+      "AI video generation",
+      "open-source software"
+    ],
+    "key_points": [
+      "LTX 2.5 is an open-source AI video generator that runs locally on NVIDIA RTX GPUs.",
+      "It supports text-to-video, image-to-video, video-to-video, and audio-conditioned generation with perfect lip sync.",
+      "Unlike other models, LTX 2.5 provides full model weights, training code, and fine-tuning capability.",
+      "Users can integrate it with ComfyUI and apply custom LoRAs for different styles."
+    ],
+    "id": "ltx-2-5-open-source-ai-video-generator",
+    "platform": "youtube",
+    "source": "https://youtube.com/shorts/d1ZLfLqsECw?is=_MHmwRhBVh6G5D4C",
+    "transcribed": true,
+    "caption_kind": "published subtitles (human)",
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-youtube-com-shorts-d1ZLfLqsECw-is-MHmwRhBVh6G5D4C",
+    "ingested_at": "2026-08-21T00:14:38.330Z"
   }
 ]

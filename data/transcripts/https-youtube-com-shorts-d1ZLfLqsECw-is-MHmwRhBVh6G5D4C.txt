@@ -1,0 +1,6 @@
+Source: https://youtube.com/shorts/d1ZLfLqsECw?is=_MHmwRhBVh6G5D4C
+Title: LTX 2.5 launches open source local AI video generator #LTX2 #opensourceAIVideo #AIVideoGeneration
+Channel: AI Honeycove
+Transcript: published captions
+
+There is finally an open-source AI video generator that is completely free and runs locally on your machine. It's called LTX 2.5 and it can do text-to-video, image-to-video, video-to-video, and even audio condition generation with perfect lip sync. Unlike other models that just give you API access, this comes with full model weights, training code, and you can fine-tune it yourself. It's optimized for NVIDIA RTX GPUs, so you can generate high-quality videos on your hardware with no data leaving your computer. You can download it now, run it in Comfy UI, apply custom LORAs for different styles, or adapt it to your own workflows. This is true open-source. The link is on the screen.
