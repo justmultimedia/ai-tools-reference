@@ -8995,5 +8995,36 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-youtube-com-shorts-6Nwhjf3HAkI-is-Ala6DA6sMFymcwE2",
     "ingested_at": "2026-08-21T00:22:37.526Z"
+  },
+  {
+    "name": "The one prompt that stops ChatGPT sounding like every other AI output",
+    "category": "ai-prompting",
+    "content_type": "tutorial",
+    "description": "This post provides a specific prompt to use with ChatGPT that changes its output to sound more natural and human-like, avoiding common AI patterns.",
+    "tags": [
+      "chatgpt",
+      "prompt",
+      "natural writing",
+      "AI output",
+      "human-like"
+    ],
+    "topics": [
+      "AI prompting",
+      "natural language generation"
+    ],
+    "key_points": [
+      "Activates natural writing mode",
+      "Real voice and everyday language",
+      "Reduces reliance on em dashes",
+      "Eliminates common corporate phrases"
+    ],
+    "id": "the-one-prompt-that-stops-chatgpt-sounding-like-every-other-",
+    "platform": "youtube",
+    "source": "https://youtube.com/shorts/za3R3KFOSHg?is=Yf5DMNemgOyl9jv_",
+    "transcribed": true,
+    "caption_kind": "published subtitles (human)",
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-youtube-com-shorts-za3R3KFOSHg-is-Yf5DMNemgOyl9jv",
+    "ingested_at": "2026-08-21T00:29:35.186Z"
   }
 ]

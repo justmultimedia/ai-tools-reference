@@ -1,0 +1,6 @@
+Source: https://youtube.com/shorts/za3R3KFOSHg?is=Yf5DMNemgOyl9jv_
+Title: The one prompt that stops ChatGPT sounding like every other AI output.
+Channel: Nick Sadler
+Transcript: published captions
+
+This is the one prompt that stops ChatGPT sounding like ChatGPT. It activates a natural writing mode, real voice, everyday language, no forced rhythm, plus a list of band patterns so it stops learning the em dashes, plus a list of band patterns so it stops leaning on the em dashes and the same three corporate phrases every AI output has in common. Drop it into your custom instructions under personalization, every future response comes back sounding like an actual person wrote it, not a template. Comment human and I'll send you the prompt.
