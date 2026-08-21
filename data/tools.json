@@ -8861,5 +8861,37 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-youtube-com-shorts-IGLOAQkWpEY-is-L-y798rVopMTF4En",
     "ingested_at": "2026-08-21T00:10:16.757Z"
+  },
+  {
+    "name": "Your laptop just became a video render farm (no cloud, no per-render fees)",
+    "category": "ai-coding",
+    "content_type": "tutorial",
+    "description": "Explains how to use HTML Video, an open-source project, to turn web content into animated videos on your laptop without cloud fees.",
+    "tags": [
+      "html video",
+      "coding agent",
+      "open-source",
+      "motion graphics",
+      "FFmpeg"
+    ],
+    "topics": [
+      "AI in coding",
+      "video rendering"
+    ],
+    "key_points": [
+      "HTML Video is an open-source CLI that works with coding agents like Cloud Code, Cursor, and Windsurf.",
+      "It converts web content into animated videos on your laptop.",
+      "No cloud fees are required for rendering videos.",
+      "The output is motion graphics and animated explainers, not photorealistic AI video."
+    ],
+    "id": "your-laptop-just-became-a-video-render-farm-no-cloud-no-per-",
+    "platform": "youtube",
+    "source": "https://youtube.com/shorts/9kvMXP66b10?is=YvBfJbC2GW1wtwwX",
+    "transcribed": false,
+    "caption_kind": "published subtitles (human)",
+    "transcript_source": "published subtitles (human)",
+    "transcript_note": "audio unavailable - fell back to the platform's auto-captions",
+    "transcriptSlug": "https-youtube-com-shorts-9kvMXP66b10-is-YvBfJbC2GW1wtwwX",
+    "ingested_at": "2026-08-21T00:13:27.966Z"
   }
 ]
