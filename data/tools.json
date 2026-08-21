@@ -9085,5 +9085,34 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-www-instagram-com-reel-DcJLRtqs8Zs-igsi-MTVodnM2czJuY3d1eQ",
     "ingested_at": "2026-08-21T07:12:14.092Z"
+  },
+  {
+    "name": "Reducing Irish Inheritance Tax By 84%",
+    "category": "personal-finance",
+    "content_type": "tutorial",
+    "description": "The post details a strategy to reduce inheritance tax liabilities by 84% in Ireland, involving changes to a will and managing asset distribution.",
+    "tags": [
+      "inheritance tax",
+      "estate planning",
+      "tax savings",
+      "will changes",
+      "tax-free allowances"
+    ],
+    "topics": [
+      "estate planning",
+      "tax optimization"
+    ],
+    "key_points": [
+      "Reduced inheritance tax by 84%",
+      "Used familial allowances to increase tax-free inheritance",
+      "Moved 75% of cash into exempt assets"
+    ],
+    "id": "reducing-irish-inheritance-tax-by-84",
+    "platform": "facebook",
+    "source": "https://www.facebook.com/share/v/1BsRbQDjEt/?mibextid=wwXIfr",
+    "transcribed": true,
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-www-facebook-com-share-v-1BsRbQDjEt-mibextid-wwXIfr",
+    "ingested_at": "2026-08-21T07:31:51.508Z"
   }
 ]
