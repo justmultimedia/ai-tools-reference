@@ -9056,5 +9056,34 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-www-instagram-com-reel-DbVirYiPtu-igsi-MWVjbzNpNWMwZ3MxdQ",
     "ingested_at": "2026-08-21T07:10:12.501Z"
+  },
+  {
+    "name": "Surgical 3D Camera Control with AI Video Generation",
+    "category": "ai-productivity",
+    "content_type": "tutorial",
+    "description": "The post explains how to use Flow's OmniFlash tool to draw drone paths and directions on images to create precise 3D camera movements in AI-generated videos, bypassing traditional keyframing and 3D software.",
+    "tags": [
+      "flow",
+      "omniflash",
+      "ai-video",
+      "3d-camera",
+      "drone-shot"
+    ],
+    "topics": [
+      "ai-video-generation",
+      "camera-control"
+    ],
+    "key_points": [
+      "Use Flow's OmniFlash to draw drone paths and directions on images",
+      "Create precise 3D camera movements without keyframing or 3D software",
+      "Free tool for advanced AI video production"
+    ],
+    "id": "surgical-3d-camera-control-with-ai-video-generation",
+    "platform": "instagram",
+    "source": "https://www.instagram.com/reel/DcJLRtqs8Zs/?igsi=MTVodnM2czJuY3d1eQ==",
+    "transcribed": true,
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-www-instagram-com-reel-DcJLRtqs8Zs-igsi-MTVodnM2czJuY3d1eQ",
+    "ingested_at": "2026-08-21T07:12:14.092Z"
   }
 ]

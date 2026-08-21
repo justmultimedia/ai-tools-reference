@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DcJLRtqs8Zs/?igsi=MTVodnM2czJuY3d1eQ==
+Title: Video by by.jadla
+Channel: by.jadla
+Transcript: transcribed locally with Whisper
+
+Okay, so you can now draw lines onto any image and turn them into a drone shot. And the crazy part is you can do this for completely free. So just head to Google and search for Flow. Once you're there, select OmniFlash. From here, you can go ahead and upload your image. And if you actually click on it, you can then start to draw on it. And you wanna use the red lines to draw the path of your drone and then use white arrows to choose the direction. Now, all you have to do is paste in these instructions. And if you comment the word drone, I'll send them over to you. Go ahead and hit generate and you're done. Now for more tips just like this, be sure to follow.
