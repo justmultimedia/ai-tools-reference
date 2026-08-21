@@ -8831,5 +8831,35 @@
     "transcript_note": "audio unavailable - fell back to the platform's auto-captions",
     "transcriptSlug": "https-youtube-com-shorts-LrdbaOTF9Ns-is-j-N3ZMjYhNaWGtF9",
     "ingested_at": "2026-08-21T00:05:33.823Z"
+  },
+  {
+    "name": "How to make $30k/year on the side with Claude for Small Business",
+    "category": "ai-agents-and-automation",
+    "content_type": "tutorial",
+    "description": "A guide on how to set up and profit from Anthropic's Claude for Small Business, which offers prebuilt workflows for invoice chasing, payroll planning, and more, by installing and maintaining these tools for local businesses.",
+    "tags": [
+      "anthropic",
+      "claude",
+      "small business",
+      "automation",
+      "side hustle"
+    ],
+    "topics": [
+      "automation",
+      "side business"
+    ],
+    "key_points": [
+      "Claude for Small Business offers 15 prebuilt workflows",
+      "Charge $1,500 upfront and $500 monthly for setup and maintenance",
+      "Potential to earn $30,000 annually from five clients"
+    ],
+    "id": "how-to-make-30k-year-on-the-side-with-claude-for-small-busin",
+    "platform": "youtube",
+    "source": "https://youtube.com/shorts/IGLOAQkWpEY?is=L_y798rVopMTF4En",
+    "transcribed": true,
+    "caption_kind": "published subtitles (human)",
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-youtube-com-shorts-IGLOAQkWpEY-is-L-y798rVopMTF4En",
+    "ingested_at": "2026-08-21T00:10:16.757Z"
   }
 ]
