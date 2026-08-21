@@ -9114,5 +9114,34 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-www-facebook-com-share-v-1BsRbQDjEt-mibextid-wwXIfr",
     "ingested_at": "2026-08-21T07:31:51.508Z"
+  },
+  {
+    "name": "Analog Saturation Techniques in Logic Pro",
+    "category": "ai-productivity",
+    "content_type": "tutorial",
+    "description": "The post details a specific effect chain in Logic Pro for adding analog saturation to audio mixes, including settings for a compressor, tube EQ, and console EQ.",
+    "tags": [
+      "logic pro",
+      "audio mixing",
+      "analog saturation",
+      "compressor",
+      "tube EQ"
+    ],
+    "topics": [
+      "audio production",
+      "mixing techniques"
+    ],
+    "key_points": [
+      "Use a compressor with soft distortion",
+      "Tube EQ with high drive",
+      "Console EQ with punchy settings"
+    ],
+    "id": "analog-saturation-techniques-in-logic-pro",
+    "platform": "instagram",
+    "source": "https://www.instagram.com/reel/DcUe7gSw3s7/?igsi=ODAwZ2J3NjRpNjJ3",
+    "transcribed": true,
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-www-instagram-com-reel-DcUe7gSw3s7-igsi-ODAwZ2J3NjRpNjJ3",
+    "ingested_at": "2026-08-21T23:19:46.927Z"
   }
 ]

@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DcUe7gSw3s7/?igsi=ODAwZ2J3NjRpNjJ3
+Title: Video by oliver.logic.pro
+Channel: oliver.logic.pro
+Transcript: transcribed locally with Whisper
+
+Logic Pro has a hidden analog saturation plugin that I use on every mix. Load up the compressor, bring the threshold up to zero, set the distortion mode to soft, and bring your output gain down to negative 3.5 dB. Now load the tube EQ, make sure the drive is set to silky, and crank it all the way up to 11. Finally, load the console EQ, set the drive to punchy, and pull it up to around 4.5. Just make sure you're careful about gain staging, and give yourself plenty of headroom before hitting the chain.
