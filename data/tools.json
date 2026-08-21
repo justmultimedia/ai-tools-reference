@@ -8927,5 +8927,37 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-youtube-com-shorts-d1ZLfLqsECw-is-MHmwRhBVh6G5D4C",
     "ingested_at": "2026-08-21T00:14:38.330Z"
+  },
+  {
+    "name": "Don’t Miss Out On This When Going From Sole Trader to Limited Company 🇮🇪",
+    "category": "personal-finance",
+    "content_type": "tutorial",
+    "description": "This post discusses the importance of transferring years of service from a sole tradership to a limited company to qualify for tax benefits such as entrepreneurial relief and retirement relief.",
+    "tags": [
+      "sole trader",
+      "limited company",
+      "tax efficiency",
+      "TUPE",
+      "retirement relief",
+      "entrepreneurial relief",
+      "years of service"
+    ],
+    "topics": [
+      "business structure",
+      "tax planning"
+    ],
+    "key_points": [
+      "Years of service in a sole tradership can be transferred to a limited company.",
+      "This transfer allows eligibility for tax benefits like entrepreneurial relief and retirement relief.",
+      "It is crucial to ensure the transfer of years of service during the transition."
+    ],
+    "id": "don-t-miss-out-on-this-when-going-from-sole-trader-to-limite",
+    "platform": "youtube",
+    "source": "https://youtube.com/shorts/u3-hNwSED6E?is=uZNLhih71mJNx6If",
+    "transcribed": true,
+    "caption_kind": "published subtitles (human)",
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-youtube-com-shorts-u3-hNwSED6E-is-uZNLhih71mJNx6If",
+    "ingested_at": "2026-08-21T00:21:25.966Z"
   }
 ]
