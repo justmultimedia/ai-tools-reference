@@ -9026,5 +9026,35 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-youtube-com-shorts-za3R3KFOSHg-is-Yf5DMNemgOyl9jv",
     "ingested_at": "2026-08-21T00:29:35.186Z"
+  },
+  {
+    "name": "How to Enable Claude to Analyze Videos with YTDLP and FFmpeg",
+    "category": "ai-coding",
+    "content_type": "tutorial",
+    "description": "A tutorial on using YTDLP and FFmpeg to enable Claude AI to analyze videos frame by frame, providing more context than just transcripts.",
+    "tags": [
+      "ClaudeAI",
+      "YTDLP",
+      "FFmpeg",
+      "video analysis",
+      "AI coding"
+    ],
+    "topics": [
+      "AI tools",
+      "video analysis"
+    ],
+    "key_points": [
+      "YTDLP downloads the video for Claude to process",
+      "FFmpeg extracts frames for detailed analysis",
+      "Enables deeper video breakdowns",
+      "Runs locally, fast, and free"
+    ],
+    "id": "how-to-enable-claude-to-analyze-videos-with-ytdlp-and-ffmpeg",
+    "platform": "instagram",
+    "source": "https://www.instagram.com/reel/DbVirYiPtu-/?igsi=MWVjbzNpNWMwZ3MxdQ==",
+    "transcribed": true,
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-www-instagram-com-reel-DbVirYiPtu-igsi-MWVjbzNpNWMwZ3MxdQ",
+    "ingested_at": "2026-08-21T07:10:12.501Z"
   }
 ]

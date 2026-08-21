@@ -1,0 +1,6 @@
+Source: https://www.instagram.com/reel/DbVirYiPtu-/?igsi=MWVjbzNpNWMwZ3MxdQ==
+Title: Video by build.with.alan
+Channel: build.with.alan
+Transcript: transcribed locally with Whisper
+
+Claude can finally watch videos. Here's how to give it eyes. Right now, Claude only reads a video's transcript, so it misses everything happening on screen. But these two skills change everything. The first is YTDLP. It downloads the video for Claude to process. The second is FFMPEG. It extracts every frame, so Claude can analyze the video frame by frame instead of relying only on the transcript. That means you can break down reels, shorts, YouTube videos, or even a 30 minute recording with far more context. The best part? Everything runs locally on your computer, it's incredibly fast, and it costs zero in API fees. Just follow me and comment eyes and I'll send you the link.
