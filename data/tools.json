@@ -9143,5 +9143,38 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-www-instagram-com-reel-DcUe7gSw3s7-igsi-ODAwZ2J3NjRpNjJ3",
     "ingested_at": "2026-08-21T23:19:46.927Z"
+  },
+  {
+    "name": "Google's 15 Free AI Tools: Disrupting Design and Software",
+    "category": "ai-productivity",
+    "content_type": "resource",
+    "description": "This post details 15 free AI tools launched by Google, including five that could replace paid software for social media, design, coding, workflow automation, and image generation.",
+    "tags": [
+      "google",
+      "ai tools",
+      "free software",
+      "design tools",
+      "coding tools",
+      "workflow automation",
+      "image generation"
+    ],
+    "topics": [
+      "AI productivity",
+      "free AI tools"
+    ],
+    "key_points": [
+      "Google launched 15 free AI tools, including five that could replace paid software.",
+      "The tools cover social media, design, coding, workflow automation, and image generation.",
+      "These tools are part of Google's commitment to democratizing AI capabilities.",
+      "They can help businesses and individuals cut costs while maintaining or improving output quality."
+    ],
+    "id": "google-s-15-free-ai-tools-disrupting-design-and-software",
+    "platform": "youtube",
+    "source": "https://youtube.com/shorts/7DgOjKoog6o?is=mXcZtfACTEqosZlO",
+    "transcribed": true,
+    "caption_kind": "published subtitles (human)",
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-youtube-com-shorts-7DgOjKoog6o-is-mXcZtfACTEqosZlO",
+    "ingested_at": "2026-08-22T04:24:38.483Z"
   }
 ]
