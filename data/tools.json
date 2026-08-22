@@ -9176,5 +9176,39 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-youtube-com-shorts-7DgOjKoog6o-is-mXcZtfACTEqosZlO",
     "ingested_at": "2026-08-22T04:24:38.483Z"
+  },
+  {
+    "name": "Agentic Slides: Free AI-Driven Presentation Tool",
+    "category": "ai-productivity",
+    "content_type": "resource",
+    "description": "A review of Agentic Slides, a new free AI presentation tool that integrates live data charts and AI-generated visuals, offering two modes: Adaptive and Visual, both supporting data traceability and export options.",
+    "tags": [
+      "Agentic Slides",
+      "AI tools",
+      "presentation tool",
+      "data visualization",
+      "AI-generated visuals",
+      "free software",
+      "presentation workflow"
+    ],
+    "topics": [
+      "AI in productivity",
+      "presentation tools"
+    ],
+    "key_points": [
+      "Agentic Slides integrates live data charts and AI-generated visuals.",
+      "It offers two modes: Adaptive and Visual.",
+      "Adaptive mode provides McKinsey-style slides with real-time data integration.",
+      "Visual mode offers designer-quality images with unlimited AI-generated content.",
+      "The tool supports data traceability and export options to PPT, Google Slides, or PNG."
+    ],
+    "id": "agentic-slides-free-ai-driven-presentation-tool",
+    "platform": "youtube",
+    "source": "https://youtube.com/shorts/nMvw7-qRmbA?is=VmFa1k_s3coLnxZj",
+    "transcribed": true,
+    "caption_kind": "published subtitles (human)",
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-youtube-com-shorts-nMvw7-qRmbA-is-VmFa1k-s3coLnxZj",
+    "ingested_at": "2026-08-22T07:15:37.531Z"
   }
 ]
