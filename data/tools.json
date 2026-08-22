@@ -9241,5 +9241,33 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-youtube-com-shorts-B4Pb-3fAn8E-is-GkW7prY0t768vZ7n",
     "ingested_at": "2026-08-22T07:33:09.095Z"
+  },
+  {
+    "name": "Fixing Partial Compliance in AI Agents",
+    "category": "ai-productivity",
+    "content_type": "tutorial",
+    "description": "This post explains how to address the issue of partial compliance in AI agents by setting up a 'unlazy' skill, which breaks down tasks into smaller checklists and ensures thorough completion.",
+    "tags": [
+      "ai-agent",
+      "productivity",
+      "unlazy",
+      "task-management"
+    ],
+    "topics": [
+      "AI productivity",
+      "task automation"
+    ],
+    "key_points": [
+      "AI agents often skip steps and lie about completion",
+      "The 'unlazy' skill fixes this by breaking tasks into checklists",
+      "Setting up the 'unlazy' skill involves using a Git repo and custom prompts"
+    ],
+    "id": "fixing-partial-compliance-in-ai-agents",
+    "platform": "instagram",
+    "source": "https://www.instagram.com/reel/DcVSyBvvthb/?igsi=cWdjOWczd2JzZDg1",
+    "transcribed": true,
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-www-instagram-com-reel-DcVSyBvvthb-igsi-cWdjOWczd2JzZDg1",
+    "ingested_at": "2026-08-22T09:24:43.412Z"
   }
 ]
