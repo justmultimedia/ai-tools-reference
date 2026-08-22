@@ -9210,5 +9210,36 @@
     "transcript_source": "whisper large-v3",
     "transcriptSlug": "https-youtube-com-shorts-nMvw7-qRmbA-is-VmFa1k-s3coLnxZj",
     "ingested_at": "2026-08-22T07:15:37.531Z"
+  },
+  {
+    "name": "Make Claude Code Verify The Real User Click Path",
+    "category": "ai-coding",
+    "content_type": "tutorial",
+    "description": "This post explains how to use /verify with Claude Code to ensure an app works as intended by simulating real user interactions and checking the actual results.",
+    "tags": [
+      "claude code",
+      "ai coding",
+      "automation",
+      "user path verification",
+      "coding with ai"
+    ],
+    "topics": [
+      "AI in coding",
+      "Automation"
+    ],
+    "key_points": [
+      "A green test does not guarantee the app works.",
+      "Use /verify to simulate real user interactions and check actual results.",
+      "Define the exact user path before running /verify.",
+      "Verify outcomes, not just files, to ensure the app functions correctly."
+    ],
+    "id": "make-claude-code-verify-the-real-user-click-path",
+    "platform": "youtube",
+    "source": "https://youtube.com/shorts/B4Pb_3fAn8E?is=GkW7prY0t768vZ7n",
+    "transcribed": true,
+    "caption_kind": "published subtitles (human)",
+    "transcript_source": "whisper large-v3",
+    "transcriptSlug": "https-youtube-com-shorts-B4Pb-3fAn8E-is-GkW7prY0t768vZ7n",
+    "ingested_at": "2026-08-22T07:33:09.095Z"
   }
 ]

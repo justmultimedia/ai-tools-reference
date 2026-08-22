@@ -1,0 +1,6 @@
+Source: https://youtube.com/shorts/B4Pb_3fAn8E?is=GkW7prY0t768vZ7n
+Title: Make Claude Code Verify The Real User Click Path
+Channel: Just Hit Send 
+Transcript: published captions
+
+A green test does not mean your app works. Make Claude code click the thing a real user would click. Use slash verify after a change. It builds and runs the app, then checks the real result instead of only trusting tests or type checks. First, tell Claude the exact user path, not test the app. Say, open the pricing page, click upgrade, enter a test email, and confirm the success message appears. Then, run slash verify. Claude can launch the project, drive the app, and report what it actually saw. If it fails, ask for the smallest fix and verify again. Begin a rule, verify outcomes, not files. A changed button file is not proof. The proof is the page loading, the button working, and the expected result appearing. Link in bio for the free Claude code cheat sheet. Next, what to do when Claude does not know how to run your project.
